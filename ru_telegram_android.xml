@@ -266,6 +266,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больше информации</string>
   <string name="ShareSendTo">Поиск получателей...</string>
+  <string name="TapHereGifs">Нажмите для доступа к сохранённым GIF</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -1035,6 +1036,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.3.2:\n\n- Управление кешем: Контролируйте используемое Telegram дисковое пространство на вашем устройстве, удаляйте данные кеша для заданных типов данных.\n- Удаляйте кеш супергрупп и каналов: Нажмите и удерживайте на них в списке чатов и выбирайте \'Удалить из кеша\'.\n- Управление стикерами: Самостоятельно упорядочивайте наборы стикеров. Порядок наборов теперь синхронизируется между всеми вашими устройствами.\n\nБольше об этом обновлении:\nhttps://telegram.org/blog/cache-and-stickers</string>
-  <string name="updateBuild">693</string>
+  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.4.0:\n\nРеволюция GIF: загрузка/отправка до 20 раз быстрее, автовоспроизведение, возможность сохранения GIF на отдельной вкладке в панели стикеров.\n\nПодробнее:\nhttps://telegram.org/blog/gif-revolution\n\nВстроенные боты: ещё один способ отправки сообщений от ботов в любом чате. Введите никнейм бота и свой запрос в поле ввода сообщения для мгновенного получения ответа и отправки его собеседнику. Попробуйте ввести \"@gif dog\" в чате. Примеры таких ботов: @gif, @wiki, @bing, @vid, @bold.\n\nПодробнее:\nhttps://telegram.org/blog/inline-bots</string>
+  <string name="updateBuild">704</string>
 </resources>
