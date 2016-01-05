@@ -473,6 +473,7 @@
   <string name="WhenConnectedOnWiFi">По Wi-Fi</string>
   <string name="WhenRoaming">В роуминге</string>
   <string name="NoMediaAutoDownload">Ничего</string>
+  <string name="AutoplayGifs">Автозапуск GIF</string>
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
   <string name="NotificationsPriority">Приоритет</string>
