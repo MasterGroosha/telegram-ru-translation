@@ -24,7 +24,7 @@
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Имя (обязательно)</string>
   <string name="LastName">Фамилия (не обязательно)</string>
-  <string name="CancelRegistration">Отменить регистрацию</string>
+  <string name="CancelRegistration">Отмена регистрацию</string>
   <!--chats view-->
   <string name="Settings">Настройки</string>
   <string name="Contacts">Контакты</string>
@@ -51,7 +51,7 @@
   <string name="PhotoTip">Нажмите и удерживайте для просмотра</string>
   <string name="CompatibilityChat">%1$s использует устаревшую версию Telegram, поэтому секретные фотографии будут отображаться в режиме совместимости.\n\nПосле того, как %2$s обновит Telegram, фотографии с минутным или менее таймером начнут работать в режиме \'Нажмите и удерживайте для просмотра\', также вы будете уведомлены всякий раз, когда ваш собеседник делает снимок экрана.</string>
   <string name="SearchMessages">СООБЩЕНИЯ</string>
-  <string name="Search">Искать</string>
+  <string name="Search">Поиск</string>
   <string name="MuteNotifications">Отключить уведомления</string>
   <string name="MuteFor">Отключить на %1$s</string>
   <string name="UnmuteNotifications">Включить уведомления</string>
@@ -589,8 +589,8 @@
   <string name="SearchImages">НАЙТИ ИЗОБРАЖЕНИЯ</string>
   <string name="SearchImagesInfo">ПОИСК В СЕТИ</string>
   <string name="SearchGifs">НАЙТИ GIF</string>
-  <string name="SearchImagesTitle">Искать в сети</string>
-  <string name="SearchGifsTitle">Искать GIF</string>
+  <string name="SearchImagesTitle">Поиск в сети</string>
+  <string name="SearchGifsTitle">Поиск GIF</string>
   <string name="CropImage">Кадрировать изображение</string>
   <string name="EditImage">Редактировать изображение</string>
   <string name="Enhance">Автоулучшение</string>
@@ -724,7 +724,7 @@
   <string name="Done">Готово</string>
   <string name="Open">Открыть</string>
   <string name="Save">Сохранить</string>
-  <string name="Cancel">Отменить</string>
+  <string name="Cancel">Отмена</string>
   <string name="Close">Закрыть</string>
   <string name="Add">Добавить</string>
   <string name="Edit">Изменить</string>
@@ -804,7 +804,7 @@
   <string name="AreYouSureUnblockContact">Уверены, что хотите разблокировать этот контакт?</string>
   <string name="AreYouSureDeleteContact">Уверены, что хотите удалить этот контакт?</string>
   <string name="AreYouSureSecretChat">Уверены, что хотите начать секретный чат?</string>
-  <string name="AreYouSureRegistration">Уверены, что хотите прервать регистрацию?</string>
+  <string name="AreYouSureRegistration">Уверены, что хотите отменить регистрацию?</string>
   <string name="AreYouSureClearHistory">Уверены, что хотите очистить историю?</string>
   <string name="AreYouSureClearHistoryChannel">Удалить весь кешированный текст и медиа этого канала?</string>
   <string name="AreYouSureClearHistorySuper">Удалить весь кешированный текст и медиа этой супергруппы?</string>
@@ -813,7 +813,7 @@
   <string name="SendContactToGroup">Отправить контакт %1$s?</string>
   <string name="ForwardMessagesToGroup">Переслать сообщение(-я) %1$s?</string>
   <string name="FeatureUnavailable">Извините, эта возможность пока не доступна в вашей стране.</string>
-  <string name="NoUsernameFound">Нет аккаунта Telegram с таким именем.</string>
+  <string name="NoUsernameFound">Нет аккаунта Telegram с таким именем пользователя.</string>
   <string name="BotCantJoinGroups">Этот бот не может вступать в группы.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
