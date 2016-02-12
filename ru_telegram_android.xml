@@ -216,9 +216,9 @@
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голосового сообщения...</string>
-  <string name="SendingPhoto">отправка фото...</string>
-  <string name="SendingVideoStatus">отправка видео...</string>
-  <string name="SendingFile">отправка файла...</string>
+  <string name="SendingPhoto">отправляет фото...</string>
+  <string name="SendingVideoStatus">отправляет видео...</string>
+  <string name="SendingFile">отправляет файл...</string>
   <string name="GotAQuestion">Есть вопрос\nо Telegram?</string>
   <string name="ChatTakePhoto">Сделать снимок</string>
   <string name="ChatGallery">Галерея</string>
@@ -478,7 +478,8 @@
   <string name="WhenConnectedOnWiFi">По Wi-Fi</string>
   <string name="WhenRoaming">В роуминге</string>
   <string name="NoMediaAutoDownload">Ничего</string>
-  <string name="AutoplayGifs">Автозапуск GIF</string>
+  <string name="AutoplayGifs">Автовоспроизведение GIF</string>
+  <string name="RaiseToSpeak">Запись голоса при приближении</string>
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
   <string name="NotificationsPriority">Приоритет</string>
@@ -722,7 +723,7 @@
   <string name="NeverAllow">Всегда запрещать</string>
   <string name="AlwaysAllowPlaceholder">Всегда разрешать...</string>
   <string name="NeverAllowPlaceholder">Всегда запрещать...</string>
-  <string name="CustomShareInfo">Эти пользователи смогут или не смогут добавлять вас в группы и на каналы вне зависимости от настроек выше.</string>
+  <string name="CustomShareInfo">Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.</string>
   <string name="GroupsAndChannelsHelp">Выберите, кто может добавлять вас в группы и на каналы.</string>
   <string name="InviteToGroupError">Извините, вы не можете добавлять этого пользователя в группы из-за его настроек приватности.</string>
   <string name="InviteToChannelError">Извините, вы не можете добавлять этого пользователя на каналы из-за его настроек приватности.</string>
@@ -790,7 +791,7 @@
   <string name="ActionAddUserYou">un1 добавил(а) вас</string>
   <string name="ActionAddUserSelf">un1 вернулся(-лась) в группу</string>
   <string name="ActionAddUserSelfYou">Вы вернулись в группу</string>
-  <string name="UnsuppotedMedia">Это сообщение не поддерживается вашей версией Telegram. Обновите приложение для его просмотра: https://telegram.org/update</string>
+  <string name="UnsupportedMedia">Это сообщение не поддерживается вашей версией Telegram. Обновите приложение для его просмотра: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
   <string name="AttachVideo">Видео</string>
   <string name="AttachGif">GIF</string>
@@ -845,6 +846,7 @@
   <string name="BotCantJoinGroups">Этот бот не может вступать в группы.</string>
   <string name="SecretLinkPreviewAlert">Хотите включить предпросмотр ссылок в секретных чатах? Учтите, что предпросмотр генерируется на серверах Telegram.</string>
   <string name="SecretChatContextBotAlert">Пожалуйста, обратите внимание, что встраиваемые боты создаются сторонними разработчиками. Всё, что вы введёте после имени бота, будет отправлено соответствующему разработчику.</string>
+  <string name="RaiseToSpeakAlert">Хотите включить «Запись голоса при приближении» для голосовых сообщений?</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
@@ -1067,6 +1069,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.4.0:\n\nРеволюция GIF: загрузка/отправка до 20 раз быстрее, автовоспроизведение, возможность сохранения GIF на отдельной вкладке в панели стикеров.\n\nПодробнее:\nhttps://telegram.org/blog/gif-revolution\n\nВстроенные боты: ещё один способ отправки сообщений от ботов в любом чате. Введите никнейм бота и свой запрос в поле ввода сообщения для мгновенного получения ответа и отправки его собеседнику. Попробуйте ввести \"@gif dog\" в чате. Примеры таких ботов: @gif, @wiki, @bing, @vid, @bold.\n\nПодробнее:\nhttps://telegram.org/blog/inline-bots</string>
+  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.4.0:\n\nРеволюция GIF: загрузка/отправка до 20 раз быстрее, автовоспроизведение, возможность сохранения GIF на отдельной вкладке в панели стикеров.\n\nПодробнее:\nhttps://telegram.org/blog/gif-revolution\n\nВстроенные боты: ещё один способ отправки сообщений от ботов в любом чате. Введите имя бота и свой запрос в поле ввода сообщения для мгновенного получения ответа и отправки его собеседнику. Попробуйте ввести «@gif dog» в чате. Примеры таких ботов: @gif, @wiki, @bing, @vid, @bold.\n\nПодробнее:\nhttps://telegram.org/blog/inline-bots</string>
   <string name="updateBuild">704</string>
 </resources>
