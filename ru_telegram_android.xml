@@ -87,6 +87,7 @@
   <string name="CommentsInfo">Если вы включите комментарии, люди смогут обсуждать ваши записи на канале.</string>
   <string name="AddMutual">Добавить контакты на ваш канал</string>
   <string name="ChannelUsernameHelp">Люди могут делиться этой ссылкой с другими и находить ваш канал через поиск в Telegram.</string>
+  <!--<string name="MegaUsernameHelp">People can share this link with others and find your supergroup using Telegram search.</string>-->
   <string name="ChannelUsernamePlaceholder">ссылка</string>
   <string name="ChannelPrivateLinkHelp">Люди могут присоединяться к вашему каналу, следуя по этой ссылке. Вы можете аннулировать эту ссылку в любое время.</string>
   <string name="DescriptionPlaceholder">Описание</string>
@@ -114,6 +115,8 @@
   <string name="LinkInvalidShort">Имена каналов должны содержать минимум 5 символов.</string>
   <string name="LinkInvalidLong">Имя не должно содержать более 32 символов.</string>
   <string name="LinkInvalidStartNumber">Имена каналов не могут начинаться с цифр.</string>
+  <!--<string name="LinkInvalidShortMega">Supergroup names must have at least 5 characters.</string>-->
+  <!--<string name="LinkInvalidStartNumberMega">Supergroup names can\'t start with a number.</string>-->
   <string name="LinkChecking">Проверка имени…</string>
   <string name="LinkAvailable">%1$s доступно.</string>
   <string name="ChannelMembers">Участники</string>
@@ -125,6 +128,7 @@
   <string name="ChannelLeaveAlert">Уверены, что хотите покинуть канал?</string>
   <string name="ChannelDeleteInfo">Вы потеряете все сообщения из этого канала.</string>
   <string name="ChannelEdit">Изменить</string>
+  <!--<string name="MegaWasPrivateAlert">Please note that if you choose a public link for your supergroup, anyone will be able to find it in search and join.\n\nDo not create this link if you want your supergroup to stay private.</string>-->
   <string name="ChannelWasPrivateAlert">Пожалуйста, обратите внимание, что если вы создадите публичную ссылку на ваш канал, любой желающий сможет найти его через поиск и присоединиться к нему.\n\nНе создавайте эту ссылку, если хотите, чтобы ваш канал оставался частным.</string>
   <string name="ChannelPublicEmptyUsername">Выберите ссылку для вашего публичного канала, чтобы люди могли найти её через поиск и поделиться с другими.\n\nЕсли вы в этом не заинтересованы, можем вместо этого предложить вам создать частный канал.</string>
   <string name="ActionCreateChannel">Канал создан</string>
@@ -180,6 +184,10 @@
   <string name="WhoCanAddMembers">Кто может добавлять новых участников?</string>
   <string name="WhoCanAddMembersAllMembers">Все участники</string>
   <string name="WhoCanAddMembersAdmins">Только администраторы</string>
+  <string name="ChannelNotifyMembersInfoOn">Участники будут уведомляться о ваших публикациях</string>
+  <string name="ChannelNotifyMembersInfoOff">Участники не будут уведомляться о ваших публикациях</string>
+  <string name="ChannelSignMessages">Подписывать сообщения</string>
+  <string name="ChannelSignMessagesInfo">Добавлять имена администраторов к публикуемым ими сообщениям.</string>
   <!--broadcasts-->
   <string name="NewBroadcastList">Новый список рассылки</string>
   <string name="EnterListName">Введите имя списка</string>
@@ -237,7 +245,7 @@
   <string name="EncryptedPlaceholderTitleIncoming">%s пригласил вас в секретный чат.</string>
   <string name="EncryptedPlaceholderTitleOutgoing">Вы пригласили пользователя %s в секретный чат.</string>
   <string name="EncryptedDescriptionTitle">Секретные чаты — это:</string>
-  <string name="EncryptedDescription1">Сквозное шифрование</string>
+  <string name="EncryptedDescription1">Оконечное шифрование</string>
   <string name="EncryptedDescription2">Никаких следов на серверах</string>
   <string name="EncryptedDescription3">Таймер самоуничтожения</string>
   <string name="EncryptedDescription4">Запрет пересылки</string>
@@ -381,7 +389,8 @@
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
   <string name="ShortMessageLifetimeForever">Отключён</string>
-  <string name="EncryptionKeyDescription">Это изображение — визуализация ключа шифрования для этого секретного чата c пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если это изображение идентично изображению на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>,  то ваше общение безопасно на 200%%.<![CDATA[<br><br>]]>Узнайте больше на telegram.org</string>
+  <string name="EncryptionKeyDescription">Изображение и текст получены из ключа шифрования для секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> , оконечное шифрование гарантировано.<![CDATA[<br><br>]]>Узнать больше на telegram.org</string>
+  <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Неизвестен</string>
   <string name="Info">Информация</string>
   <string name="Phone">Номер телефона</string>
@@ -634,6 +643,7 @@
   <string name="AddCaption">Добавить подпись...</string>
   <string name="PhotoCaption">Подпись к фото</string>
   <string name="VideoCaption">Подпись к видео</string>
+  <string name="Caption">Подпись</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухэтапная аутентификация</string>
   <string name="SetAdditionalPassword">Установить дополнительный пароль</string>
@@ -847,6 +857,7 @@
   <string name="SecretLinkPreviewAlert">Хотите включить предпросмотр ссылок в секретных чатах? Учтите, что предпросмотр генерируется на серверах Telegram.</string>
   <string name="SecretChatContextBotAlert">Пожалуйста, обратите внимание, что встраиваемые боты создаются сторонними разработчиками. Всё, что вы введёте после имени бота, будет отправлено соответствующему разработчику.</string>
   <string name="RaiseToSpeakAlert">Хотите включить «Запись голоса при приближении» для голосовых сообщений?</string>
+  <string name="EditMessageError">Извините, вы не можете изменить это сообщение.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
@@ -1027,6 +1038,12 @@
   <string name="ForwardedVideo_few">%1$d пересланных видео</string>
   <string name="ForwardedVideo_many">%1$d пересланных видео</string>
   <string name="ForwardedVideo_other">%1$d пересланных видео</string>
+  <string name="ForwardedMusic_zero">%1$d пересланных треков</string>
+  <string name="ForwardedMusic_one">Пересланный трек</string>
+  <string name="ForwardedMusic_two">%1$d пересланных трека</string>
+  <string name="ForwardedMusic_few">%1$d пересланных трека</string>
+  <string name="ForwardedMusic_many">%1$d пересланных треков</string>
+  <string name="ForwardedMusic_other">%1$d пересланных треков</string>
   <string name="ForwardedAudio_zero">%1$d пересланных голосовых сообщений</string>
   <string name="ForwardedAudio_one">Пересланное голосовое сообщение</string>
   <string name="ForwardedAudio_two">%1$d пересланных голосовых сообщения</string>
@@ -1069,6 +1086,6 @@
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
   <!--update text-->
-  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.4.0:\n\nРеволюция GIF: загрузка/отправка до 20 раз быстрее, автовоспроизведение, возможность сохранения GIF на отдельной вкладке в панели стикеров.\n\nПодробнее:\nhttps://telegram.org/blog/gif-revolution\n\nВстроенные боты: ещё один способ отправки сообщений от ботов в любом чате. Введите имя бота и свой запрос в поле ввода сообщения для мгновенного получения ответа и отправки его собеседнику. Попробуйте ввести «@gif dog» в чате. Примеры таких ботов: @gif, @wiki, @bing, @vid, @bold.\n\nПодробнее:\nhttps://telegram.org/blog/inline-bots</string>
-  <string name="updateBuild">704</string>
+  <string name="updateText">Telegram для Android обновлён. Новое в версии 3.5:\n\n- Новые голосовые сообщения. Визуализация формы волны, новый плеер. Эксперимент: запись / прослушивание голоса при приближении.\n- Новые секретные чаты. Поддержка всего, что вы любите в облачных чатах: GIF, ответы, подписи, предпросмотры наборов стикеров и встраиваемые боты. Добавлена улучшенная визуализация ключа и опциональный предпросмотр ссылок.\n- Новые настройки приватности. Контролируйте, кто может добавлять вас в группы и на каналы с помощью более детальных настроек.\n- Новый фоторедактор. Добавлены инструменты разворота, затемнения, изменения оттенка и кривых.\n\nБольше об этом обновлении:\nhttps://telegram.org/blog/voice-2-secret-3</string>
+  <string name="updateBuild">732</string>
 </resources>
