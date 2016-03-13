@@ -11,10 +11,10 @@
   <string name="ChooseCountry">Выберите страну</string>
   <string name="WrongCountry">Неправильный код страны</string>
   <!--code enter view-->
-  <string name="YourCode">Ваш код</string>
+  <string name="YourCode">Проверка телефона</string>
   <string name="SentSmsCode">Мы отправили SMS с кодом активации на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.</string>
   <string name="SentAppCode">Мы отправили код в приложение <![CDATA[<b>]]>Telegram<![CDATA[</b>]]> на другом вашем устройстве.</string>
-  <string name="SentCallCode">Мы отправили вызов для активации на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>. Отвечать не нужно, Telegram обработает всё автоматически.</string>
+  <string name="SentCallCode">Мы пустили вызов для активации на ваш телефон <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nНе отвечайте, Telegram обработает всё автоматически.</string>
   <string name="SentCallOnly">Мы звоним вам по номеру <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>, чтобы продиктовать код.</string>
   <string name="CallText">Мы позвоним вам через %1$d:%2$02d</string>
   <string name="SmsText">Мы отправим вам SMS через %1$d:%2$02d</string>
@@ -477,7 +477,7 @@
   <string name="UsernamePlaceholder">Ваше имя пользователя</string>
   <string name="UsernameInUse">Извините, это имя пользователя уже занято.</string>
   <string name="UsernameInvalid">Извините, такое имя пользователя недопустимо.</string>
-  <string name="UsernameInvalidShort">Имя пользователя должно содержать минимум 5 символов.</string>
+  <string name="UsernameInvalidShort">Имя пользователя должно содержать как минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">Извините, имя пользователя не может начинаться с цифры.</string>
   <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная номера вашего телефона.<![CDATA[<br><br>]]>Имя пользователя может содержать только латинские буквы <![CDATA[<b>]]>(a–z)<![CDATA[</b>]]>, цифры <![CDATA[<b>]]>(0–9)<![CDATA[</b>]]> и символы подчёркивания. Минимальная допустимая длина —  <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
@@ -603,6 +603,8 @@
   <string name="SecretChat">Секретные чаты</string>
   <string name="ChromeCustomTabs">Chrome Custom Tabs</string>
   <string name="ChromeCustomTabsInfo">Открывать внешние ссылки в приложении</string>
+  <string name="DirectShare">Direct Share</string>
+  <string name="DirectShareInfo">Показывать недавние чаты в меню</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кеша</string>
   <string name="LocalDatabase">Локальная база данных</string>
@@ -654,14 +656,18 @@
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
   <!--media view-->
-  <string name="NoMedia">Поделитесь фото и видео в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="DocumentsTitle">Общие файлы</string>
   <string name="SharedMediaTitle">Общие медиа</string>
   <string name="LinksTitle">Общие ссылки</string>
   <string name="AudioTitle">Общая музыка</string>
+  <string name="NoMedia">Поделитесь фото и видео в этом чате и получите доступ к ним на любом из ваших устройств.</string>
   <string name="NoSharedAudio">Делитесь музыкой в этом чате и получайте доступ к ней с любого из ваших устройств.</string>
   <string name="NoSharedFiles">Делитесь файлами и документами в этом чате и получайте доступ к ним с любого из ваших устройств.</string>
   <string name="NoSharedLinks">Делитесь ссылками в этом чате и получайте доступ к ним с любого из ваших устройств.</string>
+  <string name="NoMediaSecret">Здесь будут отображаться фото и видео из этого чата.</string>
+  <string name="NoSharedAudioSecret">Здесь будет отображаться музыка из этого чата.</string>
+  <string name="NoSharedFilesSecret">Здесь будут отображаться файлы и документы из этого чата.</string>
+  <string name="NoSharedLinksSecret">Здесь будут отображаться общие ссылки из этого чата.</string>
   <!--map view-->
   <string name="Map">Карта</string>
   <string name="Satellite">Спутник</string>
