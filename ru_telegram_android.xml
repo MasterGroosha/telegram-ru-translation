@@ -319,7 +319,7 @@
   <string name="UnpinMessageAlert">Уверены, что хотите открепить это сообщение?</string>
   <string name="DeleteBanUser">Забанить пользователя</string>
   <string name="DeleteReportSpam">Сообщить о спаме</string>
-  <string name="DeleteAllFrom">Удалить всё из %1$s</string>
+  <string name="DeleteAllFrom">Удалить всё от %1$s</string>
   <string name="ClearRecentEmoji">Очистить недавние эмодзи?</string>
   <string name="ReportChat">Сообщить</string>
   <string name="ReportChatSpam">Спам</string>
@@ -361,6 +361,7 @@
   <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фото группы %2$s</string>
   <string name="NotificationGroupAddMember">%1$s пригласил(а) пользователя %3$s в группу %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s вернулся(-лась) в группу %2$s</string>
+  <string name="NotificationGroupAddSelfMega">%1$s вступил(а) в группу %2$s</string>
   <string name="NotificationGroupKickMember">%1$s исключил(а) пользователя %3$s из группы %2$s</string>
   <string name="NotificationGroupKickYou">%1$s исключил(а) вас из группы %2$s</string>
   <string name="NotificationGroupLeftMember">%1$s покинул(а) группу %2$s</string>
@@ -889,6 +890,7 @@
   <string name="ActionKickUserYou">un1 исключил(а) вас</string>
   <string name="ActionAddUserYou">un1 добавил(а) вас</string>
   <string name="ActionAddUserSelf">un1 вернулся(-лась) в группу</string>
+  <string name="ActionAddUserSelfMega">un1 вступил(а) в группу</string>
   <string name="ActionAddUserSelfYou">Вы вернулись в группу</string>
   <string name="UnsupportedMedia">Это сообщение не поддерживается вашей версией Telegram. Обновите приложение для его просмотра: https://telegram.org/update</string>
   <string name="AttachPhoto">Фото</string>
