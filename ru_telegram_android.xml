@@ -552,9 +552,9 @@
   <string name="Enabled">Включено</string>
   <string name="Disabled">Отключён</string>
   <string name="NotificationsService">Поддерживающий сервис</string>
-  <string name="NotificationsServiceInfo">Перезапускать приложение, если оно было закрыто пользователем или системой. Обеспечивает отображение уведомлений.</string>
+  <string name="NotificationsServiceInfo">Перезапускать приложение при закрытии пользователем или системой. Обеспечивает вывод уведомлений.</string>
   <string name="NotificationsServiceConnection">Фоновое соединение</string>
-  <string name="NotificationsServiceConnectionInfo">Поддерживать фоновое соединение с Telegram для надёжного получения уведомлений.</string>
+  <string name="NotificationsServiceConnectionInfo">Поддерживать небольшое фоновое соединение с Telegram для получения уведомлений. Включите для повышения надёжности.</string>
   <string name="SortBy">Сортировать по</string>
   <string name="ImportContacts">Импорт контактов</string>
   <string name="SortFirstName">Имя</string>
@@ -966,7 +966,7 @@
   <string name="AllowReadSms">Пожалуйста, разрешите Telegram получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
   <string name="AllowReadCall">Пожалуйста, разрешите Telegram принимать звонки, чтобы мы могли автоматически вводить ваш код за вас.</string>
   <string name="AllowReadCallAndSms">Пожалуйста, разрешите Telegram принимать звонки и получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
-  <string name="UserRestricted">Извините, выполнение этого действия для вас ограничено.</string>
+  <string name="UserRestricted">Извините, вам запрещено это делать.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
