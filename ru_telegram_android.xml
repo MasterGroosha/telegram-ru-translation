@@ -252,10 +252,12 @@
   <string name="IsTyping">печатает…</string>
   <string name="AreTyping">печатают…</string>
   <string name="IsRecordingAudio">%1$s записывает голосовое сообщение...</string>
+  <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голосового сообщения...</string>
+  <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправляет фото...</string>
   <string name="SendingVideoStatus">отправляет видео...</string>
   <string name="SendingFile">отправляет файл...</string>
@@ -319,7 +321,7 @@
   <string name="UnpinMessageAlert">Уверены, что хотите открепить это сообщение?</string>
   <string name="DeleteBanUser">Забанить пользователя</string>
   <string name="DeleteReportSpam">Сообщить о спаме</string>
-  <string name="DeleteAllFrom">Удалить всё от %1$s</string>
+  <string name="DeleteAllFrom">Удалить всё от пользователя %1$s</string>
   <string name="ClearRecentEmoji">Очистить недавние эмодзи?</string>
   <string name="ReportChat">Сообщить</string>
   <string name="ReportChatSpam">Спам</string>
@@ -501,6 +503,7 @@
   <string name="StickersCopy">Копировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
   <string name="TooMuchStickersets">Извините, вы достигли максимального количества наборов стикеров.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
@@ -536,6 +539,7 @@
   <string name="TerminateAllSessions">Завершить все другие сеансы</string>
   <string name="Events">События</string>
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
+  <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
   <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href=\"https://telegram.org/faq#general\">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
@@ -547,8 +551,10 @@
   <string name="IncorrectLocalization">Некорректный файл локализации</string>
   <string name="Enabled">Включено</string>
   <string name="Disabled">Отключён</string>
-  <string name="NotificationsService">Служба уведомлений</string>
-  <string name="NotificationsServiceDisableInfo">Если сервисов Google Play вам достаточно для получения уведомлений, вы можете отключить Службу уведомлений. Однако мы рекомендуем вам оставить её включённой для работы приложения в фоновом режиме и получения мгновенных уведомлений.</string>
+  <string name="NotificationsService">Поддерживающий сервис</string>
+  <string name="NotificationsServiceInfo">Перезапускать приложение, если оно было закрыто пользователем или системой. Обеспечивает отображение уведомлений.</string>
+  <string name="NotificationsServiceConnection">Фоновое соединение</string>
+  <string name="NotificationsServiceConnectionInfo">Поддерживать фоновое соединение с Telegram для надёжного получения уведомлений.</string>
   <string name="SortBy">Сортировать по</string>
   <string name="ImportContacts">Импорт контактов</string>
   <string name="SortFirstName">Имя</string>
@@ -929,7 +935,15 @@
   <string name="AreYouSureSessions">Уверены, что хотите завершить все другие сеансы?</string>
   <string name="AreYouSureDeleteAndExit">Уверены, что хотите удалить и покинуть эту группу?</string>
   <string name="AreYouSureDeleteThisChat">Уверены, что хотите удалить этот чат?</string>
-  <string name="AreYouSureShareMyContactInfo">Уверены, что хотите поделиться своей контактной информацией?</string>
+  <string name="ShareYouLocationTitle">Поделиться вашим расположением?</string>
+  <string name="ShareYouLocationInfo">Это отправит боту ваше текущее расположение.</string>
+  <string name="ShareYouLocationUnable">Приложению не удалось определить ваше текущее расположение</string>
+  <string name="ShareYouLocationUnableManually">Выбрать вручную</string>
+  <string name="ShareYouLocationInline">Этот бот хотел бы знать ваше расположение каждый раз, когда вы отправляете ему запрос. Это может использоваться для выдачи результатов, связанных с расположением.</string>
+  <string name="ShareYouPhoneNumberTitle">Поделиться вашим номером телефона?</string>
+  <string name="AreYouSureShareMyContactInfoBot">Бот будет знать номер вашего телефона. Это может быть полезно для интеграции с другими сервисами.</string>
+  <string name="AreYouSureShareMyContactInfoUser">Уверены, что хотите поделиться номером вашего телефона %1$s с <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>?</string>
+  <string name="AreYouSureShareMyContactInfo">Уверены, что хотите поделиться номером вашего телефона?</string>
   <string name="AreYouSureBlockContact">Уверены, что хотите заблокировать этот контакт?</string>
   <string name="AreYouSureUnblockContact">Уверены, что хотите разблокировать этот контакт?</string>
   <string name="AreYouSureDeleteContact">Уверены, что хотите удалить этот контакт?</string>
@@ -952,11 +966,13 @@
   <string name="AllowReadSms">Пожалуйста, разрешите Telegram получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
   <string name="AllowReadCall">Пожалуйста, разрешите Telegram принимать звонки, чтобы мы могли автоматически вводить ваш код за вас.</string>
   <string name="AllowReadCallAndSms">Пожалуйста, разрешите Telegram принимать звонки и получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
+  <string name="UserRestricted">Извините, выполнение этого действия для вас ограничено.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
   <string name="PermissionNoAudio">Для отправки голосовых сообщений Telegram необходим доступ к микрофону.</string>
   <string name="PermissionNoLocation">Telegram необходим доступ к вашему расположению, чтобы вы могли делиться им со своими друзьями.</string>
+  <string name="PermissionNoLocationPosition">Telegram нужен доступ к вашему расположению.</string>
   <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
