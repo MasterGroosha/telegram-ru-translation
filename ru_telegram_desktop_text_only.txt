@@ -400,7 +400,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_profile_chat_unaccessible" = "Группа недоступна";
 "lng_topbar_info" = "Информация";
-"lng_profile_about_section" = "О боте";
+"lng_profile_about_section" = "Информация";
 "lng_profile_description_section" = "Описание";
 "lng_profile_settings_section" = "Настройки";
 "lng_profile_actions_section" = "Действия";
