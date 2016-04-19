@@ -406,7 +406,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_actions_section" = "Действия";
 "lng_profile_bot_settings" = "Настройки";
 "lng_profile_bot_help" = "Помощь";
-"lng_profile_create_public_link" = "Создать пригласительную ссылку";
+"lng_profile_create_public_link" = "Сменить тип";
 "lng_profile_edit_public_link" = "Редактировать ссылку на профиль";
 "lng_profile_participants_section" = "Участники";
 "lng_profile_info" = "Информация о контакте";
