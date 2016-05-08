@@ -179,7 +179,7 @@
   <string name="ChannelJoinTo">Хотите подписаться на канал \'%1$s\'?</string>
   <string name="ChannelCantOpenPrivate">Извините, этот чат больше недоступен.</string>
   <string name="ChannelCantOpenBanned">К сожалению, вам запрещено участвовать в публичных группах.</string>
-  <string name="ChannelCantOpenNa">Извините, этот чат больше не доступен.</string>
+  <string name="ChannelCantOpenNa">Извините, этот чат больше недоступен.</string>
   <string name="ChannelAddTo">Добавить пользователя %1$s на канал?</string>
   <string name="ChannelUserLeftError">Извините, этот пользователь решил покинуть данный канал, поэтому вы не можете пригласить его обратно.</string>
   <string name="ChannelUserCantAdd">Извините, вы не можете добавить этого пользователя на каналы.</string>
