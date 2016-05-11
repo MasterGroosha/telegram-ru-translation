@@ -435,7 +435,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_add_participant" = "Добавить участников";
 "lng_profile_delete_and_exit" = "Покинуть";
 "lng_profile_kick" = "Удалить";
-"lng_profile_admin" = "администратор";
+"lng_profile_admin" = "Администратор";
 "lng_profile_sure_kick" = "Исключить {user} из группы?";
 "lng_profile_sure_kick_channel" = "Исключить {user} из канала?";
 "lng_profile_sure_kick_admin" = "Разжаловать {user} из администраторов?";
@@ -600,6 +600,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_forwarded_channel_via" = "Переслано из {channel} с помощью {inline_bot}";
 "lng_forwarded_signed" = "{channel} ({user})";
 "lng_in_reply_to" = "В ответ на";
+"lng_edited" = "Изм.";
+"lng_edited_date" = "Изм.: {date}";
+"lng_cancel_edit_post_sure" = "Отменить редактирование?";
+"lng_cancel_edit_post_yes" = "Да";
+"lng_cancel_edit_post_no" = "Нет";
 
 "lng_bot_share_location_unavailable" = "Извините, отправка геолокации пока недоступна в Telegram Desktop.";
 "lng_bot_inline_geo_unavailable" = "Извините, этому боту необходима отправка геолокации.\nЭто пока недоступно в Telegram Desktop.";
