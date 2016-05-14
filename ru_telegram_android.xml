@@ -334,10 +334,12 @@
   <string name="ReportChatOther">Другое</string>
   <string name="ReportChatDescription">Описание</string>
   <string name="PinnedMessage">Закреплённое сообщение</string>
-  <string name="EditedMessage">изменено</string>
+  <string name="EditedMessage">ред.</string>
   <string name="AttachBotsHelp">Прокрутите вниз для ботов</string>
-  <string name="TimeToEdit">Осталось времени на изменение: %1$s</string>
+  <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Извините, время на изменение истекло.</string>
+  <string name="AddShortcut">Добавить ярлык</string>
+  <string name="ShortcutAdded">Ярлык добавлен на домашний экран</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -1016,7 +1018,7 @@
   <string name="Members_many">%1$d участников</string>
   <string name="Members_other">%1$d участников</string>
   <string name="AndMoreTyping_zero">и ещё %1$d печатают</string>
-  <string name="AndMoreTyping_one">и ещё %1$d человек печатает</string>
+  <string name="AndMoreTyping_one">и ещё %1$d печатают</string>
   <string name="AndMoreTyping_two">и ещё %1$d печатают</string>
   <string name="AndMoreTyping_few">и ещё %1$d печатают</string>
   <string name="AndMoreTyping_many">и ещё %1$d печатают</string>
