@@ -334,7 +334,7 @@
   <string name="ReportChatOther">Другое</string>
   <string name="ReportChatDescription">Описание</string>
   <string name="PinnedMessage">Закреплённое сообщение</string>
-  <string name="EditedMessage">ред.</string>
+  <string name="EditedMessage">изм.</string>
   <string name="AttachBotsHelp">Прокрутите вниз для ботов</string>
   <string name="TimeToEdit">%1$s</string>
   <string name="TimeToEditExpired">Извините, время на изменение истекло.</string>
