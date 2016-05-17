@@ -327,7 +327,7 @@
   <string name="DeleteReportSpam">Сообщить о спаме</string>
   <string name="DeleteAllFrom">Удалить всё от пользователя %1$s</string>
   <string name="ClearRecentEmoji">Очистить недавние эмодзи?</string>
-  <string name="ReportChat">Сообщить</string>
+  <string name="ReportChat">Пожаловаться</string>
   <string name="ReportChatSpam">Спам</string>
   <string name="ReportChatViolence">Насилие</string>
   <string name="ReportChatPornography">Порнография</string>
