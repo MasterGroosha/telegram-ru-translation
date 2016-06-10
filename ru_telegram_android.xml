@@ -66,6 +66,8 @@
   <string name="ChatHints">ЧАТЫ</string>
   <string name="ChatHintsDelete">Удалить %1$s из предлагаемых?</string>
   <string name="LinkPreview">Предпросмотр ссылок</string>
+  <string name="Draft">Черновик</string>
+  <string name="HistoryCleared">История очищена</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -104,8 +106,6 @@
   <string name="NoBlockedGroup">Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора. Пригласительные ссылки для них не работают.</string>
   <string name="NewChannel">Новый канал</string>
   <string name="EnterChannelName">Имя канала</string>
-  <string name="Comments">Комментарии</string>
-  <string name="CommentsInfo">Если вы включите комментарии, люди смогут обсуждать ваши записи на канале.</string>
   <string name="AddMutual">Добавить контакты на ваш канал</string>
   <string name="ChannelUsernameHelp">Люди могут делиться этой ссылкой с другими и находить ваш канал через поиск в Telegram.</string>
   <string name="MegaUsernameHelp">Люди могут делиться этой ссылкой с другими и находить вашу группу через поиск Telegram.</string>
@@ -130,11 +130,8 @@
   <string name="LeaveChannelMenu">Покинуть канал</string>
   <string name="ChannelSettings">Настройки</string>
   <string name="ChannelJoin">ПРИСОЕДИНИТЬСЯ</string>
-  <string name="OpenChannelProfile">Информация о канале</string>
   <string name="ChannelBroadcast">Опубликовать</string>
   <string name="ChannelSilentBroadcast">Опубликовать тихо</string>
-  <string name="ChannelComment">Комментировать</string>
-  <string name="ShowDiscussion">показать комментарии</string>
   <string name="ChannelAlertTitle">Что такое канал?</string>
   <string name="ChannelAlertText">Каналы — новый инструмент публикации ваших сообщений большой аудитории.</string>
   <string name="ChannelAlertCreate">СОЗДАТЬ КАНАЛ</string>
@@ -465,8 +462,8 @@
   <string name="ConvertGroupMenu">Преобразовать в супергруппу</string>
   <string name="ConvertGroupAlertWarning">Внимание</string>
   <string name="ConvertGroupAlert">Это действие необратимо. Супергруппу невозможно преобразовать в обычную группу.</string>
-  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Достигнуто максимальное количество участников.<![CDATA[</b>]]>\n\nПреобразуйте группу в супергруппу, чтобы превысить ограничение и получить дополнительные возможности:\n\n• Супергруппы могут достигать %1$s участников\n• Новые участники могут видеть полную историю сообщений\n• Удалённые сообщения будут исчезать у всех участников\n• Участники могут изменять свои сообщения\n• Создатель может установить публичную ссылку на группу</string>
-  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергруппах:<![CDATA[</b>]]>\n\n• Новые участники могут видеть полную историю сообщений\n• Удалённые сообщения будут исчезать у всех участников\n• Участники могут изменять свои сообщения\n• Создатель может установить публичную ссылку на группу</string>
+  <string name="ConvertGroupInfo"><![CDATA[<b>]]>Достигнуто максимальное количество участников.<![CDATA[</b>]]>\n\nПреобразуйте группу в супергруппу, чтобы превысить ограничение и получить дополнительные возможности:\n\n• Супергруппы могут достигать %1$s участников\n• Новые участники могут видеть полную историю сообщений\n• Удалённые сообщения будут исчезать у всех участников\n• Создатель может установить публичную ссылку на группу</string>
+  <string name="ConvertGroupInfo2"><![CDATA[<b>]]>В супергруппах:<![CDATA[</b>]]>\n\n• Новые участники могут видеть полную историю сообщений\n• Удалённые сообщения будут исчезать у всех участников\n• Создатель может установить публичную ссылку на группу</string>
   <string name="ConvertGroupInfo3"><![CDATA[<b>]]>Внимание:<![CDATA[</b>]]> это действие не может быть отменено.</string>
   <!--contact info view-->
   <string name="ShareContact">Поделиться</string>
@@ -1035,12 +1032,6 @@
   <string name="messages_few">%1$d сообщения</string>
   <string name="messages_many">%1$d сообщений</string>
   <string name="messages_other">%1$d сообщений</string>
-  <string name="comments_zero">%1$d комментариев</string>
-  <string name="comments_one">%1$d комментарий</string>
-  <string name="comments_two">%1$d комментария</string>
-  <string name="comments_few">%1$d комментария</string>
-  <string name="comments_many">%1$d комментариев</string>
-  <string name="comments_other">%1$d комментариев</string>
   <string name="items_zero">нет элементов</string>
   <string name="items_one">%1$d элемент</string>
   <string name="items_two">%1$d элемента</string>
