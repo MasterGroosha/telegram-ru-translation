@@ -463,8 +463,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_audios_header" = "Голосовые сообщения";
 "lng_profile_shared_links" = "{count:_not_used_|# ссылка |Ссылок: #}";
 "lng_profile_shared_links_header" = "Все ссылки";
-"lng_profile_copy_phone" = "Скопировать номер";
-"lng_profile_copy_fullname" = "Скопировать имя";
+"lng_profile_copy_phone" = "Копировать номер";
+"lng_profile_copy_fullname" = "Копировать имя";
 "lng_profile_drop_area_title" = "Перетащите изображение сюда,";
 "lng_profile_drop_area_subtitle" = "чтобы установить его в качестве аватара группы";
 "lng_profile_drop_area_subtitle_channel" = "чтобы установить его в качестве аватара канала";
@@ -478,7 +478,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_report_reason_other" = "Прочее";
 "lng_report_reason_description" = "Описание";
 "lng_report_button" = "Пожаловаться";
-"lng_report_thanks" = "Спасибо! Ваша жалоба будет вскоре рассмотрена нашей командой.";
+"lng_report_thanks" = "Спасибо! Ваша жалоба будет рассмотрена нашей командой.";
 
 "lng_channel_add_admins" = "Добавить администратора";
 "lng_channel_add_members" = "Добавить участников";
@@ -794,8 +794,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_copy_link" = "Копировать ссылку";
 "lng_context_copy_post_link" = "Ссылка на сообщение";
 "lng_context_copy_email" = "Копировать адрес";
-"lng_context_copy_hashtag" = "Скопировать хэштег";
-"lng_context_copy_mention" = "Скопировать никнейм";
+"lng_context_copy_hashtag" = "Копировать хэштег";
+"lng_context_copy_mention" = "Копировать юзернейм";
 "lng_context_save_image" = "Сохранить изображение как..";
 "lng_context_forward_image" = "Переслать изображение";
 "lng_context_delete_image" = "Удалить изображение";
@@ -813,7 +813,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_forward_file" = "Переслать файл";
 "lng_context_delete_file" = "Удалить файл";
 "lng_context_close_file" = "Закрыть файл";
-"lng_context_copy_text" = "Скопировать текст";
+"lng_context_copy_text" = "Копировать текст";
 "lng_context_save_gif" = "Сохранить GIF";
 "lng_context_to_msg" = "Перейти к сообщению";
 "lng_context_reply_msg" = "Ответить";
@@ -903,7 +903,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_media_save_progress" = "{ready} из {total} {mb}";
 "lng_mediaview_save_as" = "Сохранить как...";
-"lng_mediaview_copy" = "Скопировать";
+"lng_mediaview_copy" = "Копировать";
 "lng_mediaview_forward" = "Переслать";
 "lng_mediaview_delete" = "Удалить";
 "lng_mediaview_photos_all" = "Просмотр всех фото";
