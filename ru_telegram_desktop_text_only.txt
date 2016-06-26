@@ -704,7 +704,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_in_dlg_audio" = "Голосовое сообщение";
 "lng_in_dlg_file" = "Файл";
 "lng_in_dlg_sticker" = "Стикер";
-"lng_in_dlg_sticker_emoji" = "{emoji} (стикер)";
+"lng_in_dlg_sticker_emoji" = "{emoji} Стикер";
 
 "lng_ban_user" = "Заблокировать пользователя";
 "lng_delete_all_from" = "Удалить все его/её сообщения";
@@ -742,6 +742,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_join" = "Присоединиться";
 "lng_channel_mute" = "Выкл. звук";
 "lng_channel_unmute" = "Вкл. звук";
+
+"lng_dialogs_text_with_from" = "{from_part} {message}";
+"lng_dialogs_text_from_wrapped" = "{from}:";
+"lng_dialogs_text_media" = "{media_part} {caption}";
+"lng_dialogs_text_media_wrapped" = "{media},";
 
 "lng_open_this_link" = "Открыть ссылку?";
 "lng_open_link" = "Открыть";
