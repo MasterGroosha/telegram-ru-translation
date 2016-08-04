@@ -190,6 +190,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_signin_reset_account" = "Сбросить аккаунт";
 "lng_signin_sure_reset" = "Внимание!\n\nИстория сообщений и чаты будут безвозвратно удалены. Продолжить?";
 "lng_signin_reset" = "Сбросить";
+"lng_signin_reset_wait" = "Так как аккаунт {phone_number} сейчас активен и защищен паролем, то, в целях безопасности, он будет удален через неделю. Вы можете отменить удаление аккаунта в любое время.\n\nСброс будет доступен через:\n{when}";
+"lng_signin_reset_in_days" = "{count_days:0 дн.|# день|# дн.} {count_hours:0 часов|# час|# часов} {count_minutes:0 минут|# минуту|# мин.}";
+"lng_signin_reset_in_hours" = "{count_hours:0 часов|# час|# часов} {count_minutes:0 минут|# минуту|# мин.}";
+"lng_signin_reset_in_minutes" = "{count_minutes:0 минут|# минуту|# мин.}";
+"lng_signin_reset_cancelled" = "Ваши недавние попытки сброса этого аккаунта были отменены его текущим пользователем. Попробуйте снова через 7 дней.";
 
 "lng_signup_title" = "Информация и фото";
 "lng_signup_desc" = "Пожалуйста, введите Ваше имя и\nзагрузите фотографию.";
@@ -609,6 +614,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_group_invite_want_join_channel" = "Присоединиться к каналу «{title}»?";
 "lng_group_invite_join" = "Присоединиться";
 
+"lng_group_invite_members" = "{count:_not_used_|# человек|# человек}, среди которых:";
+
 "lng_group_invite_link" = "Ссылка для приглашения:";
 "lng_group_invite_create" = "Создать ссылку приглашения";
 "lng_group_invite_about" = "Любой пользователь Telegram сможет вступить в вашу группу, перейдя по этой ссылке.";
@@ -671,6 +678,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_emoji_category6" = "Путешествия и местности";
 "lng_emoji_category7" = "Объекты и символы";
 
+"lng_recent_stickers" = "Часто используемые";
 "lng_switch_stickers" = "Стикеры";
 "lng_switch_stickers_gifs" = "GIF и стикеры";
 "lng_switch_emoji" = "Эмодзи";
@@ -687,11 +695,16 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_stickers_add_pack" = "Установить стикеры";
 "lng_stickers_share_pack" = "Поделиться стикерами";
 "lng_stickers_not_found" = "Стикеры не найдены";
+"lng_stickers_packs_archived" = "Некоторые неиспользуемые наборы стикеров были архивированы, чтобы оставить больше места для новых.";
+"lng_stickers_archived" = "Архивные стикерпаки";
 "lng_stickers_copied" = "Ссылка на набор стикеров скопирована в буфер обмена.";
 "lng_stickers_default_set" = "Великие умы";
 "lng_stickers_you_have" = "Удаляйте и сортируйте стикерпаки";
 "lng_stickers_packs" = "Стикерпаки";
 "lng_stickers_reorder" = "Удерживайте и перемещайте для сортировки стикерпаков";
+"lng_stickers_featured" = "Популярные стикерпаки";
+"lng_stickers_clear_recent" = "Очистить";
+"lng_stickers_clear_recent_sure" = "Вы хотите очистить ваш список наиболее используемых наборов стикеров?";
 "lng_stickers_remove" = "Удалить";
 "lng_stickers_return" = "Отмена";
 "lng_stickers_restore" = "Восстановить";
@@ -930,11 +943,19 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_new_version_wrap" = "Telegram Desktop был обновлён до версии {version}\n\n{changes}\n\nПолная история изменений доступна здесь:\n{link}";
 "lng_new_version_minor" = "— Исправления багов и незначительные улучшения";
-"lng_new_version_text" = "— Встречайте черновики: Синхронизация неотправленных сообщений между всеми устройствами. Черновики отображаются в списке чатов.\n— Полностью переделанные профили пользователей и групп.\n— Счетчик непрочитанных сообщений на кнопке 'К новым сообщениям'.\n\nПодробнее об обновлении: {link}";
+"lng_new_version_text" = "— Популярные стикеры. Найдите и установите отличные наборы стикеров из нового пункта в настройках.\n— Архивные стикеры. Неиспользуемые наборы стикеров теперь архивируются автоматически при достижении лимита в 200 наборов.\n— Предпросмотр групп. Узнайте, кто находится в групповом чате перед вступлением по пригласительной ссылке.\n— Новый встроенный видеоплеер.\n— Улучшенный дизайн для чатов.";
 
 "lng_menu_insert_unicode" = "Вставьте управляющий символ Unicode";
 
 "lng_full_name" = "{first_name} {last_name}";
+
+"lng_confirm_phone_link_invalid" = "Ссылка некорректна или недействительна.";
+"lng_confirm_phone_title" = "Отменить сброс аккаунта";
+"lng_confirm_phone_about" = "Кто-то, у кого есть доступ к вашему номеру {phone} запросил удаление вашего аккаунта Telegram и сброса дополнительного пароля.\n\nЕсли это были не вы, пожалуйста, введите код, который мы отправили вам по SMS.";
+"lng_confirm_phone_success" = "Готово!\n\nУдаление аккаунта было отменено для номера {phone}. Вы можете закрыть это окно.";
+"lng_confirm_phone_send" = "Отправить";
+"lng_confirm_phone_enter_code" = "Пожалуйста, введите код.";
+
 
 // Wnd specific
 
