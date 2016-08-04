@@ -524,7 +524,7 @@
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
   <string name="AddStickersInstalled">Добавлены новые стикеры</string>
-  <string name="StickersHide">Архив</string>
+  <string name="StickersHide">Архивировать</string>
   <string name="StickersShare">Поделиться</string>
   <string name="StickersCopy">Копировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
