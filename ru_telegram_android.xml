@@ -323,7 +323,7 @@
   <string name="NobodyLikesSpam2">Извините, в данный момент вы можете добавлять в группы только взаимные контакты.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больше информации</string>
-  <string name="ShareSendTo">Искать...</string>
+  <string name="ShareSendTo">Поиск...</string>
   <string name="TapHereGifs">Нажмите для доступа к сохранённым GIF</string>
   <string name="PinMessage">Закрепить</string>
   <string name="PinNotify">Уведомить всех участников</string>
@@ -443,7 +443,7 @@
   <string name="ALongTimeAgo">заходил(а) давно</string>
   <string name="NewMessageTitle">Новое сообщение</string>
   <!--group create view-->
-  <string name="SendMessageTo">Отправить сообщение...</string>
+  <string name="SendMessageTo">Поиск...</string>
   <string name="SoftUserLimitAlert">Вы сможете добавить больше участников после завершения создания группы и преобразования её в супергруппу.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
