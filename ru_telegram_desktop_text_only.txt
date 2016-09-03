@@ -214,9 +214,12 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_dlg_search_for_messages" = "Поиск сообщений";
 
 "lng_settings_save" = "Сохранить";
-"lng_settings_upload" = "Обновить фото профиля";
+"lng_settings_upload" = "Обновить фото";
 "lng_settings_crop_profile" = "Выберите квадратную область для фото вашего профиля";
 "lng_settings_uploading_photo" = "Загрузка фото..";
+"lng_settings_edit" = "Изменить имя";
+
+"lng_settings_drop_area_subtitle" = "чтобы установить в качестве фотографии";
 
 "lng_username_title" = "Имя пользователя";
 "lng_username_about" = "Выберите имя пользователя, чтобы \nдругие люди смогли найти вас по нему \nи связаться с вами, не зная вашего\nномера телефона.\n\nИмя пользователя должно состоять из 5 \nили более символов латинского \nалфавита, цифр и подчеркиваний.";
@@ -231,7 +234,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_username_link" = "Эта ссылка открывает диалог с вами:";
 "lng_username_copied" = "Ссылка скопирована в буфер обмена.";
 
-"lng_settings_section_contact_info" = "Информация о контакте";
+"lng_settings_section_info" = "Информация";
 "lng_settings_phone_number" = "Номер:";
 "lng_settings_username" = "Имя пользователя:";
 "lng_settings_choose_username" = "выберите имя пользователя";
@@ -242,7 +245,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_show_preview" = "Показывать превью сообщения";
 "lng_settings_use_windows" = "Использовать уведомления Windows";
 "lng_settings_sound_notify" = "Звук";
-"lng_settings_include_muted" = "Подсчитывать непрочитанные сообщения из всех чатов";
+"lng_settings_include_muted" = "Учитывать приглушенные чаты";
 
 "lng_notification_preview" = "У вас новое сообщение";
 
@@ -250,7 +253,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_change_lang" = "Изменить язык";
 "lng_languages" = "Языки";
 "lng_sure_save_language" = "Telegram перезапустится, чтобы сменить язык";
-"lng_settings_auto_update" = "Обновлять автоматически";
+"lng_settings_update_automatically" = "Автообновление (версия {version})";
 "lng_settings_current_version" = "Версия {version}";
 "lng_settings_check_now" = "Проверка обновлений";
 "lng_settings_update_checking" = "Проверка обновлений..";
@@ -264,10 +267,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_auto_start" = "Запускать Telegram при старте системы";
 "lng_settings_start_min" = "Запускать свёрнутым";
 "lng_settings_add_sendto" = "Добавить Telegram в меню «Отправить...»";
-"lng_settings_scale_label" = "Масштаб интерфейса";
+"lng_settings_section_scale" = "Масштаб интерфейса";
 "lng_settings_scale_auto" = "Авто ({cur})";
 
-"lng_settings_section_chat" = "Настройки чата";
+"lng_settings_section_chat_settings" = "Настройки чатов";
 "lng_settings_replace_emojis" = "Заменять смайлы";
 "lng_settings_view_emojis" = "Просмотреть список";
 "lng_settings_emoji_list" = "Доступные смайлы";
@@ -301,7 +304,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_download_path_cleared" = "Очищено!";
 "lng_download_path_clear_failed" = "Очистка  не удалась :(";
 
-"lng_settings_section_cache" = "Локальное хранилище";
+"lng_local_storage_title" = "Локальное хранилище";
+"lng_settings_section_privacy" = "Приватность и безопасность";
+
 "lng_settings_no_data_cached" = "Кэш пуст!";
 "lng_settings_images_cached" = "Изображений: {count:_not_used_|# |# } ({size})";
 "lng_settings_audios_cached" = "Аудиофайлов: {count:_not_used_|# |# } ({size})";
@@ -310,7 +315,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_local_storage_cleared" = "Очищено!";
 "lng_local_storage_clear_failed" = "Не получилось очистить кэш :(";
 
-"lng_settings_section_advanced" = "Расширенные настройки";
+"lng_settings_section_advanced_settings" = "Расширенные настройки";
 
 "lng_passcode_remove_button" = "Удалить";
 
@@ -384,6 +389,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_reset_one_sure" = "Завершить эту сессию?";
 "lng_settings_reset_button" = "Завершить";
 "lng_settings_reset_done" = "Все сессии завершены";
+"lng_settings_manage_local_storage" = "Локальное хранилище";
 "lng_settings_ask_question" = "Задать вопрос";
 "lng_settings_ask_sure" = "Поддержка Телеграма осуществляется добровольцами. Мы постараемся ответить как можно скорее, но на это может потребоваться некоторое время.\n\nВы также можете ознакомиться с ответами на популярные вопросы о Телеграме, где есть советы по решению многих проблем.";
 "lng_settings_faq_button" = "Перейти в FAQ";
@@ -606,8 +612,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_not_accessible" = "К сожалению, этот канал больше недоступен.";
 "lng_group_not_accessible" = "К сожалению, эта группа больше не доступна.";
 
-"lng_channels_too_much_public_existing" = "К сожалению, вы создали слишком много публичных супергрупп и каналов. Пожалуйста, удалите один из них, чтобы создать новый.";
-"lng_channels_too_much_public" = "К сожалению, вы создали слишком много публичных супергрупп и каналов.\n\nВы можете либо удалить один из существующих, либо создать приватный канал.";
+"lng_channels_too_much_public_about" = "К сожалению, вы заняли слишком много публичных юзернеймов. Вы можете сделать свою группу или канал приватными, отозвав публичную ссылку.";
+"lng_channels_too_much_public_revoke_confirm_group" = "Вы уверены, что хотите отозвать ссылку {link}?\n\nГруппа «{group}» станет приватной.";
+"lng_channels_too_much_public_revoke_confirm_channel" = "Вы уверены, что хотите отозвать ссылку {link}?\n\nКанал «{group}» станет приватным.";
+"lng_channels_too_much_public_revoke" = "Отозвать";
+
 
 "lng_group_invite_bad_link" = "Ссылка некорректна или просрочена.";
 "lng_group_invite_want_join" = "Войти в группу «{title}»?";
