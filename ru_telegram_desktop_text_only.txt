@@ -320,10 +320,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_passcode_remove_button" = "Удалить";
 
 "lng_passcode_turn_on" = "Включить блокировку кодом доступа";
-"lng_passcode_change" = "Изменить код доступа";
+"lng_passcode_change" = "Сменить код доступа";
 "lng_passcode_create" = "Код доступа";
 "lng_passcode_remove" = "Удалить код доступа";
-"lng_passcode_turn_off" = "Выключить блокировку паролем";
+"lng_passcode_turn_off" = "Выключить";
 "lng_passcode_autolock" = "Автоблокировка";
 "lng_passcode_autolock_away" = "Блокировать при отсутствии в течение: ";
 "lng_passcode_autolock_inactive" = "Блокировать при отсутствии активности в течение:";
@@ -347,7 +347,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_cloud_password_create" = "Пароль";
 "lng_cloud_password_remove" = "Удалить пароль";
 "lng_cloud_password_set" = "Включить двухэтапную авторизацию";
-"lng_cloud_password_edit" = "Сменить пароль";
+"lng_cloud_password_edit" = "Двухэтапная авторизация";
 "lng_cloud_password_enter_old" = "Введите текущий пароль";
 "lng_cloud_password_enter_first" = "Введите пароль";
 "lng_cloud_password_enter_new" = "Введите новый пароль";
