@@ -27,7 +27,7 @@
   <string name="ResetAccount">Сброс аккаунта</string>
   <string name="ResetAccountInfo">Поскольку аккаунт <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> активен и защищён паролем, в целях безопасности мы удалим его через 1 неделю.\n\nВы можете отменить этот процесс в любое время.</string>
   <string name="ResetAccountStatus">Вы сможете сбросить свой аккаунт через:</string>
-  <string name="ResetAccountCancelledAlert">Ваши недавние попытки сбросить этот аккаунт были отменены его активным пользователем. Пожалуйста, попробуйте снова через 7 дней.</string>
+  <string name="ResetAccountCancelledAlert">Ваши недавние попытки сброса аккаунта были отменены его активным пользователем. Попробуйте снова через 7 дней.</string>
   <string name="ResetAccountButton">СБРОСИТЬ</string>
   <string name="CancelLinkExpired">Ссылка неверна или устарела.</string>
   <string name="CancelLinkSuccess">Процесс удаления вашего аккаунта %1$s был отменён. Теперь можете закрыть это окно.</string>
@@ -169,8 +169,7 @@
   <string name="ActionChannelChangedPhoto">Фото канала изменено</string>
   <string name="ActionChannelRemovedPhoto">Фото канала удалено</string>
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
-  <string name="ChannelPublicLimitReached">Извините, вы создали слишком много публичных каналов. Вы можете либо удалить один из существующих, либо создать приватный канал.</string>
-  <string name="ChangePublicLimitReached">Извините, вы создали слишком много публичных ссылок. Попробуйте удалить или сделать приватными некоторые ваши группы или каналы.</string>
+  <string name="ChangePublicLimitReached">Извините, вы заняли слишком много публичных юзернеймов. Вы можете либо аннулировать ссылку на одну из ваших устаревших групп или каналов, либо создать приватно.</string>
   <string name="ChannelModerator">Модератор</string>
   <string name="ChannelCreator">Создатель</string>
   <string name="ChannelEditor">Администратор</string>
@@ -187,7 +186,7 @@
   <string name="ChannelJoinTo">Хотите подписаться на канал \'%1$s\'?</string>
   <string name="ChannelCantOpenPrivate">Извините, этот чат больше недоступен.</string>
   <string name="ChannelCantOpenBanned">К сожалению, вам запрещено участвовать в публичных группах.</string>
-  <string name="ChannelCantOpenNa">Извините, этот чат больше недоступен.</string>
+  <string name="ChannelCantOpenNa">Извините, этот чат больше не доступен.</string>
   <string name="ChannelAddTo">Добавить пользователя %1$s на канал?</string>
   <string name="ChannelUserLeftError">Извините, этот пользователь решил покинуть данный канал, поэтому вы не можете пригласить его обратно.</string>
   <string name="ChannelUserCantAdd">Извините, вы не можете добавить этого пользователя на каналы.</string>
@@ -313,6 +312,7 @@
   <string name="CopyUrl">Копировать URL</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть URL %1$s?</string>
+  <string name="BotPermissionUrlAlert">Вы разрешаете боту %1$s передавать ваше имя и id в Telegram открываемым через него веб-страницам?</string>
   <string name="ReportSpam">СООБЩИТЬ О СПАМЕ</string>
   <string name="ReportSpamAndLeave">СООБЩИТЬ О СПАМЕ И ПОКИНУТЬ</string>
   <string name="AddContactChat">ДОБАВИТЬ КОНТАКТ</string>
@@ -458,6 +458,8 @@
   <string name="RevokeAlertNewLink">Прежняя пригласительная ссылка не активна. Сгенерирована новая.</string>
   <string name="RevokeButton">Аннулировать</string>
   <string name="RevokeLink">Аннулировать ссылку</string>
+  <string name="RevokeLinkAlert">Уверены, что хотите аннулировать ссылку <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nГруппа \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" станет приватной.</string>
+  <string name="RevokeLinkAlertChannel">Уверены, что хотите аннулировать ссылку <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>?\n\nКанал \"<![CDATA[<b>]]>%2$s<![CDATA[</b>]]>\" станет приватным.</string>
   <string name="CopyLink">Копировать ссылку</string>
   <string name="ShareLink">Поделиться ссылкой</string>
   <string name="LinkInfo">Любой пользователь Telegram сможет вступить в вашу группу, перейдя по этой ссылке.</string>
@@ -529,13 +531,14 @@
   <string name="StickersCopy">Копировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="Masks">Маски</string>
+  <string name="MasksInfo">Вы можете добавлять маски на отправляемые фото. Для этого перед отправкой откройте визуальный редактор.</string>
   <string name="FeaturedStickers">Популярные стикеры</string>
   <string name="FeaturedStickersInfo">Эти стикеры сейчас популярны в Telegram. Вы можете добавлять свои стикеры с помощью бота @stickers.</string>
   <string name="ArchivedStickers">Архивные стикеры</string>
   <string name="ArchivedStickersEmpty">Нет архивных стикеров</string>
   <string name="ArchivedStickersInfo">У вас может быть до 200 установленных наборов стикеров. При установке новых наборов неиспользуемые стикеры архивируются.</string>
   <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
-  <string name="TooMuchStickersets">Извините, вы достигли максимального количества наборов стикеров.</string>
   <string name="ArchivedStickersAlertTitle">Архивные стикеры</string>
   <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов стикеров были архивированы. Вы можете снова активировать их в настройках стикеров.</string>
   <!--settings view-->
@@ -773,6 +776,14 @@
   <string name="PhotoCaption">Подпись к фото</string>
   <string name="VideoCaption">Подпись к видео</string>
   <string name="Caption">Подпись</string>
+  <string name="PaintDraw">Рисовать</string>
+  <string name="PaintStickers">Стикеры</string>
+  <string name="PaintText">Текст</string>
+  <string name="PaintDelete">Удалить</string>
+  <string name="PaintEdit">Изменить</string>
+  <string name="PaintDuplicate">Дублировать</string>
+  <string name="PaintOutlined">Контур</string>
+  <string name="PaintRegular">Обычный</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухэтапная аутентификация</string>
   <string name="SetAdditionalPassword">Установить дополнительный пароль</string>
@@ -872,6 +883,7 @@
   <string name="OriginalVideo">Оригинальное видео</string>
   <string name="EditedVideo">Отредактированное видео</string>
   <string name="SendingVideo">Отправка видео...</string>
+  <string name="SendingGif">Отправка GIF...</string>
   <string name="CompressVideo">Сжать видео</string>
   <!--bot-->
   <string name="Bot">бот</string>
@@ -922,6 +934,10 @@
   <string name="ActionYouKickUser">Вы исключили пользователя un2</string>
   <string name="ActionYouLeftUser">Вы покинули группу</string>
   <string name="ActionYouAddUser">Вы добавили пользователя un2</string>
+  <string name="ActionYouScored">Вы набрали %1$s</string>
+  <string name="ActionUserScored">un1 набрал(а) %1$s</string>
+  <string name="ActionYouScoredInGame">Вы набрали %1$s в игре un2</string>
+  <string name="ActionUserScoredInGame">un1 набрал(а) %1$s в игре un2</string>
   <string name="ActionYouRemovedPhoto">Вы удалили фото группы</string>
   <string name="ActionYouChangedPhoto">Вы изменили фото группы</string>
   <string name="ActionYouChangedTitle">Вы изменили имя группы на un2</string>
@@ -945,6 +961,7 @@
   <string name="ActionTakeScreenshoot">un1 сделал(а) скриншот!</string>
   <!--Alert messages-->
   <string name="InvalidPhoneNumber">Неверный номер телефона</string>
+  <string name="BannedPhoneNumber">Заблокированный номер телефона</string>
   <string name="CodeExpired">Срок действия кода истёк, пожалуйста, войдите снова</string>
   <string name="FloodWait">Слишком много попыток, пожалуйста, попробуйте снова позже</string>
   <string name="FloodWaitTime">Слишком много попыток, пожалуйста, попробуйте снова через %1$s</string>
@@ -1140,6 +1157,12 @@
   <string name="Photos_few">%1$d фото</string>
   <string name="Photos_many">%1$d фото</string>
   <string name="Photos_other">%1$d фото</string>
+  <string name="Points_zero">%1$d</string>
+  <string name="Points_one">%1$d</string>
+  <string name="Points_two">%1$d</string>
+  <string name="Points_few">%1$d</string>
+  <string name="Points_many">%1$d</string>
+  <string name="Points_other">%1$d</string>
   <string name="LastSeenMinutes_zero">заходил(а) %1$d минут назад</string>
   <string name="LastSeenMinutes_one">заходил(а) %1$d минуту назад</string>
   <string name="LastSeenMinutes_two">заходил(а) %1$d минуты назад</string>

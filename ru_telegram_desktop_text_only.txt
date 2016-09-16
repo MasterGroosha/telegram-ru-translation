@@ -111,7 +111,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_status_connecting" = "подключение..";
 
 "lng_chat_status_unaccessible" = "группа недоступна";
-"lng_chat_status_members" = "{count:no members|# участник|# участников}";
+"lng_chat_status_members" = "{count:no members|участников: #|участников: #}";
 "lng_chat_status_members_online" = "{count:_not_used_|# участник|# участников}, {count_online:_not_used_|# онлайн|# онлайн}";
 
 "lng_channel_status" = "канал";
