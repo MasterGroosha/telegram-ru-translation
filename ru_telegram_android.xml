@@ -522,25 +522,34 @@
   <!--stickers view-->
   <string name="Stickers">Стикеры</string>
   <string name="AddStickers">Добавить стикеры</string>
+  <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
+  <string name="MasksRemoved">Маски удалены</string>
   <string name="AddStickersInstalled">Добавлены новые стикеры</string>
+  <string name="AddMasksInstalled">Добавлены новые маски</string>
   <string name="StickersHide">Архивировать</string>
   <string name="StickersShare">Поделиться</string>
   <string name="StickersCopy">Копировать ссылку</string>
   <string name="StickersRemove">Удалить</string>
   <string name="NoStickers">Стикеров пока нет</string>
+  <string name="NoMasks">Масок пока нет</string>
   <string name="Masks">Маски</string>
   <string name="MasksInfo">Вы можете добавлять маски на отправляемые фото. Для этого перед отправкой откройте визуальный редактор.</string>
   <string name="FeaturedStickers">Популярные стикеры</string>
   <string name="FeaturedStickersInfo">Эти стикеры сейчас популярны в Telegram. Вы можете добавлять свои стикеры с помощью бота @stickers.</string>
   <string name="ArchivedStickers">Архивные стикеры</string>
+  <string name="ArchivedMasks">Архивные маски</string>
   <string name="ArchivedStickersEmpty">Нет архивных стикеров</string>
+  <string name="ArchivedMasksEmpty">Нет масок в архиве</string>
   <string name="ArchivedStickersInfo">У вас может быть до 200 установленных наборов стикеров. При установке новых наборов неиспользуемые стикеры архивируются.</string>
+  <string name="ArchivedMasksInfo">У вас может быть до 200 установленных наборов масок. При установке новых наборов неиспользуемые маски архивируются.</string>
   <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
   <string name="ArchivedStickersAlertTitle">Архивные стикеры</string>
   <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов стикеров были архивированы. Вы можете снова активировать их в настройках стикеров.</string>
+  <string name="ArchivedMasksAlertTitle">Архивные маски</string>
+  <string name="ArchivedMasksAlertInfo">Некоторые из ваших старых наборов масок были архивированы. Вы можете снова активировать их в настройках масок.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
   <string name="TextSize">Размер текста сообщений</string>
