@@ -585,6 +585,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_contact" = "контактная информация";
 "lng_action_pinned_media_location" = "расположение";
 "lng_action_pinned_media_sticker" = "стикер";
+"lng_action_game_score" = "{from} набрал(а) {count:#|#|#} в {game}";
+
 
 "lng_profile_migrate_reached" = "Достигнут лимит в {count:_not_used_|# участника|# участников}";
 "lng_profile_migrate_body" = "Чтобы превысить этот лимит, обновите группу до супергруппы.";
@@ -691,6 +693,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_switch_stickers" = "Стикеры";
 "lng_switch_stickers_gifs" = "GIF и стикеры";
 "lng_switch_emoji" = "Эмодзи";
+"lng_stickers_featured_add" = "Добавить";
+
 
 "lng_saved_gifs" = "Сохранённые GIF";
 "lng_inline_bot_results" = "Результаты от {inline_bot}";
@@ -718,6 +722,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_stickers_return" = "Отмена";
 "lng_stickers_restore" = "Восстановить";
 "lng_stickers_count" = "{count:Загрузка..|# шт.|# шт.}";
+"lng_stickers_masks_pack" = "Это набор масок. Вы можете его использовать в фоторедакторе в мобильном приложении.";
+
 
 "lng_in_dlg_photo" = "Фото";
 "lng_in_dlg_video" = "Видео";
@@ -772,6 +778,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_open_this_link" = "Открыть ссылку?";
 "lng_open_link" = "Открыть";
+"lng_allow_bot_pass" = "Вы разрешаете {bot_name} передавать ваше имя и идентификатор в Telegram веб-страницам, которые вы открываете через этого бота?";
+"lng_allow_bot" = "Разрешаю";
+
 
 "lng_bot_start" = "Начать";
 "lng_bot_choose_group" = "Выберите группу";
@@ -879,6 +888,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_share_cant" = "К сожалению, сюда нельзя отправлять сообщения :(";
 "lng_reply_cant" = "К сожалению, в супергруппе невозможно ответить на старое сообщение :(";
 "lng_reply_cant_forward" = "К сожалению, в супергруппе невозможно ответить на старое сообщение :( Переслать его, добавив ваш комментарий?";
+
+"lng_share_title" = "Поделиться с";
+"lng_share_copy_link" = "Копировать ссылку";
+"lng_share_confirm" = "Отправить";
+"lng_share_wrong_user" = "Другой пользователь начал эту игру.";
+"lng_share_game_link_copied" = "Ссылка на игру скопирована.";
+"lng_share_done" = "Готово!";
 
 "lng_contact_phone" = "Телефон";
 "lng_enter_contact_data" = "Новый контакт";
