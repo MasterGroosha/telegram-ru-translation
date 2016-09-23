@@ -488,6 +488,8 @@
   <string name="ShareContact">Поделиться</string>
   <string name="AddContact">Добавить</string>
   <string name="AddContactTitle">Добавить контакт</string>
+  <string name="ContactNotRegistered">%1$s пока нет в Telegram, хотите пригласить присоединиться?</string>
+  <string name="Invite">Пригласить</string>
   <string name="BlockContact">Заблокировать</string>
   <string name="EditContact">Изменить</string>
   <string name="DeleteContact">Удалить</string>
@@ -524,6 +526,7 @@
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
+  <string name="AddToMasks">Добавить в маски</string>
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
   <string name="MasksRemoved">Маски удалены</string>
@@ -542,7 +545,7 @@
   <string name="ArchivedStickers">Архивные стикеры</string>
   <string name="ArchivedMasks">Архивные маски</string>
   <string name="ArchivedStickersEmpty">Нет архивных стикеров</string>
-  <string name="ArchivedMasksEmpty">Нет масок в архиве</string>
+  <string name="ArchivedMasksEmpty">Нет архивных масок</string>
   <string name="ArchivedStickersInfo">У вас может быть до 200 установленных наборов стикеров. При установке новых наборов неиспользуемые стикеры архивируются.</string>
   <string name="ArchivedMasksInfo">У вас может быть до 200 установленных наборов масок. При установке новых наборов неиспользуемые маски архивируются.</string>
   <string name="SendSticker">ОТПРАВИТЬ СТИКЕР</string>
