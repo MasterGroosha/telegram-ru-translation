@@ -56,7 +56,7 @@
   <string name="EncryptedChatStartedOutgoing">%s присоединился(-лась) к вашему секретному чату.</string>
   <string name="EncryptedChatStartedIncoming">Вы присоединились к секретному чату.</string>
   <string name="ClearHistory">Очистить историю</string>
-  <string name="ClearHistoryCache">Удалить из кеша</string>
+  <string name="ClearHistoryCache">Удалить из кэша</string>
   <string name="DeleteChat">Удалить и выйти</string>
   <string name="DeleteChatUser">Удалить чат</string>
   <string name="HiddenName">Удалённый аккаунт</string>
@@ -662,11 +662,11 @@
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Показывать недавние чаты в меню</string>
   <!--cache view-->
-  <string name="CacheSettings">Настройки кеша</string>
+  <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
-  <string name="LocalDatabaseClear">Очистить кешированные текстовые сообщения?</string>
-  <string name="LocalDatabaseInfo">Очистка локальной базы данных удалит текст кешированных сообщений и сожмёт базу данных для экономии пространства внутреннего накопителя. Некоторые данные нужны для работы Telegram, поэтому размер базы данных не будет равен нулю.\n\nЭта операция может занять несколько минут.</string>
-  <string name="ClearMediaCache">Очистить кеш</string>
+  <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
+  <string name="LocalDatabaseInfo">Очистка локальной базы данных удалит текст кэшированных сообщений и сожмёт базу данных для экономии пространства внутреннего накопителя. Некоторые данные нужны для работы Telegram, поэтому размер базы данных не будет равен нулю.\n\nЭта операция может занять несколько минут.</string>
+  <string name="ClearMediaCache">Очистить кэш</string>
   <string name="CacheClear">Очистить</string>
   <string name="CalculatingSize">Вычисление...</string>
   <string name="LocalDocumentCache">Документы</string>
@@ -1012,8 +1012,8 @@
   <string name="AreYouSureSecretChat">Уверены, что хотите начать секретный чат?</string>
   <string name="AreYouSureRegistration">Уверены, что хотите отменить регистрацию?</string>
   <string name="AreYouSureClearHistory">Уверены, что хотите очистить историю?</string>
-  <string name="AreYouSureClearHistoryChannel">Удалить весь кешированный текст и медиа этого канала?</string>
-  <string name="AreYouSureClearHistorySuper">Удалить весь кешированный текст и медиа этой группы?</string>
+  <string name="AreYouSureClearHistoryChannel">Удалить весь кэшированный текст и медиа этого канала?</string>
+  <string name="AreYouSureClearHistorySuper">Удалить весь кэшированный текст и медиа этой группы?</string>
   <string name="AreYouSureDeleteMessages">Уверены, что хотите удалить %1$s?</string>
   <string name="SendMessagesToGroup">Отправить сообщение(-я) группе %1$s?</string>
   <string name="SendContactToGroup">Отправить контакт %1$s?</string>
