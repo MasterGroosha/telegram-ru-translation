@@ -522,7 +522,7 @@
   <string name="UsernameEmpty">Не задано</string>
   <string name="ErrorOccurred">Произошла ошибка.</string>
   <!--stickers view-->
-  <string name="Stickers">Стикеры</string>
+  <string name="Stickers">Стикеры и маски</string>
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
