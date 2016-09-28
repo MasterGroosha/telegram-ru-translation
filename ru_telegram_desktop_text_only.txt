@@ -585,6 +585,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_contact" = "контактная информация";
 "lng_action_pinned_media_location" = "расположение";
 "lng_action_pinned_media_sticker" = "стикер";
+"lng_action_pinned_media_emoji_sticker" = "{emoji} стикер";
+"lng_action_pinned_media_game" = "игру «{game}»";
 "lng_action_game_score" = "{from} набрал(а) {count:#|#|#} в {game}";
 
 
@@ -788,6 +790,11 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_bot_groups_not_found" = "Группы не найдены";
 "lng_bot_sure_invite" = "Добавить бота в «{group}»?";
 "lng_bot_already_in_group" = "Бот уже состоит в указанной группе.";
+"lng_bot_choose_chat" = "Выберите чат";
+"lng_bot_no_chats" = "У вас нет чатов";
+"lng_bot_chats_not_found" = "Чаты не найдены";
+"lng_bot_sure_share_game" = "Отправить игру пользователю {user}?";
+"lng_bot_sure_share_game_group" = "Отправить игру группе «{group}»?";
 
 "lng_typing" = "печатает";
 "lng_user_typing" = "{user} печатает";
@@ -822,6 +829,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
 "lng_choose_images" = "Выбрать изображения";
+"lng_game_tag" = "Игра";
 
 "lng_context_view_profile" = "Инф. о контакте";
 "lng_context_view_group" = "Инф. о группе";
