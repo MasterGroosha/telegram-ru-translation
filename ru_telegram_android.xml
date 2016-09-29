@@ -998,7 +998,7 @@
   <string name="UserAlreadyInGroup">Этот пользователь уже в этой группе.</string>
   <string name="ForwardMessagesTo">Переслать сообщение(-я) пользователю %1$s?</string>
   <string name="SendMessagesTo">Отправить сообщение(-я) пользователю %1$s?</string>
-  <string name="SendGameTo">Отправить игру пользователю %1$s?</string>
+  <string name="SendGameTo">Поделиться игрой с пользователем %1$s?</string>
   <string name="SendContactTo">Отправить контакт %1$s?</string>
   <string name="AreYouSureLogout">Уверены, что хотите выйти?\n\nОбратите внимание, что вы можете с лёгкостью пользоваться Telegram на всех ваших устройствах одновременно.\n\nПомните, выход уничтожает все ваши секретные чаты.</string>
   <string name="AreYouSureSessions">Уверены, что хотите завершить все другие сеансы?</string>
@@ -1023,7 +1023,7 @@
   <string name="AreYouSureClearHistorySuper">Удалить весь кэшированный текст и медиа этой группы?</string>
   <string name="AreYouSureDeleteMessages">Уверены, что хотите удалить %1$s?</string>
   <string name="SendMessagesToGroup">Отправить сообщение(-я) группе %1$s?</string>
-  <string name="SendGameToGroup">Отправить игру группе %1$s?</string>
+  <string name="SendGameToGroup">Поделиться игрой с группой %1$s?</string>
   <string name="SendContactToGroup">Отправить контакт %1$s?</string>
   <string name="ForwardMessagesToGroup">Переслать сообщение(-я) %1$s?</string>
   <string name="FeatureUnavailable">Извините, эта возможность пока не доступна в вашей стране.</string>
