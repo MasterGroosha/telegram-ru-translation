@@ -628,7 +628,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_group_invite_want_join_channel" = "Присоединиться к каналу «{title}»?";
 "lng_group_invite_join" = "Присоединиться";
 
-"lng_group_invite_members" = "{count:_not_used_|# человек|# человек}, среди которых:";
+"lng_group_invite_members" = "{count:_not_used_|Всего # человек(а)|Всего # человек(а)}, в том числе:";
 
 "lng_group_invite_link" = "Ссылка для приглашения:";
 "lng_group_invite_create" = "Создать ссылку приглашения";
