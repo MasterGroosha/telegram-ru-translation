@@ -674,7 +674,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_media_type_audios" = "Аудиозаписи";
 "lng_media_type_links" = "Общие ссылки";
 
-"lng_media_open_with" = "Открыть с помощью";
+"lng_media_open_with" = "Открыть в...";
 "lng_media_download" = "Скачать";
 "lng_media_cancel" = "Отмена";
 "lng_media_video" = "Видео";
