@@ -242,7 +242,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_section_notify" = "Уведомления";
 "lng_settings_desktop_notify" = "Уведомления на рабочем столе";
 "lng_settings_show_name" = "Показывать имя отправителя";
-"lng_settings_show_preview" = "Показывать превью сообщения";
+"lng_settings_show_preview" = "Показывать текст сообщения";
 "lng_settings_use_windows" = "Использовать уведомления Windows";
 "lng_settings_use_native_notifications" = "Использовать системные уведомления";
 "lng_settings_advanced_notifications" = "Расположение и количество уведомлений";
