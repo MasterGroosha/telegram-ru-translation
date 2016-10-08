@@ -313,7 +313,7 @@
   <string name="CopyUrl">Копировать URL</string>
   <string name="SendItems">Отправить %1$s</string>
   <string name="OpenUrlAlert">Открыть URL %1$s?</string>
-  <string name="BotPermissionUrlAlert">Вы разрешаете боту %1$s передавать ваше имя и id в Telegram открываемым через него веб-страницам?</string>
+  <string name="BotPermissionGameAlert">Вы разрешаете боту %1$s передавать ваше имя и id в Telegram открываемым через него веб-страницам?</string>
   <string name="ReportSpam">СООБЩИТЬ О СПАМЕ</string>
   <string name="ReportSpamAndLeave">СООБЩИТЬ О СПАМЕ И ПОКИНУТЬ</string>
   <string name="AddContactChat">ДОБАВИТЬ КОНТАКТ</string>
