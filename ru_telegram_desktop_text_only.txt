@@ -666,13 +666,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_attach_file" = "Файл";
 "lng_attach_photo" = "Фото";
 
-"lng_media_type" = "Тип файла";
+"lng_media_type" = "Тип файлов";
 "lng_media_type_photos" = "Фото";
 "lng_media_type_videos" = "Видео";
-"lng_media_type_songs" = "Аудиофайлы";
+"lng_media_type_songs" = "Музыка";
 "lng_media_type_files" = "Файлы";
-"lng_media_type_audios" = "Аудиозаписи";
-"lng_media_type_links" = "Общие ссылки";
+"lng_media_type_audios" = "Голос";
+"lng_media_type_links" = "Ссылки";
 
 "lng_media_open_with" = "Открыть в...";
 "lng_media_download" = "Скачать";
