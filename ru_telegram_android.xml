@@ -77,6 +77,8 @@
   <string name="LinkPreview">Предпросмотр ссылок</string>
   <string name="Draft">Черновик</string>
   <string name="HistoryCleared">История очищена</string>
+  <string name="ArticleByAuthor">от %1$s</string>
+  <string name="ArticleDateByAuthor">%1$s от %2$s</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -107,7 +109,7 @@
   <string name="ActionPinnedSticker">un1 закрепил(а) стикер</string>
   <string name="ActionPinnedVoice">un1 закрепил(а) голосовое сообщение</string>
   <string name="ActionPinnedContact">un1 закрепил(а) контакт</string>
-  <string name="ActionPinnedGame">un1 закрепил(а) игру</string>
+  <string name="ActionPinnedGame">un1 закрепил(а) %1$s</string>
   <string name="ActionPinnedGeo">un1 закрепил(а) карту</string>
   <string name="ActionPinnedGif">un1 закрепил(а) GIF</string>
   <string name="ActionPinnedMusic">un1 закрепил(а) трек</string>
@@ -264,11 +266,13 @@
   <string name="IsRecordingAudio">%1$s записывает голосовое сообщение...</string>
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
+  <!--<string name="IsSendingGame">%1$s сейчас в игре...</string>-->
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голосового сообщения...</string>
   <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправляет фото...</string>
+  <!--<string name="SendingGame">играет...</string>-->
   <string name="SendingVideoStatus">отправляет видео...</string>
   <string name="SendingFile">отправляет файл...</string>
   <string name="GotAQuestion">Есть вопрос\nо Telegram?</string>
@@ -320,8 +324,8 @@
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
   <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме из этого канала?</string>
-  <string name="NobodyLikesSpam1">Извините, в данный момент вы можете отправлять сообщения только взаимным контактам.</string>
-  <string name="NobodyLikesSpam2">Извините, в данный момент вы можете добавлять в группы только взаимные контакты.</string>
+  <string name="NobodyLikesSpam1">Сегодня вы начали слишком много диалогов с людьми не из телефонной книги, пожалуйста, попробуйте ещё раз завтра. Если этот пользователь напишет вам сегодня, вы сможете ему/ей ответить.</string>
+  <string name="NobodyLikesSpam2">Сегодня вы начали слишком много диалогов с людьми не из телефонной книги, поэтому вы не можете добавить этого пользователя в группу. Пожалуйста, попробуйте ещё раз завтра. Вы можете попросить другого участника группы добавить нужного вам человека.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больше информации</string>
   <string name="ShareSendTo">Поиск...</string>
@@ -453,6 +457,7 @@
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
   <string name="MembersCount">%1$d/%2$d участников</string>
+  <string name="MembersCountZero">до %1$s</string>
   <string name="JoinToGroup">Хотите присоединиться к чату \'%1$s\'?</string>
   <string name="JoinToGroupErrorFull">Извините, эта группа уже заполнена.</string>
   <string name="JoinToGroupErrorNotExist">Извините, похоже, что такого чата не существует.</string>
@@ -504,6 +509,9 @@
   <string name="PhoneOther">Другое</string>
   <string name="PhoneMain">Основной</string>
   <string name="StartEncryptedChat">Начать секретный чат</string>
+  <string name="GroupsInCommon">Общие группы</string>
+  <string name="GroupsInCommonTitle">Общие группы</string>
+  <string name="NoGroupsInCommon">Нет общих групп</string>
   <string name="CreateEncryptedChatError">Произошла ошибка.</string>
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
@@ -580,6 +588,25 @@
   <string name="ResetAllNotifications">Сбросить все уведомления</string>
   <string name="UndoAllCustom">Отменить все пользовательские настройки уведомлений для всех ваших контактов и групп</string>
   <string name="NotificationsAndSounds">Уведомления и звук</string>
+  <string name="CustomNotifications">Особые уведомления</string>
+  <string name="ProfilePopupNotification">Всплывающие уведомления</string>
+  <string name="ProfilePopupNotificationInfo">Новые сообщения от этого пользователя будут всплывать поверх вашего экрана, если вы не в приложении</string>
+  <string name="NotificationsLed">LED</string>
+  <string name="NotificationsLedColor">Цвет</string>
+  <string name="ColorBlue">Синий</string>
+  <string name="ColorRed">Красный</string>
+  <string name="ColorYellow">Желтый</string>
+  <string name="ColorGreen">Зеленый</string>
+  <string name="ColorCyan">Бирюзовый</string>
+  <string name="ColorWhite">Белый</string>
+  <string name="ColorPink">Розовый</string>
+  <string name="ColorViolet">Фиолетовый</string>
+  <string name="ColorOrange">Оранжевый</string>
+  <string name="NotificationsLedInfo">LED – это небольшой мерцающий индикатор на некоторых устройствах, используемый для уведомления о новых сообщениях.</string>
+  <string name="PriorityInfo">Более приоритетные уведомления будут показаны даже в режиме «Не беспокоить»</string>
+  <string name="General">Звук и вибрация</string>
+  <string name="NotificationsOn">Вкл</string>
+  <string name="NotificationsOff">Выкл</string>
   <string name="BlockedUsers">Заблокированные пользователи</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
@@ -621,8 +648,6 @@
   <string name="BadgeNumber">Счётчик на иконке</string>
   <string name="Short">Короткий</string>
   <string name="Long">Долгий</string>
-  <string name="SystemDefault">Настройки системы</string>
-  <string name="SettingsDefault">Настройки по умолчанию</string>
   <string name="AutomaticMediaDownload">Автозагрузка медиа</string>
   <string name="WhenUsingMobileData">По мобильной сети</string>
   <string name="WhenConnectedOnWiFi">По Wi-Fi</string>
@@ -632,7 +657,11 @@
   <string name="RaiseToSpeak">Запись голоса при приближении</string>
   <string name="SaveToGallerySettings">Сохранять в галерее</string>
   <string name="EditName">Изменить имя</string>
+  <string name="NotificationsCustomize">Настроить</string>
+  <string name="NotificationsCustom">Особые</string>
+  <string name="NotificationsEnableCustom">Включить особые уведомления</string>
   <string name="NotificationsPriority">Приоритет</string>
+  <string name="NotificationsPrioritySettings">Так же, как в настройках</string>
   <string name="NotificationsPriorityDefault">По умолчанию</string>
   <string name="NotificationsPriorityLow">Низкий</string>
   <string name="NotificationsPriorityHigh">Высокий</string>
@@ -648,24 +677,27 @@
   <string name="NotificationsOther">Другое</string>
   <string name="NotificationsDisabled">Отключены</string>
   <string name="VibrationDisabled">Отключён</string>
+  <string name="PopupEnabled">Включены</string>
+  <string name="PopupDisabled">Выключены</string>
   <string name="LedDisabled">Отключён</string>
   <string name="RepeatDisabled">Отключён</string>
   <string name="InChatSound">Звук в чате</string>
   <string name="SoundDefault">По умолчанию</string>
   <string name="VibrationDefault">По умолчанию</string>
   <string name="SmartNotifications">Умные уведомления</string>
+  <string name="SmartNotificationsInfo">%1$d / %2$s</string>
   <string name="SmartNotificationsDisabled">Отключены</string>
-  <string name="SmartNotificationsInfo">Звучать не более %1$s в течение %2$s</string>
-  <string name="SmartNotificationsSoundAtMost">Звучать не более</string>
-  <string name="SmartNotificationsTimes">раз(а)</string>
-  <string name="SmartNotificationsWithin">в течение</string>
-  <string name="SmartNotificationsMinutes">минут(ы)</string>
+  <string name="SmartNotificationsAlert">Частота звуковых уведомлений</string>
+  <string name="SmartNotificationsDetail">%1$s в течение %2$s</string>
   <string name="SecretWebPage">Предпросмотр ссылок</string>
   <string name="SecretChat">Секретные чаты</string>
   <string name="ChromeCustomTabs">Встроенный браузер</string>
   <string name="ChromeCustomTabsInfo">Открывать внешние ссылки в приложении</string>
   <string name="DirectShare">Direct Share</string>
   <string name="DirectShareInfo">Показывать недавние чаты в меню</string>
+  <string name="Emoji">Эмодзи</string>
+  <string name="EmojiBigSize">Увеличить одиночные эмодзи</string>
+  <string name="EmojiUseDefault">Использовать системные эмодзи</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
@@ -716,6 +748,8 @@
   <string name="FingerprintInfo">Подтвердите отпечаток пальца для продолжения</string>
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
+  <string name="ScreenCapture">Разрешить снятие скриншотов</string>
+  <string name="ScreenCaptureInfo">Если включено, вы сможете делать скриншоты в приложении, но ваши чаты будут видны в окне переключения задач, даже если установлена блокировка паролем.\n\nНеобходимо перезапустить приложение, чтобы новые настройки вступили в силу.</string>
   <!--media view-->
   <string name="DocumentsTitle">Общие файлы</string>
   <string name="SharedMediaTitle">Общие медиа</string>
@@ -866,7 +900,7 @@
   <string name="SecurityTitle">Безопасность</string>
   <string name="DeleteAccountTitle">Самоуничтожение аккаунта</string>
   <string name="DeleteAccountIfAwayFor">Если вас не было</string>
-  <string name="DeleteAccountHelp">Если вы не войдёте хотя бы раз в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.</string>
+  <string name="DeleteAccountHelp">Если вы не появитесь онлайн хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.</string>
   <string name="DeleteAccountNowConfirmation">Удалить ваш аккаунт?</string>
   <string name="LastSeenHelp">Изменить список тех, кто может видеть время вашей последней активности.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
@@ -897,11 +931,8 @@
   <string name="CreateGroupError">Извините, вы не можете создать группу с этими пользователями из-за их настроек приватности.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
-  <string name="OriginalVideo">Оригинальное видео</string>
-  <string name="EditedVideo">Отредактированное видео</string>
   <string name="SendingVideo">Отправка видео...</string>
   <string name="SendingGif">Отправка GIF...</string>
-  <string name="CompressVideo">Сжать видео</string>
   <!--bot-->
   <string name="Bot">бот</string>
   <string name="BotShare">Поделиться</string>
