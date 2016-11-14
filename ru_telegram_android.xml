@@ -79,6 +79,9 @@
   <string name="HistoryCleared">История очищена</string>
   <string name="ArticleByAuthor">от %1$s</string>
   <string name="ArticleDateByAuthor">%1$s от %2$s</string>
+  <string name="PreviewFeedback">Оставить отзыв об этом превью</string>
+  <string name="SendStickerPreview">Отправить стикер</string>
+  <string name="ViewPackPreview">Посмотреть набор</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -266,13 +269,14 @@
   <string name="IsRecordingAudio">%1$s записывает голосовое сообщение...</string>
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
-  <!--<string name="IsSendingGame">%1$s сейчас в игре...</string>-->
+  <string name="InstantView">МГНОВЕННЫЙ ПРОСМОТР</string>
+  <string name="IsSendingGame">%1$s сейчас в игре...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
   <string name="RecordingAudio">запись голосового сообщения...</string>
   <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправляет фото...</string>
-  <!--<string name="SendingGame">играет...</string>-->
+  <string name="SendingGame">играет...</string>
   <string name="SendingVideoStatus">отправляет видео...</string>
   <string name="SendingFile">отправляет файл...</string>
   <string name="GotAQuestion">Есть вопрос\nо Telegram?</string>
@@ -324,7 +328,6 @@
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
   <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме из этого канала?</string>
-
   <string name="NobodyLikesSpam1">Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым.</string>
   <string name="NobodyLikesSpam2">Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
@@ -360,6 +363,7 @@
   <string name="ChatYourSelfDescription3">Доступ к этому чату с любого устройства</string>
   <string name="ChatYourSelfDescription4">Используйте поиск, чтобы быстро находить нужное</string>
   <string name="ChatYourSelfTitle">Ваше облачное хранилище</string>
+  <string name="JumpToDate">Перейти к дате</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -453,7 +457,7 @@
   <string name="ALongTimeAgo">заходил(а) давно</string>
   <string name="NewMessageTitle">Новое сообщение</string>
   <!--group create view-->
-  <string name="SendMessageTo">Поиск...</string>
+  <string name="SendMessageTo">Добавить людей...</string>
   <string name="SoftUserLimitAlert">Вы сможете добавить больше участников после завершения создания группы и преобразования её в супергруппу.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
@@ -608,6 +612,8 @@
   <string name="General">Основные</string>
   <string name="NotificationsOn">Вкл.</string>
   <string name="NotificationsOff">Откл.</string>
+  <string name="NotificationsTurnOn">Вкл.</string>
+  <string name="NotificationsTurnOff">Откл.</string>
   <string name="BlockedUsers">Заблокированные пользователи</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
@@ -827,6 +833,7 @@
   <string name="AddCaption">Добавить подпись...</string>
   <string name="PhotoCaption">Подпись к фото</string>
   <string name="VideoCaption">Подпись к видео</string>
+  <string name="GifCaption">Подпись к GIF</string>
   <string name="Caption">Подпись</string>
   <string name="PaintDraw">Рисовать</string>
   <string name="PaintStickers">Стикеры</string>
