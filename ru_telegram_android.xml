@@ -6,7 +6,7 @@
   <string name="LanguageNameInEnglish">Russian</string>
   <string name="LanguageCode">ru</string>
   <!--signin view-->
-  <string name="YourPhone">Ваш телефон?</string>
+  <string name="YourPhone">Ваш телефон</string>
   <string name="StartText">Подтвердите код вашей страны\nи введите ваш номер телефона.</string>
   <string name="ChooseCountry">Выберите страну</string>
   <string name="WrongCountry">Неправильный код страны</string>
