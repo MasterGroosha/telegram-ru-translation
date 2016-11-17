@@ -96,9 +96,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_status_bot_reads_all" = "имеет доступ к сообщениям";
 "lng_status_bot_not_reads_all" = "не имеет доступа к сообщениям";
 "lng_status_offline" = "давно не заходил(-а)";
-"lng_status_recently" = "заходил(-а) недавно";
-"lng_status_last_week" = "заходил(-а) на неделе";
-"lng_status_last_month" = "заходил(-а) в этом месяце";
+"lng_status_recently" = "заходил(а) недавно";
+"lng_status_last_week" = "заходил(а) на неделе";
+"lng_status_last_month" = "заходил(а) в этом месяце";
 "lng_status_invisible" = "невидимый";
 "lng_status_lastseen_now" = "был(а) в сети только что";
 "lng_status_lastseen_minutes" = "был(а) в сети {count:_not_used_|# минуту|# минут(-ы)} назад";
