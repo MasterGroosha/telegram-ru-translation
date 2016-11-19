@@ -612,8 +612,8 @@
   <string name="General">Основные</string>
   <string name="NotificationsOn">Вкл.</string>
   <string name="NotificationsOff">Откл.</string>
-  <string name="NotificationsTurnOn">Вкл.</string>
-  <string name="NotificationsTurnOff">Откл.</string>
+  <string name="NotificationsTurnOn">Включить</string>
+  <string name="NotificationsTurnOff">Отключить</string>
   <string name="BlockedUsers">Заблокированные пользователи</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
