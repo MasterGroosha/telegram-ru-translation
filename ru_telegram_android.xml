@@ -160,7 +160,7 @@
   <string name="LinkChecking">Проверка имени…</string>
   <string name="LinkAvailable">%1$s доступно.</string>
   <string name="ChannelMembers">Участники</string>
-  <string name="ChannelBlockedUsers">Заблокированные пользователи</string>
+  <string name="ChannelBlockedUsers">Чёрный список</string>
   <string name="ChannelAdministrators">Администраторы</string>
   <string name="ChannelDelete">Удалить канал</string>
   <string name="ChannelDeleteMenu">Удалить канал</string>
@@ -614,7 +614,7 @@
   <string name="NotificationsOff">Откл.</string>
   <string name="NotificationsTurnOn">Включить</string>
   <string name="NotificationsTurnOff">Отключить</string>
-  <string name="BlockedUsers">Заблокированные пользователи</string>
+  <string name="BlockedUsers">Чёрный список</string>
   <string name="LogOut">Выход</string>
   <string name="NoSound">Без звука</string>
   <string name="Default">По умолчанию</string>
@@ -1082,6 +1082,7 @@
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
   <string name="PermissionNoAudio">Telegram необходим доступ к вашему микрофону, чтобы вы могли отправлять голосовые сообщения.</string>
+  <string name="PermissionNoAudioVideo">Telegram необходим доступ к вашему микрофону, чтобы вы могли снимать видео.</string>
   <string name="PermissionNoCamera">Telegram необходим доступ к вашей камере, чтобы вы могли снимать фото и видео.</string>
   <string name="PermissionNoLocation">Telegram необходим доступ к вашему расположению, чтобы вы могли делиться им со своими друзьями.</string>
   <string name="PermissionNoLocationPosition">Telegram необходим доступ к вашему расположению.</string>
