@@ -82,6 +82,8 @@
   <string name="PreviewFeedback">Оставить отзыв об этом превью</string>
   <string name="SendStickerPreview">Отправить стикер</string>
   <string name="ViewPackPreview">Посмотреть набор</string>
+  <string name="PinToTop">Закрепить сверху</string>
+  <string name="UnpinFromTop">Открепить</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -534,7 +536,8 @@
   <string name="UsernameInvalidShort">Имя пользователя должно содержать как минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">Извините, имя пользователя не может начинаться с цифры.</string>
-  <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная номера вашего телефона.<![CDATA[<br><br>]]>Имя пользователя может содержать только латинские буквы <![CDATA[<b>]]>(a–z)<![CDATA[</b>]]>, цифры <![CDATA[<b>]]>(0–9)<![CDATA[</b>]]> и символы подчёркивания. Минимальная допустимая длина —  <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
+  <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная вашего номера телефона.<![CDATA[<br><br>]]>Имя пользователя может содержать только латинские буквы <![CDATA[<b>]]>(a–z)<![CDATA[</b>]]>, цифры <![CDATA[<b>]]>(0–9)<![CDATA[</b>]]> и символы подчёркивания. Минимальная допустимая длина имени — <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
+  <string name="UsernameHelpLink">Эта ссылка открывает диалог с вами в Telegram:\n%1$s</string>
   <string name="UsernameChecking">Проверка имени пользователя…</string>
   <string name="UsernameAvailable">Имя пользователя %1$s доступно.</string>
   <string name="UsernameEmpty">Не задано</string>
@@ -705,6 +708,7 @@
   <string name="Emoji">Эмодзи</string>
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EmojiUseDefault">Использовать системные эмодзи</string>
+  <string name="AccountSettings">Настройки аккаунта</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
