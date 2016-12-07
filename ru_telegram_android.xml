@@ -708,7 +708,6 @@
   <string name="Emoji">Эмодзи</string>
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EmojiUseDefault">Использовать системные эмодзи</string>
-  <string name="AccountSettings">Настройки аккаунта</string>
   <!--cache view-->
   <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
@@ -847,6 +846,9 @@
   <string name="PaintDuplicate">Дублировать</string>
   <string name="PaintOutlined">Контур</string>
   <string name="PaintRegular">Обычный</string>
+  <string name="CropReset">Сброс</string>
+  <string name="CropOriginal">Оригинал</string>
+  <string name="CropSquare">Квадрат</string>
   <!--password view-->
   <string name="TwoStepVerification">Двухэтапная аутентификация</string>
   <string name="SetAdditionalPassword">Установить дополнительный пароль</string>
@@ -1090,6 +1092,7 @@
   <string name="PermissionNoCamera">Telegram необходим доступ к вашей камере, чтобы вы могли снимать фото и видео.</string>
   <string name="PermissionNoLocation">Telegram необходим доступ к вашему расположению, чтобы вы могли делиться им со своими друзьями.</string>
   <string name="PermissionNoLocationPosition">Telegram необходим доступ к вашему расположению.</string>
+  <string name="PermissionDrawAboveOtherApps">Telegram необходим доступ к рисованию поверх других приложений для воспроизведения видео в режиме картинка в картинке.</string>
   <string name="PermissionOpenSettings">НАСТРОЙКИ</string>
   <!--Intro view-->
   <string name="Page1Title">Telegram</string>
