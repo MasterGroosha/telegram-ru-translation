@@ -39,6 +39,7 @@
   <string name="LastName">Фамилия (не обязательно)</string>
   <string name="CancelRegistration">Отмена регистрации</string>
   <!--chats view-->
+  <string name="NewConversationShortcut">Новая беседа</string>
   <string name="Settings">Настройки</string>
   <string name="Contacts">Контакты</string>
   <string name="NewGroup">Новая группа</string>
@@ -255,10 +256,10 @@
   <string name="AccessError">Ошибка доступа</string>
   <string name="NoFiles">Файлов пока нет...</string>
   <string name="FileUploadLimit">Размер файла не может превышать %1$s</string>
-  <string name="NotMounted">Хранилище не подключено</string>
+  <string name="NotMounted">Накопитель не подключён</string>
   <string name="UsbActive">Передача по USB активна</string>
-  <string name="InternalStorage">Внутреннее хранилище</string>
-  <string name="ExternalStorage">Внешнее хранилище</string>
+  <string name="InternalStorage">Внутренний накопитель</string>
+  <string name="ExternalStorage">Внешний накопитель</string>
   <string name="SystemRoot">Корень системы</string>
   <string name="SdCard">Карта памяти</string>
   <string name="Folder">Папка</string>
@@ -366,6 +367,8 @@
   <string name="ChatYourSelfDescription4">Используйте поиск, чтобы быстро находить нужное</string>
   <string name="ChatYourSelfTitle">Ваше облачное хранилище</string>
   <string name="JumpToDate">Перейти к дате</string>
+  <string name="DeleteForUser">Удалить у пользователя %1$s</string>
+  <string name="DeleteForAll">Удалить у всех участников</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -523,7 +526,7 @@
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
   <string name="ShortMessageLifetimeForever">Откл.</string>
-  <string name="EncryptionKeyDescription">Изображение и текст получены из ключа шифрования для секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]> , оконечное шифрование гарантировано.<![CDATA[<br><br>]]>Узнать больше на telegram.org</string>
+  <string name="EncryptionKeyDescription">Изображение и текст получены из ключа шифрования для секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.<![CDATA[<br><br>]]>Узнать больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="NumberUnknown">Неизвестен</string>
   <string name="Info">Информация</string>
@@ -709,7 +712,6 @@
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EmojiUseDefault">Использовать системные эмодзи</string>
   <!--cache view-->
-  <string name="CacheSettings">Настройки кэша</string>
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
   <string name="LocalDatabaseInfo">Очистка локальной базы данных удалит текст кэшированных сообщений и сожмёт базу данных для экономии пространства внутреннего накопителя. Некоторые данные нужны для работы Telegram, поэтому размер базы данных не будет равен нулю.\n\nЭта операция может занять несколько минут.</string>
@@ -721,6 +723,7 @@
   <string name="LocalAudioCache">Голосовые сообщения</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
+  <string name="LocalGifCache">GIF</string>
   <string name="LocalCache">Другие файлы</string>
   <string name="CacheEmpty">Пусто</string>
   <string name="KeepMedia">Срок хранения медиа</string>
@@ -899,6 +902,27 @@
   <string name="PasswordReset">Пароль отключён</string>
   <string name="EnabledPasswordText">Включена двухэтапная аутентификация.\nДля входа в свой аккаунт Telegram вам нужно будет вводить установленный здесь пароль.</string>
   <string name="PendingEmailText">Ваш адрес электронной почты для восстановления %1$s ещё не активирован и ожидает подтверждения.</string>
+  <!--data settings-->
+  <string name="DataSettings">Данные и накопитель</string>
+  <string name="DataUsage">Использование накопителя и сети</string>
+  <string name="StorageUsage">Использование накопителя</string>
+  <string name="MobileUsage">Использование мобильной сети</string>
+  <string name="RoamingUsage">Использование сети в роуминге</string>
+  <string name="WiFiUsage">Использование Wi-Fi</string>
+  <string name="MessagesDataUsage">Сообщения и прочие данные</string>
+  <string name="CountSent">Отправлено</string>
+  <string name="CountReceived">Получено</string>
+  <string name="BytesSent">Отправлено байт</string>
+  <string name="BytesReceived">Получено байт</string>
+  <string name="FilesDataUsage">Файлы</string>
+  <string name="CallsDataUsage">Звонки</string>
+  <string name="OutgoingCalls">Исходящие звонки</string>
+  <string name="IncomingCalls">Входящие звонки</string>
+  <string name="CallsTotalTime">Всего времени</string>
+  <string name="TotalDataUsage">Всего</string>
+  <string name="ResetStatistics">Сбросить статистику</string>
+  <string name="NetworkUsageSince">Использование сети с %1$s</string>
+  <string name="ResetStatisticsAlert">Хотите сбросить статистику использования?</string>
   <!--privacy settings-->
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
@@ -983,6 +1007,8 @@
   <string name="Set">Установить</string>
   <string name="OK">OK</string>
   <string name="Crop">КАДРИРОВАТЬ</string>
+  <string name="Yes">Да</string>
+  <string name="No">Нет</string>
   <!--messages-->
   <string name="ActionInviteYou">Вы вступили в группу по пригласительной ссылке</string>
   <string name="ActionInviteUser">un1 вступил(а) в группу по пригласительной ссылке</string>
@@ -1029,6 +1055,7 @@
   <string name="FloodWait">Слишком много попыток, пожалуйста, попробуйте снова позже</string>
   <string name="FloodWaitTime">Слишком много попыток, пожалуйста, попробуйте снова через %1$s</string>
   <string name="InvalidCode">Неверный код</string>
+  <string name="PhoneNumberFlood">Извините, в последнее время вы слишком часто удаляли и создавали свой аккаунт заново. Пожалуйста, подождите несколько дней перед повторной регистрацией.</string>
   <string name="InvalidFirstName">Неверное имя</string>
   <string name="InvalidLastName">Неверная фамилия</string>
   <string name="Loading">Загрузка...</string>
@@ -1086,7 +1113,7 @@
   <string name="JoinGroup">ВСТУПИТЬ В ГРУППУ</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
-  <string name="PermissionStorage">Telegram необходим доступ к вашему хранилищу файлов, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
+  <string name="PermissionStorage">Telegram необходим доступ к вашему накопителю, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
   <string name="PermissionNoAudio">Telegram необходим доступ к вашему микрофону, чтобы вы могли отправлять голосовые сообщения.</string>
   <string name="PermissionNoAudioVideo">Telegram необходим доступ к вашему микрофону, чтобы вы могли снимать видео.</string>
   <string name="PermissionNoCamera">Telegram необходим доступ к вашей камере, чтобы вы могли снимать фото и видео.</string>
@@ -1110,6 +1137,52 @@
   <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> позволяет вам получать доступ к вашим сообщениям<![CDATA[<br/>]]>на множестве устройств.</string>
   <string name="Page7Message"><![CDATA[<b>Telegram</b>]]>-сообщения надёжно зашифрованы<![CDATA[<br/>]]>и могут самоуничтожаться.</string>
   <string name="StartMessaging">Начать общение</string>
+  <!--VoIP-->
+  <string name="AccountSettings">Настройки аккаунта</string>
+  <string name="VoipUseLessData">Использовать меньше данных для звонков</string>
+  <string name="VoipIncoming">Входящий звонок</string>
+  <string name="VoipConnecting">Соединение</string>
+  <string name="VoipExchangingKeys">Обмен ключами шифрования</string>
+  <string name="VoipWaiting">Ожидание</string>
+  <string name="VoipRequesting">Запрос</string>
+  <string name="VoipHangingUp">Завершение</string>
+  <string name="VoipCallEnded">Звонок завершён</string>
+  <string name="VoipFailed">Не удалось соединиться</string>
+  <string name="VoipRinging">Вызов</string>
+  <string name="VoipBusy">Линия занята</string>
+  <string name="VoipInCallBranding">Звонок Telegram</string>
+  <string name="VoipOutgoingCall">Текущий звонок Telegram</string>
+  <string name="VoipEndCall">Завершить звонок</string>
+  <string name="VoipOngoingAlertTitle">Сейчас осуществляется другой звонок</string>
+  <string name="VoipOngoingAlert">В настоящий момент вы разговариваете с пользователем <![CDATA[<b>%1$s</b>]]>. Хотите завершить этот разговор и начать новый с пользователем <![CDATA[<b>%2$s</b>]]>?</string>
+  <string name="VoipNotificationSettings">Звонки</string>
+  <string name="VoipSettingsRingtone">Рингтон</string>
+  <string name="VoipRingtoneInfo">Вы можете настроить рингтон, используемый при звонке этого контакта вам через Telegram.</string>
+  <string name="Calls">Звонки</string>
+  <string name="WhoCanCallMe">Кто может мне звонить?</string>
+  <string name="WhoCanCallMeInfo">Вы можете ограничить круг лиц, которые могут вам звонить.</string>
+  <string name="CustomCallInfo">Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.</string>
+  <string name="UseLessDataNever">Никогда</string>
+  <string name="UseLessDataOnMobile">Только через мобильный интернет</string>
+  <string name="UseLessDataAlways">Всегда</string>
+  <string name="VoipAnswerCall">Ответить</string>
+  <string name="VoipDeclineCall">Сбросить</string>
+  <string name="VoipOffline">Вы сейчас не в сети. Пожалуйста, подключитесь к интернету для совершения звонков.</string>
+  <string name="VoipOfflineAirplane">Вы сейчас в режиме полёта. Пожалуйста, отключите его или подключитесь к Wi-Fi для совершения звонков.</string>
+  <string name="VoipOfflineTitle">Не в сети</string>
+  <string name="VoipOfflineAirplaneTitle">Режим полёта</string>
+  <string name="VoipOfflineOpenSettings">Настройки</string>
+  <string name="CallMessageOutgoing">Исходящий звонок</string>
+  <string name="CallMessageIncoming">Входящий звонок</string>
+  <string name="CallMessageIncomingMissed">Пропущенный звонок</string>
+  <string name="CallMessageOutgoingMissed">Отменённый звонок</string>
+  <string name="CallMessageWithDuration">%1$s (%2$s)</string>
+  <string name="CallEncryptionKeyDescription">Изображение и текст получены из ключа шифрования для звонка пользователю <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.</string>
+  <string name="NoCallLog">Вы пока ещё не совершили ни одного звонка.</string>
+  <string name="VoipPeerIncompatible">Приложение пользователя <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> использует несовместимую версию протокола. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
+  <string name="VoipPeerOutdated">Приложение пользователя <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
+  <string name="VoipRateCallAlert">Пожалуйста, оцените качество звонка через Telegram</string>
+  <string name="VoipFeedbackAlert">Хотите оставить отзыв, чтобы помочь нам улучшить качество звонков?</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
@@ -1329,6 +1402,8 @@
   <string name="AndOther_many">и %1$d других</string>
   <string name="AndOther_other">и %1$d других</string>
   <!--date formatters-->
+  <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
