@@ -127,6 +127,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_join_channel_error" = "Вы вступили в максимальное число каналов/групп. Пожалуйста, покиньте прежде какой-либо другой.";
 "lng_error_phone_flood" = "Извините, в последнее время вы слишком часто удаляли и создавали свой аккаунт заново. Пожалуйста, подождите несколько дней перед повторной регистрацией.";
 "lng_error_start_minimized_passcoded" = "Вы установили локальный код доступа, поэтому приложение не может быть запущено в свёрнутом состоянии. Вам придётся ввести код, прежде чем войти в свою учётную запись.";
+"lng_error_pinned_max" = "Извините, вы можете закрепить сверху не более {count:_not_used_|# чата|# чатов}.";
 
 "lng_edit_deleted" = "Сообщение было удалено";
 "lng_edit_too_long" = "Текст сообщения слишком длинный";
@@ -156,7 +157,6 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_phone_notreg" = "Если у вас нет аккаунта в Telegram,\nпожалуйста, [b]зарегистрируйтесь[/b] через приложение для {link_start}Android / iPhone{link_end} или {signup_start}здесь{signup_end}";
 "lng_country_code" = "Код страны";
 "lng_bad_country_code" = "Некорректный код страны";
-"lng_country_fake_ph" = "Ваша страна";
 "lng_country_ph" = "Поиск";
 "lng_country_done" = "Готово";
 "lng_country_none" = "Страна не найдена";
@@ -760,8 +760,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_report_spam_sure_group" = "Уверены, что хотите сообщить о спаме от этой группы?";
 "lng_report_spam_sure_channel" = "Уверены, что хотите сообщить о спаме от этого канала?";
 "lng_report_spam_ok" = "Сообщить";
-"lng_cant_send_to_not_contact" = "Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым. {more_info}";
-"lng_cant_invite_not_contact" = "Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу. {more_info}";
+"lng_cant_send_to_not_contact" = "К сожалению, вы можете отправлять сообщения только взаимным контактам.\n{more_info}";
+"lng_cant_invite_not_contact" = "К сожалению, вы можете добавлять в группы только взаимные контакты.\n{more_info}";
+"lng_cant_send_to_not_contact_flood" = "Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым. {more_info}";
+"lng_cant_invite_not_contact_flood" = "Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу. {more_info}";
 "lng_cant_invite_not_contact_channel" = "К сожалению, вы можете добавлять в каналы только взаимные контакты. {more_info}";
 "lng_cant_more_info" = "Подробнее »";
 "lng_cant_invite_banned" = "К сожалению, только администратор может добавить этого пользователя.";
@@ -968,12 +970,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_selected_delete_sure_this" = "Удалить это сообщение?";
 "lng_selected_delete_sure" = "Удалить выбранные сообщения ({count:_not_used_|#|#})?";
 "lng_delete_photo_sure" = "Вы действительно хотите удалить это изображение?";
-"lng_delete_for_everyone_this_hint" = "Оно удалится у всех в этом чате.";
-"lng_delete_for_everyone_hint" = "Они удалятся у всех в этом чате.";
-"lng_delete_for_me_chat_this_hint" = "Оно удалится только у вас, но не у всех остальных людей в чате.";
-"lng_delete_for_me_chat_hint" = "Они удалятся только у вас, но не у всех остальных людей в чате.";
-"lng_delete_for_me_this_hint" = "Оно удалится только у вас.";
-"lng_delete_for_me_hint" = "Они удалятся только у вас.";
+"lng_delete_for_everyone_hint" = "{count:_not_used_|Оно удалится|Они удалятся} у всех в этом чате.";
+"lng_delete_for_me_chat_hint" = "{count:_not_used_|Оно удалится|Они удалятся} только у вас, но не у всех остальных людей в чате.";
+"lng_delete_for_me_hint" = "{count:_not_used_|Оно удалится|Они удалятся} только у вас.";
 "lng_delete_for_everyone_check" = "Удалить у всех";
 "lng_delete_for_other_check" = "Удалить у пользователя {user}";
 "lng_box_delete" = "Удалить";
