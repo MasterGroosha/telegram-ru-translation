@@ -718,7 +718,7 @@
   <string name="TelegramVersion">Telegram для Android %1$s</string>
   <string name="DebugMenu">Меню отладки</string>
   <string name="DebugMenuImportContacts">Импорт контактов</string>
-  <string name="DebugMenuReloadContacts">Перезагрузить список контактов</string>
+  <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
