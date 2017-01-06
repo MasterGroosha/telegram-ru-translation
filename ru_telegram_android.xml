@@ -85,6 +85,9 @@
   <string name="ViewPackPreview">Посмотреть набор</string>
   <string name="PinToTop">Закрепить сверху</string>
   <string name="UnpinFromTop">Открепить</string>
+  <string name="Bold">Жирный</string>
+  <string name="Italic">Курсив</string>
+  <string name="Regular">Обычный</string>
   <!--channels-->
   <string name="GroupType">Тип группы</string>
   <string name="ChannelType">Тип канала</string>
@@ -634,6 +637,7 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
+  <string name="Theme">Тема</string>
   <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href=\"https://telegram.org/faq#general\">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
@@ -711,6 +715,10 @@
   <string name="Emoji">Эмодзи</string>
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EmojiUseDefault">Использовать системные эмодзи</string>
+  <string name="TelegramVersion">Telegram для Android %1$s</string>
+  <string name="DebugMenu">Меню отладки</string>
+  <string name="DebugMenuImportContacts">Импорт контактов</string>
+  <string name="DebugMenuReloadContacts">Перезагрузить список контактов</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
