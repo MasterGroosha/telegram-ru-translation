@@ -223,7 +223,6 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_crop_profile" = "Выберите квадратную область для фото вашего профиля";
 "lng_settings_uploading_photo" = "Загрузка фото...";
 "lng_settings_edit" = "Изменить имя";
-
 "lng_settings_drop_area_subtitle" = "чтобы установить в качестве фотографии";
 
 "lng_username_title" = "Имя пользователя";
@@ -295,6 +294,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_bg_use_default" = "Использовать тему по умолчанию";
 "lng_settings_bg_from_gallery" = "Выбрать из галереи";
 "lng_settings_bg_from_file" = "Выбрать из файла";
+"lng_settings_bg_edit_theme" = "Редактор темы";
 "lng_settings_bg_tile" = "Замостить";
 "lng_settings_adaptive_wide" = "Альтернативный вид чатов на широком экране";
 
@@ -1032,7 +1032,21 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_confirm_phone_send" = "Отправить";
 "lng_confirm_phone_enter_code" = "Пожалуйста, введите код.";
 
-
+"lng_theme_editor_no_keys" = "В цветовой схеме пока нет значений";
+"lng_theme_editor_cant_change_theme" = "Вы не можете применить новую тему, пока редактируете цветовую схему. Пожалуйста, сначала выйдите из редактора тем.";
+"lng_theme_editor_new_keys" = "Отсутствуют в цветовой схеме";
+"lng_theme_editor_background_image" = "Фоновое изображение";
+"lng_theme_editor_saved_to_jpg" = "Сохранено как JPEG, {size}";
+"lng_theme_editor_read_from_jpg" = "Изображение JPEG, {size}";
+"lng_theme_editor_read_from_png" = "Изображение PNG, {size}";
+"lng_theme_editor_export" = "Экспорт";
+"lng_theme_editor_choose_image" = "Выберите фоновое изображение";
+"lng_theme_editor_save_palette" = "Сохранить файл палитры";
+"lng_theme_editor_choose_name" = "Сохранить файл темы";
+"lng_theme_editor_error" = "В редакторе произошла ошибка :( Подробности в 'log.txt'.";
+"lng_theme_editor_done" = "Тема успешно экспортирована!";
+"lng_theme_editor_title" = "Редактировать цветовую палитру";
+"lng_theme_editor_export_button" = "Экспорт темы";
 
 // Wnd specific
 
