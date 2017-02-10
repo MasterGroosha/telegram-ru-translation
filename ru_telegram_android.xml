@@ -294,7 +294,7 @@
   <string name="ChatCamera">Камера</string>
   <string name="NoMessages">Здесь пока ничего нет…</string>
   <string name="ForwardedMessage">Пересланное сообщение</string>
-  <string name="From">От пользователя</string>
+  <string name="From">От:</string>
   <string name="NoRecent">Нет недавних</string>
   <string name="Message">Сообщение</string>
   <string name="TypeMessage">Сообщение</string>
@@ -769,7 +769,7 @@
   <string name="FingerprintInfo">Подтвердите отпечаток пальца для продолжения</string>
   <string name="FingerprintHelp">Сканер отпечатков пальцев</string>
   <string name="FingerprintNotRecognized">Отпечаток пальца не распознан. Попробуйте снова</string>
-  <string name="ScreenCapture">Разрешить снятие скриншотов</string>
+  <string name="ScreenCapture">Разрешить создание скриншотов</string>
   <string name="ScreenCaptureInfo">Если включено, вы сможете делать скриншоты приложения, но ваши чаты будут видны в окне переключения задач даже при установленном коде доступа.\n\nДля вступления настроек в силу требуется перезапуск приложения.</string>
   <!--media view-->
   <string name="DocumentsTitle">Общие файлы</string>
