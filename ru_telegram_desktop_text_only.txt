@@ -153,7 +153,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_phone_ph" = "Ваш номер телефона";
 "lng_phone_title" = "Ваш телефон";
-"lng_phone_desc" = "Пожалуйста, подтвердите Ваш код страны и\nвведите Ваш номер телефона.";
+"lng_phone_desc" = "Пожалуйста, подтвердите ваш код страны и\nвведите ваш номер телефона.";
 "lng_phone_notreg" = "Если у вас нет аккаунта в Telegram,\nпожалуйста, [b]зарегистрируйтесь[/b] через приложение для {link_start}Android / iPhone{link_end} или {signup_start}здесь{signup_end}";
 "lng_country_code" = "Код страны";
 "lng_bad_country_code" = "Некорректный код страны";
@@ -173,7 +173,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_bad_phone" = "Неверный номер телефона. Пожалуйста, попробуйте еще раз.";
 "lng_bad_phone_noreg" = "Номер телефона не зарегистрирован.";
 "lng_bad_code" = "Вы ввели неверный код.";
-"lng_bad_name" = "Пожалуйста, введите Ваше имя и фамилию.";
+"lng_bad_name" = "Пожалуйста, введите ваше имя и фамилию.";
 "lng_bad_photo" = "Выбрано плохое изображение.";
 
 "lng_signin_title" = "Проверка пароля";
@@ -201,7 +201,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_signin_reset_cancelled" = "Ваши недавние попытки сброса этого аккаунта были отменены его текущим пользователем. Попробуйте снова через 7 дней.";
 
 "lng_signup_title" = "Информация";
-"lng_signup_desc" = "Пожалуйста, введите Ваше имя и\nзагрузите фотографию.";
+"lng_signup_desc" = "Пожалуйста, введите ваше имя и\nзагрузите фотографию.";
 
 "lng_signup_firstname" = "Имя";
 "lng_signup_lastname" = "Фамилия";
@@ -568,7 +568,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_sure_delete_group" = "Уверены, что хотите удалить эту группу? Все участники и сообщения будут безвозвратно удалены.";
 
 "lng_message_empty" = "Пустое сообщение";
-"lng_message_unsupported"= "Это сообщение не поддерживается Вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}"; 
+"lng_message_unsupported"= "Это сообщение не поддерживается вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}"; 
 
 "lng_action_add_user" = "{from} добавил(а) {user}";
 "lng_action_add_users_many" = "{from} добавил(а) {users}";
@@ -949,7 +949,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_add_contact" = "Создать";
 "lng_add_contact_button" = "Новый контакт";
 "lng_contacts_header" = "Контакты";
-"lng_contact_not_joined" = "К сожалению, {name} не подключен к Telegram, но Вы можете отправить ему приглашение.\n\nМы сообщим Вам, если кто-либо из Ваших контактов присоединится к Telegram.";
+"lng_contact_not_joined" = "К сожалению, {name} не подключен к Telegram, но вы можете отправить ему приглашение.\n\nМы сообщим вам, если кто-либо из ваших контактов присоединится к Telegram.";
 "lng_try_other_contact" = "Попробуйте другие";
 "lng_create_group_link" = "Ссылка";
 "lng_create_group_invite_link" = "Ссылка для приглашения";
