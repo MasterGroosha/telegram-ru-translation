@@ -38,6 +38,54 @@
   <string name="FirstName">Имя (обязательно)</string>
   <string name="LastName">Фамилия (не обязательно)</string>
   <string name="CancelRegistration">Отмена регистрации</string>
+  <!--payments view-->
+  <string name="PaymentSuccessfullyPaid">Вы успешно перевели %1$s %2$s за %3$s</string>
+  <string name="PaymentSuccessfullyPaidNoItem">Вы успешно перевели %1$s %2$s</string>
+  <string name="PaymentCheckout">Оплатить</string>
+  <string name="PaymentShippingMethod">Способы доставки</string>
+  <string name="PaymentNoShippingMethod">Извините, доставка по вашему адресу невозможна.</string>
+  <string name="PaymentShippingInfo">Информация о доставке</string>
+  <string name="PaymentShippingAddress">Адрес доставки</string>
+  <string name="PaymentShippingAddress1Placeholder">Адрес 1 (улица)</string>
+  <string name="PaymentShippingAddress2Placeholder">Адрес 2 (улица)</string>
+  <string name="PaymentShippingCityPlaceholder">Город</string>
+  <string name="PaymentShippingStatePlaceholder">Область</string>
+  <string name="PaymentShippingCountry">Страна</string>
+  <string name="PaymentShippingZipPlaceholder">Почтовый индекс</string>
+  <string name="PaymentShippingReceiver">Получатель</string>
+  <string name="PaymentShippingName">Имя полностью</string>
+  <string name="PaymentShippingPhoneNumber">Номер телефона</string>
+  <string name="PaymentShippingEmailPlaceholder">Электронная почта</string>
+  <string name="PaymentShippingSave">Сохранить информацию о доставке</string>
+  <string name="PaymentShippingSaveInfo">Вы можете сохранить вашу информацию о доставки для использования в будущем.</string>
+  <string name="PaymentCardInfo">Платёжная информация</string>
+  <string name="PaymentCardTitle">Платёжная карта</string>
+  <string name="PaymentCardNumber">Номер карты</string>
+  <string name="PaymentCardCvv">Код безопасности (CVV)</string>
+  <string name="PaymentCardExpireDateMonth">Месяц</string>
+  <string name="PaymentCardExpireDateYear">Год</string>
+  <string name="PaymentBillingAddress">Платёжный адрес</string>
+  <string name="PaymentCardNameTitle">Держатель карты</string>
+  <string name="PaymentCardName">Имя и фамилия</string>
+  <string name="PaymentCardSavePaymentInformation">Сохранить платёжную информацию</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine1">Вы можете сохранить вашу платёжную информацию для использования в будущем.</string>
+  <string name="PaymentCardSavePaymentInformationInfoLine2">Пожалуйста, *настройте двухэтапную аутентификацию*, чтобы включить это.</string>
+  <string name="PaymentTransactionReview">Обзор транзакции</string>
+  <string name="PaymentTransactionMessage">Вы действительно хотите перевести %1$s боту %2$s за %3$s?</string>
+  <string name="PaymentTransactionTotal">Итого</string>
+  <string name="PaymentShipment">ДОСТАВКА</string>
+  <string name="PaymentInvoice">СЧЁТ</string>
+  <string name="PaymentCheckoutPay">ОПЛАТИТЬ %1$s</string>
+  <string name="PaymentCheckoutMethod">Способ оплаты</string>
+  <string name="PaymentCheckoutName">Имя</string>
+  <string name="PaymentCheckoutPhoneNumber">Номер телефона</string>
+  <string name="PaymentCheckoutEmail">Контактный адрес</string>
+  <string name="PaymentCheckoutShippingMethod">Способ доставки</string>
+  <string name="PaymentReceipt">Квитанция</string>
+  <string name="PaymentConfirmationNewCard">Выберите другую карту</string>
+  <string name="PaymentConfirmationMessage">Ваша карта %1$s в файле. Чтобы оплатить этой картой, пожалуйста, введите ваш пароль двухэтапной аутентификации.</string>
+  <string name="PaymentPrecheckoutFailed">Извините, платёж был отменён ботом.</string>
+  <string name="PaymentFailed">Извините, платёж был отклонён.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая беседа</string>
   <string name="Settings">Настройки</string>
@@ -318,6 +366,7 @@
   <string name="SaveToMusic">Сохранить в музыку</string>
   <string name="ShareFile">Поделиться</string>
   <string name="ApplyLocalizationFile">Применить файл локализации</string>
+  <string name="ApplyThemeFile">Применить файл темы</string>
   <string name="UnsupportedAttachment">Неподдерживаемое вложение</string>
   <string name="SetTimer">Установить таймер самоуничтожения</string>
   <string name="ServiceNotifications">Служебные уведомления</string>
@@ -334,8 +383,10 @@
   <string name="ReportSpamAlert">Уверены, что хотите сообщить о спаме от этого пользователя?</string>
   <string name="ReportSpamAlertGroup">Уверены, что хотите сообщить о спаме от этой группы?</string>
   <string name="ReportSpamAlertChannel">Уверены, что хотите сообщить о спаме из этого канала?</string>
-  <string name="NobodyLikesSpam1">Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым.</string>
-  <string name="NobodyLikesSpam2">Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу.</string>
+  <string name="NobodyLikesSpam1">Извините, в данный момент вы можете отправлять сообщения только взаимным контактам.</string>
+  <string name="NobodyLikesSpam2">Извините, в данный момент вы можете добавлять в группы только взаимные контакты.</string>
+  <string name="NobodyLikesSpam3">Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым.</string>
+  <string name="NobodyLikesSpam4">Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу.</string>
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больше информации</string>
   <string name="ShareSendTo">Поиск...</string>
@@ -345,7 +396,7 @@
   <string name="UnpinMessage">Открепить</string>
   <string name="PinMessageAlert">Хотите закрепить это сообщение в этой группе?</string>
   <string name="UnpinMessageAlert">Уверены, что хотите открепить это сообщение?</string>
-  <string name="DeleteBanUser">Забанить пользователя</string>
+  <string name="DeleteBanUser">Заблокировать пользователя</string>
   <string name="DeleteReportSpam">Сообщить о спаме</string>
   <string name="DeleteAllFrom">Удалить всё от пользователя %1$s</string>
   <string name="ClearRecentEmoji">Очистить недавние эмодзи?</string>
@@ -580,6 +631,20 @@
   <string name="ArchivedStickersAlertInfo">Некоторые из ваших старых наборов стикеров были архивированы. Вы можете снова активировать их в настройках стикеров.</string>
   <string name="ArchivedMasksAlertTitle">Архивные маски</string>
   <string name="ArchivedMasksAlertInfo">Некоторые из ваших старых наборов масок были архивированы. Вы можете снова активировать их в настройках масок.</string>
+  <!--theme view-->
+  <string name="Theme">Тема</string>
+  <string name="DeleteThemeAlert">Уверены, что хотите удалить эту тему?</string>
+  <string name="IncorrectTheme">Некорректный файл темы</string>
+  <string name="EnterThemeName">Введите название темы</string>
+  <string name="CloseEditor">ЗАКРЫТЬ РЕДАКТОР</string>
+  <string name="SaveTheme">СОХРАНИТЬ ТЕМУ</string>
+  <string name="NewTheme">Новая тема</string>
+  <string name="ApplyTheme">ПРИМЕНИТЬ</string>
+  <string name="ThemePreview">Предпросмотр темы</string>
+  <string name="SelectColor">Выберите цвет</string>
+  <string name="CreateNewTheme">Создать новую тему</string>
+  <string name="CreateNewThemeHelp">Нажмите на иконку палитры для просмотра списка элементов на каждом экране и их изменения.</string>
+  <string name="CreateNewThemeInfo">Вы можете создать свою собственную тему, изменяя цвета в приложении. Здесь вы всегда можете вернуться к теме Telegram по умолчанию.</string>
   <!--settings view-->
   <string name="ResetNotificationsText">Сброс всех настроек уведомлений на стандартные</string>
   <string name="TextSize">Размер текста сообщений</string>
@@ -637,7 +702,6 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
-  <string name="Theme">Тема</string>
   <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href=\"https://telegram.org/faq#general\">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
@@ -1191,6 +1255,11 @@
   <string name="VoipPeerOutdated">Приложение пользователя <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
   <string name="VoipRateCallAlert">Пожалуйста, оцените качество звонка через Telegram</string>
   <string name="VoipFeedbackAlert">Хотите оставить отзыв, чтобы помочь нам улучшить качество звонков?</string>
+  <string name="VoipNeedMicPermission">Telegram необходим доступ к вашему микрофону, чтобы вы могли совершать звонки.</string>
+  <string name="VoipFeedbackCommentHint">Оставьте комментарий (необязательно)</string>
+  <string name="CallBack">Перезвонить</string>
+  <string name="CallAgain">Позвонить снова</string>
+  <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из списка звонков?</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
