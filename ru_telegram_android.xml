@@ -86,6 +86,7 @@
   <string name="PaymentConfirmationMessage">Ваша карта %1$s в файле. Чтобы оплатить этой картой, пожалуйста, введите ваш пароль двухэтапной аутентификации.</string>
   <string name="PaymentPrecheckoutFailed">Извините, платёж был отменён ботом.</string>
   <string name="PaymentFailed">Извините, платёж был отклонён.</string>
+  <string name="PaymentConnectionFailed">Невозможно соединиться с сервером платежей. Проверьте ваше интернет-соединение и попробуйте ещё раз.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая беседа</string>
   <string name="Settings">Настройки</string>
@@ -1182,6 +1183,7 @@
   <string name="AllowFillNumber">Пожалуйста, разрешите Telegram принимать звонки и SMS, чтобы мы могли заполнить ваш номер телефона, отправить код авторизации и ввести его самостоятельно.</string>
   <string name="AllowReadCallAndSms">Пожалуйста, разрешите Telegram принимать звонки и получать SMS, чтобы мы могли автоматически вводить ваш код за вас.</string>
   <string name="UserRestricted">Извините, вам запрещено это делать.</string>
+  <string name="YouBlockedUser">Извините, вы не можете добавлять этого пользователя или бота в группы, так как вы его заблокировали. Пожалуйста, разблокируйте, чтобы продолжить.</string>
   <string name="JoinGroup">ВСТУПИТЬ В ГРУППУ</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
@@ -1259,6 +1261,7 @@
   <string name="VoipFeedbackCommentHint">Оставьте комментарий (необязательно)</string>
   <string name="CallBack">Перезвонить</string>
   <string name="CallAgain">Позвонить снова</string>
+  <string name="DefaultRingtone">По умолчанию</string>
   <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из списка звонков?</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
