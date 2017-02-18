@@ -424,6 +424,7 @@
   <string name="JumpToDate">Перейти к дате</string>
   <string name="DeleteForUser">Удалить у пользователя %1$s</string>
   <string name="DeleteForAll">Удалить у всех участников</string>
+  <string name="TextCopied">Текст скопирован в буфер обмена</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -703,7 +704,7 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
-  <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href=\"https://telegram.org/faq#general\">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href=\"https://telegram.org/faq#troubleshooting\">устранению неполадок</a>]]>.</string>
+  <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href="https://telegram.org/faq#general">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href="https://telegram.org/faq#troubleshooting">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
