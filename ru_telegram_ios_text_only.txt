@@ -1048,7 +1048,7 @@
 "DialogList.SearchSectionGlobal" = "Глобальный поиск";
 "DialogList.SearchSectionMessages" = "Сообщения";
 
-"Username.LinkHint" = "Эта ссылка открывает чат с вами в Телеграме:[\nhttp://telegram.me/%@]";
+"Username.LinkHint" = "Эта ссылка откроет чат с вами в Telegram:[\nhttps://t.me/%@]";
 "Username.LinkCopied" = "Скопировано";
 
 "SharedMedia.ItemsSelected_1" = "Выбрано: 1";
@@ -1438,7 +1438,7 @@
 
 "Channel.Username.Title" = "Ссылка";
 "Channel.Username.Help" = "Вы можете выбрать имя канала в **Телеграме**. Когда вы сделаете это, другие люди смогут находить ваш канал с его помощью.\n\nИмя канала может содержать только латинские буквы **a-z**, цифры **0-9** и символы подчёркивания. Минимальная допустимая длина имени — **5** символов.";
-"Channel.Username.LinkHint" = "Эта ссылка открывает ваш канал в Телеграме:[\nhttp://telegram.me/%@]";
+"Channel.Username.LinkHint" = "Эта ссылка откроет ваш канал в Telegram:[\nhttps://t.me/%@]";
 "Channel.Username.InvalidTooShort" = "Имена каналов должны содержать минимум 5 символов.";
 "Channel.Username.InvalidStartsWithNumber" = "Имена каналов не могут начинаться с цифр.";
 "Channel.Username.InvalidCharacters" = "Увы, данное имя недоступно.";
@@ -1890,7 +1890,7 @@
 "Group.Username.InvalidTooShort" = "Имена групп должны содержать минимум 5 символов.";
 "Group.Username.InvalidStartsWithNumber" = "Имена групп не могут начинаться с цифры.";
 
-"Group.Username.LinkHint" = "Эта ссылка открывает ваш канал в Телеграме:[\nhttps://telegram.me/%@]";
+"Group.Username.LinkHint" = "Эта ссылка откроет вашу группу в Telegram:[\nhttps://t.me/%@]";
 
 "Notification.PinnedTextMessage" = "%@ закрепил(а) \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ закрепил(а) фото";
@@ -2263,5 +2263,120 @@
 "Call.CallBack" = "Перезвонить";
 "Call.CallAgain" = "Позвонить снова";
 
-// PLACEHOLDER (Missing on Transifex)
-"Login.PhoneFloodError" = "Login.PhoneFloodError"
+"Login.PhoneFloodError" = "Извините, в последнее время вы слишком часто удаляли и создавали свой аккаунт заново. Пожалуйста, подождите несколько дней перед повторной регистрацией.";
+
+"Checkout.Title" = "Оплатить";
+"Checkout.TotalAmount" = "Итого";
+"Checkout.TotalPaidAmount" = "Всего оплачено";
+"Checkout.PaymentMethod" = "Способ оплаты";
+"Checkout.ShippingMethod" = "Способ доставки";
+"Checkout.ShippingAddress" = "Адрес доставки";
+"Checkout.Name" = "Имя";
+"Checkout.Email" = "Электронная почта";
+"Checkout.Phone" = "Номер телефона";
+"Checkout.PayPrice" = "Оплатить %@";
+"Checkout.PayNone" = "Оплатить";
+
+"Checkout.PaymentMethod.Title" = "Способ оплаты";
+"Checkout.PaymentMethod.New" = "Новая карта...";
+
+"Checkout.NewCard.Title" = "Новая карта";
+"Checkout.NewCard.PaymentCard" = "ПЛАТЁЖНАЯ КАРТА";
+"Checkout.NewCard.SaveInfo" = "Сохранить платёжную информацию";
+"Checkout.NewCard.SaveInfoEnableHelp" = "Вы можете сохранить вашу платёжную информацию для использования в будущем. Пожалуйста, [настройте двухэтапную аутентификацию], чтобы включить это.";
+"Checkout.NewCard.SaveInfoHelp" = "Вы можете сохранить вашу платёжную информацию для использования в будущем.";
+"Checkout.NewCard.CardholderNameTitle" = "ДЕРЖАТЕЛЬ КАРТЫ";
+"Checkout.NewCard.CardholderNamePlaceholder" = "Имя держателя карты";
+"Checkout.NewCard.PostcodeTitle" = "ПЛАТЁЖНЫЙ АДРЕС";
+"Checkout.NewCard.PostcodePlaceholder" = "Почтовый индекс";
+
+"Checkout.ShippingOption.Title" = "Способ доставки";
+"Checkout.ShippingOption.Header" = "ВЫБЕРИТЕ СПОСОБ ДОСТАВКИ";
+
+"Checkout.ErrorProviderAccountInvalid" = "Этот бот сейчас не может принимать платежи. Пожалуйста, попробуйте позднее.";
+"Checkout.ErrorProviderAccountTimeout" = "Этот бот сейчас не может проводить платежи. Пожалуйста, попробуйте позднее.";
+"Checkout.ErrorInvoiceAlreadyPaid" = "Вы уже оплатили этот товар.";
+
+"Checkout.ErrorGeneric" = "Произошла ошибка при обработке вашего платежа. Счёт не был выставлен.";
+"Checkout.ErrorPaymentFailed" = "Платёж проведён неуспешно. Счёт не был выставлен.";
+"Checkout.ErrorPrecheckoutFailed" = "Бот не смог провести ваш платёж. Счёт не был выставлен.";
+
+"CheckoutInfo.Title" = "Информация о доставке";
+"CheckoutInfo.ShippingInfoTitle" = "АДРЕС ДОСТАВКИ";
+"CheckoutInfo.ShippingInfoAddress1" = "Адрес 1";
+"CheckoutInfo.ShippingInfoAddress1Placeholder" = "Адрес";
+"CheckoutInfo.ShippingInfoAddress2" = "Адрес 2";
+"CheckoutInfo.ShippingInfoAddress2Placeholder" = "Адрес";
+"CheckoutInfo.ShippingInfoState" = "Область";
+"CheckoutInfo.ShippingInfoStatePlaceholder" = "Область";
+"CheckoutInfo.ShippingInfoCity" = "Город";
+"CheckoutInfo.ShippingInfoCityPlaceholder" = "Город";
+"CheckoutInfo.ShippingInfoCountry" = "Страна";
+"CheckoutInfo.ShippingInfoCountryPlaceholder" = "Страна";
+"CheckoutInfo.ShippingInfoPostcode" = "Почтовый индекс";
+"CheckoutInfo.ShippingInfoPostcodePlaceholder" = "Почтовый индекс";
+"CheckoutInfo.ReceiverInfoTitle" = "ПОЛУЧАТЕЛЬ";
+"CheckoutInfo.ReceiverInfoName" = "Имя";
+"CheckoutInfo.ReceiverInfoNamePlaceholder" = "Имя и фамилия";
+"CheckoutInfo.ReceiverInfoEmail" = "Электронная почта";
+"CheckoutInfo.ReceiverInfoEmailPlaceholder" = "Электронная почта";
+"CheckoutInfo.ReceiverInfoPhone" = "Номер телефона";
+"CheckoutInfo.SaveInfo" = "Сохранить информацию";
+"CheckoutInfo.SaveInfoHelp" = "Вы можете сохранить вашу информацию о доставки для использования в будущем.";
+"CheckoutInfo.Pay" = "Оплатить";
+
+"Checkout.Receipt.Title" = "Квитанция";
+
+"Message.ReplyActionButtonShowReceipt" = "Показать квитанцию";
+"Message.InvoiceShipmentLabel" = "ДОСТАВКА";
+"Message.InvoiceLabel" = "СЧЁТ";
+
+"CheckoutInfo.ErrorShippingNotAvailable" = "Доставка в выбранную страну невозможна.";
+"CheckoutInfo.ErrorPostcodeInvalid" = "Пожалуйста, введите корректный почтовый индекс.";
+"CheckoutInfo.ErrorStateInvalid" = "Пожалуйста, введите существующую область.";
+"CheckoutInfo.ErrorCityInvalid" = "Пожалуйста, введите существующий город.";
+"CheckoutInfo.ErrorNameInvalid" = "Пожалуйста, введите корректное имя.";
+"CheckoutInfo.ErrorEmailInvalid" = "Пожалуйста, введите корректный адрес электронной почты.";
+"CheckoutInfo.ErrorPhoneInvalid" = "Пожалуйста, введите корректный телефонный номер.";
+
+"Checkout.WebConfirmation.Title" = "Завершить оплату";
+"Checkout.PasswordEntry.Title" = "Подтверждение оплаты";
+"Checkout.PasswordEntry.Pay" = "Оплатить";
+"Checkout.PasswordEntry.Text" = "Ваша карта %@ в файле. Чтобы оплатить этой картой, пожалуйста, введите ваш пароль двухэтапной аутентификации.";
+
+"Checkout.SavePasswordTimeout" = "Вы действительно хотите сохранить пароль для %@?";
+"Checkout.SavePasswordTimeoutAndTouchId" = "Вы действительно хотите сохранить пароль для %@ и вместо этого использовать Touch ID?";
+"Checkout.PayWithTouchId" = "Оплатить при помощи Touch ID";
+"Checkout.EnterPassword" = "Введите пароль";
+
+"Your card has expired" = "Срок действия вашей карты истёк.";
+
+/* Error when the card was declined by the credit card networks */
+"Your card was declined" = "Ваша карта была отклонена.";
+
+/* Error when the card's expiration month is not valid */
+"Your card's expiration month is invalid" = "Вы ввели ошибочный месяц завершения срока действия.";
+
+/* Error when the card's expiration year is not valid */
+"Your card's expiration year is invalid" = "Вы ввели ошибочный год завершения срока действия.";
+
+/* Error when the card number is not valid */
+"Your card's number is invalid" = "Вы ввели неверный номер карты.";
+
+/* Error when the card's CVC is not valid */
+"Your card's security code is invalid" = "Вы ввели неверный код безопасности.";
+
+"MESSAGE_INVOICE" = "%1$@ отправил(а) вам счёт за %2$@";
+"CHAT_MESSAGE_INVOICE" = "%1$@ отправил(а) счёт за %3$@ группе %2$@";
+"PINNED_INVOICE" = "%1$@ закрепил(а) счёт";
+
+"Message.PinnedInvoice" = "закрепил(а) счёт";
+
+"User.DeletedAccount" = "Удалённый аккаунт";
+
+"Settings.SaveEditedPhotos" = "Сохранить отредактированные фотографии";
+
+"Message.PaymentSent" = "Оплата: %@";
+"Notification.PaymentSent" = "Вы успешно перевели {amount} пользователю {name} за {title}";
+
+"Common.NotNow" = "Не сейчас";
