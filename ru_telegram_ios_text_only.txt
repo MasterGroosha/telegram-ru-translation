@@ -76,6 +76,7 @@
 "PINNED_GAME" = "%1$@ закрепил(а) игру";
 
 "PHONE_CALL_REQUEST" = "%1$@ звонит вам";
+"PHONE_CALL_MISSED" = "Вы пропустили звонок от %1$@";
 
 // Common
 "Common.OK" = "ОК";
@@ -2255,7 +2256,13 @@
 "Notification.CallIncoming" = "Входящий вызов";
 "Notification.CallMissed" = "Пропущенный вызов";
 "Notification.CallCanceled" = "Отменённый вызов";
-"Notification.CallFormat" = "%1$@ %2$@"; // 1 - title, 2 - time
+"Notification.CallOutgoingShort" = "Исходящий";
+"Notification.CallIncomingShort" = "Входящий";
+"Notification.CallMissedShort" = "Пропущенный";
+"Notification.CallCanceledShort" = "Отменённый";
+"Notification.CallFormat" = "%1$@ в %2$@"; // 1 - title, 2 - time
+
+
 
 "Call.ConnectionErrorTitle" = "Не удалось совершить вызов";
 "Call.ConnectionErrorMessage" = "Пожалуйста, проверьте соединение с интернетом и попробуйте ещё раз.";
@@ -2380,3 +2387,47 @@
 "Notification.PaymentSent" = "Вы успешно перевели {amount} пользователю {name} за {title}";
 
 "Common.NotNow" = "Не сейчас";
+
+"Calls.RatingFeedback" = "Оставьте комментарий...";
+
+"Call.StatusIncoming" = "Звонок Telegram...";
+"Call.StatusRequesting" = "Установка соединения...";
+"Call.StatusWaiting" = "Ожидание...";
+"Call.StatusRinging" = "Вызов...";
+"Call.StatusConnecting" = "Соединение...";
+"Call.StatusOngoing" = "Звонок Telegram (%@)";
+"Call.StatusEnded" = "Вызов завершён";
+"Call.StatusFailed" = "Вызов не удался";
+"Call.Accept" = "Принять";
+"Call.Decline" = "Отклонить";
+
+"Call.StatusBar" = "Нажмите, чтобы вернуться к разговору с %@";
+
+"UserInfo.Call" = "Голосовой вызов";
+
+"Call.ParticipantVersionOutdatedError" = "Приложение пользователя %@ не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.";
+
+"Privacy.Calls" = "Голосовые вызовы";
+
+"Privacy.Calls.WhoCanCallMe" = "КТО МОЖЕТ МНЕ ЗВОНИТЬ?";
+"Privacy.Calls.CustomHelp" = "Вы можете ограничить круг лиц, которые могут вам звонить.";
+"Privacy.Calls.AlwaysAllow" = "Всегда разрешать";
+"Privacy.Calls.NeverAllow" = "Всегда запрещать";
+"Privacy.Calls.CustomShareHelp" = "Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.";
+
+"Privacy.Calls.AlwaysAllow.Title" = "Всегда разрешать";
+"Privacy.Calls.AlwaysAllow.Placeholder" = "Всегда разрешать...";
+"Privacy.Calls.NeverAllow.Title" = "Всегда запрещать";
+"Privacy.Calls.NeverAllow.Placeholder" = "Всегда запрещать...";
+
+"PhotoEditor.QualityTool" = "Качество";
+"PhotoEditor.QualityVeryLow" = "Очень низкое";
+"PhotoEditor.QualityLow" = "Низкое";
+"PhotoEditor.QualityMedium" = "Среднее";
+"PhotoEditor.QualityHigh" = "Высокое";
+"PhotoEditor.QualityVeryHigh" = "Очень высокое";
+
+"Settings.SaveEditedPhotos" = "Сохранить отредактированные фотографии";
+
+"Calls.NoCallsPlaceholder" = "Ваши недавние звонки будут показаны тут";
+"Calls.NoMissedCallsPlacehoder" = "У вас нет пропущенных вызовов";
