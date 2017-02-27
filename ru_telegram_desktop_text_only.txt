@@ -133,7 +133,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_too_long" = "Текст сообщения слишком длинный";
 "lng_edit_message" = "Редактировать сообщение";
 "lng_edit_message_text" = "Исправленный текст..";
-"lng_deleted" = "Неизвестный";
+"lng_deleted" = "Удалённый аккаунт";
 "lng_deleted_message" = "Удалённое сообщение";
 "lng_pinned_message" = "Закрепленное сообщение";
 "lng_pinned_unpin_sure" = "Вы хотите открепить это сообщение?";
