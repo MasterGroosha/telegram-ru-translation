@@ -2398,6 +2398,7 @@
 "Call.StatusOngoing" = "Звонок Telegram (%@)";
 "Call.StatusEnded" = "Вызов завершён";
 "Call.StatusFailed" = "Вызов не удался";
+"Call.StatusBusy" = "Занято";
 "Call.Accept" = "Принять";
 "Call.Decline" = "Отклонить";
 
@@ -2431,3 +2432,6 @@
 
 "Calls.NoCallsPlaceholder" = "Ваши недавние звонки будут показаны тут";
 "Calls.NoMissedCallsPlacehoder" = "У вас нет пропущенных вызовов";
+
+"Call.CallInProgressTitle" = "Идёт разговор";
+"Call.CallInProgressMessage" = "Закончить разговор с пользователем %1$@ и начать новый с пользователем %2$@?";
