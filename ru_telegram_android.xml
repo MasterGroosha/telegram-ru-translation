@@ -62,8 +62,7 @@
   <string name="PaymentCardTitle">Платёжная карта</string>
   <string name="PaymentCardNumber">Номер карты</string>
   <string name="PaymentCardCvv">Код безопасности (CVV)</string>
-  <string name="PaymentCardExpireDateMonth">Месяц</string>
-  <string name="PaymentCardExpireDateYear">Год</string>
+  <string name="PaymentCardExpireDate">ММ/ГГ</string>
   <string name="PaymentBillingAddress">Платёжный адрес</string>
   <string name="PaymentCardNameTitle">Держатель карты</string>
   <string name="PaymentCardName">Имя и фамилия</string>
@@ -75,6 +74,8 @@
   <string name="PaymentTransactionTotal">Итого</string>
   <string name="PaymentShipment">ДОСТАВКА</string>
   <string name="PaymentInvoice">СЧЁТ</string>
+  <string name="PaymentTestShipment">ТЕСТОВАЯ ДОСТАВКА</string>
+  <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
   <string name="PaymentCheckoutPay">ОПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
   <string name="PaymentCheckoutName">Имя</string>
@@ -86,7 +87,7 @@
   <string name="PaymentConfirmationMessage">Ваша карта %1$s в файле. Чтобы оплатить этой картой, пожалуйста, введите ваш пароль двухэтапной аутентификации.</string>
   <string name="PaymentPrecheckoutFailed">Извините, платёж был отменён ботом.</string>
   <string name="PaymentFailed">Извините, платёж был отклонён.</string>
-  <string name="PaymentConnectionFailed">Невозможно соединиться с сервером платежей. Проверьте ваше интернет-соединение и попробуйте ещё раз.</string>
+  <string name="PaymentConnectionFailed">Невозможно соединиться с платёжным сервером. Пожалуйста, проверьте ваше интернет-соединение и попробуйте снова.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая беседа</string>
   <string name="Settings">Настройки</string>
@@ -777,7 +778,7 @@
   <string name="ChromeCustomTabs">Встроенный браузер</string>
   <string name="ChromeCustomTabsInfo">Открывать внешние ссылки в приложении</string>
   <string name="DirectShare">Direct Share</string>
-  <string name="DirectShareInfo">Показывать недавние чаты в меню</string>
+  <string name="DirectShareInfo">Показывать недавние чаты в меню "поделиться"</string>
   <string name="Emoji">Эмодзи</string>
   <string name="EmojiBigSize">Большие одиночные эмодзи</string>
   <string name="EmojiUseDefault">Использовать системные эмодзи</string>
@@ -1264,6 +1265,7 @@
   <string name="CallAgain">Позвонить снова</string>
   <string name="DefaultRingtone">По умолчанию</string>
   <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из списка звонков?</string>
+  <string name="CallViaTelegram">Звонок Telegram</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
@@ -1314,7 +1316,7 @@
   <string name="Seconds_many">%1$d секунд</string>
   <string name="Seconds_other">%1$d секунд</string>
   <string name="Minutes_zero">%1$d минут</string>
-  <string name="Minutes_one">%1$d минуты</string>
+  <string name="Minutes_one">%1$d минута</string>
   <string name="Minutes_two">%1$d минут</string>
   <string name="Minutes_few">%1$d минут</string>
   <string name="Minutes_many">%1$d минут</string>
