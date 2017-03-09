@@ -72,9 +72,7 @@
   <string name="PaymentTransactionReview">Обзор транзакции</string>
   <string name="PaymentTransactionMessage">Вы действительно хотите перевести %1$s боту %2$s за %3$s?</string>
   <string name="PaymentTransactionTotal">Итого</string>
-  <string name="PaymentShipment">ДОСТАВКА</string>
   <string name="PaymentInvoice">СЧЁТ</string>
-  <string name="PaymentTestShipment">ТЕСТОВАЯ ДОСТАВКА</string>
   <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
   <string name="PaymentCheckoutPay">ОПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
@@ -1266,6 +1264,11 @@
   <string name="DefaultRingtone">По умолчанию</string>
   <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из списка звонков?</string>
   <string name="CallViaTelegram">Звонок Telegram</string>
+  <string name="VoipAudioRoutingEarpiece">Наушники</string>
+  <string name="VoipAudioRoutingSpeaker">Динамик</string>
+  <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
+  <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
+  <string name="CallNotAvailable">Извините, %1$s не принимает звонки.</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
