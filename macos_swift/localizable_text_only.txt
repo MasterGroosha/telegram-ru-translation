@@ -1,0 +1,714 @@
+
+"Messages.UnreadMark" = "Непрочитанные сообщения";
+"Messages.ForwardHeader" = "Пересланные сообщения";
+"Messages.File.State.FetchingIn" = "Загрузка — %d%%";
+"Messages.File.State.FetchingOut" = "Отправка — %d%%";
+"Messages.File.State.Remote" = "Загрузить";
+"Messages.File.State.Local" = "Показать в проводнике";
+"Messages.DeletedMessage" = "Удалённое сообщение";
+
+"Messages.Placeholder.SentMessage" = "Напишите сообщение...";
+"SearchField.Search" = "Поиск";
+"Contacts.ContacsSeparator" = "Контакты";
+"Navigation.back" = "Назад";
+"Navigation.Chat" = "Час";
+"Navigation.Edit" = "Изм.";
+"Navigation.Done" = "Готово";
+"Navigation.Close" = "Закрыть";
+"Navigation.Cancel" = "Отмена";
+
+"Gallery.Counter" = "%d из %d";
+
+"Peer.Status.bot" = "бот";
+"Peer.Status.offline" = "не в сети";
+"Peer.Status.online" = "в сети";
+"Peer.Status.recently" = "заходил(а) недавно";
+"Peer.Status.justNow" = "заходил(а) только что";
+"Peer.Status.lastWeek" = "заходил(а) в течение недели";
+"Peer.Status.lastMonth" = "заходил(а) в течение месяца";
+
+"Peer.Status.Today" = "сегодня";
+"Peer.Status.Yesterday" = "вчера";
+"Peer.Status.LastSeenAt" = "заходил(а) %@ в %@";
+
+"Peer.Status.Member.zero" = "участников: %d";
+"Peer.Status.Member.singular" = "%d участник";
+"Peer.Status.Member.pluar" = "участников: %d";
+"Peer.Status.Member.Online" = "%d в сети";
+
+"Peer.Status.minAgo.zero" = "заходил(а) %d минут назад";
+"Peer.Status.minAgo.singular" = "заходил(а) %d минуту назад";
+"Peer.Status.minAgo.pluar" = "заходил(а) %d минут назад";
+
+"Peer.Status.channel" = "канал";
+"Peer.Status.group" = "группа";
+
+"Telegram.PeerInfoController" = "Информация";
+"PeerInfo.SendMessage" = "Отправить сообщение";
+"PeerInfo.ShareContact" = "Отправить контакт";
+"PeerInfo.StartSecretChat" = "Начать секретный чат";
+"PeerInfo.SharedMedia" = "Общие медиа";
+"PeerInfo.Notifications" = "Уведомления";
+"PeerInfo.BlockUser" = "Заблокировать пользователя";
+"PeerInfo.UnblockUser" = "Разблокировать пользователя";
+"PeerInfo.username" = "Имя пользователя";
+"PeerInfo.about" = "Описание";
+"PeerInfo.info" = "Информация";
+"PeerInfo.SetGroupPhoto" = "Изменить фото группы";
+"PeerInfo.AddMember" = "Добавить участника";
+"PeerInfo.DeleteAndExit" = "Удалить и выйти";
+"PeerInfo.LeaveChannel" = "Покинуть канал";
+"PeerInfo.Report" = "Пожаловаться";
+"PeerInfo.sharelink" = "Поделиться ссылкой";
+"PeerInfo.Confirm.LeaveChannel" = "Вы уверены, что хотите покинуть канал?";
+"PeerInfo.Confirm.DeleteAndExit" = "Вы уверены, что хотите покинуть канал?";
+"PeerInfo.Confirm.LeaveGroup" = "Вы уверены, что хотите покинуть эту группу?\n\nЭто действие нельзя отменить.";
+"PeerInfo.Confirm.DeleteChat" = "Вы уверены, что хотите удалить всю историю сообщений и покинуть \"%@\"?\n\nЭто действие не может быть отменено.";
+"Confirm.DeleteAdminedChannel" = "Подождите! Удаление этого канала также исключит всех участников и все сообщения будут утрачены. Всё равно удалить?";
+"Confirm.DeleteChatUser" = "Вы уверены, что хотите удалить всю историю сообщений?\n\nЭто действие не может быть отменено.";
+"Confirm.LeaveGroup" = "Вы уверены, что хотите покинуть эту группу?";
+
+"PeerMedia.SharedMedia" = "Общие медиа";
+"EmptyPeer.Description" = "Выберите чат для начала общения";
+
+"Emoji.Recent" = "Часто используемые";
+"Emoji.SmilesAndPeople" = "Смайлы и люди";
+"Emoji.AnimalsAndNature" = "Животные и природа";
+"Emoji.FoodAndDrink" = "Еда и напитки";
+"Emoji.ActivityAndSport" = "Деятельность и спорт";
+"Emoji.TravelAndPlaces" = "Места и путешествия";
+"Emoji.Objects" = "Предметы";
+"Emoji.Symbols" = "Символы";
+"Emoji.Flags" = "Флаги";
+
+
+"Chat.DropTitle" = "Перетащите файлы сюда, чтобы отправить их";
+"Chat.DropQuickDesc" = "быстрым способом";
+"Chat.DropAsFilesDesc" = "без сжатия";
+
+"Message.ActionsPanel.Delete" = "Удалить";
+"Message.ActionsPanel.Forward" = "Переслать";
+"Message.ActionsPanel.EmptySelected" = "Выберите сообщения";
+
+
+
+"Message.ActionsPanel.SelectedCount.zero" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount.singular" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount.pluar" = "Выбрано сообщений: %d";
+
+"Message.AccessoryPanel.Forwarded.zero" = "%d пересланных сообщений";
+"Message.AccessoryPanel.Forwarded.singular" = "%d пересланное сообщение";
+"Message.AccessoryPanel.Forwarded.pluar" = "Пересланных сообщений: %d";
+
+"ForwardModalAction.Title.zero" = "Пересылка сообщений";
+"ForwardModalAction.Title.singular" = "Пересылка сообщения";
+"ForwardModalAction.Title.pluar" = "Пересылка сообщений";
+
+"ForwardModalAction.description.zero" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+"ForwardModalAction.description.singular" = "Выберите пользователя или чат для пересылки сообщения от: %@";
+"ForwardModalAction.description.pluar" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+
+"ModalAction.ShareContact" = "Отправить контакт";
+
+"Alert.OK" = "ОК";
+"Alert.Cancel" = "Отмена";
+
+"Alert.Pasteboard.SendMultiple.zero" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple.singular" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple.pluar" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Forward.Error" = "Не получается переслать сюда сообщения.";
+
+"Alert.Pasteboard.SendMultiple.Desc" = "Вы всегда можете отправить изображения и файлы, скопировав их в буфер обмена и вставив в чат в Telegram.";
+
+"PreviewSender.CompressFile" = "Отправить с сжатом виде";
+"PreviderSender.CaptionPlaceholder" = "Подпись...";
+"PreviderSender.CommentPlaceholder" = "Комментарий...";
+"Modal.Send" = "Отправить";
+"Modal.Share" = "Поделиться";
+"Modal.CopyLink" = "Копировать ссылку";
+"Modal.Cancel" = "Отмена";
+"Modal.OK" = "ОК";
+
+"QuickLook.Preview" = "Предпросмотр";
+
+
+"Chat.Service.You" = "Вы";
+"Chat.Service.Group.Created" = "%@ создал(а) группу «%@»";
+"Chat.Service.Group.AddedMembers" = "%@ пригласил(а) пользователя %@";
+"Chat.Service.Group.AddedSelf" = "%@ вступил(а) в группу";
+"Chat.Service.Group.RemovedMembers" = "%@ исключил(а) пользователя %@";
+"Chat.Service.Group.RemovedSelf" = "%@ покинул(а) группу";
+"Chat.Service.Group.UpdatedPhoto" = "%@ изменил(а) фото группы";
+"Chat.Service.Group.RemovedPhoto" = "%@ удалил(а) фото группы";
+"Chat.Service.Group.UpdatedTitle" = "%@ изменил(a) название группы на «%@»";
+"Chat.Service.Group.UpdatedPinnedMessage" = "%@ закрепил(а) \"%@\"";
+"Chat.Service.Group.RemovedPinnedMessage" = "%@ открепил(а) сообщение";
+"Chat.Service.Group.JoinedByLink" = "%@ вступил(а) в группу по пригласительной ссылке";
+"Chat.Service.Group.MigratedToSupergroup" = "Эта группа была преобразована в супергруппу.";
+"Chat.Service.Group.TookScreenshot" = "%@ сделал(а) снимок экрана";
+"Chat.Service.PinnedMessage" = "закреплённое сообщение";
+
+"Chat.Service.Channel.UpdatedPhoto" = "фото канала обновлено";
+"Chat.Service.Channel.RemovedPhoto" = "фото канала удалено";
+"Chat.Service.Channel.UpdatedTitle" = "Имя канала изменено на \"%@\"";
+
+
+"Chat.Service.SecretChat.SetTimer" = "%@ установил(а) таймер самоуничтожения на %@";
+"Chat.Service.SecretChat.SetTimer.Self" = "Вы установили таймер самоуничтожения\nна %@";
+"Chat.Service.SecretChat.DisabledTimer" = "%@ отключил(а) таймер самоуничтожения";
+"Chat.Service.SecretChat.DisabledTimer.Self" = "Вы отключили таймер самоуничтожения";
+
+"Chat.Input.Mute" = "Выключить уведомления";
+"Chat.Input.Unmute" = "Включить уведомления";
+"Chat.Input.Return" = "Вернуться в группу";
+"Chat.Input.ExchangingKeys" = "Обмен ключами шифрования";
+"Chat.Input.SecretChat.WaitingToOnline" = "Ждём, когда пользователь появится в сети...";
+"Chat.Input.Delete" = "Удалить и выйти";
+"Chat.Input.Join" = "Присоединиться";
+"Chat.Input.Unblock" = "Разблокировать";
+
+"Message.Context.Reply" = "Ответить (двойной щелчок)";
+"Message.Context.Forward" = "Переслать";
+"Message.Context.Delete" = "Удалить";
+"Message.Context.Select" = "Выбрать";
+"Message.Context.Edit" = "Изменить";
+"Message.Context.Goto" = "Показать сообщение";
+"Message.Context.Pin" = "Закрепить";
+"Message.Context.Confirm.Pin" = "Закрепить это сообщение и оповестить всех участников группы?";
+"Message.Context.Confirm.OnlyPin" = "Только закрепить";
+
+"Entertainment.Switch.GifAndStickers" = "Стикеры";
+"Entertainment.Switch.Emoji" = "Эмодзи";
+"Telegram.LayoutAccountController" = "Аккаунт";
+
+"AccountSettings.SetProfilePhoto" = "Изменить фото профиля";
+"AccountSettings.General" = "Общие";
+"AccountSettings.Stickers" = "Стикеры";
+"AccountSettings.Notifications" = "Уведомления";
+"AccountSettings.Username" = "Имя пользователя";
+"AccountSettings.PhoneNumber" = "Номер телефона";
+"AccountSettings.PrivacyAndSecurity" = "Приватность и безопасность";
+"AccountSettings.Accounts" = "Управление учётной записью";
+
+"AccountSettings.About" = "О программе";
+"AccountSettings.FAQ" = "Telegram FAQ";
+"AccountSettings.AskQuestion" = "Задать вопрос";
+
+"ConnectingStatus.connecting" = "соединение";
+"ConnectingStatus.online" = "в сети";
+"ConnectingStatus.updating" = "обновление";
+"ConnectingStatus.waitingNetwork" = "ожидание сети";
+
+
+"Chat.ConnectingStatus.connecting" = "Соединение";
+"Chat.ConnectingStatus.updating" = "Обновление";
+"Chat.ConnectingStatus.waitingNetwork" = "Ожидание сети";
+
+"InputAttach.Popover.PhotoOrVideo" = "Фото или видео";
+"InputAttach.Popover.Picture" = "Фотографию";
+"InputAttach.Popover.File" = "Файл";
+"InputAttach.Popover.Location" = "Местоположение";
+
+"Compose.Popover.NewGroup" = "Новая группа";
+"Compose.Popover.NewChannel" = "Новый канал";
+"Compose.Popover.NewSecretChat" = "Новый секретный чат";
+
+
+"Chat.Cancel" = "Отмена";
+"Gallery.Context.SaveAs" = "Сохранить как…";
+"Gallery.Context.ShowMessage" = "Показать сообщение";
+"Gallery.Context.CopyToClipboard" = "Копировать в буфер обмена";
+
+
+"Chat.Input.Accessory.EditMessage" = "Редактировать сообщение";
+"Chat.Message.edited" = "изменено";
+
+"PeerMedia.Popover.SharedMedia" = "Общие медиа";
+"PeerMedia.Popover.SharedFiles" = "Общие файлы";
+"PeerMedia.Popover.SharedLinks" = "Общие ссылки";
+"PeerMedia.Popover.SharedAudio" = "Общие аудио";
+"Chat.Message.Via" = "via";
+
+"Audio.UnknownArtist" = "Неизвестный исполнитель";
+"Audio.UntitledSong" = "Без названия";
+
+"AudioController.voiceMessage" = "голосовое сообщение";
+"You" = "Вы";
+
+
+"Login.WelcomeDescription" = "Добро пожаловать в официальное приложение для macOS";
+"Login.countryLabel" = "страна";
+"Login.yourPhoneLabel" = "ваш номер";
+"Login.phoneFieldPlaceholder" = "номер телефона";
+"Login.Next" = "Далее";
+
+"Login.InvalidCountryCode" = "Неправильный код страны";
+"Login.codePlaceholder" = "код проверки";
+
+
+"Login.EnterCodeFromApp" = "Введите код, который вы только что получили в другом приложении Telegram";
+"Login.SendSmsIfNotReceivedAppCode" = "Не получили код проверки?";
+"Login.JustSentSms" = "Мы отправили вам SMS с кодом проверки. Пожалуйста, введите его выше.";
+"Login.PhoneCalledCode" = "Мы только что вам позвонили. Пожалуйста, введите код проверки выше. ";
+"Login.PhoneDialed" = "Телеграм набирает ваш номер";
+"Login.willCall" = "Telegram позвонит вам через %d:%@";
+"Login.willSendSms" = "Telegram отправит вам СМС через %d:%@";
+"Login.passwordPlaceholder" = "пароль";
+"Login.StartMessaging" = "Начать общение";
+
+"Login.EnterPasswordDescription" = "Вы активировали двухэтапную аутентификацию. Теперь ваш аккаунт защищён дополнительным паролем.";
+"Login.forgotPassword" = "Забыли пароль?";
+"Login.RecoveryMailFailed" = "Так как вы не указали адрес электронной почты для восстановления пароля, то оставшиеся варианты — вспомнить пароль или сбросить аккаунт.";
+
+"Login.ResetAccount" = "СБРОСИТЬ АККАУНТ";
+"Login.ResetAccountDescription" = "Вы потеряете все ваши чаты и сообщения, а также любые медиа и файлы, которыми вы делились, если выполните сброс своего аккаунта.";
+"Login.ResetAccount" = "СБРОСИТЬ АККАУНТ";
+
+"PHONE_NUMBER_INVALID" = "Неверный номер телефона";
+"Login.FloodWait" = "Слишком много попыток, пожалуйста, попробуйте снова позже";
+"PHONE_CODE_INVALID" = "Неверный код телефона.";
+"PHONE_CODE_EXPIRED" = "Код проверки устарел";
+"PASSWORD_HASH_INVALID" = "Неверный пароль";
+
+
+
+"Chat.ForwardActionHeader" = "Переслать сообщения";
+"AudioRecord.ReleaseOut" = "Отпустите за пределами этого поля для отмены";
+
+
+"GeneralSettings.LargeFonts" = "Использовать увеличенные шрифты";
+"GeneralSettings.MutedChatsInUnread" = "Учитывать приглушенные чаты";
+"GeneralSettings.MediaKeysForInAppPlayer" = "Использовать медиа-клавиши во встроенном плеере";
+"GeneralSettings.EmojiSidebar" = "Панель эмодзи и стикеров";
+"GeneralSettings.ContactsJoined" = "Контакт присоединился к Telegram";
+"GeneralSettings.DownloadSettings" = "Настройки скачивания";
+"GeneralSettings.InputSettings" = "НАСТРОЙКИ ВВОДА";
+"GeneralSettings.GeneralSettings" = "ОБЩИЕ НАСТРОЙКИ";
+
+"GeneralSettings.SendByEnter" = "Использовать Enter для отправки";
+"GeneralSettings.SendByCmdEnter" = "Использовать ? + Enter для отправки";
+
+"Telegram.GeneralSettingsViewController" = "Общие настройки";
+"AccountSettings.Logout" = "Выйти";
+"NotificationSettings.ToggleNotifications" = "Уведомления";
+"NotificationSettings.MessagesPreview" = "Предпросмотр сообщения";
+"NotificationSettings.NotificationTone" = "Звук сообщения";
+"NotificationSettings.ResetNotifications" = "Сбросить настройки уведомлений";
+"NotificationSettings.ResetNotificationsText" = "Вы можете задать свои настройки уведомлений для каждого чата из списка ниже.";
+"Telegram.NotificationSettingsViewController" = "Уведомления";
+"DefaultSoundName" = "По умолчанию";
+"NotificationSettings.Tone.Default" = "По умолчанию";
+"NotificationSettingsToneNone" = "Нет";
+
+"NotificationSettings.Confirm.Reset" = "Сбросить настройки уведомлений";
+
+"Weekday.Friday" = "Пятница";
+"Weekday.Monday" = "Понедельник";
+"Weekday.Saturday" = "Суббота";
+"Weekday.ShortFriday" = "Пт";
+"Weekday.ShortMonday" = "Пн";
+"Weekday.ShortSaturday" = "Сб";
+"Weekday.ShortSunday" = "Вс";
+"Weekday.ShortThursday" = "Чт";
+"Weekday.ShortTuesday" = "Вт";
+"Weekday.ShortWednesday" = "Ср";
+"Weekday.Sunday" = "Воскресенье";
+"Weekday.Thursday" = "Четверг";
+"Weekday.Tuesday" = "Вторник";
+"Weekday.Wednesday" = "Среда";
+
+"Time.at" = "в";
+"Time.last_seen" = "заходил(а)";
+"Time.today" = "сегодня";
+"Time.tomorrow" = "завтра";
+"Time.yesterday" = "вчера";
+
+
+"Chat.EmptyChat" = "Здесь пока ничего нет…";
+
+"Chat.List.Sticker" = "Стикер %@";
+"Chat.List.Voice" = "Голосовое сообщение";
+"Chat.List.Video" = "Видео";
+"Chat.List.Photo" = "Фото";
+"Chat.List.GIF" = "GIF";
+"Chat.List.File" = "Файл";
+"Chat.List.Map" = "Местоположение";
+"Chat.List.Contact" = "Контакт";
+
+"UsernameSettings.ChangeDescription" = "Вы можете выбрать себе имя пользователя в Telegram. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная номера вашего телефона.\n\n\nИмя пользователя может содержать только латинские буквы (a-z), цифры (0-9) и символы подчёркивания. Минимальная допустимая длина имени — 5 символов.";
+"UsernameSettings.InputPlaceholder" = "Введите ваше имя пользователя";
+"Telegram.UsernameSettingsViewController" = "Имя пользователя";
+"UsernameSettings.available" = " Имя %@ доступно";
+
+"Error.Username.UnderscopeStart" = "Имя пользователя не может начинаться с символа подчёркивания.";
+"Error.Username.UnderscopeEnd" = "Имя пользователя не может заканчиваться символом подчёркивания.";
+"Error.Username.NumberStart" = "Имя пользователя не может начинаться с цифры.";
+"Error.Username.Invalid" = "Некорректное имя пользователя.";
+"Error.Username.MinimumLength" = "Имя пользователя должно содержать минимум 5 символов.";
+"Error.Username.MaximumLength" = "Имя пользователя не должно содержать более 32 символов.";
+"Error.Username.AlreadyTaken" = "Это имя пользователя уже занято.";
+"UsernameSettings.Done" = "Готово";
+
+"Search.Separator.ChatsAndContacts" = "контакты и чаты";
+"Search.Separator.GlobalPeers" = "глобальный поиск";
+"Search.Separator.Messages" = "сообщения";
+"Search.Separator.Recent" = "Недавние";
+"Search.Separator.Popular" = "Люди";
+"PeerInfo.AdminLabel" = "администратор";
+"Share.Link.Copied" = "Скопировано в буфер обмена";
+
+
+"Presence.bot" = "бот";
+"Presence.offline" = "не в сети";
+"CreateGroup.NameHolder" = "Название группы";
+"Telegram.ChannelIntroViewController" = "Канал";
+"Channel.IntroDescriptionHeader" = "Что такое канал?";
+"Channel.IntroDescription" = "Каналы — это инструмент для трансляции сообщений большой аудитории.";
+"Channel.Create" = "Создать";
+"Channel.NewChannel" = "Новый канал";
+"Group.CreateGroup" = "Новая группа";
+"Compose.Create" = "Создать";
+"Compose.Next" = "Далее";
+"Channel.ChannelNameHolder" = "Имя канала";
+"Channel.DescriptionHolder" = "Описание";
+"Channel.DescriptionHolderDescrpiton" = "Можете указать дополнительное описание вашего канала.";
+"Channel.Channel" = "Канал";
+
+
+"Channel.TypeHeaderChannel" = "ТИП КАНАЛА";
+"Channel.TypeHeaderGroup" = "ТИП ГРУППЫ";
+
+
+"Channel.Public" = "Публичный";
+"Channel.Private" = "Приватный";
+
+
+"Channel.PrivateAboutChannel" = "К приватным каналам можно присоединиться только по пригласительной ссылке.";
+"Channel.PublicAboutChannel" = "Публичные каналы могут быть найдены через поиск, любой желающий может присоединиться к ним.";
+"Channel.PrivateAboutGroup" = "В приватные группы можно вступить только по приглашению или пригласительной ссылке.";
+"Channel.PublicAboutGroup" = "Публичные группы могут быть найдены через поиск, история чата доступна всем и вступить в них может любой желающий.";
+
+"Channel.PublicNamesLimitError" = "Извините, вы заняли слишком много публичных имён пользователей. Вы можете либо аннулировать ссылку на одну из ваших устаревших групп или каналов, либо создать приватно.";
+
+
+"Channel.ExportLinkAboutChannel" = "Люди могут присоединяться к вашему каналу, следуя по этой ссылке. Вы можете отозвать эту ссылку в любое время.";
+"Channel.ExportLinkAboutGroup" = "Люди могут вступать в вашу группу, следуя по этой ссылке. Вы можете аннулировать эту ссылку в любое время.";
+"Channel.UsernameAboutChannel" = "Люди могут делиться этой ссылкой с другими и находить ваш канал через поиск в Telegram.";
+"Channel.UsernameAboutGroup" = "Люди могут делиться этой ссылкой с другими и находить вашу группу через поиск Telegram.";
+
+
+"Group.NewGroup" = "Новая группа";
+
+"Chat.Confirm.ActionUndonable" = "Это действие не может быть отменено";
+"Chat.Confirm.DeleteMessages" = "Удалить выбранные сообщения?";
+"Chat.Confirm.DeleteMessagesForEveryone" = "Удалить у всех";
+
+"Telegram.PrivacyAndSecurityViewController" = "Приватность и безопасность";
+"PrivacySettings.PrivacyHeader" = "ПРИВАТНОСТЬ";
+"PrivacySettings.BlockedUsers" = "Заблокированные пользователи";
+"PrivacySettings.LastSeen" = "Последняя активность";
+"PrivacySettings.Groups" = "Группы";
+"PrivacySettings.SecurityHeader" = "БЕЗОПАСНОСТЬ";
+"PrivacySettings.Passcode" = "Код доступа";
+"PrivacySettings.ActiveSessions" = "Активные сессии";
+"PrivacySettings.DeleteAccountHeader" = "УДАЛИТЬ МОЙ АККАУНТ";
+"PrivacySettings.DeleteAccount" = "Если вас не было";
+"PrivacySettings.DeleteAccountDescription" = "Если вы не войдёте хотя бы раз в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.";
+"PrivacySettings.TwoStepVerification" = "Двухэтапная аутентификация";
+
+"Telegram.PasscodeSettingsViewController" = "Код доступа";
+"Passcode.Placeholder" = "код доступа";
+"Passcode.LogoutDescription" = "Если вы забыли код доступа, то можете";
+"Passcode.LogoutLinkText" = "выйти";
+
+
+"PreviewSender.SendFiles.zero" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles.singular" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles.pluar" = "Выбрано файлов: %d";
+
+"PreviewSender.SendImages.zero" = "Выбрано изображений: %d";
+"PreviewSender.SendImages.singular" = "Выбрано изображений: %d";
+"PreviewSender.SendImages.pluar" = "Выбрано изображений: %d";
+
+"PreviewSender.SendVideos.zero" = "Выбрано видео: %d";
+"PreviewSender.SendVideos.singular" = "Выбрано видео: %d";
+"PreviewSender.SendVideos.pluar" = "Выбрано видео: %d";
+
+"PreviewSender.SendMediaFiles.zero" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles.singular" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles.pluar" = "Выбрано медиафайлов: %d";
+
+"PreviewSender.ExpandItems" = "Больше";
+"Chat.Input.StartBot" = "Начать";
+
+"InlineModalAction.Title" = "Поделиться сообщением бота";
+"InlineModalAction.Desc" = "Выберите пользователя или чат, чтобы отправить сообщение через бота %@";
+
+"Telegram.PasswordViewController" = "Двухэтапная аутентификация";
+
+
+"ChatList.Context.StopBot" = "Остановить бота";
+"ChatList.Context.Unmute" = "Включить уведомления";
+"ChatList.Context.Mute" = "Выключить уведомления";
+"ChatList.Context.Block" = "Заблокировать пользователя";
+"ChatList.Context.ClearHistory" = "Очистить историю";
+"ChatList.Context.DeleteChat" = "Удалить чат";
+"ChatList.Context.DeleteAndExit" = "Удалить и выйти";
+"ChatList.Context.LeaveChannel" = "Покинуть канал";
+"ChatList.Context.LeaveGroup" = "Покинуть группу";
+"ChatList.Context.ReturnGroup" = "Вернуться в группу";
+"ChatList.Context.Pin" = "Закрепить";
+"ChatList.Context.Unpin" = "Открепить";
+
+"ChatList.SecretChat.Terminated" = "Секретный чат отменён";
+"ChatList.SecretChat.Joined" = "%@ присоединился(-лась) к вашему секретному чату.";
+"ChatList.SecretChat.Created" = "%@ создал(а) секретный чат.";
+"ChatList.SecretChat.ExKeys" = "Ждём появления в сети";
+
+"ChatList.UnsupportedMessage" = "Это сообщение не поддерживается";
+"Chat.Message.Unsupported" = "Это сообщение не поддерживается вашей версией Telegram. Пожалуйста, обновитесь до последней версии через Настройки или установите его по ссылке https://macos.telegram.org";
+"Text.Copy" = "Копировать";
+
+
+"Peer.Activity.User.TypingText" = "печатает...";
+"Peer.Activity.User.SendingPhoto" = "отправляет фото...";
+"Peer.Activity.User.RecordingVideo" = "записывает видео...";
+"Peer.Activity.User.SendingVideo" = "отправляет видео...";
+"Peer.Activity.User.RecordingAudio" = "записывает голосовое сообщение...";
+"Peer.Activity.User.SendingAudio" = "отправляет аудио...";
+"Peer.Activity.User.SendingFile" = "отправляет файл...";
+"Peer.Activity.User.PlayingGame" = "сейчас в игре";
+
+"Peer.Activity.Chat.Single.TypingText" = "%@ печатает...";
+"Peer.Activity.Chat.Single.SendingPhoto" = "%@ отправляет фото...";
+"Peer.Activity.Chat.Single.RecordingVideo" = "%@ записывает видео...";
+"Peer.Activity.Chat.Single.SendingVideo" = "%@ отправляет видео...";
+"Peer.Activity.Chat.Single.RecordingAudio" = "%@ записывает голосовое сообщение";
+"Peer.Activity.Chat.Single.SendingAudio" = "%@ отправляет аудио...";
+"Peer.Activity.Chat.Single.SendingFile" = "%@ отправляет файл...";
+"Peer.Activity.Chat.Single.PlayingGame" = "%@ сейчас в игре";
+
+"Peer.Activity.Chat.Multi.TypingText" = "%d печатают...";
+"Peer.Activity.Chat.Multi.SendingPhoto" = "%d отправляют фото";
+"Peer.Activity.Chat.Multi.RecordingVideo" = "%d записывают видео";
+"Peer.Activity.Chat.Multi.SendingVideo" = "%d отправляют видео";
+"Peer.Activity.Chat.Multi.RecordingAudio" = "%d записывают голосовое сообщение";
+"Peer.Activity.Chat.Multi.SendingAudio" = "%d отправляют аудио";
+"Peer.Activity.Chat.Multi.SendingFile" = "%d отправляют файлы";
+"Peer.Activity.Chat.Multi.PlayingGame" = "%d сейчас в игре";
+
+"Peer.Media.SharedMediaEmptyList" = "Этой скрепке очень грустно, ведь в этом чате ещё никто не делился фотографиями или видео.";
+"Peer.Media.SharedFilesEmptyList" = "Вы можете отправлять и получать файлы любого типа до 1.5Гб каждый и обращаться к ним отовсюду.";
+"Peer.Media.SharedLinksEmptyList" = "Все общие ссылки в этом чате будут показываться тут.";
+"Peer.Media.SharedMusicEmptyList" = "Вся общая музыка в этом чате будет показана тут.";
+
+"SecretTimer.Off" = "Выкл.";
+
+
+"Timer.Seconds.zero" = "%d сек.";
+"Timer.Seconds.singular" = "%d сек.";
+"Timer.Seconds.pluar" = "%d сек.";
+"Timer.Days.zero" = "%d дн.";
+"Timer.Days.singular" = "%d дн.";
+"Timer.Days.pluar" = "%d дн.";
+"Timer.Minutes.zero" = "%d мин.";
+"Timer.Minutes.singular" = "%d мин.";
+"Timer.Minutes.pluar" = "%d мин.";
+"Timer.Hours.zero" = "%d ч.";
+"Timer.Hours.singular" = "%d ч.";
+"Timer.Hours.pluar" = "%d ч.";
+"Timer.Weeks.zero" = "%d нед.";
+"Timer.Weeks.singular" = "%d нед.";
+"Timer.Weeks.pluar" = "%d нед.";
+"Timer.Months.zero" = "%d мес.";
+"Timer.Months.singular" = "%d мес.";
+"Timer.Months.pluar" = "%d мес.";
+"Timer.Years.zero" = "%d г.";
+"Timer.Years.singular" = "%d г.";
+"Timer.Years.pluar" = "%d г.";
+
+"ChatList.Draft" = "Черновик:";
+"ChatList.You" = "Вы";
+
+"Notification.LockedPreview" = "У вас новое сообщение";
+"JoinLink.Join" = "Присоединиться";
+
+"Group.Unavailable" = "Извините, такой группы не существует.";
+
+"Chat.Title.self" = "Ваше облачное хранилище";
+"Separator.ShowMore" = "Показать ещё";
+"Separator.ShowLess" = "Скрыть";
+"Stickers.Recent" = "Недавнее";
+"Account.Confirm.AskQuestion" = "Обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но на это может потребоваться некоторое время.\n\nПожалуйста, ознакомьтесь с вопросами и ответами о Telegram: там есть ответы на большинство вопросов и важные советы по устранению неполадок.";
+"Account.Confirm.GoToFaq" = "Открыть FAQ";
+
+"Chat.SecretChat.EmptyHeader" = "Секретные чаты:";
+"Chat.SecretChat.1Feature" = "- Используют end-to-end шифрование";
+"Chat.SecretChat.2Feature" = "- Не оставляют никаких следов на наших серверах";
+"Chat.SecretChat.3Feature" = "- Имеют таймер самоуничтожения сообщений";
+"Chat.SecretChat.4Feature" = "- Не позволяют пересылать сообщения";
+
+
+"TextView.Transform.Bold" = "Жирный";
+"TextView.Transform.Italic" = "Курсив";
+"TextView.Transform.Code" = "Моноширинный";
+"AccountsController.NewAccount" = "Новый аккаун";
+"Telegram.AccountsListViewController" = "Управление аккаунтом";
+
+"Account.Confirm.Logout" = "Выйти?";
+"Account.Confirm.LogoutText" = "Помните, выход уничтожит все ваши Секретные чаты";
+
+"Telegram.ConvertGroupViewController" = "Супергруппа";
+
+"Supergroup.Convert.Description" = "**В супергруппах:**\n\n• Новые участники могут видеть полную историю сообщений\n• Удалённые сообщения исчезают у всех участников\n• Администраторы могут закреплять важные сообщения\n• Создатель может установить публичную ссылку на группу";
+"Supergroup.Convert.Undone" = "**Внимание:** это действие не может быть отменено.";
+"Supergroup.Convert.Button" = "Преобразовать в супергруппу";
+
+
+"PeerInfo.InviteLink" = "Пригласительная ссылка";
+"PeerInfo.MembersHeader" = "УЧАСТНИКИ (%d)";
+"PeerInfo.Admins" = "Администраторы";
+"PeerInfo.BlackList" = "Чёрный список";
+"PeerInfo.SetAdmins" = "Назначить администраторов";
+"PeerInfo.GroupType" = "Тип группы";
+"PeerInfo.ChannelType" = "Тип канала";
+"PeerInfo.GroupType.Public" = "Публичный";
+"PeerInfo.GroupType.Private" = "Приватный";
+"PeerInfo.SetAboutDescription" = "Можете указать дополнительное описание вашей группы.";
+"PeerInfo.About.Placeholder" = "Описание";
+"PeerInfo.ConvertToSupergroup" = "Преобразовать в супергруппу";
+
+"Telegram.ChannelBlacklistViewController" = "Чёрный список";
+"Telegram.ChannelAdminsViewController" = "Администраторы";
+
+"ChannelBlacklist.EmptyDescrpition" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора. Пригласительные ссылки для них не работают.";
+
+"Admins.GroupAdmins" = "АДМИНИСТРАТОРЫ ГРУППЫ";
+"Admins.ChannelAdmins" = "АДМИНИСТРАТОРЫ КАНАЛА";
+
+"Admins.OnlyAdminsCanAddMembers" = "Только администраторы могут добавлять участников.";
+"Admins.EverbodyCanAddMembers" = "Все могут добавлять участников.";
+"Admins.GroupDescription" = "Вы можете добавлять администраторов для помощи в управлении группой.";
+"Admins.ChannelDescription" = "Вы можете добавлять администраторов для помощи в управлении каналом. ";
+"Admins.SelectNewAdminTitle" = "Контакты";
+"Admins.AddPeerAsAdmin" = "Назначить \"%@\" администратором?";
+"Admins.AddAdmin" = "Добавить администратора";
+"Admins.Creator" = "Создатель";
+"Admins.Admin" = "Администратор";
+"Admins.Moderator" = "Модератор";
+"Admins.WhoCanInvite.Text" = "Кто может добавлять участников";
+"Admins.WhoCanInvite.Admins" = "Только администраторы";
+"Admins.WhoCanInvite.Everyone" = "Все участники";
+
+"Telegram.ChannelVisibilityController" = "Группа";
+"PeerInfo.Confirm.AddMembers" = "Добавить пользователей (%d) в группу?";
+"PeerInfo.Confirm.AddMember" = "Добавить \"%@\" в группу?";
+"PeerInfo.Confirm.RemovePeer" = "Исключить \"%@\" из группы?";
+
+"PeerInfo.FirstName.Placeholder" = "Имя";
+"PeerInfo.LastName.Placeholder" = "Фамилия";
+"PeerInfo.GroupName.Placeholder" = "Название группы";
+"PeerInfo.ChannelName.Placeholder" = "Имя канала";
+"PeerInfo.Phone" = "Номер телефона";
+
+"ConvertToSupergroup.Alert.Error" = "Что-то не так, пожалуйста, попробуйте еще раз позднее.";
+"ConvertToSuperGroup.Confirm" = "Вы уверены? Это действие не может быть отменено.";
+"Telegram.LinkInvationController" = "Пригласительная ссылка";
+
+"GroupInvation.CopyLink" = "Копировать ссылку";
+"GroupInvation.Revoke" = "Аннулировать ссылку";
+"GroupInvation.Share" = "Поделиться ссылкой";
+
+"GroupInvation.GroupDescription" = "Любой пользователь Телеграма сможет присоединиться к группе при помощи этой ссылки.";
+"GroupInvation.ChannelDescription" = "Любой пользователь Telegram сможет подписаться на ваш канал, перейдя по этой ссылке.";
+
+"Chat.Header.PinnedMessage" = "Закреплённое сообщение";
+"Chat.Header.ReportSpam" = "Сообщить о спаме";
+"Chat.Confirm.Unpin" = "Вы уверены, что хотите открепить это сообщение?";
+
+"StickerPack.Add" = "Добавить %d стикеров";
+"Compose.Select.SecretChat" = "Секретный чат";
+"Compose.Confirm.StartSecretChat" = "Создать секретный чат с пользователем %@";
+"StickerPack.Remove" = "Удалить %d стикера(ов)";
+
+"ReportReason.Spam" = "Спам";
+"ReportReason.Violence" = "Насилие";
+"ReportReason.Porno" = "Порнография";
+"PeerInfo.ChannelReported" = "Спасибо! Ваша жалоба будет очень скоро рассмотрена нашей командой.";
+
+"PeerInfo.SignMessages.Desc" = "Добавлять имена администраторов к публикуемым ими сообщениям.";
+"PeerInfo.SignMessages" = "Подписывать сообщения";
+"PeerInfo.SetChannelPhoto" = "Установить фото канала";
+"PeerInfo.Members" = "Участники";
+"PeerInfo.ChannelLink" = "Ссылка";
+"PeerInfo.DeleteChannel" = "Удалить канал";
+"PeerInfo.DeleteSecretChat" = "Удалить секретный чат";
+
+"ChannelMembers.AddMembers" = "Добавить участников";
+"ChannelMembers.InviteLink" = "Пригласить по ссылке";
+"ChannelMembers.MembersListDesc" = "Только администраторы канала могут видеть этот список.";
+"Telegram.ChannelMembersViewController" = "Участники канала";
+
+"LinkInvation.Group.Confirm.Revoke" = "Вы точно хотите аннулировать эту ссылку? Больше никто не сможет присоединиться к группе с её помощью.";
+"LinkInvation.Channel.Confirm.Revoke" = "Вы точно хотите аннулировать эту ссылку? Больше никто не сможет подписаться на канал с её помощью.";
+"LinkInvation.Confirm.Ok" = "Аннулировать";
+"ChannelMembers.Select.Title" = "Добавить участников";
+"PeerInfo.Confirm.StartSecretChat" = "Вы уверены, что хотите начать секретный чат с пользователем %@?";
+
+
+"PeerInfo.BotStatus.HasNoAccess" = "не имеет доступа к сообщениям";
+"PeerInfo.BotStatus.HasAccess" = "имеет доступ к сообщениям";
+"PeerInfo.GroupsInCommon" = "Общие группы";
+"GroupsInCommon.Empty" = "Нет общих групп";
+"Telegram.GroupsInCommonViewController" = "Общие группы";
+
+"ChannelVisibility.Checking" = "Проверка";
+"ChannelVisibility.Loading" = "Загрузка...";
+"Peer.DeletedUser" = "Удалённый пользователь";
+
+"ChatList.Service.Call.incoming" = "Входящий вызов (%@)";
+"ChatList.Service.Call.outgoing" = "Исходящий вызов (%@)";
+"ChatList.Service.Call.Cancelled" = "Отменённый вызов";
+
+"ChatList.Service.Call.Missed" = "Пропущенный вызов";
+"ChatList.Service.Call.busy" = "Занято";
+"ChatList.Service.Call.Hangup" = "Завершено";
+"ChatList.Service.Call.Disconnected" = "Отключено";
+
+"ChatList.Service.GameScored" = "набрал %d в игре %@";
+
+
+"About.Description" = "Бесплатное приложение для macOS, основанное на MTProto, с упором на скорость и безопасность.";
+"ChatService.ChannelCreated" = "канал создан";
+"Telegram.BlockedPeersViewController" = "Чёрный список";
+"BlockedPeers.EmptyDescrpition" = "Заблокированные пользователи не могут посылать вам сообщения или добавляться в ваши группы. Они не видят фото вашего профиля и ваш статус.";
+
+"Sessions.CurrentSessionHeader" = "ТЕКУЩАЯ СЕССИЯ";
+"Sessions.TerminateOthers" = "Завершить все другие сеансы";
+"Sessions.TerminateDescription" = "Выйти на всех устройствах, кроме этого.";
+"Sessions.ActiveSessionsHeader" = "АКТИВНЫЕ СЕССИИ";
+
+
+"Passcode.TurnOn" = "Включить код доступа";
+"Passcode.TurnOnDescription" = "После установки кода доступа, вы сможете вручную блокировать приложение сочетанием клавиш ? + L.\n\nВажно: если вы забудете код доступа, вам придётся переустановить приложение, и все секретные чаты будут утеряны.";
+"Passcode.TurnOff" = "Выключить код доступа";
+"Passcode.Change" = "Сменить код доступа";
+"Passcode.Autolock" = "Автоблокировка";
+"Passcode.AutoLock.Disabled" = "Отключена";
+"Passcode.AutoLock.IfAway" = "%@ без активности";
+
+"Passcode.EnterPasscodePlaceholder" = "Введите код доступа";
+"Passcode.ReEnterPlaceholder" = "Ещё раз введите код доступа";
+"Passcode.EnterCurrentPlaceholder" = "Введите ваш текущий код доступа";
+"Passcode.EnterNewPlaceholder" = "Введите новый код доступа";
+
+"Passcode.Next" = "Далее";
+
+
+"Peer.ServiceNotifications" = "Служебные уведомления";
+
+"Alert.SendError.Header" = "Ваше сообщение не может быть отправлено";
+"Alert.SendError.Text" = "Возникла ошибка при отправке предыдущего сообщения. Хотите отправить его снова?";
+"Alert.SendError.Resend" = "Повторить";
+"Alert.SendError.Delete" = "Удалить";
+"Alert.SendError.Ignore" = "Игнорировать";
