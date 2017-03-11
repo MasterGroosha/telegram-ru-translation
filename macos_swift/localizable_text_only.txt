@@ -286,7 +286,7 @@
 "GeneralSettings.GeneralSettings" = "ОБЩИЕ НАСТРОЙКИ";
 
 "GeneralSettings.SendByEnter" = "Использовать Enter для отправки";
-"GeneralSettings.SendByCmdEnter" = "Использовать ? + Enter для отправки";
+"GeneralSettings.SendByCmdEnter" = "Использовать ⌘ + Enter для отправки";
 
 "Telegram.GeneralSettingsViewController" = "Общие настройки";
 "AccountSettings.Logout" = "Выйти";
@@ -690,7 +690,7 @@
 
 
 "Passcode.TurnOn" = "Включить код доступа";
-"Passcode.TurnOnDescription" = "После установки кода доступа, вы сможете вручную блокировать приложение сочетанием клавиш ? + L.\n\nВажно: если вы забудете код доступа, вам придётся переустановить приложение, и все секретные чаты будут утеряны.";
+"Passcode.TurnOnDescription" = "После установки кода доступа, вы сможете вручную блокировать приложение сочетанием клавиш ⌘ + L.\n\nВажно: если вы забудете код доступа, вам придётся переустановить приложение, и все секретные чаты будут утеряны.";
 "Passcode.TurnOff" = "Выключить код доступа";
 "Passcode.Change" = "Сменить код доступа";
 "Passcode.Autolock" = "Автоблокировка";
@@ -712,3 +712,10 @@
 "Alert.SendError.Resend" = "Повторить";
 "Alert.SendError.Delete" = "Удалить";
 "Alert.SendError.Ignore" = "Игнорировать";
+
+"GeneralSettings.EnableSidebar" = "Боковая панель";
+"GeneralSettings.SidebarDescription" = "Стикеры и эмодзи будут показываться справа от текущего чата.";
+"Telegram.RecentSessionsController" = "Активные сеансы";
+"RecentSessions.Confirm.TerminateOthers" = "Вы уверены, что хотите завершить все другие сеансы?";
+"RecentSessions.Confirm.Revoke" = "Завершить этот сеанс?";
+"RecentSessions.Revoke" = "Отозвать";
