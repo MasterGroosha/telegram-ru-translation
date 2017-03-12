@@ -728,3 +728,4 @@
 "Messages.ReplyLoading.Loading" = "Загрузка...";
 "PeerInfo.DeleteContact" = "Удалить контакт";
 "PeerInfo.Confirm.DeleteContact" = "Удалить контакт?";
+"Compose.SelectUsers" = "Выберите участников";
