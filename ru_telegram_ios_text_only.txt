@@ -249,7 +249,7 @@
 "WelcomeScreen.Logout" = "Выйти";
 "WelcomeScreen.Greeting" = "Добро пожаловать, %@!";
 "WelcomeScreen.ContactsAccessDisabled" = "Извините, не удалось синхронизировать контакты.";
-"WelcomeScreen.ContactsAccessHelp" = "Общение в Телеграме основано на списке ваших контактов. Зайдите в настройки вашего %@ в Приватность > Контакты и переведите переключатель «Telegram» в рабочее состояние.";
+"WelcomeScreen.ContactsAccessHelp" = "Общение в Telegram основано на списке ваших контактов. Пожалуйста, зайдите в настроки вашего %@ – Приватность – Контакты и переведите переключатель «Telegram» в положение ВКЛ.";
 "WelcomeScreen.ContactsAccessSettings" = "Настройки";
 "WelcomeScreen.UpdatingTitle" = "Обновление";
 
@@ -463,7 +463,7 @@
 "Conversation.SlideToCancel" = "Проведите для отмены";
 "Conversation.ApplyLocalization" = "Применить локализацию";
 "Conversation.OpenFile" = "Открыть файл";
-"Conversation.MicrophoneAccessDisabled" = "Для отправки голосовых сообщений Телеграму нужен доступ к микрофону. Зайдите в настройки вашего устройства в Приватность > Микрофон и переведите переключатель «Telegram» в рабочее состояние.";
+"Conversation.MicrophoneAccessDisabled" = "Для отправки голосовых сообщений Телеграму нужен доступ к микрофону. Зайдите в Настройки – Приватность – Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
 
 // Media Picker
 "MediaPicker.Send" = "Отпр.";
@@ -2173,7 +2173,7 @@
 "Conversation.JumpToDate" = "Перейти к дате";
 "Conversation.AddToReadingList" = "Добавить в список для чтения";
 
-"AccessDenied.CallMicrophone" = "Telegram нужен доступ к микрофону для осуществления звонков.\n\nПожалуйста, зайдите в Настройки — Приватность — Микрофон и установите переключатель напротив Telegram в положение ON.";
+"AccessDenied.CallMicrophone" = "Telegram нужен доступ к микрофону для осуществления звонковю\n\nПожалуйста, зайдите в Настройки — Приватность — Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
 
 "Call.EncryptionKey.Title" = "Ключ шифрования";
 "Call.EncryptionKey.Description" = "Изображение и текст получены из ключа шифрования для звонка пользователю %1$@.\n\n Если они выглядят так же, как на устройстве пользователя %2$@, оконечное шифрование гарантировано.\n\nУзнайте больше на telegram.org";
@@ -2217,7 +2217,6 @@
 "CallSettings.TabIcon" = "Показать вкладку с вызовами";
 "CallSettings.TabIconDescription" = "В панели вкладок появится иконка вызова";
 "CallSettings.UseLessData" = "Экономить трафик";
-"CallSettings.UseLessDataDescription" = "Экономить трафик при совершении вызовов.";
 "CallSettings.Never" = "Никогда";
 "CallSettings.OnMobile" = "Через мобильную сеть";
 "CallSettings.Always" = "Всегда";
@@ -2446,3 +2445,9 @@
 "Call.PrivacyErrorMessage" = "Извините, %@ не принимает звонки.";
 
 "Notification.CallBack" = "Перезвонить";
+
+"CallSettings.PrivacyDescription" = "Выберите, кто может вам звонить, в [настройках приватности]";
+
+"Call.AudioRouteSpeaker" = "Динамик";
+"Call.AudioRouteHeadphones" = "Наушники";
+"Call.AudioRouteHide" = "Скрыть";
