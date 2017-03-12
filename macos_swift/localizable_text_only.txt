@@ -719,3 +719,12 @@
 "RecentSessions.Confirm.TerminateOthers" = "Вы уверены, что хотите завершить все другие сеансы?";
 "RecentSessions.Confirm.Revoke" = "Завершить этот сеанс?";
 "RecentSessions.Revoke" = "Отозвать";
+
+"Legacy.Intro.Description1" = "Добро пожаловать в новое супербыстрое и стабильное приложение Telegram для macOS, полностью переписанное на языке Swift 3.0.";
+"Legacy.Intro.Description2" = "Пожалуйста, учтите, что ваши существующие секретные чаты будут доступны в режиме «только чтение». Вы, конечно же, можете создать новые для продолжения общения.";
+"Legacy.Intro.Next" = "Начать общение";
+
+"Messages.ReplyLoading.Header" = "Ответить";
+"Messages.ReplyLoading.Loading" = "Загрузка...";
+"PeerInfo.DeleteContact" = "Удалить контакт";
+"PeerInfo.Confirm.DeleteContact" = "Удалить контакт?";
