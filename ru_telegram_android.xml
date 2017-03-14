@@ -1246,10 +1246,11 @@
   <string name="VoipOfflineTitle">Не в сети</string>
   <string name="VoipOfflineAirplaneTitle">Режим полёта</string>
   <string name="VoipOfflineOpenSettings">Настройки</string>
-  <string name="CallMessageOutgoing">Исходящий звонок</string>
-  <string name="CallMessageIncoming">Входящий звонок</string>
-  <string name="CallMessageIncomingMissed">Пропущенный звонок</string>
-  <string name="CallMessageOutgoingMissed">Отменённый звонок</string>
+  <string name="CallMessageOutgoing">Исходящий вызов</string>
+  <string name="CallMessageIncoming">Входящий вызов</string>
+  <string name="CallMessageIncomingMissed">Пропущенный вызов</string>
+  <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
+  <string name="CallMessageIncomingDeclined">Сброшенный вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
   <string name="CallEncryptionKeyDescription">Изображение и текст получены из ключа шифрования для звонка пользователю <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.</string>
   <string name="NoCallLog">Вы пока ещё не совершили ни одного звонка.</string>
@@ -1268,7 +1269,7 @@
   <string name="VoipAudioRoutingSpeaker">Динамик</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
-  <string name="CallNotAvailable">Извините, %1$s не принимает звонки.</string>
+  <string name="CallNotAvailable">Извините, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
