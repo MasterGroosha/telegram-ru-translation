@@ -2453,3 +2453,6 @@
 "Call.AudioRouteHide" = "Скрыть";
 
 "EncryptionKey.TapToEmojify" = "Показать в виде эмодзи";
+
+"Call.PhoneCallInProgressMessage" = "Вы не можете осуществить звонок Telegram, если в процессе другой телефонный разговор.";
+"Call.RecordingDisabledMessage" = "Чтобы отправить голосовое сообщение, необходимо сначала завершить разговор.";
