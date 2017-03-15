@@ -402,6 +402,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_connection_user_ph" = "Логин";
 "lng_connection_password_ph" = "Пароль";
 "lng_connection_save" = "Сохранить";
+
+"lng_settings_blocked_users" = "Заблокированные пользователи";
 "lng_settings_show_sessions" = "Показать все сессии";
 "lng_settings_reset" = "Завершить все сессии";
 "lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сессии?";
@@ -426,6 +428,15 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_sessions_no_other" = "Нет других сессий";
 "lng_sessions_other_desc" = "Вы можете войти в Telegram с любого устройства: телефона, планшета или компьютер, используя ваш номер телефона. Все контакты и история сообщений будут мгновенно синхронизироваться.";
 "lng_sessions_terminate_all" = "Завершить все сеансы";
+
+"lng_blocked_list_title" = "Заблокированные пользователи";
+"lng_blocked_list_unknown_phone" = "неизв. номер";
+"lng_blocked_list_unblock" = "Разблокировать";
+"lng_blocked_list_add" = "Заблокировать...";
+"lng_blocked_list_add_title" = "Выберите, кого заблокировать";
+"lng_blocked_list_already_blocked" = "уже заблокирован(а)";
+"lng_blocked_list_about" = "Заблокированные пользователи не могут отправлять вам сообщения и добавлять в группы. Они не увидят ваше фото профиля, статус «онлайн» и время последнего нахождения в сети.";
+"lng_blocked_list_not_found" = "Не найдено.";
 
 "lng_preview_loading" = "Получаю информацию о ссылке...";
 
