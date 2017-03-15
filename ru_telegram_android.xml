@@ -583,6 +583,7 @@
   <string name="ShortMessageLifetimeForever">Откл.</string>
   <string name="EncryptionKeyDescription">Изображение и текст получены из ключа шифрования для секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.<![CDATA[<br><br>]]>Узнать больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
+  <string name="TapToEmojify">Показать в виде эмодзи</string>
   <string name="NumberUnknown">Неизвестен</string>
   <string name="Info">Информация</string>
   <string name="Phone">Номер телефона</string>
