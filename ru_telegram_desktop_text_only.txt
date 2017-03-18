@@ -404,6 +404,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_connection_save" = "Сохранить";
 
 "lng_settings_blocked_users" = "Заблокированные пользователи";
+"lng_settings_last_seen_privacy" = "Последняя активность";
+"lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
 "lng_settings_show_sessions" = "Показать все сессии";
 "lng_settings_reset" = "Завершить все сессии";
 "lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сессии?";
@@ -437,6 +439,32 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_blocked_list_already_blocked" = "уже заблокирован(а)";
 "lng_blocked_list_about" = "Заблокированные пользователи не могут отправлять вам сообщения и добавлять в группы. Они не увидят ваше фото профиля, статус «онлайн» и время последнего нахождения в сети.";
 "lng_blocked_list_not_found" = "Не найдено.";
+
+"lng_edit_privacy_everyone" = "Все";
+"lng_edit_privacy_contacts" = "Мои контакты";
+"lng_edit_privacy_nobody" = "Никто";
+"lng_edit_privacy_exceptions" = "Добавить исключения";
+
+"lng_edit_privacy_lastseen_title" = "Последняя активность";
+"lng_edit_privacy_lastseen_everyone" = "Все могут видеть время моей последней активности";
+"lng_edit_privacy_lastseen_contacts" = "Только мои контакты могут видеть время моей последней активности";
+"lng_edit_privacy_lastseen_nobody" = "Никто не может видеть время моей последней активности";
+"lng_edit_privacy_lastseen_description" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
+"lng_edit_privacy_lastseen_always" = "Всегда делиться с{count:| # польз.| # польз.}";
+"lng_edit_privacy_lastseen_never" = "Всегда скрывать от{count:| # польз.| # польз.}";
+"lng_edit_privacy_lastseen_exceptions" = "Эти настройки переопределят значения выше.";
+"lng_edit_privacy_lastseen_always_title" = "Всегда делиться с...";
+"lng_edit_privacy_lastseen_never_title" = "Всегда скрывать от...";
+
+"lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
+"lng_edit_privacy_groups_everyone" = "Все могут добавлять меня в группы и каналы";
+"lng_edit_privacy_groups_contacts" = "Только мои контакты могут добавлять меня в группы и каналы";
+"lng_edit_privacy_groups_description" = "Вы можете ограничить круг лиц, которые могут добавлять вас в группы и каналы.";
+"lng_edit_privacy_groups_always" = "Всегда разрешать{count:| # польз.| # польз.}";
+"lng_edit_privacy_groups_never" = "Всегда запрещать{count:| # польз.| # польз.}";
+"lng_edit_privacy_groups_exceptions" = "Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.";
+"lng_edit_privacy_groups_always_title" = "Всегда разрешать...";
+"lng_edit_privacy_groups_never_title" = "Всегда запрещать...";
 
 "lng_preview_loading" = "Получаю информацию о ссылке...";
 
