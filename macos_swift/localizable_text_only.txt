@@ -743,3 +743,5 @@
 
 
 "GeneralSettings.InAppSounds" = "Звуки в приложении";
+"Chat.ShareInlineResultActionHeader" = "Поделиться";
+"Context.CopyMedia" = "Сохранить как...";
