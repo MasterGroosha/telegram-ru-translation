@@ -1271,6 +1271,7 @@
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
   <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
   <string name="CallNotAvailable">Извините, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
+  <string name="CallEmojiKeyTooltip">Если %1$s видит те же эмодзи, что и вы, звонок на 100%% защищён.</string>
   <!--plural-->
   <string name="Online_zero">%1$d в сети</string>
   <string name="Online_one">%1$d в сети</string>
