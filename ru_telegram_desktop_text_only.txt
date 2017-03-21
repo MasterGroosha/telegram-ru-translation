@@ -407,6 +407,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_last_seen_privacy" = "Последняя активность";
 "lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
 "lng_settings_show_sessions" = "Показать все сессии";
+"lng_settings_self_destruct" = "Настройки самоуничтожения аккаунта";
 "lng_settings_reset" = "Завершить все сессии";
 "lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сессии?";
 "lng_settings_reset_one_sure" = "Завершить эту сессию?";
@@ -446,10 +447,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_exceptions" = "Добавить исключения";
 
 "lng_edit_privacy_lastseen_title" = "Последняя активность";
-"lng_edit_privacy_lastseen_everyone" = "Все могут видеть время моей последней активности";
-"lng_edit_privacy_lastseen_contacts" = "Только мои контакты могут видеть время моей последней активности";
-"lng_edit_privacy_lastseen_nobody" = "Никто не может видеть время моей последней активности";
-"lng_edit_privacy_lastseen_description" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
+"lng_edit_privacy_lastseen_description" = "Вы можете выбрать, кто видит время вашей последней активности";
+"lng_edit_privacy_lastseen_warning" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
 "lng_edit_privacy_lastseen_always" = "Всегда делиться с{count:| # польз.| # польз.}";
 "lng_edit_privacy_lastseen_never" = "Всегда скрывать от{count:| # польз.| # польз.}";
 "lng_edit_privacy_lastseen_exceptions" = "Эти настройки переопределят значения выше.";
@@ -457,14 +456,29 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_lastseen_never_title" = "Всегда скрывать от...";
 
 "lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
-"lng_edit_privacy_groups_everyone" = "Все могут добавлять меня в группы и каналы";
-"lng_edit_privacy_groups_contacts" = "Только мои контакты могут добавлять меня в группы и каналы";
-"lng_edit_privacy_groups_description" = "Вы можете ограничить круг лиц, которые могут добавлять вас в группы и каналы.";
+"lng_edit_privacy_groups_description" = "Вы можете выбрать, кто может добавлять вас в группы и каналы.";
 "lng_edit_privacy_groups_always" = "Всегда разрешать{count:| # польз.| # польз.}";
 "lng_edit_privacy_groups_never" = "Всегда запрещать{count:| # польз.| # польз.}";
 "lng_edit_privacy_groups_exceptions" = "Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.";
 "lng_edit_privacy_groups_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_groups_never_title" = "Всегда запрещать...";
+
+"lng_self_destruct_title" = "Самоуничтожение аккаунта";
+"lng_self_destruct_description" = "Если вы не появитесь в сети хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.";
+"lng_self_destruct_months" = "{count:_not_used_|# мес.|# мес.}";
+"lng_self_destruct_years" = "{count:_not_used_|# г.|# г.}";
+
+"lng_change_phone_title" = "Сменить номер";
+"lng_change_phone_description" = "Здесь вы можете сменить ваш номер Telegram.\nВаш аккаунт и все ваши данные\n— сообщения, медиа, контакты и т.д. будут\nперенесены на новый номер.\n\n[b]Важно[/b]: всем вашим контактам Telegram\nбудет автоматически добавлен в адресную книгу ваш [b]новый номер[/b]\n, при условии, что у них был ваш старый\nномер и вы не блокировали их.";
+"lng_change_phone_warning" = "Всем вашим контактам Telegram будет автоматически добавлен в адресную книгу ваш новый номер, при условии, что у них был ваш старый номер и вы не блокировали их.";
+"lng_change_phone_occupied" = "Номер {phone} уже привязан к другому аккаунту Telegram. Удалите тот аккаунт, прежде чем перейти на новый номер.";
+"lng_change_phone_button" = "Сменить номер";
+"lng_change_phone_new_title" = "Введите новый номер";
+"lng_change_phone_new_description" = "Мы отправим SMS с кодом подтверждения на ваш новый номер.";
+"lng_change_phone_new_submit" = "Отправить";
+"lng_change_phone_code_title" = "Введите код";
+"lng_change_phone_code_description" = "Мы отправим SMS с кодом подтверждения на номер {phone}.";
+"lng_change_phone_success" = "Ваш номер телефона был изменён.";
 
 "lng_preview_loading" = "Получаю информацию о ссылке...";
 
