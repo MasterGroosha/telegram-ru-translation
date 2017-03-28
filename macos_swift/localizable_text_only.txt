@@ -177,7 +177,7 @@
 "Message.Context.Confirm.Pin" = "Закрепить это сообщение и оповестить всех участников группы?";
 "Message.Context.Confirm.OnlyPin" = "Только закрепить";
 
-"Entertainment.Switch.GifAndStickers" = "Стикеры";
+"Entertainment.Switch.GifAndStickers" = "Стикеры и GIF";
 "Entertainment.Switch.Emoji" = "Эмодзи";
 "Telegram.LayoutAccountController" = "Аккаунт";
 
@@ -745,3 +745,17 @@
 "GeneralSettings.InAppSounds" = "Звуки в приложении";
 "Chat.ShareInlineResultActionHeader" = "Поделиться";
 "Context.CopyMedia" = "Сохранить как...";
+
+"Telegram.InstalledStickerPacksController" = "Стикеры";
+"Stickers.Set.Count" = "Стикеров: %d";
+"Telegram.FeaturedStickerPacksController" = "Популярные стикеры";
+"Telegram.ArchivedStickerPacksController" = "Архивные стикеры";
+"ArchivedStickers.Description" = "У вас может быть до 200 установленных наборов стикеров. При установке новых наборов неиспользуемые стикеры архивируются.";
+"InstalledStickers.PacksTitle" = "Наборы стикеров";
+"InstalledStickers.Descrpiption" = "Художники могут добавить собственные наборы стикеров с помощью бота @stickers.\n\nНажмите на стикер, чтобы просмотреть и добавить весь набор.";
+"InstalledStickers.Archived" = "Архивные стикеры";
+"InstalledStickers.Tranding" = "Популярные стикеры";
+"StickerSet.Remove" = "Удалить";
+"InstalledStickers.Remove.Description" = "Если вы архивируете набор стикеров, его можно будет быстро восстановить в разделе Архивные стикеры.";
+"InstalledStickers.Remove.Delete" = "Удалить";
+"InstalledStickers.Remove.Archive" = "Архивировать";
