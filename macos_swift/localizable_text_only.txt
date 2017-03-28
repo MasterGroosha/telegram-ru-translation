@@ -626,7 +626,7 @@
 "Chat.Header.ReportSpam" = "Сообщить о спаме";
 "Chat.Confirm.Unpin" = "Вы уверены, что хотите открепить это сообщение?";
 
-"StickerPack.Add" = "Добавить %d стикеров";
+"StickerPack.Add" = "Добавить стикеры (%d шт.)";
 "Compose.Select.SecretChat" = "Секретный чат";
 "Compose.Confirm.StartSecretChat" = "Создать секретный чат с пользователем %@";
 "StickerPack.Remove" = "Удалить %d стикера(ов)";
