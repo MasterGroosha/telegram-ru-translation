@@ -1069,7 +1069,7 @@
   <string name="Add">Добавить</string>
   <string name="Edit">Изменить</string>
   <string name="Send">Отправить</string>
-  <string name="Call">Обычный звонок</string>
+  <string name="Call">Позвонить</string>
   <string name="Copy">Копировать</string>
   <string name="Delete">Удалить</string>
   <string name="DeleteAndStop">Удалить и остановить</string>
@@ -1265,7 +1265,7 @@
   <string name="CallAgain">Позвонить снова</string>
   <string name="DefaultRingtone">По умолчанию</string>
   <string name="ConfirmDeleteCallLog">Уверены, что хотите удалить эту запись из журнала звонков?</string>
-  <string name="CallViaTelegram">Звонок Telegram</string>
+  <string name="CallViaTelegram">Позвонить через Telegram</string>
   <string name="VoipAudioRoutingEarpiece">Наушники</string>
   <string name="VoipAudioRoutingSpeaker">Динамик</string>
   <string name="VoipAudioRoutingBluetooth">Bluetooth</string>
