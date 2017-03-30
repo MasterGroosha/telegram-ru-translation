@@ -623,6 +623,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_message_empty" = "Пустое сообщение";
 "lng_message_unsupported"= "Это сообщение не поддерживается вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}"; 
 
+"lng_duration_seconds" = "{count:_not_used_|# сек.|# сек.}";
+"lng_duration_minutes_seconds" = "{count_minutes:# мин.|# мин.|# мин.} {count_seconds:# сек.|# сек.|# сек.}";
+
 "lng_action_add_user" = "{from} добавил(а) {user}";
 "lng_action_add_users_many" = "{from} добавил(а) {users}";
 "lng_action_add_users_and_one" = "{accumulated}, {user}";
@@ -660,6 +663,15 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_game" = "игру «{game}»";
 "lng_action_game_score" = "{from} набрал(а) {count:#|#|#} в игре {game}";
 "lng_action_game_you_scored" = "Вы набрали {count:#|#|#} в игре {game}";
+
+"lng_action_call_outgoing" = "Исходящий вызов в {time}";
+"lng_action_call_incoming" = "Входящий вызов в {time}";
+"lng_action_call_outgoing_duration" = "Исходящий вызов ({duration}) в {time}";
+"lng_action_call_incoming_duration" = "Входящий вызов ({duration}) в {time}";
+"lng_action_call_incoming_missed" = "Пропущенный вызов в {time}";
+"lng_action_call_outgoing_missed" = "Отменённый вызов в {time}";
+"lng_action_payment_done" = "Вы успешно перевели {amount} пользователю {user}";
+"lng_action_payment_done_for" = "Вы успешно перевели {amount} пользователю {user} за {invoice}";
 
 
 "lng_profile_migrate_reached" = "Достигнут лимит в {count:_not_used_|# участника|# участников}";
@@ -1100,6 +1112,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_theme_editor_done" = "Тема успешно экспортирована!";
 "lng_theme_editor_title" = "Редактировать цветовую палитру";
 "lng_theme_editor_export_button" = "Экспорт темы";
+
+"lng_payments_not_supported" = "Извините, Telegram Desktop пока не поддерживает платежи. Пожалуйста, используйте для этого наши мобильные приложения.";
+"lng_payments_receipt_label" = "Квитанция";
+"lng_payments_receipt_label_test" = "Тестовая квитанция";
+"lng_payments_invoice_label" = "Счёт";
+"lng_payments_invoice_label_test" = "Тестовый счёт";
+"lng_payments_receipt_button" = "Квитанция";
 
 // Wnd specific
 
