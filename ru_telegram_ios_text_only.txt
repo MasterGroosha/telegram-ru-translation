@@ -2025,7 +2025,7 @@
 "Invitation.Members_1" = "1 участник:";
 "Invitation.Members_2" = "2 участника:";
 "Invitation.Members_3_10" = "Участники (%@):";
-"Invitation.Members_any" = "%@ участников:";
+"Invitation.Members_any" = "Участники (%@): ";
 
 "StickerPacksSettings.ArchivedPacks" = "Архивные стикеры";
 "StickerPacksSettings.ArchivedPacks.Info" = "У вас может быть до 200 установленных наборов стикеров. \nПри установке новых наборов неиспользуемые стикеры архивируются.";
