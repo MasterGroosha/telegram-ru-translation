@@ -759,3 +759,4 @@
 "InstalledStickers.Remove.Description" = "Если вы архивируете набор стикеров, его можно будет быстро восстановить в разделе Архивные стикеры.";
 "InstalledStickers.Remove.Delete" = "Удалить";
 "InstalledStickers.Remove.Archive" = "Архивировать";
+"Alert.UserDoesntExists" = "Извините, похоже, что такого пользователя не существует.";
