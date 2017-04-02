@@ -646,7 +646,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_changed_title" = "{from} изменил(а) название группы на «{title}»";
 "lng_action_changed_title_channel" = "Имя канала изменено на «{title}»";
 "lng_action_created_chat" = "{from} создал(а) группу «{title}»";
-"lng_action_created_channel" = "Канал «{title}» создан";
+"lng_action_created_channel" = "Канал создан";
 "lng_action_group_migrate" = "Эта группа была преобразована в супергруппу";
 "lng_action_pinned_message" = "{from} закрепил(а) «{text}»";
 "lng_action_pinned_media" = "{from} закрепил(а) {media}";
