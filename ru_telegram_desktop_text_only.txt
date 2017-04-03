@@ -777,13 +777,12 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_recent_stickers" = "Часто используемые";
 "lng_switch_stickers" = "Стикеры";
-"lng_switch_stickers_gifs" = "GIF и стикеры";
 "lng_switch_emoji" = "Эмодзи";
+"lng_switch_gifs" = "GIF";
 "lng_stickers_featured_add" = "Добавить";
+"lng_gifs_search" = "Поиск GIF";
 
 
-"lng_saved_gifs" = "Сохранённые GIF";
-"lng_inline_bot_results" = "Результаты от {inline_bot}";
 "lng_inline_bot_no_results" = "<Ничего>";
 "lng_inline_bot_via" = "с помощью {inline_bot}"; 
 
