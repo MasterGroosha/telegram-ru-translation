@@ -238,7 +238,6 @@
 
 "Login.WelcomeDescription" = "Добро пожаловать в официальное приложение для macOS";
 "Login.countryLabel" = "страна";
-"Login.yourPhoneLabel" = "ваш номер";
 "Login.phoneFieldPlaceholder" = "номер телефона";
 "Login.Next" = "Далее";
 
@@ -282,6 +281,7 @@
 "GeneralSettings.EmojiSidebar" = "Панель эмодзи и стикеров";
 "GeneralSettings.ContactsJoined" = "Контакт присоединился к Telegram";
 "GeneralSettings.DownloadSettings" = "Настройки скачивания";
+"GeneralSettings.EmojiReplacements" = "Автозамена эмодзи (\"<3\" -> ❤️)";
 "GeneralSettings.InputSettings" = "НАСТРОЙКИ ВВОДА";
 "GeneralSettings.GeneralSettings" = "ОБЩИЕ НАСТРОЙКИ";
 
@@ -736,6 +736,10 @@
 "GroupAdmins.Desc.AllInvites" = "Участники группы могут добавлять новых участников, редактировать название и фотографию этой группы.";
 "Login.PhoneNumberNotRegistred" = "Номер телефона не зарегистрирован. Если у вас ещё нет аккаунта Telegram, пожалуйста, зарегистрируйтесь через мобильное приложение.";
 "Login.Unregistred.OpenSite" = "Открыть веб-сайт";
+"Login.YourPhoneLabel" = "Ваш телефон";
+"Login.YourCodeLabel" = "Ваш код";
+"Login.YourPasswordLabel" = "Ваш пароль";
+
 "PeerInfo.EncryptionKey" = "Ключ шифрования";
 
 "Telegram.SecretChatKeyViewController" = "Ключ шифрования";
@@ -760,3 +764,9 @@
 "InstalledStickers.Remove.Delete" = "Удалить";
 "InstalledStickers.Remove.Archive" = "Архивировать";
 "Alert.UserDoesntExists" = "Извините, похоже, что такого пользователя не существует.";
+"InAppLinks.Confirm.OpenExternal" = "Открыть %@?";
+
+"Login.Header.Code" = "Введите код";
+"Login.Header.Password" = "Введите пароль";
+"Login.Header.SignUp" = "Зарегистрироваться";
+"Telegram.EmptyChatViewController" = "";
