@@ -281,7 +281,7 @@
 "GeneralSettings.EmojiSidebar" = "Панель эмодзи и стикеров";
 "GeneralSettings.ContactsJoined" = "Контакт присоединился к Telegram";
 "GeneralSettings.DownloadSettings" = "Настройки скачивания";
-"GeneralSettings.EmojiReplacements" = "Автозамена эмодзи (\"<3\" -> ❤️)";
+"GeneralSettings.EmojiReplacements" = "Автозамена эмодзи (\"<3\" ➞ ❤️)";
 "GeneralSettings.InputSettings" = "НАСТРОЙКИ ВВОДА";
 "GeneralSettings.GeneralSettings" = "ОБЩИЕ НАСТРОЙКИ";
 
@@ -770,3 +770,9 @@
 "Login.Header.Password" = "Введите пароль";
 "Login.Header.SignUp" = "Зарегистрироваться";
 "Telegram.EmptyChatViewController" = "";
+"Contacts.AddContact" = "Добавить контакт";
+"Contacts.FirstName.Placeholder" = "Имя";
+"Contacts.LastName.Placeholder" = "Фамилия";
+"Contacts.PhoneNumber.Placeholder" = "Номер телефона";
+"Contacts.NotRegistredTitle" = "Нет такого контакта в Telegram";
+"Contacts.NotRegistredDescription" = "Этот контакт ещё не зарегистрирован в Telegram. Вы сможете написать ему/ей через Telegram, как только он(а) зарегистрируется.";
