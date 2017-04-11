@@ -117,7 +117,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_status" = "канал";
 "lng_group_status" = "группа";
 
-"lng_channel_members_link" = "{count:_not_used_|# участник »|Участников: #}";
+"lng_channel_members_link" = "{count:_not_used_|# участник|Участников: #}";
 "lng_channel_admins_link" = "{count:_not_used_|Администраторов: #|Администраторов: #}";
 
 "lng_server_error" = "Ошибка сервера.";
@@ -494,6 +494,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_create_public_link" = "Сменить тип";
 "lng_profile_edit_public_link" = "Редактировать ссылку на профиль";
 "lng_profile_manage_admins" = "Администраторы";
+"lng_profile_manage_blocklist" = "Заблокированные пользователи";
 "lng_profile_common_groups" = "Общих групп: {count:_not_used_|#|#}";
 "lng_profile_common_groups_section" = "Общие группы";
 "lng_profile_participants_section" = "Участники";
@@ -574,6 +575,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_add_admin" = "Добавить администратора";
 "lng_channel_admin_sure" = "Сделать {user} администратором?";
 "lng_channel_admins_too_much" = "К сожалению, вы добавили слишком много администраторов. Удалите хотя бы одного, чтобы продолжить.";
+
+"lng_group_blocked_list_about" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора.\nПригласительные ссылки для них не работают.";
 
 "lng_chat_all_members_admins" = "Все участники являются администраторами";
 "lng_chat_about_all_admins" = "Все участники могут добавлять в группу других людей, редактировать фото и название группы.";
@@ -781,7 +784,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_switch_gifs" = "GIF";
 "lng_stickers_featured_add" = "Добавить";
 "lng_gifs_search" = "Поиск GIF";
-
+"lng_gifs_no_saved" = "У вас пока нет сохранённых GIF.";
 
 "lng_inline_bot_no_results" = "<Ничего>";
 "lng_inline_bot_via" = "с помощью {inline_bot}"; 
@@ -950,7 +953,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_delete_file" = "Удалить файл";
 "lng_context_close_file" = "Закрыть файл";
 "lng_context_copy_text" = "Копировать текст";
-"lng_context_save_gif" = "Сохранить GIF";
+"lng_context_save_gif" = "Сохранить в GIF";
 "lng_context_to_msg" = "Перейти к сообщению";
 "lng_context_reply_msg" = "Ответить";
 "lng_context_edit_msg" = "Редактировать";
