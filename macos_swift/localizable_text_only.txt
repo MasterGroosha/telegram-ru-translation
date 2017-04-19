@@ -233,6 +233,7 @@
 "Audio.UntitledSong" = "Без названия";
 
 "AudioController.voiceMessage" = "голосовое сообщение";
+"AudioController.videoMessage" = "видеосообщение";
 "You" = "Вы";
 
 
@@ -296,6 +297,7 @@
 "NotificationSettings.ResetNotifications" = "Сбросить настройки уведомлений";
 "NotificationSettings.ResetNotificationsText" = "Вы можете задать свои настройки уведомлений для каждого чата из списка ниже.";
 "Telegram.NotificationSettingsViewController" = "Уведомления";
+"AccountSettings.Storage" = "Хранилище";
 "DefaultSoundName" = "По умолчанию";
 "NotificationSettings.Tone.Default" = "По умолчанию";
 "NotificationSettingsToneNone" = "Нет";
@@ -328,6 +330,7 @@
 
 "Chat.List.Sticker" = "Стикер %@";
 "Chat.List.Voice" = "Голосовое сообщение";
+"Chat.List.InstantVideo" = "Видеосообщение";
 "Chat.List.Video" = "Видео";
 "Chat.List.Photo" = "Фото";
 "Chat.List.GIF" = "GIF";
@@ -526,7 +529,7 @@
 "Timer.Years.zero" = "%d г.";
 "Timer.Years.singular" = "%d г.";
 "Timer.Years.pluar" = "%d г.";
-
+"Timer.Forever" = "Всегда";
 "ChatList.Draft" = "Черновик:";
 "ChatList.You" = "Вы";
 
@@ -776,3 +779,24 @@
 "Contacts.PhoneNumber.Placeholder" = "Номер телефона";
 "Contacts.NotRegistredTitle" = "Нет такого контакта в Telegram";
 "Contacts.NotRegistredDescription" = "Этот контакт ещё не зарегистрирован в Telegram. Вы сможете написать ему/ей через Telegram, как только он(а) зарегистрируется.";
+
+"Telegram.DataAndStorageViewController" = "Данные и хранилище";
+"DataAndStorage.StorageUsage" = "Использование хранилища";
+"DataAndStorage.NetworkUsage" = "Использование сети";
+
+
+"DataAndStorage.AutomaticDownload.PrivateChats" = "Личные чаты";
+"DataAndStorage.AutomaticDownload.GroupsChannels" = "Группы и каналы";
+
+"DataAndStorage.AutomaticPhotoDownload.Header" = "АВТОЗАГРУЗКА ФОТО";
+"DataAndStorage.AutomaticAudioDownload.Header" = "АВТОЗАГРУЗКА АУДИО";
+"DataAndStorage.AutomaticVideoDownload.Header" = "АВТОЗАГРУЗКА ВИДЕО";
+
+
+"DataAndStorage.VoiceCalls.Header" = "ЗВОНКИ";
+"DataAndStorage.VoiceCalls.LessData" = "Экономить трафик";
+"Telegram.StorageUsageController" = "Использование хранилища";
+"StorageUsage.KeepMedia" = "Срок хранения медиа";
+"StorageUsage.KeepMedia.Description" = "Фото, видео и другие файлы из чатов могут быть удалены с этого устройства при установке ограничения на хранение в целях экономии свободного места.\n\nВсе файлы останутся в облаке Telegram и могут быть повторно загружены в случае необходимости.";
+"StorageUsage.ChatsHeader" = "ЧАТЫ";
+"StorageUsage.Calculating" = "Вычисление текущего размера кэша...";
