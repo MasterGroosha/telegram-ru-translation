@@ -3,6 +3,7 @@
 "MESSAGE_NOTEXT" = "Сообщение от %1$@";
 "MESSAGE_PHOTO" = "Фото от %1$@";
 "MESSAGE_VIDEO" = "Видео от %1$@";
+"MESSAGE_ROUND" = "%1$@ отправил(а) вам видеосообщение";
 "MESSAGE_CONTACT" = "Контакт от %1$@";
 "MESSAGE_GEO" = "Карта от %1$@";
 "MESSAGE_DOC" = "Файл от %1$@";
@@ -20,6 +21,7 @@
 "CHAT_MESSAGE_NOTEXT" = "Сообщение от %1$@ в «%2$@»";
 "CHAT_MESSAGE_PHOTO" = "Фотография от %1$@ в «%2$@»";
 "CHAT_MESSAGE_VIDEO" = "Видео от %1$@ в «%2$@»";
+"CHAT_MESSAGE_ROUND" = "%1$@ отправил(а) видеосообщение в «%2$@»";
 "CHAT_MESSAGE_CONTACT" = "Контакт от %1$@ в «%2$@»";
 "CHAT_MESSAGE_GEO" = "Карта от %1$@ в «%2$@»";
 "CHAT_MESSAGE_DOC" = "Файл от %1$@ в «%2$@»";
@@ -51,6 +53,7 @@
 "CHANNEL_MESSAGE_NOTEXT" = "Сообщение от %1$@";
 "CHANNEL_MESSAGE_PHOTO" = "Фото от %1$@";
 "CHANNEL_MESSAGE_VIDEO" = "Видео от %1$@";
+"CHANNEL_MESSAGE_ROUND" = "%1$@ опубликовал(а) видеосообщение";
 "CHANNEL_MESSAGE_DOC" = "Документ от %1$@";
 "CHANNEL_MESSAGE_STICKER" = "%1$@ опубликовал(а) стикер %2$@";
 "CHANNEL_MESSAGE_AUDIO" = "%1$@ прислал(а) голосовое сообщение";
@@ -63,6 +66,7 @@
 "PINNED_NOTEXT" = "%1$@ закрепил(а) сообщение";
 "PINNED_PHOTO" = "%1$@ закрепил(а) фото";
 "PINNED_VIDEO" = "%1$@ закрепил(а) видео";
+"PINNED_ROUND" = "%1$@ закрепил(а) видеосообщение";
 "PINNED_DOC" = "%1$@ закрепил(а) файл";
 "PINNED_STICKER" = "%1$@ закрепил(а) стикер %2$@";
 "PINNED_AUDIO" = "%1$@ закрепил(а) голосовое сообщение";
@@ -266,6 +270,7 @@
 "DialogList.SingleRecordingAudioSuffix" = "%@ записывает аудио";
 "DialogList.SingleUploadingPhotoSuffix" = "%@ отправляет фото";
 "DialogList.SingleUploadingVideoSuffix" = "%@ отправляет видео";
+"DialogList.SingleRecordingVideoMessageSuffix" = "%@ записывает видео";
 "DialogList.SingleUploadingFileSuffix" = "%@ отправляет файл";
 "DialogList.MultipleTypingSuffix" = "%d набирают сообщения";
 "DialogList.Typing" = "набирает сообщение";
@@ -772,6 +777,7 @@
 "Activity.UploadingVideo" = "отправляет видео";
 "Activity.UploadingDocument" = "отправляет файл";
 "Activity.RecordingAudio" = "записывает аудио";
+"Activity.RecordingVideoMessage" = "записывает видео";
 "Activity.Location" = "определяет местоположение";
 
 "Service.NetworkConfigurationUpdatedMessage" = "Настройки соединения успешно обновлены.";
@@ -1896,6 +1902,7 @@
 "Notification.PinnedTextMessage" = "%@ закрепил(а) \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ закрепил(а) фото";
 "Notification.PinnedVideoMessage" = "%@ закрепил(а) видео";
+"Notification.PinnedRoundMessage" = "%@ закрепил(а) видеосообщение";
 "Notification.PinnedAudioMessage" = "%@ закрепил(а) голосовое сообщение";
 "Notification.PinnedDocumentMessage" = "%@ закрепил(а) файл";
 "Notification.PinnedAnimationMessage" = "%@ закрепил(а) GIF";
@@ -2458,3 +2465,35 @@
 "Call.RecordingDisabledMessage" = "Для отправки голосового сообщения необходимо прежде завершить разговор.";
 
 "Call.EmojiDescription" = "Если %@ видит те же эмодзи, что и вы, звонок на 100%% защищён.";
+
+"Message.VideoMessage" = "Видеосообщение";
+
+"Conversation.HoldForAudio" = "Держите для записи аудио. Нажмите для переключения на видео.";
+"Conversation.HoldForVideo" = "Держите для записи видео. Нажмите для переключения на аудио.";
+
+"UserInfo.TelegramCall" = "Позвонить через Telegram";
+"UserInfo.PhoneCall" = "Позвонить через моб.связь";
+
+"SharedMedia.CategoryMedia" = "Медиафайлы";
+"SharedMedia.CategoryDocs" = "Документы";
+"SharedMedia.CategoryLinks" = "Ссылки";
+"SharedMedia.CategoryOther" = "Аудио";
+
+"AccessDenied.VideoMessageCamera" = "Для записи видеосообщений Telegram нужен доступ к камере.\n\nПерейдите в Настройки > Конфиденциальность > Камера и переведите переключатель «Telegram» в рабочее состояние.";
+"AccessDenied.VideoMessageMicrophone" = "Для записи видеосообщений Telegram нужен доступ к микрофону.\n\nПерейдите в Настройки > Конфиденциальность > Камера и переведите переключатель «Telegram» в рабочее состояние.";
+
+"ChatSettings.AutomaticVideoMessageDownload" = "АВТОЗАГРУЗКА ВИДЕОСООБЩЕНИЙ";
+
+"ForwardedVideoMessages_1" = "Пересланное видеосообщение";
+"ForwardedVideoMessages_2" = "2 пересланных видеосообщения";
+"ForwardedVideoMessages_3_10" = "Переслано видеосообщений: %@";
+"ForwardedVideoMessages_any" = "Пересланных видеосообщений: %@";
+
+"Conversation.DiscardVoiceMessageTitle" = "Отменить запись голоса";
+"Conversation.DiscardVoiceMessageDescription" = "Вы уверены, что хотите прекратить запись и отменить голосовое сообщение?";
+"Conversation.DiscardVoiceMessageAction" = "Отменить";
+
+"Message.ForwardedMessageShort" = "Переслано от\n%@";
+
+"Checkout.LiabilityAlertTitle" = "Внимание";
+"Checkout.LiabilityAlert" = "Оплата осуществляется напрямую разработчику %1$@. Telegram не предоставляет никаких гарантий, всё на ваш страх и риск. В случае каких-либо проблем, пожалуйста, свяжитесь с разработчиком %1$@ или с вашим банком.";
