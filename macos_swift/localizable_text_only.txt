@@ -801,3 +801,5 @@
 "StorageUsage.ChatsHeader" = "ЧАТЫ";
 "StorageUsage.Calculating" = "Вычисление текущего размера кэша...";
 "App.MaxFileSize" = "Максимальный размер файла — 1.5 Гб";
+"Message.Context.SaveGif" = "Добавить GIF";
+"Context.RecentGifRemove" = "Удалить";
