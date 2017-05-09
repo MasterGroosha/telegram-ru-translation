@@ -410,7 +410,8 @@
 "PrivacySettings.PrivacyHeader" = "ПРИВАТНОСТЬ";
 "PrivacySettings.BlockedUsers" = "Заблокированные пользователи";
 "PrivacySettings.LastSeen" = "Последняя активность";
-"PrivacySettings.Groups" = "Группы";
+"PrivacySettings.Groups" = "Группы и каналы";
+"PrivacySettings.VoiceCalls" = "Звонки";
 "PrivacySettings.SecurityHeader" = "БЕЗОПАСНОСТЬ";
 "PrivacySettings.Passcode" = "Код доступа";
 "PrivacySettings.ActiveSessions" = "Активные сессии";
@@ -803,3 +804,76 @@
 "App.MaxFileSize" = "Максимальный размер файла — 1.5 Гб";
 "Message.Context.SaveGif" = "Добавить GIF";
 "Context.RecentGifRemove" = "Удалить";
+"Sidebar.Avalability" = "Боковая панель доступна при просмотре чатов";
+
+
+"PrivacySettingsController.Header" = "Последняя активность";
+"PrivacySettingsController.Everbody" = "Все";
+"PrivacySettingsController.MyContacts" = "Контакты";
+"PrivacySettingsController.Nobody" = "Никто";
+"PrivacySettingsController.NeverShare" = "Всегда скрывать";
+"PrivacySettingsController.AlwaysShare" = "Всегда делиться";
+"PrivacySettingsController.NeverShareWith" = "Никогда не делиться с";
+"PrivacySettingsController.AlwaysShareWith" = "Всегда делиться с";
+"PrivacySettingsController.NeverAllow" = "Всегда запрещать";
+"PrivacySettingsController.AlwaysAllow" = "Всегда разрешать";
+
+"PrivacySettingsController.UserCount.zero" = "%d чел.";
+"PrivacySettingsController.UserCount.singular" = "%d чел.";
+"PrivacySettingsController.UserCount.pluar" = "%d чел.";
+"PrivacySettingsController.AddUsers" = "Добавить";
+
+"PrivacySettingsController.LastSeenHeader" = "Кто видит время моей последней активности?";
+"PrivacySettingsController.LastSeenDescription" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время (недавно, в течение недели, в течение месяца).";
+
+"PrivacySettingsController.GroupHeader" = "Кто может добавлять меня в группы и каналы?";
+"PrivacySettingsController.GroupDescription" = "Вы можете ограничить круг лиц, которые могут добавлять вас в группы и каналы.";
+
+"PrivacySettingsController.PhoneCallHeader" = "Кто может мне звонить?";
+"PrivacySettingsController.PhoneCallDescription" = "Вы можете ограничить круг лиц, которые могут вам звонить.";
+"PrivacySettingsController.PeerInfo" = "Эти настройки переопределят значения выше.";
+
+"Chat.Call.Outgoing" = "Исходящий вызов";
+"Chat.Call.Incoming" = "Входящий вызов";
+
+"CallHeader.ShowCallInfo" = "Информация о звонке";
+"CallHeader.EndCall" = "Завершить вызов";
+"Call.ParticipantVersionOutdatedError" = "Приложение пользователя %@ не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.";
+"Call.UndefinedError" = "Что-то не так, пожалуйста, попробуйте еще раз позднее.";
+"Call.PrivacyErrorMessage" = "Извините, %@ не принимает звонки.";
+
+"Call.StatusRequesting" = "Соединение...";
+"Call.StatusWaiting" = "Ожидание...";
+"Call.StatusRinging" = "Вызов...";
+"Call.StatusConnecting" = "Соединение…";
+"Call.StatusEnded" = "Вызов завершён";
+"Call.StatusFailed" = "Вызов не удался";
+"Call.StatusBusy" = "Занято";
+"Call.StatusCalling" = "звонит вам...";
+
+"Call.Accept" = "Принять";
+"Call.Decline" = "Отклонить";
+
+"Call.Recent.Outgoing" = "Исходящий";
+"Call.Recent.Incoming" = "Входящий";
+"Call.Recent.Missed" = "Пропущенный";
+
+"Call.Seconds_1" = "%@ сек.";
+"Call.Seconds_2" = "%@ сек.";
+"Call.Seconds_3_10" = "%@ сек.";
+"Call.Seconds_any" = "%@ сек.";
+"Call.Minutes_1" = "%@ мин.";
+"Call.Minutes_2" = "%@ мин.";
+"Call.Minutes_3_10" = "%@ мин.";
+"Call.Minutes_any" = "%@ мин.";
+
+"Call.ShortSeconds_1" = "%@ сек.";
+"Call.ShortSeconds_2" = "%@ сек.";
+"Call.ShortSeconds_3_10" = "%@ сек.";
+"Call.ShortSeconds_any" = "%@ сек.";
+"Call.ShortMinutes_1" = "%@ мин.";
+"Call.ShortMinutes_2" = "%@ мин.";
+"Call.ShortMinutes_3_10" = "%@ мин.";
+"Call.ShortMinutes_any" = "%@ мин.";
+"Telegram.LayoutPhoneCallsViewController" = "Недавние вызовы";
+"RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
