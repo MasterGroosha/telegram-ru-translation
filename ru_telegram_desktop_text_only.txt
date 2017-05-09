@@ -1174,7 +1174,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_call_duration_info" = "{time}, {duration}";
 "lng_call_type_and_duration" = "{type} ({duration})";
 
-"lng_call_rate_label" = "Пожалуйста, оцените качество звонка";
+"lng_call_rate_label" = "Оцените качество звонка";
 "lng_call_rate_comment" = "Комментарий (необязательно)";
 
 // Wnd specific
