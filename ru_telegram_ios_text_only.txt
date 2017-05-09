@@ -607,7 +607,7 @@
 "Settings.Logout" = "Выйти";
 "Settings.Title" = "Настройки";
 "Settings.NotificationsAndSounds" = "Уведомления и звуки";
-"Settings.ChatSettings" = "Данные и накопитель";
+"Settings.ChatSettings" = "Данные и хранилище";
 "Settings.BlockedUsers" = "Чёрный список";
 "Settings.ChatBackground" = "Фоновое изображение чатов";
 "Settings.Support" = "Помощь";
@@ -647,7 +647,7 @@
 "Notifications.ResetAllNotificationsHelp" = "Отменить пользовательские настройки оповещений для всех ваших контактов и чатов";
 
 // Chat Settings
-"ChatSettings.Title" = "Данные и накопитель";
+"ChatSettings.Title" = "Данные и хранилище";
 "ChatSettings.Appearance" = "ВНЕШНИЙ ВИД";
 "ChatSettings.TextSize" = "Размер текста";
 "ChatSettings.TextSizeUnits" = " пт";
@@ -661,7 +661,7 @@
 "ChatSettings.Cache" = "КЭШ";
 
 // Usage
-"Cache.Title" = "Использование накопителя";
+"Cache.Title" = "Использование хранилища";
 "Cache.ClearCache" = "Очистить кэш";
 "Cache.ClearCacheAlert" = "Фото, видео и другие файлы из чатов могут быть удалены с этого устройства при установке ограничения на хранение в целях экономии свободного места.\n\nВсе файлы останутся в облаке Телеграма и могут быть повторно загружены в случае необходимости.";
 "Cache.KeepMedia" = "Хранить файлы";
@@ -900,7 +900,7 @@
 "Camera.FlashAuto" = "Авто";
 "Camera.Retake" = "Переснять";
 
-"Settings.PhoneNumber" = "Ваш номер";
+"Settings.PhoneNumber" = "Сменить номер";
 
 "PhoneNumberHelp.Help" = "Здесь вы можете сменить ваш номер Телеграма. Ваш аккаунт и все ваши данные (сообщения, медиафайлы, контакты и т.д.) будут перенесены на новый номер.\n\n**Важно:** всем вашим контактам Телеграма будет автоматически добавлен в адресную книгу ваш **новый номер**, при условии, что у них был ваш старый номер и вы не блокировали их.";
 "PhoneNumberHelp.Alert" = "Всем вашим контактам Телеграма будет автоматически добавлен в адресную книгу ваш новый номер, при условии, что у них был ваш старый номер и вы не блокировали их.";
@@ -2084,7 +2084,7 @@
 "MediaPicker.VideoMuteDescription" = "Звук отключен, видео будет воспроизводиться автоматически и по кругу, как GIF-анимация.";
 
 
-"Group.Username.RemoveExistingUsernamesInfo" = "К сожалению, вы используете слишком много публичных ссылок. Вы можете сбросить одну из уже занятых ссылок на свои группы или каналы или не создавать новую публичную ссылку.";
+"Group.Username.RemoveExistingUsernamesInfo" = "К сожалению, вы используете слишком много публичных ссылок.\nВы можете сбросить одну из уже занятых ссылок на свои группы или каналы или не создавать новую публичную ссылку.";
 
 "ServiceMessage.GameScoreExtended_1" = "{name} набрал(а) {score} очков в {game}";
 "ServiceMessage.GameScoreExtended_2" = "{name} набрал(а) {score} очков в {game}";
@@ -2180,7 +2180,7 @@
 "Conversation.JumpToDate" = "Перейти к дате";
 "Conversation.AddToReadingList" = "Добавить в список для чтения";
 
-"AccessDenied.CallMicrophone" = "Telegram нужен доступ к микрофону для осуществления звонковю\n\nПожалуйста, зайдите в Настройки — Приватность — Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
+"AccessDenied.CallMicrophone" = "Telegram нужен доступ к микрофону для осуществления звонков.\n\nПожалуйста, зайдите в Настройки — Приватность — Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
 
 "Call.EncryptionKey.Title" = "Ключ шифрования";
 "Call.EncryptionKey.Description" = "Изображение и текст получены из ключа шифрования для звонка пользователю %1$@.\n\nЕсли они выглядят так же, как на устройстве пользователя %2$@, оконечное шифрование гарантировано.";
@@ -2230,13 +2230,13 @@
 "CallSettings.UseLessDataLongDescription" = "Экономия трафика может помочь при медленном соединении, но немного ухудшит качество звука.";
 
 "Calls.CallTabTitle" = "Вкладка «Звонки»";
-"Calls.CallTabDescription" = "Вы можете добавить вкладку «звонки» в панель вкладок.";
+"Calls.CallTabDescription" = "Вы можете добавить вкладку «Звонки» в панель вкладок.";
 "Calls.NotNow" = "Не сейчас";
 "Calls.AddTab" = "Добавить вкладку";
 "Calls.Search" = "Поиск вызовов";
 "Calls.NewCall" = "Новый звонок";
 
-"Calls.RatingTitle" = "Пожалуйста, оцените качество\nзвонка через Telegram";
+"Calls.RatingTitle" = "Пожалуйста, оцените качество \nзвонка через Telegram";
 "Calls.SubmitRating" = "Отправить";
 
 "Call.Seconds_1" = "%@ сек.";
@@ -2335,7 +2335,7 @@
 "CheckoutInfo.ReceiverInfoEmailPlaceholder" = "Электронная почта";
 "CheckoutInfo.ReceiverInfoPhone" = "Номер телефона";
 "CheckoutInfo.SaveInfo" = "Сохранить информацию";
-"CheckoutInfo.SaveInfoHelp" = "Вы можете сохранить вашу информацию о доставки для использования в будущем.";
+"CheckoutInfo.SaveInfoHelp" = "Вы можете сохранить вашу информацию о доставке, для использования в будущем.";
 "CheckoutInfo.Pay" = "Оплатить";
 
 "Checkout.Receipt.Title" = "Квитанция";
@@ -2401,7 +2401,7 @@
 "Call.StatusWaiting" = "Ожидание...";
 "Call.StatusRinging" = "Вызов...";
 "Call.StatusConnecting" = "Соединение...";
-"Call.StatusOngoing" = "Звонок Telegram (%@)";
+"Call.StatusOngoing" = "Звонок Telegram %@";
 "Call.StatusEnded" = "Вызов завершён";
 "Call.StatusFailed" = "Вызов не удался";
 "Call.StatusBusy" = "Занято";
@@ -2416,7 +2416,7 @@
 
 "Privacy.Calls" = "Голосовые вызовы";
 
-"Privacy.Calls.WhoCanCallMe" = "КТО МОЖЕТ МНЕ ЗВОНИТЬ?";
+"Privacy.Calls.WhoCanCallMe" = "КТО МОЖЕТ МНЕ ЗВОНИТЬ";
 "Privacy.Calls.CustomHelp" = "Вы можете ограничить круг лиц, которые могут вам звонить.";
 "Privacy.Calls.AlwaysAllow" = "Всегда разрешать";
 "Privacy.Calls.NeverAllow" = "Всегда запрещать";
@@ -2497,3 +2497,5 @@
 
 "Checkout.LiabilityAlertTitle" = "Внимание";
 "Checkout.LiabilityAlert" = "Оплата осуществляется напрямую разработчику %1$@. Telegram не предоставляет никаких гарантий, всё на ваш страх и риск. В случае каких-либо проблем, пожалуйста, свяжитесь с разработчиком %1$@ или с вашим банком.";
+
+"InstantPage.AutoNightTheme" = "Автосмена темы ночью";
