@@ -128,6 +128,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_error_phone_flood" = "Извините, в последнее время вы слишком часто удаляли и создавали свой аккаунт заново. Пожалуйста, подождите несколько дней перед повторной регистрацией.";
 "lng_error_start_minimized_passcoded" = "Вы установили локальный код доступа, поэтому приложение не может быть запущено в свёрнутом состоянии. Вам придётся ввести код, прежде чем войти в свою учётную запись.";
 "lng_error_pinned_max" = "Извините, вы можете закрепить сверху не более {count:_not_used_|# чата|# чатов}.";
+"lng_error_public_groups_denied" = "К сожалению, вам запрещено вступать в публичные группы.\n{more_info}";
 
 "lng_edit_deleted" = "Сообщение было удалено";
 "lng_edit_too_long" = "Текст сообщения слишком длинный";
@@ -405,6 +406,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_settings_blocked_users" = "Заблокированные пользователи";
 "lng_settings_last_seen_privacy" = "Последняя активность";
+"lng_settings_calls_privacy" = "Звонки";
 "lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
 "lng_settings_show_sessions" = "Показать все сессии";
 "lng_settings_self_destruct" = "Настройки самоуничтожения аккаунта";
@@ -449,19 +451,27 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_lastseen_title" = "Последняя активность";
 "lng_edit_privacy_lastseen_description" = "Вы можете выбрать, кто видит время вашей последней активности";
 "lng_edit_privacy_lastseen_warning" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
-"lng_edit_privacy_lastseen_always" = "Всегда делиться с{count:| # польз.| # польз.}";
-"lng_edit_privacy_lastseen_never" = "Всегда скрывать от{count:| # польз.| # польз.}";
+"lng_edit_privacy_lastseen_always" = "Всегда делиться с{count:| # чел.| # чел.}";
+"lng_edit_privacy_lastseen_never" = "Всегда скрывать от{count:| # чел.| # чел.}";
 "lng_edit_privacy_lastseen_exceptions" = "Эти настройки переопределят значения выше.";
 "lng_edit_privacy_lastseen_always_title" = "Всегда делиться с...";
 "lng_edit_privacy_lastseen_never_title" = "Всегда скрывать от...";
 
 "lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
 "lng_edit_privacy_groups_description" = "Вы можете выбрать, кто может добавлять вас в группы и каналы.";
-"lng_edit_privacy_groups_always" = "Всегда разрешать{count:| # польз.| # польз.}";
-"lng_edit_privacy_groups_never" = "Всегда запрещать{count:| # польз.| # польз.}";
+"lng_edit_privacy_groups_always" = "Всегда разрешать{count:| # чел.| # чел.}";
+"lng_edit_privacy_groups_never" = "Всегда запрещать{count:| # чел.| # чел.}";
 "lng_edit_privacy_groups_exceptions" = "Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.";
 "lng_edit_privacy_groups_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_groups_never_title" = "Всегда запрещать...";
+
+"lng_edit_privacy_calls_title" = "Звонки";
+"lng_edit_privacy_calls_description" = "Вы можете ограничить круг лиц, которые могут вам звонить:";
+"lng_edit_privacy_calls_always" = "Всегда разрешать{count:| # чел.| # чел.}";
+"lng_edit_privacy_calls_never" = "Всегда запрещать{count:| # чел.| # чел.}";
+"lng_edit_privacy_calls_exceptions" = "Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.";
+"lng_edit_privacy_calls_always_title" = "Всегда разрешать...";
+"lng_edit_privacy_calls_never_title" = "Всегда запрещать...";
 
 "lng_self_destruct_title" = "Самоуничтожение аккаунта";
 "lng_self_destruct_description" = "Если вы не появитесь в сети хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.";
@@ -674,6 +684,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_call_incoming_duration" = "Входящий вызов ({duration}) в {time}";
 "lng_action_call_incoming_missed" = "Пропущенный вызов в {time}";
 "lng_action_call_outgoing_missed" = "Отменённый вызов в {time}";
+"lng_action_call_incoming_declined" = "Сброшенный вызов в {time}";
 "lng_action_payment_done" = "Вы успешно перевели {amount} пользователю {user}";
 "lng_action_payment_done_for" = "Вы успешно перевели {amount} пользователю {user} за {invoice}";
 
@@ -1128,6 +1139,44 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_payments_invoice_label_test" = "Тестовый счёт";
 "lng_payments_receipt_button" = "Квитанция";
 
+"lng_call_status_incoming" = "звонит вам...";
+"lng_call_status_connecting" = "соединение...";
+"lng_call_status_exchanging" = "обмен ключами шифрования...";
+"lng_call_status_waiting" = "ожидание...";
+"lng_call_status_requesting" = "запрос...";
+"lng_call_status_hanging" = "завершение...";
+"lng_call_status_ended" = "вызов завершён";
+"lng_call_status_failed" = "не удалось соединиться";
+"lng_call_status_ringing" = "вызов...";
+"lng_call_status_busy" = "линия занята";
+"lng_call_fingerprint_tooltip" = "Если {user} видит те же эмодзи, что и вы, звонок на 100% защищён.";
+
+"lng_call_error_not_available" = "Извините, {user} не принимает звонки.";
+"lng_call_error_incompatible" = "{user} использует приложение с несовместимым протоколом. Попросите его/её сначала обновить своё приложение перед осуществлением вызовов.";
+"lng_call_error_outdated" = "Приложение пользователя {user} не поддерживает звонки. Попросите его/её сначала обновить своё приложение перед осуществлением вызовов.";
+"lng_call_error_audio_io" = "Скорее всего, у вашего компьютера наблюдаются проблемы с воспроизведением звука. Пожалуйста, убедитесь, что аудиоколонки и микрофон работают и попробуйте ещё раз.";
+
+"lng_call_bar_info" = "Информация о вызове";
+"lng_call_bar_hangup" = "Повесить трубку";
+
+"lng_call_box_title" = "Звонки";
+"lng_call_box_about" = "Вы пока не совершали звонков.";
+"lng_call_box_status_today" = "{time}";
+"lng_call_box_status_yesterday" = "Вчера в {time}";
+"lng_call_box_status_date" = "{date} в {time}";
+"lng_call_box_status_group" = "({count}) {status}";
+
+"lng_call_outgoing" = "Исходящий вызов";
+"lng_call_incoming" = "Входящий вызов";
+"lng_call_missed" = "Пропущенный вызов";
+"lng_call_cancelled" = "Отменённый вызов";
+"lng_call_declined" = "Сброшенный вызов";
+"lng_call_duration_info" = "{time}, {duration}";
+"lng_call_type_and_duration" = "{type} ({duration})";
+
+"lng_call_rate_label" = "Пожалуйста, оцените качество звонка";
+"lng_call_rate_comment" = "Комментарий (необязательно)";
+
 // Wnd specific
 
 "lng_wnd_choose_program_menu" = "Выбрать программу по умолчанию...";
@@ -1172,6 +1221,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_mac_menu_select_all" = "Выделить все";
 "lng_mac_menu_window" = "Окно";
 "lng_mac_menu_contacts" = "Контакты";
+"lng_menu_calls" = "Звонки";
 "lng_mac_menu_add_contact" = "Добавить контакт";
 "lng_mac_menu_new_group" = "Новая группа";
 "lng_mac_menu_new_channel" = "Создать канал";
