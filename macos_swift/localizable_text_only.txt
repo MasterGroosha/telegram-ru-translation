@@ -456,6 +456,7 @@
 "ChatList.Context.Mute" = "Выключить уведомления";
 "ChatList.Context.Block" = "Заблокировать пользователя";
 "ChatList.Context.ClearHistory" = "Очистить историю";
+"ChatList.Context.Call" = "Позвонить";
 "ChatList.Context.DeleteChat" = "Удалить чат";
 "ChatList.Context.DeleteAndExit" = "Удалить и выйти";
 "ChatList.Context.LeaveChannel" = "Покинуть канал";
@@ -877,3 +878,6 @@
 "Call.ShortMinutes_any" = "%@ мин.";
 "Telegram.LayoutPhoneCallsViewController" = "Недавние вызовы";
 "RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
+
+"Call.Confirm.DiscardCurrent.Header" = "Идёт разговор";
+"Call.Confirm.DiscardCurrent.Description" = "Закончить разговор с пользователем %@ и начать новый с пользователем %@?";
