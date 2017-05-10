@@ -435,6 +435,8 @@
   <string name="HoldToVideo">Удерживайте для записи видео. Нажмите для переключения на аудио.</string>
   <string name="DiscardVoiceMessageTitle">Отменить голосовое сообщение</string>
   <string name="DiscardVoiceMessageDescription">Уверены, что хотите остановить запись и отменить голосовое сообщение?</string>
+  <string name="DiscardVideoMessageTitle">Отменить видеосообщение</string>
+  <string name="DiscardVideoMessageDescription">Уверены, что хотите остановить запись и отменить видеосообщение?</string>
   <string name="DiscardVoiceMessageAction">Отмена</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
@@ -471,8 +473,8 @@
   <string name="NotificationMessageGroupSticker">%1$s отправил(а) стикер группе %2$s</string>
   <string name="NotificationMessageGroupStickerEmoji">%1$s отправил(а) стикер %3$s группе %2$s</string>
   <string name="NotificationInvitedToGroup">%1$s пригласил(а) вас в группу %2$s</string>
-  <string name="NotificationEditedGroupName">%1$s изменил(а) имя группы %2$s</string>
-  <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фото группы %2$s</string>
+  <string name="NotificationEditedGroupName">%1$s переименовал(а) группу %2$s</string>
+  <string name="NotificationEditedGroupPhoto">%1$s изменил(а) фото группы на %2$s</string>
   <string name="NotificationGroupAddMember">%1$s пригласил(а) пользователя %3$s в группу %2$s</string>
   <string name="NotificationGroupAddSelf">%1$s вернулся(-лась) в группу %2$s</string>
   <string name="NotificationGroupAddSelfMega">%1$s вступил(а) в группу %2$s</string>
@@ -602,18 +604,18 @@
   <string name="TapToEmojify">Показать в виде эмодзи</string>
   <string name="NumberUnknown">Неизвестен</string>
   <string name="Info">Информация</string>
-  <string name="Phone">Номер телефона</string>
+  <string name="Phone">Телефон</string>
   <!--usernames-->
   <string name="Username">Имя пользователя</string>
   <string name="UsernamePlaceholder">Ваше имя пользователя</string>
-  <string name="UsernameInUse">Извините, это имя пользователя уже занято.</string>
+  <string name="UsernameInUse">Извините, такое имя пользователя уже занято.</string>
   <string name="UsernameInvalid">Извините, такое имя пользователя недопустимо.</string>
-  <string name="UsernameInvalidShort">Имя пользователя должно содержать как минимум 5 символов.</string>
+  <string name="UsernameInvalidShort">Имя пользователя должно содержать минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">Извините, имя пользователя не может начинаться с цифры.</string>
   <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная вашего номера телефона.<![CDATA[<br><br>]]>Имя пользователя может содержать только латинские буквы <![CDATA[<b>]]>(a–z)<![CDATA[</b>]]>, цифры <![CDATA[<b>]]>(0–9)<![CDATA[</b>]]> и символы подчёркивания. Минимальная допустимая длина имени — <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
   <string name="UsernameHelpLink">Эта ссылка открывает диалог с вами в Telegram:\n%1$s</string>
-  <string name="UsernameChecking">Проверка имени пользователя…</string>
+  <string name="UsernameChecking">Проверка имени пользователя...</string>
   <string name="UsernameAvailable">Имя пользователя %1$s доступно.</string>
   <string name="UsernameEmpty">Не задано</string>
   <string name="ErrorOccurred">Произошла ошибка.</string>
@@ -696,7 +698,10 @@
   <string name="ColorGreen">Зелёный</string>
   <string name="ColorCyan">Голубой</string>
   <string name="ColorWhite">Белый</string>
+  <string name="ColorSepia">Сепия</string>
+  <string name="ColorDark">Тёмный</string>
   <string name="ColorPink">Розовый</string>
+  <string name="FontSize">Размер шрифта</string>
   <string name="ColorViolet">Фиолетовый</string>
   <string name="ColorOrange">Оранжевый</string>
   <string name="NotificationsLedInfo">Светодиод — маленький мерцающий индикатор на некоторых устройствах, используемый для уведомления о новых сообщениях.</string>
@@ -810,7 +815,7 @@
   <string name="CalculatingSize">Вычисление...</string>
   <string name="LocalDocumentCache">Документы</string>
   <string name="LocalPhotoCache">Фото</string>
-  <string name="LocalAudioCache">Голосовые сообщения</string>
+  <string name="LocalAudioCache">Голосовые/видеосообщения</string>
   <string name="LocalVideoCache">Видео</string>
   <string name="LocalMusicCache">Музыка</string>
   <string name="LocalGifCache">GIF</string>
