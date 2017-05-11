@@ -1236,7 +1236,7 @@
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
   <string name="AccountSettings">Настройки аккаунта</string>
-  <string name="VoipUseLessData">Использовать меньше данных для звонков</string>
+  <string name="VoipUseLessData">Экономия трафика</string>
   <string name="VoipIncoming">Входящий звонок</string>
   <string name="VoipConnecting">Соединение</string>
   <string name="VoipExchangingKeys">Обмен ключами шифрования</string>
@@ -1260,7 +1260,7 @@
   <string name="WhoCanCallMeInfo">Вы можете ограничить круг лиц, которые могут вам звонить.</string>
   <string name="CustomCallInfo">Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.</string>
   <string name="UseLessDataNever">Никогда</string>
-  <string name="UseLessDataOnMobile">Только через мобильный интернет</string>
+  <string name="UseLessDataOnMobile">В мобильной сети</string>
   <string name="UseLessDataAlways">Всегда</string>
   <string name="VoipAnswerCall">Ответить</string>
   <string name="VoipDeclineCall">Отклонить</string>
