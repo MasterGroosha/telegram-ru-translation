@@ -76,6 +76,7 @@
   <string name="PaymentTestInvoice">ТЕСТОВЫЙ СЧЁТ</string>
   <string name="PaymentCheckoutPay">ОПЛАТИТЬ %1$s</string>
   <string name="PaymentCheckoutMethod">Способ оплаты</string>
+  <string name="PaymentCheckoutProvider">Платёжный провайдер</string>
   <string name="PaymentCheckoutName">Имя</string>
   <string name="PaymentCheckoutPhoneNumber">Номер телефона</string>
   <string name="PaymentCheckoutEmail">Контактный адрес</string>
@@ -382,6 +383,7 @@
   <string name="OpenInExternalApp">Открыть в...</string>
   <string name="CopyUrl">Копировать URL</string>
   <string name="SendItems">Отправить %1$s</string>
+  <string name="SendAsFiles">Как файл(ы)</string>
   <string name="OpenUrlAlert">Открыть URL %1$s?</string>
   <string name="BotPermissionGameAlert">Разрешить боту %1$s передавать ваше имя и id в Telegram (не ваш номер телефона) открываемым с его помощью страницам?</string>
   <string name="ReportSpam">СООБЩИТЬ О СПАМЕ</string>
@@ -397,6 +399,7 @@
   <string name="NobodyLikesSpamUrl">https://telegram.org/faq#can-39t-send-messages-to-non-contacts</string>
   <string name="MoreInfo">Больше информации</string>
   <string name="ShareSendTo">Поиск...</string>
+  <string name="ShareComment">Оставьте комментарий...</string>
   <string name="TapHereGifs">Нажмите для доступа к сохранённым GIF</string>
   <string name="PinMessage">Закрепить</string>
   <string name="PinNotify">Уведомить всех участников</string>
@@ -1022,6 +1025,11 @@
   <string name="PrivacySettings">Приватность и безопасность</string>
   <string name="PrivacyTitle">Приватность</string>
   <string name="PrivacyLastSeen">Последняя активность</string>
+  <string name="PrivacyPayments">Платежи</string>
+  <string name="PrivacyPaymentsClear">Очистить информацию о платежах и доставке</string>
+  <string name="PrivacyPaymentsClearInfo">Вы можете удалить свою платёжную информацию и потребовать от всех платёжных провайдеров удалить ваши сохранённые кредитные карты. Обратите внимание, Telegram не хранит информацию о ваших кредитных картах.</string>
+  <string name="PrivacyClearShipping">Информация о доставке</string>
+  <string name="PrivacyClearPayment">Платёжная информация</string>
   <string name="LastSeenEverybody">Все</string>
   <string name="LastSeenContacts">Мои контакты</string>
   <string name="LastSeenNobody">Никто</string>
