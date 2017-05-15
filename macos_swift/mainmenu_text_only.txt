@@ -202,3 +202,5 @@
 
 /* Class = "NSMenuItem"; title = "Show Substitutions"; ObjectID = "z6F-FW-3nz"; */
 "z6F-FW-3nz.title" = "Показать автозамены";
+
+"sZh-ct-GQS.title" = "Быстрый поиск";
