@@ -789,6 +789,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_emoji_category5" = "Активность";
 "lng_emoji_category6" = "Путешествия и местности";
 "lng_emoji_category7" = "Объекты и символы";
+"lng_emoji_hide_panel" = "Нажмите сюда для скрытия панели эмодзи";
 
 "lng_recent_stickers" = "Часто используемые";
 "lng_switch_stickers" = "Стикеры";
