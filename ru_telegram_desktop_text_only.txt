@@ -143,7 +143,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_pinned_unpin" = "Открепить";
 "lng_pinned_notify" = "Уведомить участников";
 
-"lng_intro" = "Добро пожаловать в официальное приложение Telegram для компьютера.\nОно очень быстрое и безопасное.";
+"lng_intro_about" = "Добро пожаловать в официальное приложение Telegram для компьютера.\nОно очень быстрое и безопасное.";
 "lng_start_msgs" = "Начать общение";
 
 "lng_intro_next" = "Дальше";
@@ -151,6 +151,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_intro_submit" = "Отправить";
 
 "lng_photo_caption" = "Заголовок";
+"lng_photos_comment" = "Комментарий";
 
 "lng_phone_ph" = "Ваш номер телефона";
 "lng_phone_title" = "Ваш телефон";
@@ -410,6 +411,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
 "lng_settings_show_sessions" = "Показать все сессии";
 "lng_settings_self_destruct" = "Настройки самоуничтожения аккаунта";
+"lng_settings_change_phone" = "Сменить номер телефона";
+
 "lng_settings_reset" = "Завершить все сессии";
 "lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сессии?";
 "lng_settings_reset_one_sure" = "Завершить эту сессию?";
@@ -677,6 +680,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_game" = "игру «{game}»";
 "lng_action_game_score" = "{from} набрал(а) {count:#|#|#} в игре {game}";
 "lng_action_game_you_scored" = "Вы набрали {count:#|#|#} в игре {game}";
+"lng_action_game_score_no_game" = "{from} набрал(а) {count:#|#|#}";
+"lng_action_game_you_scored_no_game" = "Вы набрали {count:#|#|#}";
 
 "lng_action_call_outgoing" = "Исходящий вызов в {time}";
 "lng_action_call_incoming" = "Входящий вызов в {time}";
@@ -843,8 +848,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_report_spam_ok" = "Сообщить";
 "lng_cant_send_to_not_contact" = "К сожалению, вы можете отправлять сообщения только взаимным контактам.\n{more_info}";
 "lng_cant_invite_not_contact" = "К сожалению, вы можете добавлять в группы только взаимные контакты.\n{more_info}";
-"lng_cant_send_to_not_contact_flood" = "Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым. {more_info}";
-"lng_cant_invite_not_contact_flood" = "Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу. {more_info}";
+"lng_cant_send_to_not_contact_flood" = "Сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы сможете ответить сегодня, если этот пользователь напишет вам первым.";
+"lng_cant_invite_not_contact_flood" = "Вы не можете добавить пользователя, так как сегодня вы связались со многими, кого нет в вашем списке контактов. Пожалуйста, попробуйте снова завтра. Вы можете попросить другого участника добавить этого пользователя в группу.";
 "lng_cant_invite_not_contact_channel" = "К сожалению, вы можете добавлять в каналы только взаимные контакты. {more_info}";
 "lng_cant_more_info" = "Подробнее »";
 "lng_cant_invite_banned" = "К сожалению, только администратор может добавить этого пользователя.";
@@ -899,6 +904,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_user_typing" = "{user} печатает";
 "lng_users_typing" = "{user} и {second_user} печатают";
 "lng_many_typing" = "{count:_not_used_|# |# } печатают";
+"lng_playing_game" = "сейчас в игре";
 "lng_user_playing_game" = "{user} сейчас в игре";
 "lng_users_playing_game" = "{user} и {second_user} сейчас в игре";
 "lng_many_playing_game" = "{count:_not_used_|# _not_used_|# _not_used_} сейчас в игре";
@@ -934,7 +940,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_duration_and_size" = "{duration}, {size}";
 "lng_duration_played" = "{played} / {duration}";
 "lng_date_and_duration" = "{date}, {duration}";
-"lng_choose_images" = "Выберите изображение:";
+"lng_choose_image" = "Выберите изображение:";
 "lng_choose_files" = "Выберите файлы";
 "lng_game_tag" = "Игра";
 
