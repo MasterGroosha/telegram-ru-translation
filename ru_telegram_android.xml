@@ -331,11 +331,12 @@
   <string name="IsSendingAudio">%1$s отправляет аудио...</string>
   <string name="IsSendingPhoto">%1$s отправляет фото...</string>
   <string name="InstantView">МГНОВЕННЫЙ ПРОСМОТР</string>
+  <string name="InstantViewNightMode">Тёмная тема будет автоматически включаться в ночное время</string>
   <string name="IsSendingGame">%1$s сейчас в игре...</string>
   <string name="IsSendingVideo">%1$s отправляет видео...</string>
   <string name="IsSendingFile">%1$s отправляет файл...</string>
-  <string name="RecordingAudio">запись голосового сообщения...</string>
-  <string name="RecordingRound">запись видеосообщения...</string>
+  <string name="RecordingAudio">записывает голосовое сообщение...</string>
+  <string name="RecordingRound">записывает видеосообщение...</string>
   <string name="SendingAudio">отправляет аудио...</string>
   <string name="SendingPhoto">отправляет фото...</string>
   <string name="SendingGame">играет...</string>
@@ -436,11 +437,11 @@
   <string name="TextCopied">Текст скопирован в буфер обмена</string>
   <string name="HoldToAudio">Удерживайте для записи аудио. Нажмите для переключения на видео.</string>
   <string name="HoldToVideo">Удерживайте для записи видео. Нажмите для переключения на аудио.</string>
-  <string name="DiscardVoiceMessageTitle">Отменить голосовое сообщение</string>
+  <string name="DiscardVoiceMessageTitle">Отмена голосового сообщения</string>
   <string name="DiscardVoiceMessageDescription">Уверены, что хотите остановить запись и отменить голосовое сообщение?</string>
-  <string name="DiscardVideoMessageTitle">Отменить видеосообщение</string>
+  <string name="DiscardVideoMessageTitle">Отмена видеосообщения</string>
   <string name="DiscardVideoMessageDescription">Уверены, что хотите остановить запись и отменить видеосообщение?</string>
-  <string name="DiscardVoiceMessageAction">Отмена</string>
+  <string name="DiscardVoiceMessageAction">Да</string>
   <!--notification-->
   <string name="MessageLifetimeChanged">%1$s поставил(а) таймер самоуничтожения на %2$s</string>
   <string name="MessageLifetimeChangedOutgoing">Вы поставили таймер самоуничтожения на %1$s</string>
@@ -827,6 +828,8 @@
   <string name="KeepMedia">Срок хранения медиа</string>
   <string name="KeepMediaInfo">Фото, видео и другие файлы, к которым вы <![CDATA[<b>не обращались</b>]]> в течение этого периода, будут удалены с этого устройства для экономии пространства накопителя.\n\nВсе медиа останутся в облаке Telegram и при необходимости могут быть загружены снова.</string>
   <string name="KeepMediaForever">Всегда</string>
+  <string name="AudioAutodownload">Голосовые сообщения</string>
+  <string name="VideoMessagesAutodownload">Видеосообщения</string>
   <!--sessions view-->
   <string name="SessionsTitle">Активные сеансы</string>
   <string name="CurrentSession">Текущий сеанс</string>
