@@ -2362,22 +2362,22 @@
 "Checkout.PayWithTouchId" = "Оплатить при помощи Touch ID";
 "Checkout.EnterPassword" = "Введите пароль";
 
-"Your card has expired" = "Срок действия вашей карты истёк.";
+"Your_card_has_expired" = "Срок действия вашей карты истёк.";
 
 /* Error when the card was declined by the credit card networks */
-"Your card was declined" = "Ваша карта была отклонена.";
+"Your_card_was_declined" = "Ваша карта была отклонена.";
 
 /* Error when the card's expiration month is not valid */
-"Your card's expiration month is invalid" = "Вы ввели ошибочный месяц завершения срока действия.";
+"Your_cards_expiration_month_is_invalid" = "Вы ввели ошибочный месяц завершения срока действия.";
 
 /* Error when the card's expiration year is not valid */
-"Your card's expiration year is invalid" = "Вы ввели ошибочный год завершения срока действия.";
+"Your_cards_expiration_year_is_invalid" = "Вы ввели ошибочный год завершения срока действия.";
 
 /* Error when the card number is not valid */
-"Your card's number is invalid" = "Вы ввели неверный номер карты.";
+"Your_cards_number_is_invalid" = "Вы ввели неверный номер карты.";
 
 /* Error when the card's CVC is not valid */
-"Your card's security code is invalid" = "Вы ввели неверный код безопасности.";
+"Your_cards_security_code_is_invalid" = "Вы ввели неверный код безопасности.";
 
 "MESSAGE_INVOICE" = "%1$@ отправил(а) вам счёт за %2$@";
 "CHAT_MESSAGE_INVOICE" = "%1$@ отправил(а) счёт за %3$@ группе %2$@";
@@ -2502,6 +2502,6 @@
 
 "Privacy.PaymentsTitle" = "ПЛАТЕЖИ";
 "Privacy.PaymentsClearInfo" = "Очистить информацию о платежах и доставке";
-"Privacy.PaymentsClearInfoHelp" = "Вы можете удалить свою платёжную информацию и потребовать от всех платёжных провайдеров удалить ваши сохранённые кредитные карты. Учтите, что Telegram не хранит информацию о ваших кредитных картах.";
+"Privacy.PaymentsClearInfoHelp" = "Вы можете удалить свою платёжную информацию и потребовать от всех платёжных провайдеров удалить ваши сохранённые кредитные карты. Обратите внимание, Telegram не хранит информацию о ваших кредитных картах.";
 "Privacy.PaymentsClear.PaymentInfo" = "Платёжная информация";
 "Privacy.PaymentsClear.ShippingInfo" = "Информация о доставке";
