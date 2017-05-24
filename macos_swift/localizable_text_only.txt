@@ -176,6 +176,7 @@
 "Message.Context.Pin" = "Закрепить";
 "Message.Context.Confirm.Pin" = "Закрепить это сообщение и оповестить всех участников группы?";
 "Message.Context.Confirm.OnlyPin" = "Только закрепить";
+"Message.Context.ForwardToCloud" = "Сохранить в облачное хранилище";
 
 "Entertainment.Switch.GifAndStickers" = "Стикеры и GIF";
 "Entertainment.Switch.Emoji" = "Эмодзи";
@@ -484,6 +485,7 @@
 "Peer.Activity.User.SendingFile" = "отправляет файл...";
 "Peer.Activity.User.PlayingGame" = "сейчас в игре";
 
+
 "Peer.Activity.Chat.Single.TypingText" = "%@ печатает...";
 "Peer.Activity.Chat.Single.SendingPhoto" = "%@ отправляет фото...";
 "Peer.Activity.Chat.Single.RecordingVideo" = "%@ записывает видео...";
@@ -493,6 +495,7 @@
 "Peer.Activity.Chat.Single.SendingFile" = "%@ отправляет файл...";
 "Peer.Activity.Chat.Single.PlayingGame" = "%@ сейчас в игре";
 
+
 "Peer.Activity.Chat.Multi.TypingText" = "%d печатают...";
 "Peer.Activity.Chat.Multi.SendingPhoto" = "%d отправляют фото";
 "Peer.Activity.Chat.Multi.RecordingVideo" = "%d записывают видео";
@@ -501,6 +504,8 @@
 "Peer.Activity.Chat.Multi.SendingAudio" = "%d отправляют аудио";
 "Peer.Activity.Chat.Multi.SendingFile" = "%d отправляют файлы";
 "Peer.Activity.Chat.Multi.PlayingGame" = "%d сейчас в игре";
+
+
 
 "Peer.Media.SharedMediaEmptyList" = "Этой скрепке очень грустно, ведь в этом чате ещё никто не делился фотографиями или видео.";
 "Peer.Media.SharedFilesEmptyList" = "Вы можете отправлять и получать файлы любого типа до 1.5Гб каждый и обращаться к ним отовсюду.";
@@ -881,3 +886,20 @@
 
 "Call.Confirm.DiscardCurrent.Header" = "Идёт разговор";
 "Call.Confirm.DiscardCurrent.Description" = "Закончить разговор с пользователем %@ и начать новый с пользователем %@?";
+"Call.RatingModal.Placeholder" = "Комментарий...";
+"QuickSwitcher.Recently" = "Недавние";
+"QuickSwitcher.Popular" = "Популярные";
+"QuickSwitcher.Description" = "**tab** или **↑ ↓** для навигации, **⮐** для выбора, **esc** для отмены";
+
+"Chat.Context.Edit" = "Изменить (нажмите на дату)";
+"Chat.Context.EnableNotifications" = "Включить уведомления";
+"Chat.Context.DisableNotifications" = "Отключить уведомления";
+"Chat.Context.ClearHistory" = "Очистить историю";
+
+"Call.DeviceSettings.Default" = "Как в ОС";
+"Call.DeviceSettings.InputLabel" = "Микрофон:";
+"Call.DeviceSettings.OutputLabel" = "Динамики:";
+"Payments.Unsupported" = "Извините, Telegram Mac пока не принимает платежи. Пожалуйста, воспользуйтесь одним из наших мобильных приложений.";
+
+"Chat.Service.PaymentSent" = "Вы успешно перевели %@ пользователю %@ за %@";
+"Chat.List.Service.PaymentSent" = "Оплата: %@";
