@@ -977,6 +977,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_delete_file" = "Удалить файл";
 "lng_context_close_file" = "Закрыть файл";
 "lng_context_copy_text" = "Копировать текст";
+"lng_context_open_gif" = "Открыть GIF";
 "lng_context_save_gif" = "Сохранить в GIF";
 "lng_context_to_msg" = "Перейти к сообщению";
 "lng_context_reply_msg" = "Ответить";
@@ -1183,6 +1184,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_call_rate_label" = "Оцените качество звонка";
 "lng_call_rate_comment" = "Комментарий (необязательно)";
+
+"lng_player_message_today" = "Сегодня в {time}";
+"lng_player_message_yesterday" = "Вчера в {time}";
+"lng_player_message_date" = "{date} в {time}";
 
 // Wnd specific
 
