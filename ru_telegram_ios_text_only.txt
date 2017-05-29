@@ -2368,10 +2368,10 @@
 "Your_card_was_declined" = "Ваша карта была отклонена.";
 
 /* Error when the card's expiration month is not valid */
-"Your_cards_expiration_month_is_invalid" = "Вы ввели ошибочный месяц завершения срока действия.";
+"Your_cards_expiration_month_is_invalid" ="Вы ввели ошибочный месяц завершения срока действия.";
 
 /* Error when the card's expiration year is not valid */
-"Your_cards_expiration_year_is_invalid" = "Вы ввели ошибочный год завершения срока действия.";
+"Your_cards_expiration_year_is_invalid" ="Вы ввели ошибочный год завершения срока действия.";
 
 /* Error when the card number is not valid */
 "Your_cards_number_is_invalid" = "Вы ввели неверный номер карты.";
@@ -2464,7 +2464,7 @@
 "Call.PhoneCallInProgressMessage" = "Вы не можете осуществить звонок Telegram, если в процессе другой телефонный разговор.";
 "Call.RecordingDisabledMessage" = "Для отправки голосового сообщения необходимо прежде завершить разговор.";
 
-"Call.EmojiDescription" = "Если %@ видит те же эмодзи, что и вы,\nзвонок на 100%% защищён.";
+"Call.EmojiDescription" = "Если %@ видит те же эмодзи, что и вы, звонок на 100%% защищён.";
 
 "Message.VideoMessage" = "Видеосообщение";
 
