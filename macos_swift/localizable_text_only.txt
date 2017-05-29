@@ -31,14 +31,34 @@
 "Peer.Status.Yesterday" = "вчера";
 "Peer.Status.LastSeenAt" = "заходил(а) %@ в %@";
 
-"Peer.Status.Member.zero" = "участников: %d";
-"Peer.Status.Member.singular" = "%d участник";
-"Peer.Status.Member.pluar" = "участников: %d";
-"Peer.Status.Member.Online" = "%d в сети";
 
-"Peer.Status.minAgo.zero" = "заходил(а) %d минут назад";
-"Peer.Status.minAgo.singular" = "заходил(а) %d минуту назад";
-"Peer.Status.minAgo.pluar" = "заходил(а) %d минут назад";
+/* do not translate key with 'countable' suffix */
+"Peer.Status.Member_countable" = "%d";
+"Peer.Status.Member_zero" = "участников: %d";
+"Peer.Status.Member_one" = "участников: %d";
+"Peer.Status.Member_two" = "участников: %d";
+"Peer.Status.Member_few" = "участников: %d";
+"Peer.Status.Member_many" = "участников: %d";
+"Peer.Status.Member_other" = "участников: %d";
+
+/* do not translate key with 'countable' suffix */
+"Peer.Status.Member.Online_countable" = "%d";
+"Peer.Status.Member.Online_zero" = "%d в сети";
+"Peer.Status.Member.Online_one" = "%d в сети";
+"Peer.Status.Member.Online_two" = "%d в сети";
+"Peer.Status.Member.Online_few" = "%d в сети";
+"Peer.Status.Member.Online_many" = "%d в сети";
+"Peer.Status.Member.Online_other" = "%d в сети";
+
+
+/* do not translate key with 'countable' suffix */
+"Peer.Status.minAgo_countable" = "%d";
+"Peer.Status.minAgo_zero" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_one" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_two" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_few" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_many" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_other" = "заходил(а) %d мин. назад";
 
 "Peer.Status.channel" = "канал";
 "Peer.Status.group" = "группа";
@@ -91,31 +111,71 @@
 "Message.ActionsPanel.EmptySelected" = "Выберите сообщения";
 
 
+/* do not translate key with 'countable' suffix */
+"Message.ActionsPanel.SelectedCount_countable" = "%d";
+"Message.ActionsPanel.SelectedCount_zero" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_one" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_two" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_few" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_many" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_other" = "Выбрано сообщений: %d";
 
-"Message.ActionsPanel.SelectedCount.zero" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount.singular" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount.pluar" = "Выбрано сообщений: %d";
 
-"Message.AccessoryPanel.Forwarded.zero" = "%d пересланных сообщений";
-"Message.AccessoryPanel.Forwarded.singular" = "%d пересланное сообщение";
-"Message.AccessoryPanel.Forwarded.pluar" = "Пересланных сообщений: %d";
+/* do not translate key with 'countable' suffix */
+"Message.AccessoryPanel.Forwarded_countable" = "%d";
+"Message.AccessoryPanel.Forwarded_zero" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_one" = "%d пересланное сообщение";
+"Message.AccessoryPanel.Forwarded_two" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_few" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_many" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_other" = "Пересланных сообщений: %d";
 
-"ForwardModalAction.Title.zero" = "Пересылка сообщений";
-"ForwardModalAction.Title.singular" = "Пересылка сообщения";
-"ForwardModalAction.Title.pluar" = "Пересылка сообщений";
 
-"ForwardModalAction.description.zero" = "Выберите пользователя или чат для пересылки сообщений от: %@";
-"ForwardModalAction.description.singular" = "Выберите пользователя или чат для пересылки сообщения от: %@";
-"ForwardModalAction.description.pluar" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.Title_countable" = "%d";
+"ForwardModalAction.Title_zero" = "Пересылка сообщений";
+"ForwardModalAction.Title_one" = "Пересылка сообщения";
+"ForwardModalAction.Title_two" = "Пересылка сообщений";
+"ForwardModalAction.Title_few" = "Пересылка сообщений";
+"ForwardModalAction.Title_many" = "Пересылка сообщений";
+"ForwardModalAction.Title_other" = "Пересылка сообщений";
+
+
+/*
+ _zero
+ _one
+ _two
+ _few
+ _many
+ _other
+ */
+
+/* do not translate key with 'countable' suffix */
+"ForwardModalAction.description_countable" = "%d %@";
+"ForwardModalAction.description_zero" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+"ForwardModalAction.description_one" = "Выберите пользователя или чат для пересылки сообщения от: %@";
+"ForwardModalAction.description_two" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+"ForwardModalAction.description_few" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+"ForwardModalAction.description_many" = "Выберите пользователя или чат для пересылки сообщений от: %@";
+"ForwardModalAction.description_other" = "Выберите пользователя или чат для пересылки сообщений от: %@";
 
 "ModalAction.ShareContact" = "Отправить контакт";
 
 "Alert.OK" = "ОК";
 "Alert.Cancel" = "Отмена";
 
-"Alert.Pasteboard.SendMultiple.zero" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple.singular" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple.pluar" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+
+
+/* do not translate key with 'countable' suffix */
+"Alert.Pasteboard.SendMultiple_countable" = "%d";
+"Alert.Pasteboard.SendMultiple_zero" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_one" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_two" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_few" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_many" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_other" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+
 "Alert.Forward.Error" = "Не получается переслать сюда сообщения.";
 
 "Alert.Pasteboard.SendMultiple.Desc" = "Вы всегда можете отправить изображения и файлы, скопировав их в буфер обмена и вставив в чат в Telegram.";
@@ -187,6 +247,7 @@
 "AccountSettings.Stickers" = "Стикеры";
 "AccountSettings.Notifications" = "Уведомления";
 "AccountSettings.Username" = "Имя пользователя";
+"AccountSettings.Language" = "Язык";
 "AccountSettings.PhoneNumber" = "Номер телефона";
 "AccountSettings.PrivacyAndSecurity" = "Приватность и безопасность";
 "AccountSettings.Accounts" = "Управление учётной записью";
@@ -427,21 +488,42 @@
 "Passcode.LogoutLinkText" = "выйти";
 
 
-"PreviewSender.SendFiles.zero" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles.singular" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles.pluar" = "Выбрано файлов: %d";
 
-"PreviewSender.SendImages.zero" = "Выбрано изображений: %d";
-"PreviewSender.SendImages.singular" = "Выбрано изображений: %d";
-"PreviewSender.SendImages.pluar" = "Выбрано изображений: %d";
 
-"PreviewSender.SendVideos.zero" = "Выбрано видео: %d";
-"PreviewSender.SendVideos.singular" = "Выбрано видео: %d";
-"PreviewSender.SendVideos.pluar" = "Выбрано видео: %d";
+"PreviewSender.SendFiles_countable" = "%d";
+"PreviewSender.SendFiles_zero" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_one" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_two" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_few" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_many" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_other" = "Выбрано файлов: %d";
 
-"PreviewSender.SendMediaFiles.zero" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles.singular" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles.pluar" = "Выбрано медиафайлов: %d";
+
+"PreviewSender.SendImages_countable" = "%d";
+"PreviewSender.SendImages_zero" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_one" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_two" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_few" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_many" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_other" = "Выбрано изображений: %d";
+
+"PreviewSender.SendVideos_countable" = "%d";
+"PreviewSender.SendVideos_zero" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_one" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_two" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_few" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_many" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_other" = "Выбрано видео: %d";
+
+
+"PreviewSender.SendMediaFiles_countable" = "%d";
+"PreviewSender.SendMediaFiles_zero" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_one" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_two" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_few" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_many" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_other" = "Выбрано медиафайлов: %d";
+
 
 "PreviewSender.ExpandItems" = "Больше";
 "Chat.Input.StartBot" = "Начать";
@@ -514,28 +596,65 @@
 
 "SecretTimer.Off" = "Выкл.";
 
+"Timer.Seconds_countable" = "%d";
+"Timer.Seconds_zero" = "%d сек.";
+"Timer.Seconds_one" = "%d сек.";
+"Timer.Seconds_two" = "%d сек.";
+"Timer.Seconds_few" = "%d сек.";
+"Timer.Seconds_many" = "%d сек.";
+"Timer.Seconds_other" = "%d сек.";
 
-"Timer.Seconds.zero" = "%d сек.";
-"Timer.Seconds.singular" = "%d сек.";
-"Timer.Seconds.pluar" = "%d сек.";
-"Timer.Days.zero" = "%d дн.";
-"Timer.Days.singular" = "%d дн.";
-"Timer.Days.pluar" = "%d дн.";
-"Timer.Minutes.zero" = "%d мин.";
-"Timer.Minutes.singular" = "%d мин.";
-"Timer.Minutes.pluar" = "%d мин.";
-"Timer.Hours.zero" = "%d ч.";
-"Timer.Hours.singular" = "%d ч.";
-"Timer.Hours.pluar" = "%d ч.";
-"Timer.Weeks.zero" = "%d нед.";
-"Timer.Weeks.singular" = "%d нед.";
-"Timer.Weeks.pluar" = "%d нед.";
-"Timer.Months.zero" = "%d мес.";
-"Timer.Months.singular" = "%d мес.";
-"Timer.Months.pluar" = "%d мес.";
-"Timer.Years.zero" = "%d г.";
-"Timer.Years.singular" = "%d г.";
-"Timer.Years.pluar" = "%d г.";
+
+"Timer.Days_countable" = "%d";
+"Timer.Days_zero" = "%d д.";
+"Timer.Days_one" = "%d д.";
+"Timer.Days_two" = "%d д.";
+"Timer.Days_few" = "%d д.";
+"Timer.Days_many" = "%d д.";
+"Timer.Days_other" = "%d д.";
+
+
+"Timer.Minutes_countable" = "%d";
+"Timer.Minutes_zero" = "%d мин.";
+"Timer.Minutes_one" = "%d мин.";
+"Timer.Minutes_two" = "%d мин.";
+"Timer.Minutes_few" = "%d мин.";
+"Timer.Minutes_many" = "%d мин.";
+"Timer.Minutes_other" = "%d мин.";
+
+"Timer.Hours_countable" = "%d";
+"Timer.Hours_zero" = "%d ч.";
+"Timer.Hours_one" = "%d ч.";
+"Timer.Hours_two" = "%d ч.";
+"Timer.Hours_few" = "%d ч.";
+"Timer.Hours_many" = "%d ч.";
+"Timer.Hours_other" = "%d ч.";
+
+
+"Timer.Weeks_countable" = "%d";
+"Timer.Weeks_zero" = "%d нед.";
+"Timer.Weeks_one" = "%d нед.";
+"Timer.Weeks_two" = "%d нед.";
+"Timer.Weeks_few" = "%d нед.";
+"Timer.Weeks_many" = "%d нед.";
+"Timer.Weeks_other" = "%d нед.";
+
+"Timer.Months_countable" = "%d";
+"Timer.Months_zero" = "%d мес.";
+"Timer.Months_one" = "%d мес.";
+"Timer.Months_two" = "%d мес.";
+"Timer.Months_few" = "%d мес.";
+"Timer.Months_many" = "%d мес.";
+"Timer.Months_other" = "%d мес.";
+
+"Timer.Years_countable" = "%d";
+"Timer.Years_zero" = "%d г.";
+"Timer.Years_one" = "%d г.";
+"Timer.Years_two" = "%d г.";
+"Timer.Years_few" = "%d г.";
+"Timer.Years_many" = "%d г.";
+"Timer.Years_other" = "%d г.";
+
 "Timer.Forever" = "Всегда";
 "ChatList.Draft" = "Черновик:";
 "ChatList.You" = "Вы";
@@ -824,9 +943,16 @@
 "PrivacySettingsController.NeverAllow" = "Всегда запрещать";
 "PrivacySettingsController.AlwaysAllow" = "Всегда разрешать";
 
-"PrivacySettingsController.UserCount.zero" = "%d чел.";
-"PrivacySettingsController.UserCount.singular" = "%d чел.";
-"PrivacySettingsController.UserCount.pluar" = "%d чел.";
+
+
+"PrivacySettingsController.UserCount_countable" = "%d";
+"PrivacySettingsController.UserCount_zero" = "%d чел.";
+"PrivacySettingsController.UserCount_one" = "%d чел.";
+"PrivacySettingsController.UserCount_two" = "%d чел.";
+"PrivacySettingsController.UserCount_few" = "%d чел.";
+"PrivacySettingsController.UserCount_many" = "%d чел.";
+"PrivacySettingsController.UserCount_other" = "%d чел.";
+
 "PrivacySettingsController.AddUsers" = "Добавить";
 
 "PrivacySettingsController.LastSeenHeader" = "Кто видит время моей последней активности?";
@@ -864,23 +990,23 @@
 "Call.Recent.Incoming" = "Входящий";
 "Call.Recent.Missed" = "Пропущенный";
 
-"Call.Seconds_1" = "%@ сек.";
-"Call.Seconds_2" = "%@ сек.";
-"Call.Seconds_3_10" = "%@ сек.";
-"Call.Seconds_any" = "%@ сек.";
-"Call.Minutes_1" = "%@ мин.";
-"Call.Minutes_2" = "%@ мин.";
-"Call.Minutes_3_10" = "%@ мин.";
-"Call.Minutes_any" = "%@ мин.";
+"Call.Seconds_one" = "%@ сек.";
+"Call.Seconds_two" = "%@ сек.";
+"Call.Seconds_few" = "%@ сек.";
+"Call.Seconds_other" = "%@ сек.";
+"Call.Minutes_one" = "%@ мин.";
+"Call.Minutes_two" = "%@ мин.";
+"Call.Minutes_few" = "%@ мин.";
+"Call.Minutes_other" = "%@ мин.";
 
-"Call.ShortSeconds_1" = "%@ сек.";
-"Call.ShortSeconds_2" = "%@ сек.";
-"Call.ShortSeconds_3_10" = "%@ сек.";
-"Call.ShortSeconds_any" = "%@ сек.";
-"Call.ShortMinutes_1" = "%@ мин.";
-"Call.ShortMinutes_2" = "%@ мин.";
-"Call.ShortMinutes_3_10" = "%@ мин.";
-"Call.ShortMinutes_any" = "%@ мин.";
+"Call.ShortSeconds_one" = "%@ сек.";
+"Call.ShortSeconds_two" = "%@ сек.";
+"Call.ShortSeconds_few" = "%@ сек.";
+"Call.ShortSeconds_other" = "%@ сек.";
+"Call.ShortMinutes_one" = "%@ мин.";
+"Call.ShortMinutes_two" = "%@ мин.";
+"Call.ShortMinutes_few" = "%@ мин.";
+"Call.ShortMinutes_other" = "%@ мин.";
 "Telegram.LayoutPhoneCallsViewController" = "Недавние вызовы";
 "RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
 
@@ -891,15 +1017,114 @@
 "QuickSwitcher.Popular" = "Популярные";
 "QuickSwitcher.Description" = "**tab** или **↑ ↓** для навигации, **⮐** для выбора, **esc** для отмены";
 
-"Chat.Context.Edit" = "Изменить (нажмите на дату)";
+"Chat.Context.Edit" = "Выбрать (или нажмите на дату)";
 "Chat.Context.EnableNotifications" = "Включить уведомления";
 "Chat.Context.DisableNotifications" = "Отключить уведомления";
 "Chat.Context.ClearHistory" = "Очистить историю";
 
-"Call.DeviceSettings.Default" = "Как в ОС";
+"Call.DeviceSettings.Default" = "Как в системе";
 "Call.DeviceSettings.InputLabel" = "Микрофон:";
 "Call.DeviceSettings.OutputLabel" = "Динамики:";
 "Payments.Unsupported" = "Извините, Telegram Mac пока не принимает платежи. Пожалуйста, воспользуйтесь одним из наших мобильных приложений.";
 
 "Chat.Service.PaymentSent" = "Вы успешно перевели %@ пользователю %@ за %@";
 "Chat.List.Service.PaymentSent" = "Оплата: %@";
+
+"Telegram.LanguageViewController" = "Язык";
+
+
+"Date.Month.January" = "января";
+"Date.Month.February" = "февраля";
+"Date.Month.March" = "марта";
+"Date.Month.April" = "апреля";
+"Date.Month.May" = "мая";
+"Date.Month.June" = "июня";
+"Date.Month.July" = "июля";
+"Date.Month.August" = "августа";
+"Date.Month.September" = "сентября";
+"Date.Month.October" = "октября";
+"Date.Month.November" = "ноября";
+"Date.Month.December" = "декабря";
+
+"Chat.LoadingMessages" = "Загрузка сообщений";
+
+
+"SuggestionLocalization.Header" = "Выберите язык";
+
+
+
+
+
+
+"1Xt-HY-uBw.title" = "Telegram";
+"1b7-l0-nxx.title" = "Найти";
+"2oI-Rn-ZJC.title" = "Преобразования";
+"3IN-sU-3Bg.title" = "Орфография";
+"3rS-ZA-NoH.title" = "Произношение";
+"4EN-yA-p0u.title" = "Найти";
+"4J7-dP-txa.title" = "В полный экран";
+"4sb-4s-VLi.title" = "Выйти из Telegram";
+"5QF-Oa-p0T.title" = "Изменить";
+"5kV-Vb-QxS.title" = "О Telegram";
+"6dh-zS-Vam.title" = "Повтор";
+"78Y-hA-62v.title" = "Автоматически исправлять ошибки";
+"9ic-FL-obx.title" = "Автозамена";
+"9yt-4B-nSM.title" = "Умное копирование/вставка";
+"AYu-sK-qS6.title" = "Главное меню";
+"BOF-NM-1cW.title" = "Настройки...";
+"Cag-YX-WT6.title" = "Скрыть Telegram";
+"Dv1-io-Yv7.title" = "Орфография и грамматика";
+"F2S-fz-NVQ.title" = "Помощь";
+"FKE-Sm-Kum.title" = "Помощь по TelegramMac";
+"FeM-D8-WVr.title" = "Автозамена";
+"H8h-7b-M4v.title" = "Вид";
+"HFQ-gK-NFA.title" = "Автозамена текста";
+"HFo-cy-zxI.title" = "Показать орфографию и грамматику";
+"HyV-fh-RgO.title" = "Вид";
+"Kd2-mp-pUS.title" = "Показать все";
+"LE2-aR-0XJ.title" = "На передний план";
+"NMo-om-nkz.title" = "Службы";
+"OY7-WF-poV.title" = "Свернуть";
+"Olw-nP-bQN.title" = "Скрыть";
+"OwM-mh-QMV.title" = "Искать ранее";
+"Oyz-dy-DGm.title" = "Закончить произношение";
+"QvC-M9-y7g.title" = "Telegram";
+"R4o-n2-Eq4.title" = "Развернуть";
+"Ruw-6m-B2m.title" = "Выбрать все";
+"S0p-oC-mLd.title" = "Перейти к выделенному";
+"Td7-aD-5lo.title" = "Окно";
+"UEZ-Bs-lqG.title" = "Сделать Заглавными";
+"Vdr-fp-XzO.title" = "Скрыть все, кроме Telegram";
+"W48-6f-4Dl.title" = "Изменить";
+"WeT-3V-zwk.title" = "Вставить без форматирования";
+"Xz5-n4-O0W.title" = "Найти...";
+"YEy-JH-Tfz.title" = "Найти и заменить...";
+"Ynk-f8-cLZ.title" = "Начать произношение";
+"aUF-d1-5bR.title" = "Окно";
+"buJ-ug-pKt.title" = "Искать выделенное";
+"c8a-y6-VQd.title" = "Преобразования";
+"cwL-P1-jid.title" = "Умные ссылки";
+"d9M-CD-aMd.title" = "только строчными";
+"dRJ-4n-Yzg.title" = "Отмена";
+"gVA-U4-sdL.title" = "Вставить";
+"hQb-2v-fYv.title" = "Умные кавычки";
+"hz2-CU-CR7.title" = "Проверить документ";
+"hz9-B4-Xy5.title" = "Службы";
+"mK6-2p-4JG.title" = "Проверить грамматику и орфографию";
+"pa3-QI-u2k.title" = "Удалить";
+"q09-fT-Sye.title" = "Найти далее";
+"rbD-Rh-wIN.title" = "Проверять орфографию во время набора текста";
+"rgM-f4-ycn.title" = "Умные дефисы";
+"tRr-pd-1PS.title" = "Автоопределение дат";
+"uQy-DD-JDr.title" = "Telegram";
+"uRl-iY-unG.title" = "Вырезать";
+"vmV-6d-7jI.title" = "ТОЛЬКО ЗАГЛАВНЫМИ";
+"wpr-3q-Mcd.title" = "Помощь";
+"x3v-GG-iWU.title" = "Копировать";
+"1000.title" = "Проверить обновления";
+"xrE-MZ-jX0.title" = "Произношение";
+"z6F-FW-3nz.title" = "Показать автозамены";
+"sZh-ct-GQS.title" = "Быстрый поиск";
+
+
+"Login.ContinueOnLanguage" = "Оставить английский";
