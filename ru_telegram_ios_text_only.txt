@@ -1521,7 +1521,7 @@
 "Channel.Info.Description" = "описание";
 
 "Channel.Info.Management" = "Администраторы";
-"Channel.Info.BlackList" = "Чёрный список";
+"Channel.Info.Banned" = "Чёрный список";
 "Channel.Info.Members" = "Участники";
 
 "Channel.Members.AddMembers" = "Добавить участников";
@@ -1551,7 +1551,7 @@
 
 "Channel.Moderator.AccessLevelModeratorHelp" = "Модераторы могут убирать комментарии пользователей и заведуют чёрным списком.\n\nМодераторы не могут менять имя канала, ссылку, фото, и описание.";
 "Channel.Moderator.AccessLevelEditorHelp" = "Редакторы могут оставлять или удалять записи на канале, и заведуют чёрным списком.";
-"Channel.Moderator.AccessLevelRevoke" = "Сместить модератора";
+"Channel.Moderator.AccessLevelRevoke" = "Убрать из администраторов";
 
 "Channel.Moderator.Title" = "Модератор";
 
@@ -1682,7 +1682,7 @@
 "Watch.UserInfo.Mute_2" = "Не беспокоить 2 часа";
 "Watch.UserInfo.Mute_3_10" = "Не беспокоить %@ ч.";
 "Watch.UserInfo.Mute_any" = "Не беспокоить %@ ч.";
-"Watch.UserInfo.Mute" = "Выкл. звук";
+"Watch.UserInfo.MuteTitle" = "Приглушить";
 "Watch.UserInfo.Unmute" = "Вкл. звук";
 
 "Watch.GroupInfo.Title" = "Информация о группе";
@@ -2086,45 +2086,45 @@
 
 "Group.Username.RemoveExistingUsernamesInfo" = "К сожалению, вы используете слишком много публичных ссылок.\nВы можете сбросить одну из уже занятых ссылок на свои группы или каналы или не создавать новую публичную ссылку.";
 
-"ServiceMessage.GameScoreExtended_1" = "{name} набрал(а) {score} очков в {game}";
-"ServiceMessage.GameScoreExtended_2" = "{name} набрал(а) {score} очков в {game}";
-"ServiceMessage.GameScoreExtended_3_10" = "{name} набрал(а) {score} очков в {game}";
-"ServiceMessage.GameScoreExtended_any" = "{name} набрал(а) {score} очков в {game}";
+"ServiceMessage.GameScoreExtended_1" = "{name} набрал(а) %@ в {game}";
+"ServiceMessage.GameScoreExtended_2" = "{name} набрал(а) %@ в {game}";
+"ServiceMessage.GameScoreExtended_3_10" = "{name} набрал(а) %@ в {game}";
+"ServiceMessage.GameScoreExtended_any" = "{name} набрал(а) %@ очков в {game}";
 
-"ServiceMessage.GameScoreSelfExtended_1" = "Вы набрали {score} очков в {game}";
-"ServiceMessage.GameScoreSelfExtended_2" = "Вы набрали {score} очков в {game}";
-"ServiceMessage.GameScoreSelfExtended_3_10" = "Вы набрали {score} очков в {game}";
-"ServiceMessage.GameScoreSelfExtended_any" = "Вы набрали {score} очков в {game}";
+"ServiceMessage.GameScoreSelfExtended_1" = "Вы набрали %@ очков в {game}";
+"ServiceMessage.GameScoreSelfExtended_2" = "Вы набрали %@ очка {game}";
+"ServiceMessage.GameScoreSelfExtended_3_10" = "Вы набрали %@ в {game}";
+"ServiceMessage.GameScoreSelfExtended_any" = "Вы набрали %@ в {game}";
 
-"ServiceMessage.GameScoreSimple_1" = "{name} набрал(а) {score} очков";
-"ServiceMessage.GameScoreSimple_2" = "{name} набрал(а) {score} очков";
-"ServiceMessage.GameScoreSimple_3_10" = "{name} набрал(а) {score} очков";
-"ServiceMessage.GameScoreSimple_any" = "{name} набрал(а) {score} очков";
+"ServiceMessage.GameScoreSimple_1" = "{name} набрал(а) %@";
+"ServiceMessage.GameScoreSimple_2" = "{name} набрал(а) %@";
+"ServiceMessage.GameScoreSimple_3_10" = "{name} набрал(а) %@";
+"ServiceMessage.GameScoreSimple_any" = "{name} набрал(а) %@";
 
-"ServiceMessage.GameScoreSelfSimple_1" = "Вы набрали {score} очков";
-"ServiceMessage.GameScoreSelfSimple_2" = "Вы набрали {score} очков";
-"ServiceMessage.GameScoreSelfSimple_3_10" = "Вы набрали {score} очков";
-"ServiceMessage.GameScoreSelfSimple_any" = "Вы набрали {score} очков";
+"ServiceMessage.GameScoreSelfSimple_1" = "Вы набрали %@";
+"ServiceMessage.GameScoreSelfSimple_2" = "Вы набрали %@";
+"ServiceMessage.GameScoreSelfSimple_3_10" = "Вы набрали %@";
+"ServiceMessage.GameScoreSelfSimple_any" = "Вы набрали %@";
 
-"Notification.GameScoreExtended_1" = "{score} очков в {game}";
-"Notification.GameScoreExtended_2" = "{score} очков в {game}";
-"Notification.GameScoreExtended_3_10" = "{score} очков в {game}";
-"Notification.GameScoreExtended_any" = "{score} очков в {game}";
+"Notification.GameScoreExtended_1" = "набрал(а) %@ в {game}";
+"Notification.GameScoreExtended_2" = "набрал(а) %@ в {game}";
+"Notification.GameScoreExtended_3_10" = "набрал(а) %@ в {game}";
+"Notification.GameScoreExtended_any" = "набрал(а) %@ в {game}";
 
-"Notification.GameScoreSelfExtended_1" = "{score} очков в {game}";
-"Notification.GameScoreSelfExtended_2" = "{score} очков в {game}";
-"Notification.GameScoreSelfExtended_3_10" = "{score} очков в {game}";
-"Notification.GameScoreSelfExtended_any" = "{score} очков в {game}";
+"Notification.GameScoreSelfExtended_1" = "набрал(а) %@ в {game}";
+"Notification.GameScoreSelfExtended_2" = "набрал(а) %@ в {game}";
+"Notification.GameScoreSelfExtended_3_10" = "набрал(а) %@ в {game}";
+"Notification.GameScoreSelfExtended_any" = "набрал(а) %@ в {game}";
 
-"Notification.GameScoreSimple_1" = "{score} очков";
-"Notification.GameScoreSimple_2" = "{score} очков";
-"Notification.GameScoreSimple_3_10" = "{score} очков";
-"Notification.GameScoreSimple_any" = "{score} очков";
+"Notification.GameScoreSimple_1" = "набрал(а) %@";
+"Notification.GameScoreSimple_2" = "набрал(а) %@";
+"Notification.GameScoreSimple_3_10" = "набрал(а) %@";
+"Notification.GameScoreSimple_any" = "набрал(а) %@";
 
-"Notification.GameScoreSelfSimple_1" = "{score} очков";
-"Notification.GameScoreSelfSimple_2" = "{score} очков";
-"Notification.GameScoreSelfSimple_3_10" = "{score} очков";
-"Notification.GameScoreSelfSimple_any" = "{score} очков";
+"Notification.GameScoreSelfSimple_1" = "набрал(а) %@";
+"Notification.GameScoreSelfSimple_2" = "набрал(а) %@";
+"Notification.GameScoreSelfSimple_3_10" = "набрал(а) %@";
+"Notification.GameScoreSelfSimple_any" = "набрал(а) %@";
 
 "Stickers.Install" = "ДОБАВИТЬ";
 
@@ -2498,6 +2498,9 @@
 "Checkout.LiabilityAlertTitle" = "Внимание";
 "Checkout.LiabilityAlert" = "Оплата осуществляется напрямую разработчику %1$@. Telegram не предоставляет никаких гарантий, всё на ваш страх и риск. В случае каких-либо проблем, пожалуйста, свяжитесь с разработчиком %1$@ или с вашим банком.";
 
+"Settings.AppLanguage" = "Язык";
+"AppLanguage.LanguageSuggested" = "Telegram теперь поддерживает %@ язык. Вы хотите переключиться на него?";
+
 "InstantPage.AutoNightTheme" = "Автосмена темы ночью";
 
 "Privacy.PaymentsTitle" = "ПЛАТЕЖИ";
@@ -2505,3 +2508,108 @@
 "Privacy.PaymentsClearInfoHelp" = "Вы можете удалить свою платёжную информацию и потребовать от всех платёжных провайдеров удалить ваши сохранённые кредитные карты. Обратите внимание, Telegram не хранит информацию о ваших кредитных картах.";
 "Privacy.PaymentsClear.PaymentInfo" = "Платёжная информация";
 "Privacy.PaymentsClear.ShippingInfo" = "Информация о доставке";
+
+"Channel.Management.LabelRights_1" = "1 разрешение";
+"Channel.Management.LabelRights_2" = "2 разрешения";
+"Channel.Management.LabelRights_3_10" = "%@ разр.";
+"Channel.Management.LabelRights_any" = "%@ разр.";
+
+"Channel.EditAdmin.PermissionsHeader" = "ЧТО МОЖЕТ ДЕЛАТЬ ЭТОТ АДМИНИСТРАТОР?";
+"Channel.EditAdmin.PermissionChangeInfo" = "Изменять описание канала";
+"Group.EditAdmin.PermissionChangeInfo" = "Изменять описание группы";
+"Channel.EditAdmin.PermissionPostMessages" = "Отправлять сообщения";
+"Channel.EditAdmin.PermissionEditMessages" = "Редактировать сообщения";
+"Channel.EditAdmin.PermissionDeleteMessages" = "Удалять сообщения";
+"Channel.EditAdmin.PermissionBanUsers" = "Блокировать пользователей";
+"Channel.EditAdmin.PermissionInviteUsers" = "Добавлять пользователей";
+"Channel.EditAdmin.PermissionChangeInviteLink" = "Приглашать пользователей по ссылке";
+"Channel.EditAdmin.PermissionPinMessages" = "Закреплять сообщения";
+"Channel.EditAdmin.PermissionAddAdmins" = "Добавлять новых администраторов";
+
+"Channel.EditAdmin.PermissinAddAdminOn" = "Этот администратор сможет добавлять новых администраторов с тем же или более ограниченным уровнем прав, как он сам.";
+"Channel.EditAdmin.PermissinAddAdminOff" = "Этот администратор не сможет добавлять новых администраторов.";
+
+"Login.ContinueWithLocalization" = "Оставить английский";
+"Localization.LanguageName" = "Английский";
+"Localization.ChooseLanguage" = "Выберите язык";
+
+"Channel.BanUser.Title" = "Заблокировать пользователя";
+"Channel.BanUser.PermissionsHeader" = "Ограничения пользователя";
+"Channel.BanUser.PermissionReadMessages" = "Может читать сообщения";
+"Channel.BanUser.PermissionSendMessages" = "Может отправлять сообщения";
+"Channel.BanUser.PermissionSendMedia" = "Может отправлять медиафайлы";
+"Channel.BanUser.PermissionSendStickers" = "Может отправлять стикеры";
+"Channel.BanUser.PermissionEmbedLinks" = "Может отправлять ссылки";
+
+"Channel.BanUser.BlockFor" = "Заблокировать на";
+
+"Channel.BanList.Title" = "Ограниченные";
+
+"Group.Info.AdminLog" = "Журнал событий";
+"Channel.AdminLog.InfoPanelTitle" = "Что это?";
+"Channel.AdminLog.InfoPanelAlertTitle" = "Что такое журнал событий?";
+"Channel.AdminLog.InfoPanelAlertText" = "Это список всех служебных действий, совершённых участниками и администраторами группы с момента её создания.\n\nУдалённые сообщения и история версий для сообщений доступны в течение 48 часов";
+"Channel.AdminLog.Status" = "журнал событий";
+
+"Channel.AdminLog.BanReadMessages" = "Читать сообщения";
+"Channel.AdminLog.BanSendMessages" = "Отправлять сообщения";
+"Channel.AdminLog.BanSendMedia" = "Отправлять медиафайлы";
+"Channel.AdminLog.BanSendStickers" = "Отправлять стикеры";
+"Channel.AdminLog.BanEmbedLinks" = "Отправлять ссылки";
+"Channel.AdminLog.MessageRestricted" = "%@ сменил(а) ограничения для %@ (%@)";
+"Channel.AdminLog.MessageAdmin" = "%@ сменил(а) привилегии для %@ (%@)";
+
+"Channel.AdminLog.CanChangeInfo" = "Редактировать описание";
+"Channel.AdminLog.CanSendMessages" = "Отправлять сообщения";
+"Channel.AdminLog.CanDeleteMessages" = "Удалять сообщения";
+"Channel.AdminLog.CanBanUsers" = "Блокировать пользователей";
+"Channel.AdminLog.CanInviteUsers" = "Добавлять пользователей";
+"Channel.AdminLog.CanChangeInviteLink" = "Приглашать пользователей по ссылке";
+"Channel.AdminLog.CanPinMessages" = "Закреплять сообщения";
+"Channel.AdminLog.CanStartCalls" = "Совершать вызовы";
+"Channel.AdminLog.CanAddAdmins" = "Добавлять новых администраторов";
+
+"Channel.AdminLog.MessageToggleInvitesOn" = "%@ разрешил(а) приглашения в группу";
+"Channel.AdminLog.MessageToggleInvitesOff" = "%@ запретил(а) приглашения в группу";
+
+"Channel.AdminLog.MessageToggleSignaturesOn" = "%@ включила подписи сообщений";
+"Channel.AdminLog.MessageToggleSignaturesOff" = "%@ отключил(а) подписи сообщений";
+
+"Channel.AdminLog.MessageChangedGroupUsername" = "%@ изменил(а) ссылку группы";
+"Channel.AdminLog.MessageChangedChannelUsername" = "%@ изменил(а) ссылку канала";
+"Channel.AdminLog.MessageRemovedGroupUsername" = "%@ удалил(а) ссылку группы";
+"Channel.AdminLog.MessageRemovedChannelUsername" = "%@ удалил(а) ссылка канала";
+
+"Channel.AdminLog.MessageChangedGroupAbout" = "%@ изменил(а) описание группы";
+"Channel.AdminLog.MessageChangedChannelAbout" = "%@ изменил(а) описание канала";
+
+"Channel.AdminLog.MessageEdited" = "%@ отредактировал(а) сообщение";
+"Channel.AdminLog.MessageDeleted" = "%@ удалил(а) сообщение";
+"Channel.AdminLog.MessagePinned" = "%@ закрепил(а) сообщение";
+
+"Channel.AdminLog.MessagePreviousMessage" = "Исходное сообщение";
+"Channel.AdminLog.MessagePreviousLink" = "Прошлая ссылка";
+"Channel.AdminLog.MessagePreviousDescription" = "Прошлое описание";
+
+"Contacts.MemberSearchSectionTitleChannel" = "Участники канала";
+"Contacts.MemberSearchSectionTitleGroup" = "Участники группы";
+
+"Channel.AdminLog.TitleAllEvents" = "Все события";
+"Channel.AdminLogFilter.Title" = "Фильтр";
+"Channel.AdminLogFilter.EventsTitle" = "СОБЫТИЯ";
+"Channel.AdminLogFilter.EventsAll" = "Все события";
+"Channel.AdminLogFilter.EventsRestrictions" = "Участники с ограничениями";
+"Channel.AdminLogFilter.EventsAdmins" = "Новые администраторы";
+"Channel.AdminLogFilter.EventsNewMembers" = "Новые участники";
+"Channel.AdminLogFilter.EventsInfo" = "Информация о группе";
+"Channel.AdminLogFilter.EventsDeletedMessages" = "Удалённые сообщения";
+"Channel.AdminLogFilter.EventsEditedMessages" = "Отредактированные сообщения";
+"Channel.AdminLogFilter.EventsPinned" = "Закреплённые сообщения";
+"Channel.AdminLogFilter.EventsLeaving" = "Ушедшие участники";
+"Channel.AdminLogFilter.AdminsTitle" = "АДМИНИСТРАТОРЫ";
+"Channel.AdminLogFilter.AdminsAll" = "Все администраторы";
+
+"Group.ErrorSendRestrictedStickers" = "Извините, администраторы этой группы запретили вам отправлять стикеры";
+"Group.ErrorSendRestrictedMedia" = "Извините, администраторы этой группы решили запретить вам отправлять медиафайлы.";
+
+"ChannelMembers.BanList.EmptyText" = "Пользователи с ограничениями не могут выполнять различные действия.";
