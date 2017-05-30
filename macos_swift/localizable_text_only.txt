@@ -4,14 +4,14 @@
 "Messages.File.State.FetchingIn" = "Загрузка — %d%%";
 "Messages.File.State.FetchingOut" = "Отправка — %d%%";
 "Messages.File.State.Remote" = "Загрузить";
-"Messages.File.State.Local" = "Показать в проводнике";
+"Messages.File.State.Local" = "Показать в Finder";
 "Messages.DeletedMessage" = "Удалённое сообщение";
 
 "Messages.Placeholder.SentMessage" = "Напишите сообщение...";
 "SearchField.Search" = "Поиск";
 "Contacts.ContacsSeparator" = "Контакты";
 "Navigation.back" = "Назад";
-"Navigation.Chat" = "Час";
+"Navigation.Chat" = "Чат";
 "Navigation.Edit" = "Изм.";
 "Navigation.Done" = "Готово";
 "Navigation.Close" = "Закрыть";
@@ -82,7 +82,7 @@
 "PeerInfo.sharelink" = "Поделиться ссылкой";
 "PeerInfo.Confirm.LeaveChannel" = "Вы уверены, что хотите покинуть канал?";
 "PeerInfo.Confirm.DeleteAndExit" = "Вы уверены, что хотите покинуть канал?";
-"PeerInfo.Confirm.LeaveGroup" = "Вы уверены, что хотите покинуть эту группу?\n\nЭто действие нельзя отменить.";
+"PeerInfo.Confirm.LeaveGroup" = "Вы уверены, что хотите покинуть эту группу?\n\nЭто действие не может быть отменено.";
 "PeerInfo.Confirm.DeleteChat" = "Вы уверены, что хотите удалить всю историю сообщений и покинуть \"%@\"?\n\nЭто действие не может быть отменено.";
 "Confirm.DeleteAdminedChannel" = "Подождите! Удаление этого канала также исключит всех участников и все сообщения будут утрачены. Всё равно удалить?";
 "Confirm.DeleteChatUser" = "Вы уверены, что хотите удалить всю историю сообщений?\n\nЭто действие не может быть отменено.";
@@ -990,23 +990,40 @@
 "Call.Recent.Incoming" = "Входящий";
 "Call.Recent.Missed" = "Пропущенный";
 
-"Call.Seconds_one" = "%@ секунда";
-"Call.Seconds_two" = "%@ секунды";
-"Call.Seconds_few" = "%@ секунды";
-"Call.Seconds_other" = "%@ секунд";
-"Call.Minutes_one" = "%@ минута";
-"Call.Minutes_two" = "%@ минуты";
-"Call.Minutes_few" = "%@ минуты";
-"Call.Minutes_other" = "%@ минут";
 
-"Call.ShortSeconds_one" = "%@ сек.";
-"Call.ShortSeconds_two" = "%@ сек.";
-"Call.ShortSeconds_few" = "%@ сек.";
-"Call.ShortSeconds_other" = "%@ сек.";
-"Call.ShortMinutes_one" = "%@ мин.";
-"Call.ShortMinutes_two" = "%@ мин.";
-"Call.ShortMinutes_few" = "%@ мин.";
-"Call.ShortMinutes_other" = "%@ мин.";
+"Call.Seconds_countable" = "%d";
+"Call.Seconds_zero" = "%d секунд";
+"Call.Seconds_one" = "%d секунда";
+"Call.Seconds_two" = "%d секунды";
+"Call.Seconds_few" = "%d секунды";
+"Call.Seconds_many" = "%d секунд";
+"Call.Seconds_other" = "%d секунд";
+
+"Call.Minutes_countable" = "%d";
+"Call.Minutes_zero" = "%d минут";
+"Call.Minutes_one" = "%d минута";
+"Call.Minutes_two" = "%d минуты";
+"Call.Minutes_few" = "%d минуты";
+"Call.Minutes_many" = "%d минут";
+"Call.Minutes_other" = "%d минут";
+
+"Call.ShortSeconds_countable" = "%d";
+"Call.ShortSeconds_zero" = "%d сек.";
+"Call.ShortSeconds_one" = "%d сек.";
+"Call.ShortSeconds_two" = "%d сек.";
+"Call.ShortSeconds_few" = "%d сек.";
+"Call.ShortSeconds_many" = "%d сек.";
+"Call.ShortSeconds_other" = "%d сек.";
+
+"Call.ShortMinutes_countable" = "%d";
+"Call.ShortMinutes_zero" = "%d мин.";
+"Call.ShortMinutes_one" = "%d мин.";
+"Call.ShortMinutes_two" = "%d мин.";
+"Call.ShortMinutes_few" = "%d мин.";
+"Call.ShortMinutes_many" = "%d мин.";
+"Call.ShortMinutes_other" = "%d мин.";
+
+
 "Telegram.LayoutPhoneCallsViewController" = "Недавние вызовы";
 "RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
 
@@ -1033,26 +1050,8 @@
 "Telegram.LanguageViewController" = "Язык";
 
 
-"Date.Month.January" = "января";
-"Date.Month.February" = "февраля";
-"Date.Month.March" = "марта";
-"Date.Month.April" = "апреля";
-"Date.Month.May" = "мая";
-"Date.Month.June" = "июня";
-"Date.Month.July" = "июля";
-"Date.Month.August" = "августа";
-"Date.Month.September" = "сентября";
-"Date.Month.October" = "октября";
-"Date.Month.November" = "ноября";
-"Date.Month.December" = "декабря";
 
 "Chat.LoadingMessages" = "Загрузка сообщений";
-
-
-"SuggestionLocalization.Header" = "Выберите язык";
-
-
-
 
 
 
@@ -1126,5 +1125,10 @@
 "z6F-FW-3nz.title" = "Показать автозамены";
 "sZh-ct-GQS.title" = "Быстрый поиск";
 
-
 "Login.ContinueOnLanguage" = "Оставить английский";
+"Date.Today" = "Сегодня";
+
+/* This key for which language this file, for example: Italian -> Italiano, Russian -> Русский */
+"AccountSettings.CurrentLanguage" = "English";
+"Suggest.Localization.Header" = "Выберите язык";
+"Suggest.Localization.Other" = "Другой...";
