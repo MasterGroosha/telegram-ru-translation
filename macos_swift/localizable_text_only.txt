@@ -34,12 +34,12 @@
 
 /* do not translate key with 'countable' suffix */
 "Peer.Status.Member_countable" = "%d";
-"Peer.Status.Member_zero" = "участников: %d";
-"Peer.Status.Member_one" = "участников: %d";
-"Peer.Status.Member_two" = "участников: %d";
-"Peer.Status.Member_few" = "участников: %d";
-"Peer.Status.Member_many" = "участников: %d";
-"Peer.Status.Member_other" = "участников: %d";
+"Peer.Status.Member_zero" = "%d участников";
+"Peer.Status.Member_one" = "%d участник";
+"Peer.Status.Member_two" = "%d участника";
+"Peer.Status.Member_few" = "%d участника";
+"Peer.Status.Member_many" = "%d участников";
+"Peer.Status.Member_other" = "%d участников";
 
 /* do not translate key with 'countable' suffix */
 "Peer.Status.Member.Online_countable" = "%d";
@@ -53,12 +53,12 @@
 
 /* do not translate key with 'countable' suffix */
 "Peer.Status.minAgo_countable" = "%d";
-"Peer.Status.minAgo_zero" = "заходил(а) %d мин. назад";
-"Peer.Status.minAgo_one" = "заходил(а) %d мин. назад";
-"Peer.Status.minAgo_two" = "заходил(а) %d мин. назад";
-"Peer.Status.minAgo_few" = "заходил(а) %d мин. назад";
-"Peer.Status.minAgo_many" = "заходил(а) %d мин. назад";
-"Peer.Status.minAgo_other" = "заходил(а) %d мин. назад";
+"Peer.Status.minAgo_zero" = "заходил(а) %d минут назад";
+"Peer.Status.minAgo_one" = "заходил(а) %d минуту назад";
+"Peer.Status.minAgo_two" = "заходил(а) %d минуты назад";
+"Peer.Status.minAgo_few" = "заходил(а) %d минуты назад";
+"Peer.Status.minAgo_many" = "заходил(а) %d минут назад";
+"Peer.Status.minAgo_other" = "заходил(а) %d минут назад";
 
 "Peer.Status.channel" = "канал";
 "Peer.Status.group" = "группа";
@@ -113,22 +113,22 @@
 
 /* do not translate key with 'countable' suffix */
 "Message.ActionsPanel.SelectedCount_countable" = "%d";
-"Message.ActionsPanel.SelectedCount_zero" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount_one" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount_two" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount_few" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount_many" = "Выбрано сообщений: %d";
-"Message.ActionsPanel.SelectedCount_other" = "Выбрано сообщений: %d";
+"Message.ActionsPanel.SelectedCount_zero" = "Выбрано %d сообщений";
+"Message.ActionsPanel.SelectedCount_one" = "Выбрано %d сообщение";
+"Message.ActionsPanel.SelectedCount_two" = "Выбрано %d сообщения";
+"Message.ActionsPanel.SelectedCount_few" = "Выбрано %d сообщения";
+"Message.ActionsPanel.SelectedCount_many" = "Выбрано %d cooбщений";
+"Message.ActionsPanel.SelectedCount_other" = "Выбрано %d cooбщений";
 
 
 /* do not translate key with 'countable' suffix */
 "Message.AccessoryPanel.Forwarded_countable" = "%d";
-"Message.AccessoryPanel.Forwarded_zero" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_zero" = "%d пересланных сообщений";
 "Message.AccessoryPanel.Forwarded_one" = "%d пересланное сообщение";
-"Message.AccessoryPanel.Forwarded_two" = "Пересланных сообщений: %d";
-"Message.AccessoryPanel.Forwarded_few" = "Пересланных сообщений: %d";
-"Message.AccessoryPanel.Forwarded_many" = "Пересланных сообщений: %d";
-"Message.AccessoryPanel.Forwarded_other" = "Пересланных сообщений: %d";
+"Message.AccessoryPanel.Forwarded_two" = "%d пересланных сообщения";
+"Message.AccessoryPanel.Forwarded_few" = "%d пересланных сообщения";
+"Message.AccessoryPanel.Forwarded_many" = "%d пересланных сообщений";
+"Message.AccessoryPanel.Forwarded_other" = "%d пересланных сообщений";
 
 
 
@@ -169,12 +169,12 @@
 
 /* do not translate key with 'countable' suffix */
 "Alert.Pasteboard.SendMultiple_countable" = "%d";
-"Alert.Pasteboard.SendMultiple_zero" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple_one" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple_two" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple_few" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple_many" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
-"Alert.Pasteboard.SendMultiple_other" = "Вы действительно хотите отправить файлы (%d шт.) из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_zero" = "Вы действительно хотите отправить %d файлов из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_one" = "Вы действительно хотите отправить %d файл из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_two" = "Вы действительно хотите отправить %d файла из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_few" = "Вы действительно хотите отправить %d файла из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_many" = "Вы действительно хотите отправить %d файлов из буфера обмена?";
+"Alert.Pasteboard.SendMultiple_other" = "Вы действительно хотите отправить %d файлов из буфера обмена?";
 
 "Alert.Forward.Error" = "Не получается переслать сюда сообщения.";
 
@@ -491,38 +491,38 @@
 
 
 "PreviewSender.SendFiles_countable" = "%d";
-"PreviewSender.SendFiles_zero" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles_one" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles_two" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles_few" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles_many" = "Выбрано файлов: %d";
-"PreviewSender.SendFiles_other" = "Выбрано файлов: %d";
+"PreviewSender.SendFiles_zero" = "Выбрано %d файлов";
+"PreviewSender.SendFiles_one" = "Выбран %d файл";
+"PreviewSender.SendFiles_two" = "Выбрано %d файла";
+"PreviewSender.SendFiles_few" = "Выбрано %d файла";
+"PreviewSender.SendFiles_many" = "Выбрано %d файлов";
+"PreviewSender.SendFiles_other" = "Выбрано %d файлов";
 
 
 "PreviewSender.SendImages_countable" = "%d";
-"PreviewSender.SendImages_zero" = "Выбрано изображений: %d";
-"PreviewSender.SendImages_one" = "Выбрано изображений: %d";
-"PreviewSender.SendImages_two" = "Выбрано изображений: %d";
-"PreviewSender.SendImages_few" = "Выбрано изображений: %d";
-"PreviewSender.SendImages_many" = "Выбрано изображений: %d";
-"PreviewSender.SendImages_other" = "Выбрано изображений: %d";
+"PreviewSender.SendImages_zero" = "Выбрано %d изображений";
+"PreviewSender.SendImages_one" = "Выбрано %d изображение";
+"PreviewSender.SendImages_two" = "Выбрано %d изображения";
+"PreviewSender.SendImages_few" = "Выбрано %d изображения";
+"PreviewSender.SendImages_many" = "Выбрано %d изображений";
+"PreviewSender.SendImages_other" = "Выбрано %d изображений";
 
 "PreviewSender.SendVideos_countable" = "%d";
-"PreviewSender.SendVideos_zero" = "Выбрано видео: %d";
-"PreviewSender.SendVideos_one" = "Выбрано видео: %d";
-"PreviewSender.SendVideos_two" = "Выбрано видео: %d";
-"PreviewSender.SendVideos_few" = "Выбрано видео: %d";
-"PreviewSender.SendVideos_many" = "Выбрано видео: %d";
-"PreviewSender.SendVideos_other" = "Выбрано видео: %d";
+"PreviewSender.SendVideos_zero" = "Выбрано %d видео";
+"PreviewSender.SendVideos_one" = "Выбрано %d видео";
+"PreviewSender.SendVideos_two" = "Выбрано %d видео";
+"PreviewSender.SendVideos_few" = "Выбрано %d видео";
+"PreviewSender.SendVideos_many" = "Выбрано %d видео";
+"PreviewSender.SendVideos_other" = "Выбрано %d видео";
 
 
 "PreviewSender.SendMediaFiles_countable" = "%d";
-"PreviewSender.SendMediaFiles_zero" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles_one" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles_two" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles_few" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles_many" = "Выбрано медиафайлов: %d";
-"PreviewSender.SendMediaFiles_other" = "Выбрано медиафайлов: %d";
+"PreviewSender.SendMediaFiles_zero" = "Выбрано %d медиафайлов";
+"PreviewSender.SendMediaFiles_one" = "Выбран %d медиафайл";
+"PreviewSender.SendMediaFiles_two" = "Выбрано %d медиафайла";
+"PreviewSender.SendMediaFiles_few" = "Выбрано %d медиафайла";
+"PreviewSender.SendMediaFiles_many" = "Выбрано %d медиафайлов";
+"PreviewSender.SendMediaFiles_other" = "Выбрано %d медиафайлов";
 
 
 "PreviewSender.ExpandItems" = "Больше";
@@ -597,63 +597,63 @@
 "SecretTimer.Off" = "Выкл.";
 
 "Timer.Seconds_countable" = "%d";
-"Timer.Seconds_zero" = "%d сек.";
-"Timer.Seconds_one" = "%d сек.";
-"Timer.Seconds_two" = "%d сек.";
-"Timer.Seconds_few" = "%d сек.";
-"Timer.Seconds_many" = "%d сек.";
-"Timer.Seconds_other" = "%d сек.";
+"Timer.Seconds_zero" = "%d секунд";
+"Timer.Seconds_one" = "%d секунда";
+"Timer.Seconds_two" = "%d секунды";
+"Timer.Seconds_few" = "%d секунды";
+"Timer.Seconds_many" = "%d секунд";
+"Timer.Seconds_other" = "%d секунд";
 
 
 "Timer.Days_countable" = "%d";
-"Timer.Days_zero" = "%d д.";
-"Timer.Days_one" = "%d д.";
-"Timer.Days_two" = "%d д.";
-"Timer.Days_few" = "%d д.";
-"Timer.Days_many" = "%d д.";
-"Timer.Days_other" = "%d д.";
+"Timer.Days_zero" = "%d дней";
+"Timer.Days_one" = "%d день";
+"Timer.Days_two" = "%d дня";
+"Timer.Days_few" = "%d дня";
+"Timer.Days_many" = "%d дней";
+"Timer.Days_other" = "%d дней";
 
 
 "Timer.Minutes_countable" = "%d";
-"Timer.Minutes_zero" = "%d мин.";
-"Timer.Minutes_one" = "%d мин.";
-"Timer.Minutes_two" = "%d мин.";
-"Timer.Minutes_few" = "%d мин.";
-"Timer.Minutes_many" = "%d мин.";
-"Timer.Minutes_other" = "%d мин.";
+"Timer.Minutes_zero" = "%d минут";
+"Timer.Minutes_one" = "%d минута";
+"Timer.Minutes_two" = "%d минуты";
+"Timer.Minutes_few" = "%d минуты";
+"Timer.Minutes_many" = "%d минут";
+"Timer.Minutes_other" = "%d минут";
 
 "Timer.Hours_countable" = "%d";
-"Timer.Hours_zero" = "%d ч.";
-"Timer.Hours_one" = "%d ч.";
-"Timer.Hours_two" = "%d ч.";
-"Timer.Hours_few" = "%d ч.";
-"Timer.Hours_many" = "%d ч.";
-"Timer.Hours_other" = "%d ч.";
+"Timer.Hours_zero" = "%d часов";
+"Timer.Hours_one" = "%d час";
+"Timer.Hours_two" = "%d часа";
+"Timer.Hours_few" = "%d часа";
+"Timer.Hours_many" = "%d часов";
+"Timer.Hours_other" = "%d часов";
 
 
 "Timer.Weeks_countable" = "%d";
-"Timer.Weeks_zero" = "%d нед.";
-"Timer.Weeks_one" = "%d нед.";
-"Timer.Weeks_two" = "%d нед.";
-"Timer.Weeks_few" = "%d нед.";
-"Timer.Weeks_many" = "%d нед.";
-"Timer.Weeks_other" = "%d нед.";
+"Timer.Weeks_zero" = "%d недель";
+"Timer.Weeks_one" = "%d неделя";
+"Timer.Weeks_two" = "%d недели";
+"Timer.Weeks_few" = "%d недели";
+"Timer.Weeks_many" = "%d недель";
+"Timer.Weeks_other" = "%d недель";
 
 "Timer.Months_countable" = "%d";
-"Timer.Months_zero" = "%d мес.";
-"Timer.Months_one" = "%d мес.";
-"Timer.Months_two" = "%d мес.";
-"Timer.Months_few" = "%d мес.";
-"Timer.Months_many" = "%d мес.";
-"Timer.Months_other" = "%d мес.";
+"Timer.Months_zero" = "%d месяцев";
+"Timer.Months_one" = "%d месяц";
+"Timer.Months_two" = "%d месяца";
+"Timer.Months_few" = "%d месяца";
+"Timer.Months_many" = "%d месяцев";
+"Timer.Months_other" = "%d месяцев";
 
 "Timer.Years_countable" = "%d";
-"Timer.Years_zero" = "%d г.";
-"Timer.Years_one" = "%d г.";
-"Timer.Years_two" = "%d г.";
-"Timer.Years_few" = "%d г.";
-"Timer.Years_many" = "%d г.";
-"Timer.Years_other" = "%d г.";
+"Timer.Years_zero" = "%d лет";
+"Timer.Years_one" = "%d год";
+"Timer.Years_two" = "%d года";
+"Timer.Years_few" = "%d года";
+"Timer.Years_many" = "%d лет";
+"Timer.Years_other" = "%d лет";
 
 "Timer.Forever" = "Всегда";
 "ChatList.Draft" = "Черновик:";
@@ -946,12 +946,12 @@
 
 
 "PrivacySettingsController.UserCount_countable" = "%d";
-"PrivacySettingsController.UserCount_zero" = "%d чел.";
-"PrivacySettingsController.UserCount_one" = "%d чел.";
-"PrivacySettingsController.UserCount_two" = "%d чел.";
-"PrivacySettingsController.UserCount_few" = "%d чел.";
-"PrivacySettingsController.UserCount_many" = "%d чел.";
-"PrivacySettingsController.UserCount_other" = "%d чел.";
+"PrivacySettingsController.UserCount_zero" = "%d человек";
+"PrivacySettingsController.UserCount_one" = "%d человек";
+"PrivacySettingsController.UserCount_two" = "%d человека";
+"PrivacySettingsController.UserCount_few" = "%d человека";
+"PrivacySettingsController.UserCount_many" = "%d человек";
+"PrivacySettingsController.UserCount_other" = "%d человек";
 
 "PrivacySettingsController.AddUsers" = "Добавить";
 
@@ -990,14 +990,14 @@
 "Call.Recent.Incoming" = "Входящий";
 "Call.Recent.Missed" = "Пропущенный";
 
-"Call.Seconds_one" = "%@ сек.";
-"Call.Seconds_two" = "%@ сек.";
-"Call.Seconds_few" = "%@ сек.";
-"Call.Seconds_other" = "%@ сек.";
-"Call.Minutes_one" = "%@ мин.";
-"Call.Minutes_two" = "%@ мин.";
-"Call.Minutes_few" = "%@ мин.";
-"Call.Minutes_other" = "%@ мин.";
+"Call.Seconds_one" = "%@ секунда";
+"Call.Seconds_two" = "%@ секунды";
+"Call.Seconds_few" = "%@ секунды";
+"Call.Seconds_other" = "%@ секунд";
+"Call.Minutes_one" = "%@ минута";
+"Call.Minutes_two" = "%@ минуты";
+"Call.Minutes_few" = "%@ минуты";
+"Call.Minutes_other" = "%@ минут";
 
 "Call.ShortSeconds_one" = "%@ сек.";
 "Call.ShortSeconds_two" = "%@ сек.";
@@ -1064,7 +1064,7 @@
 "4EN-yA-p0u.title" = "Найти";
 "4J7-dP-txa.title" = "В полный экран";
 "4sb-4s-VLi.title" = "Выйти из Telegram";
-"5QF-Oa-p0T.title" = "Изменить";
+"5QF-Oa-p0T.title" = "Правка";
 "5kV-Vb-QxS.title" = "О Telegram";
 "6dh-zS-Vam.title" = "Повтор";
 "78Y-hA-62v.title" = "Автоматически исправлять ошибки";
