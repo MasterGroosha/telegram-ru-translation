@@ -558,7 +558,7 @@
 "Text.Copy" = "Копировать";
 
 
-"Peer.Activity.User.TypingText" = "печатает...";
+"Peer.Activity.User.TypingText" = "печатает";
 "Peer.Activity.User.SendingPhoto" = "отправляет фото...";
 "Peer.Activity.User.RecordingVideo" = "записывает видео...";
 "Peer.Activity.User.SendingVideo" = "отправляет видео...";
@@ -568,7 +568,7 @@
 "Peer.Activity.User.PlayingGame" = "сейчас в игре";
 
 
-"Peer.Activity.Chat.Single.TypingText" = "%@ печатает...";
+"Peer.Activity.Chat.Single.TypingText" = "%@ печатает";
 "Peer.Activity.Chat.Single.SendingPhoto" = "%@ отправляет фото...";
 "Peer.Activity.Chat.Single.RecordingVideo" = "%@ записывает видео...";
 "Peer.Activity.Chat.Single.SendingVideo" = "%@ отправляет видео...";
