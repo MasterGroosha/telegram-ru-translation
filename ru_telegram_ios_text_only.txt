@@ -408,8 +408,10 @@
 "Notification.ChangedUserPhoto" = "%@ добавил(а) новое фото профиля";
 "Notification.RemovedUserPhoto" = "%@ удалил(а) фото профиля";
 "Notification.JoinedChat" = "%@ вступил(а) в группу";
+"Notification.JoinedChannel" = "%@ присоединился(-лась) к каналу";
 "Notification.Invited" = "%@ пригласил(а) пользователя %@";
 "Notification.LeftChat" = "%@ покинул(а) группу";
+"Notification.LeftChannel" = "%@ покинул(а) канал";
 "Notification.Kicked" = "%@ исключил(а) %@";
 "Notification.CreatedChat" = "%@ создал(а) группу";
 "Notification.CreatedChannel" = "Канал создан";
@@ -1035,31 +1037,31 @@
 
 "DownloadingStatus" = "Загружено %@ из %@";
 
-"Time.MonthOfYear_1" = "Январь %@";
-"Time.MonthOfYear_2" = "Февраль %@";
-"Time.MonthOfYear_3" = "Март %@";
-"Time.MonthOfYear_4" = "Апрель %@";
-"Time.MonthOfYear_5" = "Май %@";
-"Time.MonthOfYear_6" = "Июнь %@";
-"Time.MonthOfYear_7" = "Июль %@";
-"Time.MonthOfYear_8" = "Август %@";
-"Time.MonthOfYear_9" = "Сентябрь %@";
-"Time.MonthOfYear_10" = "Октябрь %@";
-"Time.MonthOfYear_11" = "Ноябрь %@";
-"Time.MonthOfYear_12" = "Декабрь %@";
+"Time.MonthOfYear_m1" = "%@ января";
+"Time.MonthOfYear_m2" = "%@ февраля";
+"Time.MonthOfYear_m3" = "%@ марта";
+"Time.MonthOfYear_m4" = "%@ апреля";
+"Time.MonthOfYear_m5" = "%@ мая";
+"Time.MonthOfYear_m6" = "%@ июня";
+"Time.MonthOfYear_m7" = "%@ июля";
+"Time.MonthOfYear_m8" = "%@ августа";
+"Time.MonthOfYear_m9" = "%@ сентября";
+"Time.MonthOfYear_m10" = "%@ октября";
+"Time.MonthOfYear_m11" = "%@ ноября";
+"Time.MonthOfYear_m12" = "%@ декабря";
 
-"Time.PreciseDate_1" = "%1$@ января %2$@ в %3$@";
-"Time.PreciseDate_2" = "%1$@ февраля %2$@ в %3$@";
-"Time.PreciseDate_3" = "%1$@ марта %2$@ в %3$@";
-"Time.PreciseDate_4" = "%1$@ апреля %2$@ в %3$@";
-"Time.PreciseDate_5" = "%1$@ мая %2$@ в %3$@";
-"Time.PreciseDate_6" = "%1$@ июня %2$@ в %3$@";
-"Time.PreciseDate_7" = "%1$@ июля %2$@ в %3$@";
-"Time.PreciseDate_8" = "%1$@ августа %2$@ в %3$@";
-"Time.PreciseDate_9" = "%1$@ сентября %2$@ в %3$@";
-"Time.PreciseDate_10" = "%1$@ октября %2$@ в %3$@";
-"Time.PreciseDate_11" = "%1$@ ноября %2$@ в %3$@";
-"Time.PreciseDate_12" = "%1$@ декабря %2$@ в %3$@";
+"Time.PreciseDate_m1" = "%1$@ янв. %2$@ в %3$@";
+"Time.PreciseDate_m2" = "%1$@ фев. %2$@ в %3$@";
+"Time.PreciseDate_m3" = "%1$@ мар. %2$@ в %3$@";
+"Time.PreciseDate_m4" = "%1$@ апр. %2$@ в %3$@";
+"Time.PreciseDate_m5" = "%1$@ мая %2$@ в %3$@";
+"Time.PreciseDate_m6" = "%1$@ июн. %2$@ в %3$@";
+"Time.PreciseDate_m7" = "%1$@ июл. %2$@ в %3$@";
+"Time.PreciseDate_m8" = "%1$@ авг. %2$@ в %3$@";
+"Time.PreciseDate_m9" = "%1$@ сен. %2$@ в %3$@";
+"Time.PreciseDate_m10" = "%1$@ окт. %2$@ в %3$@";
+"Time.PreciseDate_m11" = "%1$@ ноя. %2$@ в %3$@";
+"Time.PreciseDate_m12" = "%1$@ дек. %2$@ в %3$@";
 
 "MuteFor.Minutes_1" = "Не беспокоить одну минуту";
 "MuteFor.Minutes_2" = "Не беспокоить 2 минуты";
@@ -1174,8 +1176,8 @@
 "PasscodeSettings.FailedAttempts_2" = "2 неудачные попытки ввода";
 "PasscodeSettings.FailedAttempts_3_10" = "%@ неудачные попытки ввода";
 "PasscodeSettings.FailedAttempts_any" = "%@ неудачные попытки ввода";
-"PasscodeSettings.FailedAttempts_many" = "%@ неудачных попыток ввода";
-"PasscodeSettings.FailedAttempts_0" = "%@ неудачных попытки ввода";
+"PasscodeSettings.FailedAttempts_many" = "%@ неудачных попыток входа";
+"PasscodeSettings.FailedAttempts_0" = "%@ неудачных попыток ввода";
 "PasscodeSettings.TryAgainIn1Minute" = "Повторите попытку через минуту";
 
 "AccessDenied.Title" = "Пожалуйста, разрешите доступ";
@@ -2693,6 +2695,8 @@
 "Login.ContinueWithLocalization" = "Оставить английский";
 "Localization.LanguageName" = "Английский";
 "Localization.ChooseLanguage" = "Выберите язык";
+"Localization.EnglishLanguageName" = "Английский";
+"Localization.LanguageOther" = "Другой";
 
 "Channel.BanUser.Title" = "Заблокировать пользователя";
 "Channel.BanUser.PermissionsHeader" = "Ограничения пользователя";
@@ -2701,13 +2705,14 @@
 "Channel.BanUser.PermissionSendMedia" = "Может отправлять медиафайлы";
 "Channel.BanUser.PermissionSendStickersAndGifs" = "Отправка стикеров и GIF";
 "Channel.BanUser.PermissionEmbedLinks" = "Может отправлять ссылки";
+"Channel.BanUser.Unban" = "Разблокировать";
 
 "Channel.BanUser.BlockFor" = "Заблокировать на";
 
 "Channel.BanList.BlockedTitle" = "ЗАБЛОКИРОВАННЫЕ";
 "Channel.BanList.RestrictedTitle" = "ОГРАНИЧЕННЫЕ";
 
-"Group.Info.AdminLog" = "Журнал событий";
+"Group.Info.AdminLog" = "Недавние действия";
 "Channel.AdminLog.InfoPanelTitle" = "Что это?";
 "Channel.AdminLog.InfoPanelAlertTitle" = "Что такое журнал действий?";
 "Channel.AdminLog.InfoPanelAlertText" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
@@ -2734,7 +2739,7 @@
 "Channel.AdminLog.MessageToggleInvitesOn" = "%@ разрешил(а) приглашения в группу";
 "Channel.AdminLog.MessageToggleInvitesOff" = "%@ запретил(а) приглашения в группу";
 
-"Channel.AdminLog.MessageUnpinned" = "%@ открепил(а) сообщение:";
+"Channel.AdminLog.MessageUnpinned" = "%@ открепил(а) сообщение";
 
 "Channel.AdminLog.MessageToggleSignaturesOn" = "%@ включила подписи к сообщениям ";
 "Channel.AdminLog.MessageToggleSignaturesOff" = "%@ отключил(а) подписи сообщений";
@@ -2761,6 +2766,8 @@
 "Channel.AdminLog.MessagePromotedName" = "изменил(а) права администратора %1$@";
 "Channel.AdminLog.MessagePromotedNameUsername" = "изменил(а) права администратора %1$@ (%2$@)";
 "Channel.AdminLog.MessageRestrictedUntil" = "до %@";
+"Channel.AdminLog.MessageRestrictedForever" = "навсегда";
+"Channel.AdminLog.MessageRestrictedNewSetting" = "сейчас: %@";
 
 "Channel.AdminLog.MessagePreviousMessage" = "Исходное сообщение";
 "Channel.AdminLog.MessagePreviousCaption" = "Исходная подпись";
@@ -2770,15 +2777,16 @@
 "Contacts.MemberSearchSectionTitleChannel" = "Участники канала";
 "Contacts.MemberSearchSectionTitleGroup" = "Участники группы";
 
-"Channel.AdminLog.TitleAllEvents" = "Все события";
-"Channel.AdminLog.TitleSelectedEvents" = "Выбранные события";
+"Channel.AdminLog.TitleAllEvents" = "Все действия";
+"Channel.AdminLog.TitleSelectedEvents" = "Выбранные действия";
 "Channel.AdminLogFilter.Title" = "Фильтр";
-"Channel.AdminLogFilter.EventsTitle" = "СОБЫТИЯ";
-"Channel.AdminLogFilter.EventsAll" = "Все события";
+"Channel.AdminLogFilter.EventsTitle" = "ДЕЙСТВИЯ";
+"Channel.AdminLogFilter.EventsAll" = "Все действия";
 "Channel.AdminLogFilter.EventsRestrictions" = "Участники с ограничениями";
 "Channel.AdminLogFilter.EventsAdmins" = "Новые администраторы";
 "Channel.AdminLogFilter.EventsNewMembers" = "Новые участники";
 "Channel.AdminLogFilter.EventsInfo" = "Информация о группе";
+"Channel.AdminLogFilter.ChannelEventsInfo" = "Описание канала";
 "Channel.AdminLogFilter.EventsDeletedMessages" = "Удалённые сообщения";
 "Channel.AdminLogFilter.EventsEditedMessages" = "Отредактированные сообщения";
 "Channel.AdminLogFilter.EventsPinned" = "Закреплённые сообщения";
@@ -2844,7 +2852,7 @@
 "Channel.AdminLog.EmptyFilterQueryText" = "Не удалось найти событий, содержащих «%@».";
 "Channel.AdminLog.EmptyFilterText" = "Не удалось найти подходящих событий за недавнее время.";
 
-"Channel.AdminLog.EmptyText" = "Администраторы и пользователи группы не предпринимали никаких служебных действий в последние 48 часов.";
+"Channel.AdminLog.EmptyMessageText" = "Пусто";
 
 "Camera.Title" = "Снять Фото или Видео";
 
@@ -2853,3 +2861,21 @@
 "Channel.Members.AddAdminErrorBlacklisted" = "Извините, но Вы не можете добавить этого пользователя в администраторы, поскольку он находится в чёрном списке, а Вы не имеете прав, чтобы убирать людей из чёрного списка.";
 
 "Channel.Members.AddBannedErrorAdmin" = "Извините, но Вы не можете заблокировать этого пользователя, поскольку он является администратором в этой группе, а у Вас нет прав, чтобы его разжаловать.";
+
+"Group.Members.AddMemberErrorNotAllowed" = "Извините, у вас не хватает прав на добавление пользователей в эту группу.";
+"Group.Members.AddMemberBotErrorNotAllowed" = "Извините, у вас нет прав на добавление ботов в эту группу.";
+
+"Privacy.Calls.P2P" = "Peer-to-Peer";
+"Privacy.Calls.P2PHelp" = "Отключение peer-to-peer направит все звонки через серверы Telegram во избежание раскрытия вашего IP-адреса, но при этом качество звука немного ухудшится.";
+
+"Privacy.Calls.Integration" = "Интеграция со звонками iOS";
+"Privacy.Calls.IntegrationHelp" = "Интеграция со звонками iOS позволит отображать звонки Telegram на экране блокировки и в общесистемной истории вызовов. Если включена синхронизация с iCloud, ваша история вызовов будет синхронизирована с Apple.";
+
+"Call.ReportPlaceholder" = "Что пошло не так?";
+"Call.ReportIncludeLog" = "Прикрепить техническую информацию";
+"Call.ReportIncludeLogDescription" = "Содержимое вашего разговора останется в тайне, а нам будет проще и быстрее разобраться в ситуации. ";
+"Call.ReportSkip" = "Пропустить";
+"Call.ReportSend" = "Отправить";
+
+"Channel.EditAdmin.CannotEdit" = "Вы не можете редактировать права этого администратора.";
+"Call.RateCall" = "Оцените этот звонок";
