@@ -147,6 +147,8 @@
   <string name="ContactsPermissionAlertNotNow">НЕ СЕЙЧАС</string>
   <string name="ContactsPermissionAlertContinue">ПРОДОЛЖИТЬ</string>
   <!--channels-->
+  <string name="GroupType">Тип группы</string>
+  <string name="ChannelType">Тип канала</string>
   <string name="ChannelTypePublic">Публичный</string>
   <string name="ChannelTypePrivate">Приватный</string>
   <string name="SetAsAdmin">Назначить администратором</string>
