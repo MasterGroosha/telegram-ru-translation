@@ -3,9 +3,10 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Русский</string>
+  <string name="English">Русский</string>
   <string name="LanguageNameInEnglish">Russian</string>
   <string name="LanguageCode">ru</string>
-  <string name="ContinueOnThisLanguage">Оставить русский</string>
+  <string name="ContinueOnThisLanguage">Продолжить на русском</string>
   <!--signin view-->
   <string name="YourPhone">Ваш телефон</string>
   <string name="StartText">Подтвердите код вашей страны\nи введите ваш номер телефона.</string>
@@ -104,6 +105,12 @@
   <string name="WaitingForNetwork">Ожидание сети...</string>
   <string name="Connecting">Соединение...</string>
   <string name="ConnectingToProxy">Соединение с прокси...</string>
+  <string name="ConnectingToProxyTapToDisable">Нажмите для отключения прокси...</string>
+  <string name="ConnectingToProxyDisable">Отключить</string>
+  <string name="ConnectingToProxyEnable">Включить</string>
+  <string name="EnableProxyAlert">Уверены, что хотите включить этот прокси?</string>
+  <string name="EnableProxyAlert2">Вы всегда можете изменить прокси-сервер в настройках (раздел «Данные и накопитель»).</string>
+  <string name="ConnectingToProxyDisableAlert">Уверены, что хотите отключить прокси-сервер %1$s? Вы всегда можете включить его в настройках (раздел «Данные и накопитель»).</string>
   <string name="Updating">Обновление...</string>
   <string name="NewSecretChat">Новый секретный чат</string>
   <string name="AwaitingEncryption">Ждём, когда %s появится в сети...</string>
@@ -227,7 +234,8 @@
   <string name="LinkChecking">Проверка имени…</string>
   <string name="LinkAvailable">%1$s доступно.</string>
   <string name="ChannelMembers">Участники</string>
-  <string name="ChannelBlockedUsers">Чёрный список</string>
+  <string name="ChannelBlacklist">Чёрный список</string>
+  <string name="ChannelBlockedUsers">Заблокированные пользователи</string>
   <string name="ChannelRestrictedUsers">Ограниченные пользователи</string>
   <string name="ChannelAdministrators">Администраторы</string>
   <string name="ChannelDelete">Удалить канал</string>
@@ -251,10 +259,10 @@
   <string name="ChannelAddAdmin">Добавить администратора</string>
   <string name="ChannelBlockUser">Заблокировать пользователя</string>
   <string name="Unban">Разблокировать</string>
-  <string name="UnbanText">Нажмите и удерживайте на пользователе для разблокировки.</string>
+  <string name="UnbanText">Нажмите и удерживайте имя пользователя для разблокировки.</string>
   <string name="ChannelInviteViaLink">Пригласить по ссылке</string>
   <string name="ChannelAddUserAdminAlert">Уверены, что хотите назначить %1$s администратором?</string>
-  <string name="ChannelRemoveUserAdmin">Удалить</string>
+  <string name="ChannelRemoveUserAdmin">Разжаловать администратора</string>
   <string name="ChannelMembersInfo">Только администраторы канала могут видеть этот список.</string>
   <string name="ChannelAdminNotParticipant">Этот пользователь пока ещё не подписан на данный канал. Хотите пригласить его?</string>
   <string name="ChannelLinkInfo">Любой пользователь Telegram сможет подписаться на ваш канал, перейдя по этой ссылке.</string>
@@ -314,13 +322,14 @@
   <string name="EditAdminPostMessages">Публиковать сообщения</string>
   <string name="EditAdminEditMessages">Редактировать чужие сообщения</string>
   <string name="EditAdminDeleteMessages">Удалять чужие сообщения</string>
-  <string name="EditAdminGroupDeleteMessages">Удалить сообщение</string>
+  <string name="EditAdminGroupDeleteMessages">Удалить сообщения</string>
   <string name="EditAdminAddAdmins">Добавлять новых администраторов</string>
-  <string name="EditAdminRemoveAdmin">Удалять администраторов</string>
+  <string name="EditAdminRemoveAdmin">Разжаловать администратора</string>
   <string name="EditAdminBanUsers">Блокировать пользователей</string>
   <string name="EditAdminAddUsers">Добавлять пользователей</string>
   <string name="EditAdminPinMessages">Закреплять сообщения</string>
-  <string name="EditAdminPromotedBy">Назначен пользователем %1$s</string>
+  <string name="EditAdminPromotedBy">Добавил(а): %1$s</string>
+  <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
   <string name="UserRestrictionsBy">Ограничил(а): %1$s</string>
   <string name="UserRestrictions">Ограничения пользователя</string>
   <string name="UserRestrictionsRead">Читать сообщения</string>
@@ -343,17 +352,20 @@
   <string name="EventLogSelectedEvents">Выбранные события</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
   <string name="EventLogEmpty"><![CDATA[1]]>Событий пока нет<![CDATA[1]]>\n\nЗа последние 48 часов\nне было никаких служебных действий,\nсовершённых участниками\nи администраторами группы.</string>
-  <string name="EventLogEmptySearch"><![CDATA[1]]>События не найдены<![CDATA[1]]></string>
-  <string name="EventLogEmptyTextSearch">Не найдено событий, содержащих \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[1]]>Событий пока нет<![CDATA[1]]>\n\nЗа последние 48 часов\nне было никаких служебных действий,\nсовершённых администраторами канала.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Событий не найдено<![CDATA[</b>]]>\n\nПо вашему запросу не найдено недавних событий.</string>
+  <string name="EventLogEmptyTextSearch">Не найдено недавних событий, содержащих \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
   <string name="EventLogInfoTitle">Что такое журнал событий?</string>
-  <string name="EventLogInfoDetail">Это список всех служебных действий, совершённых участниками и администраторами группы с момента её создания.\n\nУдалённые сообщения и история их изменений доступна в течение <![CDATA[1]]>48 часов<![CDATA[1]]>.</string>
+  <string name="EventLogInfoDetail">Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.</string>
+  <string name="EventLogInfoDetailChannel">Это список всех служебных действий, совершённых администраторами канала за последние 48 часов.</string>
   <string name="EventLogEditedGroupTitle">un1 переименовал(а) группу в «%1$s»</string>
   <string name="EventLogEditedChannelTitle">un1 переименовал(а) канал в «%1$s»</string>
-  <string name="EventLogLeft">un1 покинул(а) группу</string>
+  <string name="EventLogLeftGroup">un1 покинул(а) группу</string>
+  <string name="EventLogLeftChannel">un1 покинул(а) канал</string>
   <string name="EventLogAdded">un1 добавил(а) un2</string>
   <string name="EventLogGroupJoined">un1 вступил(а) в группу</string>
-  <string name="EventLogChannelRestricted">un1 заблокировал(а) пользователя %1$s</string>
-  <string name="EventLogChannelUnrestricted">un1 разблокировал(а) пользователя %1$s</string>
+  <string name="EventLogChannelRestricted">заблокировал(а) %1$s</string>
+  <string name="EventLogChannelUnrestricted">разблокировал(а) %1$s</string>
   <string name="EventLogChannelJoined">un1 подписался(-лась) на канал</string>
   <string name="EventLogEditedGroupPhoto">un1 установил(а) новое фото группы</string>
   <string name="EventLogEditedChannelPhoto">un1 установил(а) новое фото канала</string>
@@ -365,11 +377,13 @@
   <string name="EventLogOriginalCaption">Исходная подпись</string>
   <string name="EventLogOriginalCaptionEmpty">Пусто</string>
   <string name="EventLogPinnedMessages">un1 закрепил(а) сообщение:</string>
-  <string name="EventLogUnpinnedMessages">un1 открепил(а) сообщение:</string>
+  <string name="EventLogUnpinnedMessages">un1 открепил(а) сообщение</string>
   <string name="EventLogDeletedMessages">un1 удалил(а) сообщение:</string>
-  <string name="EventLogChangedGroupLink">un1 сменил(а) ссылку группы:</string>
-  <string name="EventLogChangedChannelLink">un1 сменил(а) ссылку канала</string>
-  <string name="EventLogPreviousLink">Предыдущая ссылка</string>
+  <string name="EventLogChangedGroupLink">un1 изменил(а) ссылку на группу:</string>
+  <string name="EventLogChangedChannelLink">un1 изменил(а) ссылку на канал:</string>
+  <string name="EventLogRemovedGroupLink">un1 удалил(а) ссылку на группу</string>
+  <string name="EventLogRemovedChannelLink">un1 удалил(а) ссылку на канал</string>
+  <string name="EventLogPreviousLink">Прежняя ссылка</string>
   <string name="EventLogEditedGroupDescription">un1 изменил(а) описание группы:</string>
   <string name="EventLogEditedChannelDescription">un1 изменил(а) описание канала:</string>
   <string name="EventLogPreviousGroupDescription">Прежнее описание</string>
@@ -377,14 +391,13 @@
   <string name="EventLogToggledInvitesOff">un1 запретил(а) приглашения в группу</string>
   <string name="EventLogToggledSignaturesOn">un1 включил(а) подписи к сообщениям</string>
   <string name="EventLogToggledSignaturesOff">un1 отключил(а) подписи к сообщениям</string>
-  <string name="EventLogRestricted">ограничил(а) %1$s</string>
-  <string name="EventLogRestrictedUntil">ограничил(а) %1$s до %2$s</string>
+  <string name="EventLogRestrictedUntil">изменил(а) ограничения пользователя %1$s\n\nСрок: %2$s</string>
   <string name="EventLogRestrictedSendStickers">Отправлять стикеры и GIF</string>
-  <string name="EventLogRestrictedSendMedia">Отправлять медиафайлы</string>
+  <string name="EventLogRestrictedSendMedia">Отправлять медиа</string>
   <string name="EventLogRestrictedSendMessages">Отправлять сообщения</string>
   <string name="EventLogRestrictedSendEmbed">Встроенные ссылки</string>
   <string name="EventLogRestrictedReadMessages">Читать сообщения</string>
-  <string name="EventLogPromoted">сменила(а) привилегии для: %1$s</string>
+  <string name="EventLogPromoted">изменил(а) привилегии пользователя %1$s</string>
   <string name="EventLogPromotedChangeChannelInfo">Изменение информации о канале</string>
   <string name="EventLogPromotedChangeGroupInfo">Изменение информации о группе</string>
   <string name="EventLogPromotedPostMessages">Публикация сообщений</string>
@@ -692,6 +705,7 @@
   <string name="SETTINGS">Настройки</string>
   <string name="AddMember">Добавить участника</string>
   <string name="SetAdmins">Назначить администраторов</string>
+  <string name="BanFromTheGroup">УДАЛИТЬ ИЗ ГРУППЫ</string>
   <string name="DeleteAndExit">Удалить и покинуть группу</string>
   <string name="Notifications">Уведомления</string>
   <string name="KickFromSupergroup">Ограничить пользователя</string>
@@ -726,7 +740,7 @@
   <string name="EncryptionKey">Ключ шифрования</string>
   <string name="MessageLifetime">Таймер самоуничтожения</string>
   <string name="ShortMessageLifetimeForever">Откл.</string>
-  <string name="EncryptionKeyDescription">Изображение и текст получены из ключа шифрования для секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.<![CDATA[<br><br>]]>Узнать больше на telegram.org</string>
+  <string name="EncryptionKeyDescription">Это изображение и текст были получены из ключа шифрования для этого секретного чата с пользователем <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nЕсли они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.\n\nУзнать больше на telegram.org</string>
   <string name="EncryptionKeyLink">https://telegram.org/faq#secret-chats</string>
   <string name="TapToEmojify">Показать в виде эмодзи</string>
   <string name="NumberUnknown">Неизвестен</string>
@@ -740,7 +754,7 @@
   <string name="UsernameInvalidShort">Имя пользователя должно содержать минимум 5 символов.</string>
   <string name="UsernameInvalidLong">Имя пользователя не должно содержать более 32 символов.</string>
   <string name="UsernameInvalidStartNumber">Извините, имя пользователя не может начинаться с цифры.</string>
-  <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы сделаете это, другие люди смогут находить вас с его помощью и связываться с вами, не зная вашего номера телефона.<![CDATA[<br><br>]]>Имя пользователя может содержать только латинские буквы <![CDATA[<b>]]>(a–z)<![CDATA[</b>]]>, цифры <![CDATA[<b>]]>(0–9)<![CDATA[</b>]]> и символы подчёркивания. Минимальная допустимая длина имени — <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
+  <string name="UsernameHelp">Вы можете выбрать себе имя пользователя в <![CDATA[<b>]]>Telegram<![CDATA[</b>]]>. Когда вы это сделаете, другие люди смогут находить вас с его помощью и связываться с вами, не зная вашего номера телефона.\n\nВы можете использовать символы <![CDATA[<b>]]>a–z<![CDATA[</b>]]>, <![CDATA[<b>]]>0–9<![CDATA[</b>]]> и подчёркивания. Минимальная длина составляет <![CDATA[<b>]]>5<![CDATA[</b>]]> символов.</string>
   <string name="UsernameHelpLink">Эта ссылка открывает диалог с вами в Telegram:\n%1$s</string>
   <string name="UsernameChecking">Проверка имени пользователя...</string>
   <string name="UsernameAvailable">Имя пользователя %1$s доступно.</string>
@@ -852,7 +866,8 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
-  <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.<![CDATA[<br><br>]]>Пожалуйста, ознакомьтесь с <![CDATA[<a href="https://telegram.org/faq#general">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href="https://telegram.org/faq#troubleshooting">устранению неполадок</a>]]>.</string>
+  <string name="LanguageCustom">Особый</string>
+  <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.\n\nПожалуйста, ознакомьтесь с <![CDATA[<a href="https://telegram.org/faq#general">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href="https://telegram.org/faq#troubleshooting">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
@@ -933,7 +948,7 @@
   <string name="DebugMenu">Меню отладки</string>
   <string name="DebugMenuImportContacts">Импорт контактов</string>
   <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
-  <string name="ChangeLanguageLater">Вы всегда можете изменить язык в Настройках</string>
+  <string name="ChangeLanguageLater">Вы всегда можете изменить язык в настройках.</string>
   <string name="ChooseYourLanguage">Выберите язык</string>
   <string name="ChooseYourLanguageOther">Другой</string>
   <string name="ProxySettings">Настройки прокси</string>
@@ -1027,8 +1042,8 @@
   <string name="SaveToGallery">Сохранить в галерею</string>
   <string name="Of">%1$d из %2$d</string>
   <string name="Gallery">Галерея</string>
-  <string name="AllPhotos">Все фотографии</string>
-  <string name="AllMedia">Все медиафайлы</string>
+  <string name="AllPhotos">Все фото</string>
+  <string name="AllMedia">Все медиа</string>
   <string name="NoPhotos">Фото пока нет</string>
   <string name="NoVideo">Видео пока нет</string>
   <string name="PleaseDownload">Сначала загрузите медиа</string>
@@ -1194,7 +1209,7 @@
   <string name="EmpryUsersPlaceholder">Добавить</string>
   <string name="PrivacyFloodControlError">Извините, слишком много запросов. Не удаётся изменить настройки приватности прямо сейчас, пожалуйста, подождите.</string>
   <string name="ClearOtherSessionsHelp">Выйти на всех устройствах, кроме этого.</string>
-  <string name="RemoveFromListText">Нажмите и удерживайте на пользователя для удаления.</string>
+  <string name="RemoveFromListText">Нажмите и удерживайте имя пользователя для удаления.</string>
   <string name="GroupsAndChannels">Группы</string>
   <string name="WhoCanAddMe">Кто может добавлять меня в групповые чаты?</string>
   <string name="WhoCanAddMeInfo">Вы можете ограничить круг лиц, которые могут добавлять вас в группы и на каналы.</string>
@@ -1207,6 +1222,8 @@
   <string name="InviteToGroupError">Извините, вы не можете добавлять этого пользователя в группы из-за его настроек приватности.</string>
   <string name="InviteToChannelError">Извините, вы не можете добавлять этого пользователя на каналы из-за его настроек приватности.</string>
   <string name="CreateGroupError">Извините, вы не можете создать группу с этими пользователями из-за их настроек приватности.</string>
+  <string name="PrivacyCallsP2PTitle">Peer-to-Peer</string>
+  <string name="PrivacyCallsP2PHelp">Отключение peer-to-peer направит все звонки через серверы Telegram во избежание раскрытия вашего IP-адреса, но при этом качество звука немного ухудшится.</string>
   <!--edit video view-->
   <string name="EditVideo">Редактировать видео</string>
   <string name="SendingVideo">Отправка видео...</string>
@@ -1353,6 +1370,11 @@
   <string name="UserRestricted">Извините, вам запрещено это делать.</string>
   <string name="YouBlockedUser">Извините, вы не можете добавлять этого пользователя или бота в группы, так как вы его заблокировали. Пожалуйста, разблокируйте, чтобы продолжить.</string>
   <string name="JoinGroup">ВСТУПИТЬ В ГРУППУ</string>
+  <string name="AddAdminErrorNotAMember">Извините, вы не можете добавить этого пользователя в качестве администратора, потому что он не является участником этой группы и вы не можете его пригласить.</string>
+  <string name="AddAdminErrorBlacklisted">Извините, вы не можете добавить этого пользователя в качестве администратора, потому что он в чёрном списке и вы не можете его разблокировать.</string>
+  <string name="AddBannedErrorAdmin">Извините, вы не можете заблокировать этого пользователя, потому что он является администратором этой группы и вы не можете его понизить.</string>
+  <string name="ErrorSendRestrictedStickers">Извините, администраторы этой группы запретили вам отправлять стикеры.</string>
+  <string name="ErrorSendRestrictedMedia">Извините, администраторы этой группы запретили вам отправлять медиа.</string>
   <!--permissions-->
   <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему накопителю, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
@@ -1371,13 +1393,13 @@
   <string name="Page5Title">Мощный</string>
   <string name="Page6Title">Облачный</string>
   <string name="Page7Title">Приватный</string>
-  <string name="Page1Message">Самый <![CDATA[<b>быстрый</b>]]> мессенджер в мире.<![CDATA[<br/>]]>А ещё <![CDATA[<b>бесплатный</b>]]> и <![CDATA[<b>безопасный</b>]]>.</string>
-  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> доставляет сообщения быстрее, чем<![CDATA[<br/>]]>любое другое приложение.</string>
-  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бесплатный навсегда. Без рекламы.<![CDATA[<br/>]]>Без абонентской платы.</string>
-  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хранит ваши сообщения в безопасности<![CDATA[<br/>]]>от хакерских атак.</string>
-  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> не имеет ограничений на размер<![CDATA[<br/>]]>ваших медиа и чатов.</string>
-  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> позволяет вам получать доступ к вашим сообщениям<![CDATA[<br/>]]>на множестве устройств.</string>
-  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]>-сообщения надёжно зашифрованы<![CDATA[<br/>]]>и могут самоуничтожаться.</string>
+  <string name="Page1Message">Самый <![CDATA[<b>быстрый</b>]]> мессенджер в мире.\nА также <![CDATA[<b>бесплатный</b>]]> и <![CDATA[<b>безопасный</b>]]>.</string>
+  <string name="Page2Message"><![CDATA[<b>Telegram</b>]]> доставляет сообщения быстрее\nлюбого другого приложения.</string>
+  <string name="Page3Message"><![CDATA[<b>Telegram</b>]]> бесплатный навсегда. Без рекламы.\nБез абонентской платы.</string>
+  <string name="Page4Message"><![CDATA[<b>Telegram</b>]]> хранит ваши сообщения в безопасности\nот хакерских атак.</string>
+  <string name="Page5Message"><![CDATA[<b>Telegram</b>]]> не имеет ограничений на размер\nваших медиа и чатов.</string>
+  <string name="Page6Message"><![CDATA[<b>Telegram</b>]]> позволяет вам иметь доступ к вашим сообщениям\nсо множества устройств.</string>
+  <string name="Page7Message"><![CDATA[<b>Telegram</b>]]>-сообщения надёжно шифруются\nи могут самоуничтожаться.</string>
   <string name="StartMessaging">Начать общение</string>
   <!--VoIP-->
   <string name="AccountSettings">Настройки аккаунта</string>
@@ -1420,7 +1442,7 @@
   <string name="CallMessageOutgoingMissed">Отменённый вызов</string>
   <string name="CallMessageIncomingDeclined">Отклонённый вызов</string>
   <string name="CallMessageWithDuration">%1$s (%2$s)</string>
-  <string name="CallEncryptionKeyDescription">Изображение и текст получены из ключа шифрования для звонка пользователю <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.<![CDATA[<br><br>]]>Если они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.</string>
+  <string name="CallEncryptionKeyDescription">Это изображение и текст были получены из ключа шифрования для этого звонка пользователю <![CDATA[<b>]]>%1$s<![CDATA[</b>]]>.\n\nЕсли они выглядят так же, как на устройстве пользователя <![CDATA[<b>]]>%2$s<![CDATA[</b>]]>, оконечное шифрование гарантировано.</string>
   <string name="NoCallLog">Вы пока ещё не совершили ни одного звонка.</string>
   <string name="VoipPeerIncompatible">Приложение пользователя <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> использует несовместимую версию протокола. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
   <string name="VoipPeerOutdated">Приложение пользователя <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.</string>
@@ -1439,6 +1461,11 @@
   <string name="ReturnToCall">ВЕРНУТЬСЯ К РАЗГОВОРУ</string>
   <string name="CallNotAvailable">Извините, <![CDATA[<b>]]>%1$s<![CDATA[</b>]]> не принимает звонки.</string>
   <string name="CallEmojiKeyTooltip">Если %1$s видит те же эмодзи, что и вы, звонок на 100%% защищён.</string>
+  <string name="CallMessageReportProblem">Оцените звонок</string>
+  <string name="CallReportHint">Что пошло не так?</string>
+  <string name="CallReportIncludeLogs">Прикрепить техническую информацию</string>
+  <string name="CallReportLogsExplain">Это не раскроет содержание вашего разговора, но поможет нам быстрее решить проблему. </string>
+  <string name="CallReportSent">Спасибо, что помогаете делать звонки Telegram лучше.</string>
   <!--plural-->
   <string name="OnlineCount_zero">%1$d в сети</string>
   <string name="OnlineCount_one">%1$d в сети</string>
@@ -1666,6 +1693,11 @@
   <!--date formatters-->
   <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
   <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntil12H">dd MMM yyyy, h:mm a</string>
+  <string name="formatterBannedUntil24H">dd MMM yyyy, HH:mm</string>
+  <string name="formatterBannedUntilThisYear12H">dd MMM, h:mm a</string>
+  <string name="formatterBannedUntilThisYear24H">dd MMM, HH:mm</string>
   <string name="formatterMonthYear">MMMM yyyy</string>
   <string name="formatterMonth">dd MMM</string>
   <string name="formatterYear">dd.MM.yy</string>
