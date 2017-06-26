@@ -92,7 +92,7 @@
   <string name="PaymentWarning">Внимание</string>
   <string name="PaymentWarningText">Ни Telegram, ни %1$s не будут иметь доступа к вашей платёжной информации. Все данные карт обрабатываются только платёжной системой, %2$s.
 
-Оплата осуществляется напрямую разработчику %1$s. Telegram не может предоставлять никаких гарантий. В случае любых проблем, пожалуйста, свяжитесь с разработчиком %1$s или с Вашим банком.</string>
+Оплата осуществляется напрямую разработчику %1$s. Telegram не может предоставлять никаких гарантий. В случае любых проблем, пожалуйста, свяжитесь с разработчиком %1$s или с вашим банком.</string>
   <!--chats view-->
   <string name="NewConversationShortcut">Новая беседа</string>
   <string name="Settings">Настройки</string>
@@ -256,7 +256,7 @@
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
   <string name="ChannelUnmute">ВКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
-  <string name="ChannelAddAdmin">Добавить администратора</string>
+  <string name="ChannelAddAdmin">Добавить</string>
   <string name="ChannelBlockUser">Заблокировать пользователя</string>
   <string name="Unban">Разблокировать</string>
   <string name="UnbanText">Нажмите и удерживайте имя пользователя для разблокировки.</string>
@@ -315,7 +315,7 @@
   <string name="ChannelNotifyMembersInfoOff">Участники не будут уведомляться о ваших публикациях</string>
   <string name="ChannelSignMessages">Подписывать сообщения</string>
   <string name="ChannelSignMessagesInfo">Добавлять имена администраторов к публикуемым ими сообщениям.</string>
-  <string name="EditAdmin">Редактировать администратора</string>
+  <string name="EditAdmin">Изменить</string>
   <string name="EditAdminWhatCanDo">Что может этот администратор?</string>
   <string name="EditAdminChangeChannelInfo">Изменять информацию о канале</string>
   <string name="EditAdminChangeGroupInfo">Изменять информацию о группе</string>
@@ -337,7 +337,7 @@
   <string name="UserRestrictionsSend">Отправлять сообщения</string>
   <string name="UserRestrictionsSendMedia">Отправлять медиафайлы</string>
   <string name="UserRestrictionsSendStickers">Отправлять стикеры и GIF</string>
-  <string name="UserRestrictionsEmbedLinks">Встроенные ссылки</string>
+  <string name="UserRestrictionsEmbedLinks">Предпросмотр ссылок</string>
   <string name="UserRestrictionsUntil">Заблокирован(а) до</string>
   <string name="UserRestrictionsUntilForever">Навсегда</string>
   <string name="UserRestrictionsUntilRemove">Удалить</string>
@@ -351,8 +351,8 @@
   <string name="EventLogAllEvents">Все события</string>
   <string name="EventLogSelectedEvents">Выбранные события</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
-  <string name="EventLogEmpty"><![CDATA[1]]>Событий пока нет<![CDATA[1]]>\n\nЗа последние 48 часов\nне было никаких служебных действий,\nсовершённых участниками\nи администраторами группы.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[1]]>Событий пока нет<![CDATA[1]]>\n\nЗа последние 48 часов\nне было никаких служебных действий,\nсовершённых администраторами канала.</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nУчастники и администраторы группы\nне не выполняли никаких служебных действий\nза последние 48 часов.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nАдминистраторы канала\nне не выполняли никаких служебных действий\nза последние 48 часов.</string>
   <string name="EventLogEmptySearch"><![CDATA[<b>]]>Событий не найдено<![CDATA[</b>]]>\n\nПо вашему запросу не найдено недавних событий.</string>
   <string name="EventLogEmptyTextSearch">Не найдено недавних событий, содержащих \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
   <string name="EventLogInfoTitle">Что такое журнал событий?</string>
@@ -373,7 +373,7 @@
   <string name="EventLogRemovedChannelPhoto">un1 удалил(а) фото канала</string>
   <string name="EventLogEditedMessages">un1 отредактировал(а) сообщение:</string>
   <string name="EventLogEditedCaption">un1 отредактировал(а) подпись:</string>
-  <string name="EventLogOriginalMessages">Оригинальное сообщение</string>
+  <string name="EventLogOriginalMessages">Исходное сообщение</string>
   <string name="EventLogOriginalCaption">Исходная подпись</string>
   <string name="EventLogOriginalCaptionEmpty">Пусто</string>
   <string name="EventLogPinnedMessages">un1 закрепил(а) сообщение:</string>
@@ -395,7 +395,7 @@
   <string name="EventLogRestrictedSendStickers">Отправлять стикеры и GIF</string>
   <string name="EventLogRestrictedSendMedia">Отправлять медиа</string>
   <string name="EventLogRestrictedSendMessages">Отправлять сообщения</string>
-  <string name="EventLogRestrictedSendEmbed">Встроенные ссылки</string>
+  <string name="EventLogRestrictedSendEmbed">Предпросмотр ссылок</string>
   <string name="EventLogRestrictedReadMessages">Читать сообщения</string>
   <string name="EventLogPromoted">изменил(а) привилегии пользователя %1$s</string>
   <string name="EventLogPromotedChangeChannelInfo">Изменение информации о канале</string>
@@ -761,7 +761,7 @@
   <string name="UsernameEmpty">Не задано</string>
   <string name="ErrorOccurred">Произошла ошибка.</string>
   <!--stickers view-->
-  <string name="StickersName">Стикеры</string>
+  <string name="StickersName">Стикеры и маски</string>
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
@@ -866,7 +866,7 @@
   <string name="ContactJoined">Контакт присоединился к Telegram</string>
   <string name="PinnedMessages">Закреплённые сообщения</string>
   <string name="Language">Язык</string>
-  <string name="LanguageCustom">Особый</string>
+  <string name="LanguageCustom">пользовательский</string>
   <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.\n\nПожалуйста, ознакомьтесь с <![CDATA[<a href="https://telegram.org/faq#general">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href="https://telegram.org/faq#troubleshooting">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
   <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
@@ -1692,7 +1692,6 @@
   <string name="AndOther_other">и %1$d других</string>
   <!--date formatters-->
   <string name="formatterStats12H">dd MMM yyyy, h:mm a</string>
-  <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterStats24H">dd MMM yyyy, HH:mm</string>
   <string name="formatterBannedUntil12H">dd MMM yyyy, h:mm a</string>
   <string name="formatterBannedUntil24H">dd MMM yyyy, HH:mm</string>
