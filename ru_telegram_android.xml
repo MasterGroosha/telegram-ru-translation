@@ -262,7 +262,7 @@
   <string name="UnbanText">Нажмите и удерживайте имя пользователя для разблокировки.</string>
   <string name="ChannelInviteViaLink">Пригласить по ссылке</string>
   <string name="ChannelAddUserAdminAlert">Уверены, что хотите назначить %1$s администратором?</string>
-  <string name="ChannelRemoveUserAdmin">Разжаловать администратора</string>
+  <string name="ChannelRemoveUserAdmin">Удалить из администраторов</string>
   <string name="ChannelMembersInfo">Только администраторы канала могут видеть этот список.</string>
   <string name="ChannelAdminNotParticipant">Этот пользователь пока ещё не подписан на данный канал. Хотите пригласить его?</string>
   <string name="ChannelLinkInfo">Любой пользователь Telegram сможет подписаться на ваш канал, перейдя по этой ссылке.</string>
@@ -324,7 +324,7 @@
   <string name="EditAdminDeleteMessages">Удалять чужие сообщения</string>
   <string name="EditAdminGroupDeleteMessages">Удалить сообщения</string>
   <string name="EditAdminAddAdmins">Добавлять новых администраторов</string>
-  <string name="EditAdminRemoveAdmin">Разжаловать администратора</string>
+  <string name="EditAdminRemoveAdmin">Удалить из администраторов</string>
   <string name="EditAdminBanUsers">Блокировать пользователей</string>
   <string name="EditAdminAddUsers">Добавлять пользователей</string>
   <string name="EditAdminPinMessages">Закреплять сообщения</string>
@@ -351,8 +351,8 @@
   <string name="EventLogAllEvents">Все события</string>
   <string name="EventLogSelectedEvents">Выбранные события</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nУчастники и администраторы группы\nне не выполняли никаких служебных действий\nза последние 48 часов.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nАдминистраторы канала\nне не выполняли никаких служебных действий\nза последние 48 часов.</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nУчастники и администраторы группы\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nАдминистраторы канала\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
   <string name="EventLogEmptySearch"><![CDATA[<b>]]>Событий не найдено<![CDATA[</b>]]>\n\nПо вашему запросу не найдено недавних событий.</string>
   <string name="EventLogEmptyTextSearch">Не найдено недавних событий, содержащих \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
   <string name="EventLogInfoTitle">Что такое журнал событий?</string>
