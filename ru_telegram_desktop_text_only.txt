@@ -1395,7 +1395,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_admin_post_messages" = "Отправлять сообщения";
 "lng_admin_log_admin_edit_messages" = "Редактировать сообщения";
 "lng_admin_log_admin_delete_messages" = "Удалять сообщения";
-"lng_admin_log_admin_ban_users" = "Блокировать участинков";
+"lng_admin_log_admin_ban_users" = "Блокировать участников";
 "lng_admin_log_admin_invite_users" = "Добавлять участников";
 "lng_admin_log_admin_invite_link" = "Приглашать пользователей по ссылке";
 "lng_admin_log_admin_pin_messages" = "Закреплять сообщения";
