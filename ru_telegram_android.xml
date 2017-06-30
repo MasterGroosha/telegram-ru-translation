@@ -3,7 +3,7 @@
   <string name="AppName">Telegram</string>
   <string name="AppNameBeta">Telegram Beta</string>
   <string name="LanguageName">Русский</string>
-  <string name="English">Русский</string>
+  <string name="English">Английский</string>
   <string name="LanguageNameInEnglish">Russian</string>
   <string name="LanguageCode">ru</string>
   <string name="ContinueOnThisLanguage">Продолжить на русском</string>
@@ -154,8 +154,6 @@
   <string name="ContactsPermissionAlertNotNow">НЕ СЕЙЧАС</string>
   <string name="ContactsPermissionAlertContinue">ПРОДОЛЖИТЬ</string>
   <!--channels-->
-  <string name="GroupType">Тип группы</string>
-  <string name="ChannelType">Тип канала</string>
   <string name="ChannelTypePublic">Публичный</string>
   <string name="ChannelTypePrivate">Приватный</string>
   <string name="SetAsAdmin">Назначить администратором</string>
@@ -256,7 +254,7 @@
   <string name="ChannelEditor">Администратор</string>
   <string name="ChannelMute">ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
   <string name="ChannelUnmute">ВКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
-  <string name="ChannelAddAdmin">Добавить</string>
+  <string name="ChannelAddAdmin">Добавить администратора</string>
   <string name="ChannelBlockUser">Заблокировать пользователя</string>
   <string name="Unban">Разблокировать</string>
   <string name="UnbanText">Нажмите и удерживайте имя пользователя для разблокировки.</string>
@@ -347,15 +345,15 @@
   <string name="ManageGroupMenu">Управление группой</string>
   <string name="ManageChannelMenu">Управление каналом</string>
   <!--event log-->
-  <string name="EventLog">Журнал событий</string>
-  <string name="EventLogAllEvents">Все события</string>
-  <string name="EventLogSelectedEvents">Выбранные события</string>
+  <string name="EventLog">Недавние действия</string>
+  <string name="EventLogAllEvents">Все действия</string>
+  <string name="EventLogSelectedEvents">Выбранные действия</string>
   <string name="EventLogAllAdmins">Все администраторы</string>
-  <string name="EventLogEmpty"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nУчастники и администраторы группы\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
-  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Событий пока нет<![CDATA[</b>]]>\n\nАдминистраторы канала\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
-  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Событий не найдено<![CDATA[</b>]]>\n\nПо вашему запросу не найдено недавних событий.</string>
-  <string name="EventLogEmptyTextSearch">Не найдено недавних событий, содержащих \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\'.</string>
-  <string name="EventLogInfoTitle">Что такое журнал событий?</string>
+  <string name="EventLogEmpty"><![CDATA[<b>]]>Действий пока нет<![CDATA[</b>]]>\n\nУчастники и администраторы группы\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
+  <string name="EventLogEmptyChannel"><![CDATA[<b>]]>Действий пока нет<![CDATA[</b>]]>\n\nАдминистраторы канала\nне выполняли никаких служебных действий\nза последние 48 часов.</string>
+  <string name="EventLogEmptySearch"><![CDATA[<b>]]>Действия не найдены<![CDATA[</b>]]>\n\nНедавние действия, соответствующие вашему запросу,\nне найдены.</string>
+  <string name="EventLogEmptyTextSearch">Недавние действия, содержащие \'<![CDATA[<b>]]>%1$s<![CDATA[</b>]]>\', не найдены.</string>
+  <string name="EventLogInfoTitle">Что такое недавние действия?</string>
   <string name="EventLogInfoDetail">Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.</string>
   <string name="EventLogInfoDetailChannel">Это список всех служебных действий, совершённых администраторами канала за последние 48 часов.</string>
   <string name="EventLogEditedGroupTitle">un1 переименовал(а) группу в «%1$s»</string>
@@ -407,7 +405,7 @@
   <string name="EventLogPromotedBanUsers">Блокировки пользователей</string>
   <string name="EventLogPromotedAddUsers">Добавление пользователей</string>
   <string name="EventLogPromotedPinMessages">Закрепление сообщений</string>
-  <string name="EventLogFilterAll">Все события</string>
+  <string name="EventLogFilterAll">Все действия</string>
   <string name="EventLogFilterNewRestrictions">Новые ограничения</string>
   <string name="EventLogFilterNewAdmins">Новые администраторы</string>
   <string name="EventLogFilterNewMembers">Новые участники</string>
@@ -427,8 +425,8 @@
   <!--audio view-->
   <string name="NoAudio">Добавьте файлы в музыкальную библиотеку этого устройства, чтобы увидеть их здесь.</string>
   <string name="AttachMusic">Музыка</string>
-  <string name="AudioUnknownArtist">Неизв. исполнитель</string>
-  <string name="AudioUnknownTitle">Неизв. трек</string>
+  <string name="AudioUnknownArtist">Неизвестный исполнитель</string>
+  <string name="AudioUnknownTitle">Неизвестный трек</string>
   <!--documents view-->
   <string name="SelectFile">Выберите файл</string>
   <string name="FreeOfTotal">Свободно %1$s из %2$s</string>
