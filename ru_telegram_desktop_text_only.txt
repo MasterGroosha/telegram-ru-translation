@@ -558,7 +558,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_manage_admins" = "Администраторы";
 "lng_profile_manage_blocklist" = "Заблокированные пользователи";
 "lng_profile_manage_restrictedlist" = "Ограниченные пользователи";
-"lng_profile_recent_actions" = "Журнал событий";
+"lng_profile_recent_actions" = "Недавние действия";
 "lng_profile_common_groups#one" = "Общих групп: {count}";
 "lng_profile_common_groups#other" = "Общих групп: {count}";
 "lng_profile_common_groups_section" = "Общие группы";
@@ -1326,11 +1326,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_restricted_list_title" = "Ограниченные пользователи";
 "lng_banned_list_title" = "Заблокированные пользователи";
 
-"lng_admin_log_title_all" = "Все события";
-"lng_admin_log_title_selected" = "Выбранные события";
+"lng_admin_log_title_all" = "Все действия";
+"lng_admin_log_title_selected" = "Выбранные действия";
 "lng_admin_log_filter" = "Фильтр";
 "lng_admin_log_filter_title" = "Фильтр";
-"lng_admin_log_filter_all_actions" = "Все события";
+"lng_admin_log_filter_all_actions" = "Все действия";
 "lng_admin_log_filter_restrictions" = "Новые ограничения";
 "lng_admin_log_filter_admins_new" = "Новые администраторы";
 "lng_admin_log_filter_members_new" = "Новые участники";
@@ -1343,9 +1343,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_filter_all_admins" = "Все администраторы";
 "lng_admin_log_about" = "Что это?";
 "lng_admin_log_about_text" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
-"lng_admin_log_no_results_title" = "Событий не найдено";
-"lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних событий.";
-"lng_admin_log_no_events_title" = "Событий пока не было";
+"lng_admin_log_no_results_title" = "Действий не найдено";
+"lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних действий.";
+"lng_admin_log_no_events_title" = "Действий пока не было";
 "lng_admin_log_no_events_text" = "Администраторы и участники группы\nне выполняли никаких служебных действий\nза последние 48 часов.";
 
 "lng_admin_log_empty_text" = "Пусто";
