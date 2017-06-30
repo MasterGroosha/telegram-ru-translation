@@ -1342,7 +1342,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_filter_members_removed" = "Удалённые участники";
 "lng_admin_log_filter_all_admins" = "Все администраторы";
 "lng_admin_log_about" = "Что это?";
-"lng_admin_log_about_text" = "Это список всех служебных действий, совершённх участниками и администраторами группы за последние 48 часов.";
+"lng_admin_log_about_text" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
 "lng_admin_log_no_results_title" = "Событий не найдено";
 "lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних событий.";
 "lng_admin_log_no_events_title" = "Событий пока не было";
