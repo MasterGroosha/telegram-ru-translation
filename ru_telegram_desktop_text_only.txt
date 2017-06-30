@@ -16,7 +16,7 @@ In addition, as a special exception, the copyright holders give permission
 to link the code of portions of this program with the OpenSSL library.
 
 Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
-Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
+Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
 "lng_language_name" = "Русский";
 "lng_switch_to_this" = "Переключиться на русский";
@@ -27,6 +27,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_menu_update" = "Обновить";
 "lng_menu_restart" = "Перезапустить";
 "lng_menu_back" = "Назад";
+"lng_menu_night_mode" = "Ночной режим";
 
 "lng_disable_notifications_from_tray" = "Отключить уведомления";
 "lng_enable_notifications_from_tray" = "Включить уведомления";
@@ -87,7 +88,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_continue" = "Продолжить";
 "lng_close" = "Закрыть";
 "lng_connecting" = "Подключение...";
-"lng_reconnecting" = "Повторное подключение {count:сейчас|через # с|через # с}..";
+"lng_connecting_to_proxy" = "Подключение к прокси...";
+"lng_connecting_settings" = "Настройки";
+"lng_reconnecting#one" = "Переподключение через {count} с...";
+"lng_reconnecting#other" = "Переподключение через {count} с...";
 "lng_reconnecting_try_now" = "Попробовать сейчас";
 
 "lng_status_service_notifications" = "служебные уведомления";
@@ -97,12 +101,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_status_bot_not_reads_all" = "не имеет доступа к сообщениям";
 "lng_status_offline" = "давно не заходил(а)";
 "lng_status_recently" = "заходил(а) недавно";
-"lng_status_last_week" = "заходил(а) на неделе";
+"lng_status_last_week" = "заходил(а) в течение недели";
 "lng_status_last_month" = "заходил(а) в этом месяце";
 "lng_status_invisible" = "невидимый";
 "lng_status_lastseen_now" = "был(а) в сети только что";
-"lng_status_lastseen_minutes" = "был(а) в сети {count:_not_used_|# минуту|# минут(-ы)} назад";
-"lng_status_lastseen_hours" = "был(а) в сети {count:_not_used_|# час|# часа(-ов)} назад";
+"lng_status_lastseen_minutes#one" = "был(а) в сети {count} минуту назад";	 "lng_status_lastseen_minutes#other" = "был(а) в сети {count} минут(-ы) назад";
+"lng_status_lastseen_hours#one" = "был(а) в сети {count} час назад";
+"lng_status_lastseen_hours#other" = "был(а) в сети {count} часа(-ов) назад";
 "lng_status_lastseen_today" = "был(а) в сети сегодня в {time}";
 "lng_status_lastseen_yesterday" = "был(а) в сети вчера в {time}";
 "lng_status_lastseen_date" = "был(а) в сети {date}";
@@ -111,14 +116,20 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_status_connecting" = "подключение..";
 
 "lng_chat_status_unaccessible" = "группа недоступна";
-"lng_chat_status_members" = "{count:no members|участников: #|участников: #}";
-"lng_chat_status_members_online" = "{count:_not_used_|# участник|# участников}, {count_online:_not_used_|# онлайн|# онлайн}";
+"lng_chat_status_no_members" = "Нет участников";
+"lng_chat_status_members#one" = "{count} участник";
+"lng_chat_status_members#other" = "Участников: {count}";
+"lng_chat_status_online#one" = "{count} в сети";
+"lng_chat_status_online#other" = "{count} в сети";
+"lng_chat_status_members_online" = "{members_count}, {online_count}";
 
 "lng_channel_status" = "канал";
 "lng_group_status" = "группа";
 
-"lng_channel_members_link" = "{count:_not_used_|# участник|Участников: #}";
-"lng_channel_admins_link" = "{count:_not_used_|Администраторов: #|Администраторов: #}";
+"lng_channel_members_link#one" = "{count} участник";
+"lng_channel_members_link#other" = "Участников: {count}";
+"lng_channel_admins_link#one" = "{count} администратор";
+"lng_channel_admins_link#other" = "Администраторов: {count}";
 
 "lng_server_error" = "Ошибка сервера.";
 "lng_flood_error" = "Слишком быстро. Пожалуйста, повторите попытку  позже.";
@@ -127,8 +138,20 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_join_channel_error" = "Вы вступили в максимальное число каналов/групп. Пожалуйста, покиньте прежде какой-либо другой.";
 "lng_error_phone_flood" = "Извините, в последнее время вы слишком часто удаляли и создавали свой аккаунт заново. Пожалуйста, подождите несколько дней перед повторной регистрацией.";
 "lng_error_start_minimized_passcoded" = "Вы установили локальный код доступа, поэтому приложение не может быть запущено в свёрнутом состоянии. Вам придётся ввести код, прежде чем войти в свою учётную запись.";
-"lng_error_pinned_max" = "Извините, вы можете закрепить сверху не более {count:_not_used_|# чата|# чатов}.";
+"lng_error_pinned_max#one" = "Вы можете закрепить сверху не более {count} чата.";
+"lng_error_pinned_max#other" = "Вы можете закрепить сверху не более {count} чатов.";
 "lng_error_public_groups_denied" = "К сожалению, вам запрещено вступать в публичные группы.\n{more_info}";
+"lng_error_cant_edit_admin" = "Вы не можете редактировать права этого администратора.";
+"lng_error_cant_add_member" = "Вы не можете добавить бота в эту группу. Попросите об этом администратора группы.";
+"lng_error_cant_add_admin_invite" = "К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он не является участником этой группы и вы не можете его пригласить.";
+"lng_error_cant_add_admin_unban" = "К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он в чёрном списке и вы не можете его разблокировать.";
+"lng_error_cant_ban_admin" = "К сожалению, вы не можете заблокировать этого пользователя, потому что он является администратором этой группы и вы не можете его понизить.";
+"lng_sure_add_admin_invite" = "Этот пользователь не является участником группы. Добавить его в группу и повысить до администратора?";
+"lng_sure_add_admin_unban" = "Этот пользователь сейчас ограничен или заблокирован в этой группе. Вы уверены, что хотите его разблокировать и повысить?";
+"lng_sure_ban_admin" = "Этот пользователь сейчас администратор в этой группе. Вы уверены, что хотите ограничить его?";
+"lng_sure_ban_user_group" = "Удалить пользователя {user} из группы?";
+"lng_sure_enable_socks" = "Включить этот прокси?\n\nСервер: {server}\nПорт: {port}\n\nВы можете сменить прокси-сервер позднее в настройках (Тип соединения).";
+"lng_sure_enable" = "Включить";
 
 "lng_edit_deleted" = "Сообщение было удалено";
 "lng_edit_too_long" = "Текст сообщения слишком длинный";
@@ -150,7 +173,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_intro_finish" = "Зарегистрироваться";
 "lng_intro_submit" = "Отправить";
 
-"lng_photo_caption" = "Заголовок";
+"lng_photo_caption" = "Подпись";
 "lng_photos_comment" = "Комментарий";
 
 "lng_phone_ph" = "Ваш номер телефона";
@@ -197,9 +220,14 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_signin_sure_reset" = "Внимание!\n\nИстория сообщений и чаты будут безвозвратно удалены. Продолжить?";
 "lng_signin_reset" = "Сбросить";
 "lng_signin_reset_wait" = "Так как аккаунт {phone_number} сейчас активен и защищен паролем, то, в целях безопасности, он будет удален через неделю. Вы можете отменить удаление аккаунта в любое время.\n\nСброс будет доступен через:\n{when}";
-"lng_signin_reset_in_days" = "{count_days:0 дн.|# день|# дн.} {count_hours:0 часов|# час|# часов} {count_minutes:0 минут|# минуту|# мин.}";
-"lng_signin_reset_in_hours" = "{count_hours:0 часов|# час|# часов} {count_minutes:0 минут|# минуту|# мин.}";
-"lng_signin_reset_in_minutes" = "{count_minutes:0 минут|# минуту|# мин.}";
+"lng_signin_reset_days#one" = "{count} день";
+"lng_signin_reset_days#other" = "{count} дн.";
+"lng_signin_reset_hours#one" = "{count} ч.";
+"lng_signin_reset_hours#other" = "{count} ч.";
+"lng_signin_reset_minutes#one" = "{count} мин.";
+"lng_signin_reset_minutes#other" = "{count} мин.";
+"lng_signin_reset_in_days" = "{days_count} {hours_count} {minutes_count}";
+"lng_signin_reset_in_hours" = "{hours_count} {minutes_count}";
 "lng_signin_reset_cancelled" = "Ваши недавние попытки сброса этого аккаунта были отменены его текущим пользователем. Попробуйте снова через 7 дней.";
 
 "lng_signup_title" = "Информация";
@@ -222,7 +250,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_settings_save" = "Сохранить";
 "lng_settings_upload" = "Обновить фото";
-"lng_settings_crop_profile" = "Выберите квадратную область для фото вашего профиля";
+"lng_settings_crop_profile" = "Выберите область для фото профиля";
 "lng_settings_uploading_photo" = "Загрузка фото...";
 "lng_settings_edit" = "Изменить имя";
 "lng_settings_drop_area_subtitle" = "чтобы установить в качестве фотографии";
@@ -302,7 +330,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_backgrounds_header" = "Выберите новый фон для чата";
 "lng_theme_sure_keep" = "Использовать эту цветовую схему?";
-"lng_theme_reverting" = "Возврат к старой цветовой схеме через {count:_not_used_|# сек.|# сек.}.";
+"lng_theme_reverting#one" = "Возврат к старой цветовой схеме через {count} сек.";
+"lng_theme_reverting#other" = "Возврат к старой цветовой схеме через {count} сек.";
 "lng_theme_keep_changes" = "Сохранить";
 "lng_theme_revert" = "Отменить";
 
@@ -328,14 +357,18 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_settings_section_privacy" = "Приватность и безопасность";
 
 "lng_settings_no_data_cached" = "Кэш пуст!";
-"lng_settings_images_cached" = "Изображений: {count:_not_used_|# |# } ({size})";
-"lng_settings_audios_cached" = "Аудиофайлов: {count:_not_used_|# |# } ({size})";
+"lng_settings_images_cached#one" = "Изображений: {count}, {size}";
+"lng_settings_images_cached#other" = "Изображений: {count}, {size}";
+"lng_settings_audios_cached#one" = "Голосовых сообщений: {count}, {size}";
+"lng_settings_audios_cached#other" = "Голосовых сообщений: {count}, {size}";
 "lng_local_storage_clear" = "Очистить кэш ";
 "lng_local_storage_clearing" = "Очистка...";
 "lng_local_storage_cleared" = "Очищено!";
 "lng_local_storage_clear_failed" = "Не получилось очистить кэш :(";
 
 "lng_settings_section_advanced_settings" = "Расширенные настройки";
+"lng_settings_enable_night_theme" = "Включить ночной режим";
+"lng_settings_disable_night_theme" = "Отключить ночной режим";
 
 "lng_passcode_remove_button" = "Удалить";
 
@@ -347,8 +380,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_passcode_autolock" = "Автоблокировка";
 "lng_passcode_autolock_away" = "Блокировать при отсутствии в течение: ";
 "lng_passcode_autolock_inactive" = "Блокировать при отсутствии активности в течение:";
-"lng_passcode_autolock_minutes" = "{count:_not_used_|# минуты|# минут}";
-"lng_passcode_autolock_hours" = "{count:_not_used_|# часа|# часов}";
+"lng_passcode_autolock_minutes#one" = "{count} минуты";
+"lng_passcode_autolock_minutes#other" = "{count} минут";
+"lng_passcode_autolock_hours#one" = "{count} часа";
+"lng_passcode_autolock_hours#other" = "{count} часов";
 "lng_passcode_enter_old" = "Введите код доступа";
 "lng_passcode_enter_first" = "Введите код доступа";
 "lng_passcode_enter_new" = "Введите новый пароль";
@@ -454,32 +489,46 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_lastseen_title" = "Последняя активность";
 "lng_edit_privacy_lastseen_description" = "Вы можете выбрать, кто видит время вашей последней активности";
 "lng_edit_privacy_lastseen_warning" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
-"lng_edit_privacy_lastseen_always" = "Всегда делиться с{count:| # чел.| # чел.}";
-"lng_edit_privacy_lastseen_never" = "Всегда скрывать от{count:| # чел.| # чел.}";
+"lng_edit_privacy_lastseen_always_empty" = "Всегда делиться с";
+"lng_edit_privacy_lastseen_always#one" = "Всегда делиться с {count} чел.";
+"lng_edit_privacy_lastseen_always#other" = "Всегда делиться с {count} чел.";
+"lng_edit_privacy_lastseen_never_empty" = "Всегда скрывать от";
+"lng_edit_privacy_lastseen_never#one" = "Всегда скрывать от {count} чел.";
+"lng_edit_privacy_lastseen_never#other" = "Всегда скрывать от {count} чел.";
 "lng_edit_privacy_lastseen_exceptions" = "Эти настройки переопределят значения выше.";
 "lng_edit_privacy_lastseen_always_title" = "Всегда делиться с...";
 "lng_edit_privacy_lastseen_never_title" = "Всегда скрывать от...";
 
 "lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
 "lng_edit_privacy_groups_description" = "Вы можете выбрать, кто может добавлять вас в группы и каналы.";
-"lng_edit_privacy_groups_always" = "Всегда разрешать{count:| # чел.| # чел.}";
-"lng_edit_privacy_groups_never" = "Всегда запрещать{count:| # чел.| # чел.}";
+"lng_edit_privacy_groups_always_empty" = "Всегда разрещать";
+"lng_edit_privacy_groups_always#one" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_groups_always#other" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_groups_never_empty" = "Всегда запрещать";
+"lng_edit_privacy_groups_never#one" = "Всегда запрещать {count} чел.";
+"lng_edit_privacy_groups_never#other" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_groups_exceptions" = "Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.";
 "lng_edit_privacy_groups_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_groups_never_title" = "Всегда запрещать...";
 
 "lng_edit_privacy_calls_title" = "Звонки";
 "lng_edit_privacy_calls_description" = "Вы можете ограничить круг лиц, которые могут вам звонить:";
-"lng_edit_privacy_calls_always" = "Всегда разрешать{count:| # чел.| # чел.}";
-"lng_edit_privacy_calls_never" = "Всегда запрещать{count:| # чел.| # чел.}";
+"lng_edit_privacy_calls_always_empty" = "Всегда разрещать";
+"lng_edit_privacy_calls_always#one" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_calls_always#other" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_calls_never_empty" = "Всегда запрещать";
+"lng_edit_privacy_calls_never#one" = "Всегда запрещать {count} чел.";
+"lng_edit_privacy_calls_never#other" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_calls_exceptions" = "Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.";
 "lng_edit_privacy_calls_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_calls_never_title" = "Всегда запрещать...";
 
 "lng_self_destruct_title" = "Самоуничтожение аккаунта";
 "lng_self_destruct_description" = "Если вы не появитесь в сети хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.";
-"lng_self_destruct_months" = "{count:_not_used_|# мес.|# мес.}";
-"lng_self_destruct_years" = "{count:_not_used_|# г.|# г.}";
+"lng_self_destruct_months#one" = "{count} мес.";
+"lng_self_destruct_months#other" = "{count} мес.";
+"lng_self_destruct_years#one" = "{count} г.";
+"lng_self_destruct_years#other" = "{count} л.";
 
 "lng_change_phone_title" = "Сменить номер";
 "lng_change_phone_description" = "Здесь вы можете сменить ваш номер Telegram.\nВаш аккаунт и все ваши данные\n— сообщения, медиа, контакты и т.д. будут\nперенесены на новый номер.\n\n[b]Важно[/b]: всем вашим контактам Telegram\nбудет автоматически добавлен в адресную книгу ваш [b]новый номер[/b],\nпри условии, что у них был ваш старый\nномер и вы не блокировали их.";
@@ -508,7 +557,10 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_edit_public_link" = "Редактировать ссылку на профиль";
 "lng_profile_manage_admins" = "Администраторы";
 "lng_profile_manage_blocklist" = "Заблокированные пользователи";
-"lng_profile_common_groups" = "Общих групп: {count:_not_used_|#|#}";
+"lng_profile_manage_restrictedlist" = "Ограниченные пользователи";
+"lng_profile_recent_actions" = "Журнал событий";
+"lng_profile_common_groups#one" = "Общих групп: {count}";
+"lng_profile_common_groups#other" = "Общих групп: {count}";
 "lng_profile_common_groups_section" = "Общие группы";
 "lng_profile_participants_section" = "Участники";
 "lng_profile_info_section" = "Информация";
@@ -544,23 +596,30 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_delete_and_exit" = "Покинуть";
 "lng_profile_kick" = "Удалить";
 "lng_profile_admin" = "Администратор";
+"lng_profile_edit_permissions" = "Изменить";
 "lng_profile_sure_kick" = "Исключить {user} из группы?";
 "lng_profile_sure_kick_channel" = "Исключить {user} из канала?";
 "lng_profile_sure_kick_admin" = "Разжаловать {user} из администраторов?";
 "lng_profile_loading" = "Загрузка..";
 "lng_profile_shared_media" = "Общие файлы";
 "lng_profile_no_media" = "В истории сообщений нет файлов.";
-"lng_profile_photos" = "{count:_not_used_|# фотография|Фотографий: #}";
+"lng_profile_photos#one" = "{count} фотография";
+"lng_profile_photos#other" = "Фотографий: {count}";
 "lng_profile_photos_header" = "Фотографии";
-"lng_profile_videos" = "Видеозаписей: {count:_not_used_|# |# }";
-"lng_profile_videos_header" = "Видео";
-"lng_profile_songs" = "{count:_not_used_|# аудиофайл|Аудиофайлов: #}";
+"lng_profile_videos#one" = "{count} видеозапись";
+"lng_profile_videos#other" = "Видеозаписей: {count}";
+"lng_profile_videos_header" = "Видеозаписи";
+"lng_profile_songs#one" = "{count} аудиофайл";
+"lng_profile_songs#other" = "Аудиофайлов: {count}";
 "lng_profile_songs_header" = "Аудиофайлы";
-"lng_profile_files" = "{count:_not_used_|# файл|Файлов: #}";
+"lng_profile_files#one" = "{count} файл";
+"lng_profile_files#other" = "Файлов: {count}";
 "lng_profile_files_header" = "Файлы";
-"lng_profile_audios" = "{count:_not_used_|# голос. сообщение|Голос. сообщений: #}";
+"lng_profile_audios#one" = "{count} голосовое сообщение";
+"lng_profile_audios#other" = "Голосовых сообщений: {count}";
 "lng_profile_audios_header" = "Голосовые сообщения";
-"lng_profile_shared_links" = "{count:_not_used_|# ссылка |Ссылок: #}";
+"lng_profile_shared_links#one" = "{count} ссылка";
+"lng_profile_shared_links#other" = "Ссылок: {count}";
 "lng_profile_shared_links_header" = "Ссылки";
 "lng_profile_copy_phone" = "Копировать номер";
 "lng_profile_copy_fullname" = "Копировать имя";
@@ -582,12 +641,17 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_channel_add_admins" = "Добавить администратора";
 "lng_channel_add_members" = "Добавить участников";
+"lng_channel_add_banned" = "Заблокировать";
+"lng_channel_add_restricted" = "Ограничить";
 "lng_channel_members" = "Участники";
-"lng_channel_only_last_shown" = "Только последний(-е) {count:_not_used_|# участник|# участника(-ов)} отображены";
+"lng_channel_only_last_shown#one" = "Показан только {count} участник";
+"lng_channel_only_last_shown#other" = "Показаны только последние {count} участн.";
 "lng_channel_admins" = "Администраторы";
 "lng_channel_add_admin" = "Добавить администратора";
 "lng_channel_admin_sure" = "Сделать {user} администратором?";
 "lng_channel_admins_too_much" = "К сожалению, вы добавили слишком много администраторов. Удалите хотя бы одного, чтобы продолжить.";
+"lng_channel_admin_status_creator" = "Создатель";
+"lng_channel_admin_status_promoted_by" = "Назначил(а): {user}";
 
 "lng_group_blocked_list_about" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора.\nПригласительные ссылки для них не работают.";
 
@@ -597,7 +661,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 
 "lng_participant_filter" = "Поиск";
 "lng_participant_invite" = "Пригласить";
-"lng_participant_invite_sorry" = "К сожалению, вручную можно добавить только первых {count} пользователей.\n\nДля того, чтобы пригласить больше людей, воспользуйтесь пригласительной ссылкой.";
+"lng_participant_invite_sorry#one" = "К сожалению, вручную можно добавить только {count} пользователя.\n\nДля того, чтобы пригласить больше людей, воспользуйтесь пригласительной ссылкой.";
+"lng_participant_invite_sorry#other" = "К сожалению, вручную можно добавить только первых {count} пользователей.\n\nДля того, чтобы пригласить больше людей, воспользуйтесь пригласительной ссылкой.";
 "lng_create_group_back" = "Назад";
 "lng_create_group_next" = "Далее";
 "lng_create_group_create" = "Создать";
@@ -620,8 +685,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_create_channel_link_available" = "Это имя доступно";
 "lng_create_channel_link_copied" = "Ссылка скопирована в буфер обмена";
 
-"lng_create_group_crop" = "Выберите квадратную область для фото группы";
-"lng_create_channel_crop" = "Выберите квадратную область для фото канала";
+"lng_create_group_crop" = "Выберите область для фото группы";
+"lng_create_channel_crop" = "Выберите область для фото канала";
 
 "lng_failed_add_participant" = "Не получилось добавить пользователя. Повторите попытку позже.";
 "lng_failed_add_not_mutual" = "К сожалению, если пользователь покинул группу, \nто вернуть его можно будет только при условии, \nчто вы находитесь в контактах друг у друга \n(у него есть ваш номер, а у вас — его).";
@@ -639,8 +704,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_message_empty" = "Пустое сообщение";
 "lng_message_unsupported"= "Это сообщение не поддерживается вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}"; 
 
-"lng_duration_seconds" = "{count:_not_used_|# сек.|# сек.}";
-"lng_duration_minutes_seconds" = "{count_minutes:# мин.|# мин.|# мин.} {count_seconds:# сек.|# сек.|# сек.}";
+"lng_duration_seconds#one" = "{count} сек.";
+"lng_duration_seconds#other" = "{count} сек.";
+"lng_duration_minsec_minutes#one" = "{count} мин.";
+"lng_duration_minsec_minutes#other" = "{count} мин.";
+"lng_duration_minsec_seconds#one" = "{count} сек.";
+"lng_duration_minsec_seconds#other" = "{count} сек.";
+"lng_duration_minutes_seconds" = "{minutes_count} {seconds_count}";
 
 "lng_action_add_user" = "{from} добавил(а) {user}";
 "lng_action_add_users_many" = "{from} добавил(а) {users}";
@@ -678,10 +748,14 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_sticker" = "стикер";
 "lng_action_pinned_media_emoji_sticker" = "{emoji} стикер";
 "lng_action_pinned_media_game" = "игру «{game}»";
-"lng_action_game_score" = "{from} набрал(а) {count:#|#|#} в игре {game}";
-"lng_action_game_you_scored" = "Вы набрали {count:#|#|#} в игре {game}";
-"lng_action_game_score_no_game" = "{from} набрал(а) {count:#|#|#}";
-"lng_action_game_you_scored_no_game" = "Вы набрали {count:#|#|#}";
+"lng_action_game_score#one" = "{from} набрал(а) {count} в игре {game}";
+"lng_action_game_score#other" = "{from} набрал(а) {count} в игре {game}";
+"lng_action_game_you_scored#one" = "Вы набрали{count} в игре {game}";
+"lng_action_game_you_scored#other" = "Вы набрали{count} в игре {game}";
+"lng_action_game_score_no_game#one" = "{from} набрал(а) {count}";
+"lng_action_game_score_no_game#other" = "{from} набрал(а) {count}";
+"lng_action_game_you_scored_no_game#one" = "Вы набрали {count}";
+"lng_action_game_you_scored_no_game#other" = "Вы набрали {count}";
 
 "lng_action_call_outgoing" = "Исходящий вызов в {time}";
 "lng_action_call_incoming" = "Входящий вызов в {time}";
@@ -694,11 +768,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_action_payment_done_for" = "Вы успешно перевели {amount} пользователю {user} за {invoice}";
 
 
-"lng_profile_migrate_reached" = "Достигнут лимит в {count:_not_used_|# участника|# участников}";
+"lng_profile_migrate_reached#one" = "Достигнут лимит в {count} участника";
+"lng_profile_migrate_reached#other" = "Достигнут лимит в {count} участников";
 "lng_profile_migrate_body" = "Чтобы превысить этот лимит, обновите группу до супергруппы.";
 "lng_profile_migrate_learn_more" = "Узнать больше »";
 "lng_profile_migrate_about" = "Если вы хотите добавить больше участников, вы можете преобразовать эту группу в супергруппу. Что это такое:";
-"lng_profile_migrate_feature1" = "— Максимальное число участников: {count:_not_used_|#|#}";
+"lng_profile_migrate_feature1#one" = "— Максимальное число участников: {count}";
+"lng_profile_migrate_feature1#other" = "— Максимальное число участников: {count}";
 "lng_profile_migrate_feature2" = "— Новым пользователям доступна вся история переписки группы";
 "lng_profile_migrate_feature3" = "— Администраторы могут удалять любые сообщения";
 "lng_profile_migrate_feature4" = "— Уведомления выключены по умолчанию";
@@ -713,10 +789,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_profile_convert_feature4" = "— Создатель группы может создать публичную ссылку на неё";
 "lng_profile_convert_warning" = "{bold_start}Внимание:{bold_end} Это действие необратимо";
 "lng_profile_convert_confirm" = "Преобразовать";
-"lng_profile_add_more_after_upgrade" = "Вы сможете добавить до {count:_not_used_|# участник|# участников} после преобразования группы в супергруппу.";
+"lng_profile_add_more_after_upgrade#one" = "Вы сможете добавить {count} участника после преобразования группы в супергруппу.";
+"lng_profile_add_more_after_upgrade#other" = "Вы сможете добавить до {count} участников после преобразования группы в супергруппу.";
 
-"lng_channel_comments_count" = "{count:_not_used_|Комментариев: #|Комментариев: #}";
-"lng_channel_hide_comments" = "Скрыть комментарии";
 "lng_channel_not_accessible" = "К сожалению, этот канал больше недоступен.";
 "lng_group_not_accessible" = "К сожалению, эта группа больше не доступна.";
 
@@ -731,7 +806,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_group_invite_want_join_channel" = "Присоединиться к каналу «{title}»?";
 "lng_group_invite_join" = "Присоединиться";
 
-"lng_group_invite_members" = "{count:_not_used_|Всего # человек(а)|Всего # человек(а)}, в том числе:";
+"lng_group_invite_members#one" = "Всего {count} человек:";
+"lng_group_invite_members#other" = "Всего {count} чел., в том числе:";
 
 "lng_group_invite_link" = "Ссылка для приглашения:";
 "lng_group_invite_create" = "Создать ссылку приглашения";
@@ -744,6 +820,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_channel_public_link_copied" = "Ссылка скопирована в буфер обмена.";
 
 "lng_forwarded" = "Переслано от {user}";
+"lng_forwarded_date" = "Оригинал: {date}";
 "lng_forwarded_channel" = "Переслано из {channel}";
 "lng_forwarded_via" = "Переслано от {user} с помощью {inline_bot}";
 "lng_forwarded_channel_via" = "Переслано из {channel} с помощью {inline_bot}";
@@ -823,7 +900,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_stickers_you_have" = "Удаляйте и сортируйте стикерпаки";
 "lng_stickers_featured" = "Популярные стикерпаки";
 "lng_stickers_return" = "Отмена";
-"lng_stickers_count" = "{count:Загрузка..|# шт.|# шт.}";
+"lng_stickers_count#one" = "{count} шт.";
+"lng_stickers_count#other" = "{count} шт.";
 "lng_stickers_masks_pack" = "Это набор масок. Вы можете его использовать в фоторедакторе в мобильном приложении.";
 
 
@@ -853,13 +931,12 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_cant_invite_not_contact_channel" = "К сожалению, вы можете добавлять в каналы только взаимные контакты. {more_info}";
 "lng_cant_more_info" = "Подробнее »";
 "lng_cant_invite_banned" = "К сожалению, только администратор может добавить этого пользователя.";
-"lng_cant_invite_privacy" = "Извините, вы не можете добавлять этого пользователя в группы из-за его настроек приватности.";
-"lng_cant_invite_privacy_channel" = "Извините, вы не можете добавлять этого пользователя в каналы из-за его настроек приватности.";
-"lng_cant_do_this" = "Извините, это действие недоступно.";
+"lng_cant_invite_privacy" = "К сожалению, вы не можете добавлять этого пользователя в группы из-за его настроек приватности.";
+"lng_cant_invite_privacy_channel" = "К сожалению, вы не можете добавлять этого пользователя в каналы из-за его настроек приватности.";
+"lng_cant_do_this" = "К сожалению, это действие недоступно.";
 
 "lng_send_button" = "Отправить";
 "lng_message_ph" = "Наберите ваше сообщение..";
-"lng_comment_ph" = "Комментировать..";
 "lng_broadcast_ph" = "Опубликовать сообщение...";
 "lng_broadcast_silent_ph" = "Опубликовать приглушенное сообщение...";
 "lng_record_cancel" = "Отпустите вне этого поля для отмены";
@@ -903,11 +980,13 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_typing" = "печатает";
 "lng_user_typing" = "{user} печатает";
 "lng_users_typing" = "{user} и {second_user} печатают";
-"lng_many_typing" = "{count:_not_used_|# |# } печатают";
+"lng_many_typing#one" = "{count} печатает";
+"lng_many_typing#other" = "{count} печатают";
 "lng_playing_game" = "сейчас в игре";
 "lng_user_playing_game" = "{user} сейчас в игре";
 "lng_users_playing_game" = "{user} и {second_user} сейчас в игре";
-"lng_many_playing_game" = "{count:_not_used_|# _not_used_|# _not_used_} сейчас в игре";
+"lng_many_playing_game#one" = "{count} играет";
+"lng_many_playing_game#other" = "{count} играют";
 "lng_send_action_record_video" = "записывает видео";
 "lng_user_action_record_video" = "{user} записывает видео";
 "lng_send_action_upload_video" = "отправляет видео";
@@ -928,7 +1007,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_user_action_geo_location" = "{user} определяет местоположение";
 "lng_send_action_choose_contact" = "выбирает контакт";
 "lng_user_action_choose_contact" = "{user} выбирает контакт";
-"lng_unread_bar" = "{count:_not_used_|# непрочитанное сообщение|Непрочитанных сообщений: # }";
+"lng_unread_bar#one" = "{count} непрочитанное сообщение";
+"lng_unread_bar#other" = "Непрочитанных сообщений: {count}";
 
 "lng_maps_point" = "Местоположение";
 "lng_save_photo" = "Сохранить изображение";
@@ -951,7 +1031,8 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_unpin_from_top" = "Открепить";
 
 "lng_context_promote_admin" = "Назначить администратором";
-"lng_context_remove_admin" = "Убрать из администраторов";
+"lng_context_edit_permissions" = "Изменить права";
+"lng_context_restrict_user" = "Ограничить пользователя";
 "lng_context_remove_from_group" = "Удалить из группы";
 
 "lng_context_copy_link" = "Копировать ссылку";
@@ -989,31 +1070,41 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_context_unpin_msg" = "Открепить сообщение";
 "lng_context_cancel_upload" = "Отменить отправку";
 "lng_context_copy_selected" = "Копировать выделенное";
+"lng_context_copy_selected_items" = "Копировать выделенное как текст";
 "lng_context_forward_selected" = "Переслать выделенные";
 "lng_context_delete_selected" = "Удалить выделенные";
 "lng_context_clear_selection" = "Снять выделение";
 "lng_really_send_image" = "Отправить этот файл?";
 "lng_really_send_file" = "Отправить этот файл?";
 "lng_really_share_contact" = "Вы действительно хотите поделиться этим контактом?";
-"lng_send_images_compress" = "Сжать {count:_not_used_|изображение|изображения}";
+"lng_send_images_compress#one" = "Сжать изображение";
+"lng_send_images_compress#other" = "Сжать изображения";
 "lng_send_image_non_local" = "Невозможно отправить нелокальный файл: {name}";
 "lng_send_image_empty" = "Невозможно отправить пустой файл: {name}";
 "lng_send_image_too_large" = "Невозможно отправить файл, т.к. он больше 1500 МБ: {name}";
 "lng_send_folder" = "Невозможно отправить «{name}», потому что это – каталог :(";
-"lng_send_images_selected" = "Выбрано изображений: {count:_not_used_|#|#}";
-"lng_send_photos" = "Изображений к отправке: {count:_not_used_|#|#}";
-"lng_send_files_selected" = "Выбрано файлов: {count:_not_used_|#|#}";
-"lng_send_files" = "Файлов к отправке: {count:_not_used_|#|#}";
+"lng_send_images_selected#one" = "Выбрано {count} изображение";
+"lng_send_images_selected#other" = "Выбрано изображений: {count}";
+"lng_send_photos#one" = "Изображений к отправке: {count}";
+"lng_send_photos#other" = "Изображений к отправке: {count}";
+"lng_send_files_selected#one" = "Выбран {count} файл";
+"lng_send_files_selected#other" = "Выбрано файлов: {count}";
+"lng_send_files#one" = "Файлов к отправке: {count}";
+"lng_send_files#other" = "Файлов к отправке: {count}";
 
 "lng_forward_choose" = "Выберите получателя..";
 "lng_forward_cant" = "К сожалению, сюда нельзя пересылать сообщения :(";
 "lng_forward_confirm" = "Переслать пользователю {recipient}?";
 "lng_forward_share_contact" = "Поделиться контактом с {recipient}?";
+"lng_forward_share_cant" = "К сожалению, сюда нельзя отправить контакт :(";
 "lng_forward_send_file_confirm" = "Отправить «{name}» пользователю {recipient}?";
 "lng_forward_send_files_confirm" = "Отправить файлы {recipient}?";
+"lng_forward_send_files_cant" = "К сожалению, сюда нельзя отправить файлы :(";
 "lng_forward_send" = "Отправить";
-"lng_forward_messages" = "{count:_not_used_|Пересланное сообщение|Пересланных сообщений: #}";
-"lng_forwarding_from" = "{user} и еще {count:_not_used_|# |# }";
+"lng_forward_messages#one" = "{count} пересланное сообщение";
+"lng_forward_messages#other" = "Пересланных сообщений: {count}";
+"lng_forwarding_from#one" = "{user} и ещё {count}";
+"lng_forwarding_from#other" = "{user} и ещё {count}";
 "lng_forwarding_from_two" = "{user} и {second_user}";
 "lng_inline_switch_choose" = "Выберите чат...";
 "lng_inline_switch_cant" = "Извините, не могу сюда написать :(";
@@ -1035,6 +1126,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_edit_contact_title" = "Редактирование имени контакта";
 "lng_edit_channel_title" = "Редактировать";
 "lng_edit_sign_messages" = "Подписывать сообщения";
+"lng_edit_group_who_invites" = "Кто может добавлять участников";
+"lng_edit_group_invites_everybody" = "Все пользователи";
+"lng_edit_group_invites_only_admins" = "Только администраторы";
 "lng_edit_group" = "Редактировать группу";
 "lng_edit_self_title" = "Редактирование вашего имени";
 "lng_confirm_contact_data" = "Новый контакт";
@@ -1059,15 +1153,20 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_selected_clear" = "Отмена";
 "lng_selected_delete" = "Удалить";
 "lng_selected_forward" = "Переслать";
-"lng_selected_count" = "Сообщений: {count:_not_used_|#  |#  }";
+"lng_selected_count#one" = "{count} сообщение";
+"lng_selected_count#other" = "Сообщений: {count}";
 "lng_selected_cancel_sure_this" = "Отменить отправку файла?";
 "lng_selected_upload_stop" = "Отменить";
 "lng_selected_delete_sure_this" = "Удалить это сообщение?";
-"lng_selected_delete_sure" = "Удалить выбранные сообщения ({count:_not_used_|#|#})?";
+"lng_selected_delete_sure#one" = "Удалить выбранные сообщения ({count})?";
+"lng_selected_delete_sure#other" = "Удалить выбранные сообщения ({count})?";
 "lng_delete_photo_sure" = "Вы действительно хотите удалить это изображение?";
-"lng_delete_for_everyone_hint" = "{count:_not_used_|Оно удалится|Они удалятся} у всех в этом чате.";
-"lng_delete_for_me_chat_hint" = "{count:_not_used_|Оно удалится|Они удалятся} только у вас, но не у всех остальных людей в чате.";
-"lng_delete_for_me_hint" = "{count:_not_used_|Оно удалится|Они удалятся} только у вас.";
+"lng_delete_for_everyone_hint#one" = "Оно удалится у всех в этом чате.";
+"lng_delete_for_everyone_hint#other" = "Они удалятся у всех в этом чате.";
+"lng_delete_for_me_chat_hint#one" = "Оно удалится только у вас, но не у всех остальных людей в чате.";
+"lng_delete_for_me_chat_hint#other" = "Они удалятся только у вас, но не у всех остальных людей в чате.";
+"lng_delete_for_me_hint#one" = "Оно удалится только у вас.";
+"lng_delete_for_me_hint#other" = "Они удалятся только у вас.";
 "lng_delete_for_everyone_check" = "Удалить у всех";
 "lng_delete_for_other_check" = "Удалить у пользователя {user}";
 "lng_box_delete" = "Удалить";
@@ -1079,7 +1178,9 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_about_text_3" = "Подробнее читайте в [a href=\"https://telegram.org/faq\"]часто задаваемых вопросах[/a].{faq_open}{faq_close}";
 "lng_about_done" = "Закрыть";
 
-"lng_search_found_results" = "{count:Ничего не найдено|Найдено # сообщение|Найдено сообщений: #}";
+"lng_search_no_results" = "Сообщений не найдено";
+"lng_search_found_results#one" = "Найдено {count} сообщение";
+"lng_search_found_results#other" = "Найдено сообщений: {count}";
 "lng_search_global_results" = "Результаты глобального поиска";
 
 "lng_media_save_progress" = "{ready} из {total} {mb}";
@@ -1140,7 +1241,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_theme_editor_title" = "Редактировать цветовую палитру";
 "lng_theme_editor_export_button" = "Экспорт темы";
 
-"lng_payments_not_supported" = "Извините, Telegram Desktop пока не поддерживает платежи. Пожалуйста, используйте для этого наши мобильные приложения.";
+"lng_payments_not_supported" = "К сожалению, Telegram Desktop пока не поддерживает платежи. Пожалуйста, используйте для этого наши мобильные приложения.";
 "lng_payments_receipt_label" = "Квитанция";
 "lng_payments_receipt_label_test" = "Тестовая квитанция";
 "lng_payments_invoice_label" = "Счёт";
@@ -1159,7 +1260,7 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_call_status_busy" = "линия занята";
 "lng_call_fingerprint_tooltip" = "Если {user} видит те же эмодзи, что и вы, звонок на 100% защищён.";
 
-"lng_call_error_not_available" = "Извините, {user} не принимает звонки.";
+"lng_call_error_not_available" = "К сожалению, {user} не принимает звонки.";
 "lng_call_error_incompatible" = "{user} использует приложение с несовместимым протоколом. Попросите его/её сначала обновить своё приложение перед осуществлением вызовов.";
 "lng_call_error_outdated" = "Приложение пользователя {user} не поддерживает звонки. Попросите его/её сначала обновить своё приложение перед осуществлением вызовов.";
 "lng_call_error_audio_io" = "Скорее всего, у вашего компьютера наблюдаются проблемы с воспроизведением звука. Пожалуйста, убедитесь, что аудиоколонки и микрофон работают и попробуйте ещё раз.";
@@ -1188,6 +1289,117 @@ Copyright (c) 2014-2016 John Preston, https://desktop.telegram.org
 "lng_player_message_today" = "Сегодня в {time}";
 "lng_player_message_yesterday" = "Вчера в {time}";
 "lng_player_message_date" = "{date} в {time}";
+
+"lng_rights_edit_admin" = "Права администратора";
+"lng_rights_edit_admin_header" = "Что может этот администратор?";
+"lng_rights_about_add_admins_yes" = "Этот администратор сможет добавлять новых администраторов c тем же (или меньшим) уровнем прав.";
+"lng_rights_about_add_admins_no" = "Этот администратор не сможет добавлять новых администраторов.";
+"lng_rights_user_restrictions" = "Права пользователя";
+"lng_rights_user_restrictions_header" = "Что может этот пользователь?";
+
+"lng_rights_channel_info" = "Изменять описание канала";
+"lng_rights_channel_post" = "Отправлять сообщения";
+"lng_rights_channel_edit" = "Редактировать чужие сообщения";
+"lng_rights_channel_delete" = "Удалять чужие сообщения";
+"lng_rights_group_info" = "Изменять описание группы";
+"lng_rights_group_ban" = "Блокировать пользователй";
+"lng_rights_group_invite_link" = "Приглашать по ссылке";
+"lng_rights_group_invite" = "Добавлять пользователей";
+"lng_rights_group_pin" = "Закреплять сообщения";
+"lng_rights_group_delete" = "Удалять сообщения";
+"lng_rights_add_admins" = "Добавлять администраторов";
+"lng_rights_chat_read" = "Читать сообщения";
+"lng_rights_chat_send_text" = "Отправлять сообщения";
+"lng_rights_chat_send_media" = "Отправлять медиафайлы";
+"lng_rights_chat_send_stickers" = "Отправлять стикеры и GIF";
+"lng_rights_chat_send_links" = "Предпросмотр ссылок";
+"lng_rights_chat_banned_until" = "Заблокирован(а) до: {when}";
+"lng_rights_chat_banned_forever" = "навсегда";
+"lng_rights_chat_banned_block" = "Заблокировать и удалить из группы";
+
+"lng_restricted_send_message" = "Администраторы этой группы запретили вам отправлять сообщения.";
+"lng_restricted_send_media" = "Администраторы этой группы запретили вам отправлять медиафайлы.";
+"lng_restricted_send_stickers" = "Администраторы этой группы запретили вам отправлять стикеры.";
+"lng_restricted_send_gifs" = "Администраторы этой группы запретили вам отправлять GIF.";
+"lng_restricted_send_inline" = "Администраторы этой группы запретили вам отправлять сообщения с помощью ботов.";
+
+"lng_restricted_list_title" = "Ограниченные пользователи";
+"lng_banned_list_title" = "Заблокированные пользователи";
+
+"lng_admin_log_title_all" = "Все события";
+"lng_admin_log_title_selected" = "Выбранные события";
+"lng_admin_log_filter" = "Фильтр";
+"lng_admin_log_filter_title" = "Фильтр";
+"lng_admin_log_filter_all_actions" = "Все события";
+"lng_admin_log_filter_restrictions" = "Новые ограничения";
+"lng_admin_log_filter_admins_new" = "Новые администраторы";
+"lng_admin_log_filter_members_new" = "Новые участники";
+"lng_admin_log_filter_info_group" = "Информация о группе";
+"lng_admin_log_filter_info_channel" = "Информация о канале";
+"lng_admin_log_filter_messages_deleted" = "Удалённые сообщения";
+"lng_admin_log_filter_messages_edited" = "Отредактированные сообщения";
+"lng_admin_log_filter_messages_pinned" = "Закреплённые сообщения";
+"lng_admin_log_filter_members_removed" = "Удалённые участники";
+"lng_admin_log_filter_all_admins" = "Все администраторы";
+"lng_admin_log_about" = "Что это?";
+"lng_admin_log_about_text" = "Это список всех служебных действий, совершённх участниками и администраторами группы за последние 48 часов.";
+"lng_admin_log_no_results_title" = "Событий не найдено";
+"lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних событий.";
+"lng_admin_log_no_events_title" = "Событий пока не было";
+"lng_admin_log_no_events_text" = "Администраторы и участники группы\nне выполняли никаких служебных действий\nза последние 48 часов.";
+
+"lng_admin_log_empty_text" = "Пусто";
+"lng_admin_log_changed_title_group" = "{from} переименовал(а) группу в «{title}»";
+"lng_admin_log_changed_title_channel" = "{from} переименовал(а) канал в «{title}»";
+"lng_admin_log_changed_description_group" = "{from} изменил(а) описание группы:";
+"lng_admin_log_removed_description_group" = "{from} удалил(а) описание группы";
+"lng_admin_log_changed_description_channel" = "{from} изменил(а) описание канала:";
+"lng_admin_log_removed_description_channel" = "{from} удалил(а) описание канала";
+"lng_admin_log_previous_description" = "Прошлое описание";
+"lng_admin_log_changed_link_group" = "{from} изменил(а) ссылку на группу:";
+"lng_admin_log_removed_link_group" = "{from} удалил(а) ссылку на группу";
+"lng_admin_log_changed_link_channel" = "{from} изменил(а) ссылку на канал:";
+"lng_admin_log_removed_link_channel" = "{from} удалил(а) ссылку на канал";
+"lng_admin_log_previous_link" = "Прошлая ссылка";
+"lng_admin_log_changed_photo_group" = "{from} установил(а) новое фото группы";
+"lng_admin_log_changed_photo_channel" = "{from} установил(а) новое фото канала";
+"lng_admin_log_removed_photo_group" = "{from} удалил(а) фото группы";
+"lng_admin_log_removed_photo_channel" = "{from} удалил(а) фото канала";
+"lng_admin_log_invites_enabled" = "{from} разрешил(а) приглашения в группу";
+"lng_admin_log_invites_disabled" = "{from} запретил(а) приглашения в группу";
+"lng_admin_log_signatures_enabled" = "{from} включил(а) подписи к сообщениям";
+"lng_admin_log_signatures_disabled" = "{from} отключил(а) подписи к сообщениям";
+"lng_admin_log_pinned_message" = "{from} закрепил(а) сообщение:";
+"lng_admin_log_unpinned_message" = "{from} открепил(а) сообщение";
+"lng_admin_log_edited_caption" = "{from} отредактировал(а) подпись:";
+"lng_admin_log_removed_caption" = "{from} удалил(а) подпись";
+"lng_admin_log_previous_caption" = "Прошлая подпись";
+"lng_admin_log_edited_message" = "{from} отредактировал(а) сообщение:";
+"lng_admin_log_previous_message" = "Исходное сообщение";
+"lng_admin_log_deleted_message" = "{from} удалил(а) сообщение:";
+"lng_admin_log_participant_joined" = "{from} вступил(а) в группу";
+"lng_admin_log_participant_left" = "{from} покинул(а) группу";
+"lng_admin_log_invited" = "пригласил(а) пользователя {user}";
+"lng_admin_log_banned" = "заблокировал(а) пользователя {user}";
+"lng_admin_log_restricted" = "изменил(а) ограничения пользователя {user} {until}";
+"lng_admin_log_promoted" = "изменил(а) привилегия пользователя {user}";
+"lng_admin_log_user_with_username" = "{name} ({mention})";
+"lng_admin_log_restricted_forever" = "навсегда";
+"lng_admin_log_restricted_until" = "до {date}";
+"lng_admin_log_banned_view_messages" = "Читать сообщения";
+"lng_admin_log_banned_send_messages" = "Отправлять сообщения";
+"lng_admin_log_banned_send_media" = "Отправлять медиафайлы";
+"lng_admin_log_banned_send_stickers" = "Отправлять стикеры и GIF";
+"lng_admin_log_banned_embed_links" = "Предпросмотр ссылок";
+"lng_admin_log_admin_change_info" = "Изменять описание";
+"lng_admin_log_admin_post_messages" = "Отправлять сообщения";
+"lng_admin_log_admin_edit_messages" = "Редактировать сообщения";
+"lng_admin_log_admin_delete_messages" = "Удалять сообщения";
+"lng_admin_log_admin_ban_users" = "Блокировать участинков";
+"lng_admin_log_admin_invite_users" = "Добавлять участников";
+"lng_admin_log_admin_invite_link" = "Приглашать пользователей по ссылке";
+"lng_admin_log_admin_pin_messages" = "Закреплять сообщения";
+"lng_admin_log_admin_add_admins" = "Добавлять администраторов";
 
 // Wnd specific
 
