@@ -27,7 +27,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_menu_update" = "Обновить";
 "lng_menu_restart" = "Перезапустить";
 "lng_menu_back" = "Назад";
-"lng_menu_night_mode" = "Ночной режим";
+"lng_menu_night_mode" = "Ночн. режим";
 
 "lng_disable_notifications_from_tray" = "Отключить уведомления";
 "lng_enable_notifications_from_tray" = "Включить уведомления";
