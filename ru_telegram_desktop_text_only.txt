@@ -722,8 +722,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_you_joined_group" = "Вы присоединились к этой группе";
 "lng_action_kick_user" = "{from} исключил(а) {user}";
 "lng_action_user_left" = "{from} покинул(а) группу";
-"lng_action_user_joined" = "пользователь {from} присоединился к группе";
-"lng_action_user_joined_by_link" = "{from} присоединился к группе по пригласительной ссылке";
+"lng_action_user_joined" = "{from} вступил(а) в группу";
+"lng_action_user_joined_by_link" = "{from} вступил(а) в группу по пригласительной ссылке";
 "lng_action_user_registered" = "{from} присоединился к Telegram";
 "lng_action_removed_photo" = "{from} удалил(а) фото группы";
 "lng_action_removed_photo_channel" = "Фото канала удалено";
