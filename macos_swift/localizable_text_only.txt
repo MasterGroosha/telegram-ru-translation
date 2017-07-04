@@ -3,6 +3,10 @@
 "Messages.ForwardHeader" = "Пересланные сообщения";
 "Messages.File.State.FetchingIn" = "Загрузка — %d%%";
 "Messages.File.State.FetchingOut" = "Отправка — %d%%";
+
+"Messages.File.State.FetchingIn_1" = "скачано %d%";
+"Messages.File.State.FetchingOut_1" = "загружено %d%";
+
 "Messages.File.State.Remote" = "Загрузить";
 "Messages.File.State.Local" = "Показать в Finder";
 "Messages.DeletedMessage" = "Удалённое сообщение";
@@ -232,7 +236,7 @@
 "Message.Context.Delete" = "Удалить";
 "Message.Context.Select" = "Выбрать";
 "Message.Context.Edit" = "Изменить";
-"Message.Context.Goto" = "Показать сообщение";
+"Message.Context.Goto" = "Перейти к сообщению";
 "Message.Context.Pin" = "Закрепить";
 "Message.Context.Confirm.Pin" = "Закрепить это сообщение и оповестить всех участников группы?";
 "Message.Context.Confirm.OnlyPin" = "Только закрепить";
@@ -260,14 +264,15 @@
 "ConnectingStatus.online" = "в сети";
 "ConnectingStatus.updating" = "обновление";
 "ConnectingStatus.waitingNetwork" = "ожидание сети";
-
+"ConnectingStatus.connectingToProxy" = "соединение с прокси";
 
 "Chat.ConnectingStatus.connecting" = "Соединение";
 "Chat.ConnectingStatus.updating" = "Обновление";
 "Chat.ConnectingStatus.waitingNetwork" = "Ожидание сети";
+"Chat.ConnectingStatus.connectingToProxy" = "Соединение с прокси";
 
 "InputAttach.Popover.PhotoOrVideo" = "Фото или видео";
-"InputAttach.Popover.Picture" = "Фотографию";
+"InputAttach.Popover.Picture" = "Фото";
 "InputAttach.Popover.File" = "Файл";
 "InputAttach.Popover.Location" = "Местоположение";
 
@@ -278,7 +283,7 @@
 
 "Chat.Cancel" = "Отмена";
 "Gallery.Context.SaveAs" = "Сохранить как…";
-"Gallery.Context.ShowMessage" = "Показать сообщение";
+"Gallery.Context.ShowMessage" = "Перейти к сообщению";
 "Gallery.Context.CopyToClipboard" = "Копировать в буфер обмена";
 
 
@@ -428,7 +433,7 @@
 "CreateGroup.NameHolder" = "Название группы";
 "Telegram.ChannelIntroViewController" = "Канал";
 "Channel.IntroDescriptionHeader" = "Что такое канал?";
-"Channel.IntroDescription" = "Каналы — это инструмент для трансляции сообщений большой аудитории.";
+"Channel.IntroDescription" = "Каналы — это инструмент для трансляции ваших сообщений большой аудитории.";
 "Channel.Create" = "Создать";
 "Channel.NewChannel" = "Новый канал";
 "Group.CreateGroup" = "Новая группа";
@@ -477,6 +482,10 @@
 "PrivacySettings.SecurityHeader" = "БЕЗОПАСНОСТЬ";
 "PrivacySettings.Passcode" = "Код доступа";
 "PrivacySettings.ActiveSessions" = "Активные сессии";
+
+"PrivacySettings.UseProxy" = "Использовать прокси";
+"PrivacySettings.ProxyHeader" = "ТИП СОЕДИНЕНИЯ";
+
 "PrivacySettings.DeleteAccountHeader" = "УДАЛИТЬ МОЙ АККАУНТ";
 "PrivacySettings.DeleteAccount" = "Если вас не было";
 "PrivacySettings.DeleteAccountDescription" = "Если вы не войдёте хотя бы раз в свой аккаунт в течение этого периода, он будет удалён со всеми группами, сообщениями и контактами.";
@@ -578,7 +587,7 @@
 "Peer.Activity.Chat.Single.PlayingGame" = "%@ сейчас в игре";
 
 
-"Peer.Activity.Chat.Multi.TypingText" = "%d печатают...";
+"Peer.Activity.Chat.Multi.TypingText" = "%d печатают";
 "Peer.Activity.Chat.Multi.SendingPhoto" = "%d отправляют фото";
 "Peer.Activity.Chat.Multi.RecordingVideo" = "%d записывают видео";
 "Peer.Activity.Chat.Multi.SendingVideo" = "%d отправляют видео";
@@ -694,8 +703,15 @@
 "Supergroup.Convert.Button" = "Преобразовать в супергруппу";
 
 
+"PeerInfo.MembersHeader_countable" = "%d";
+"PeerInfo.MembersHeader_zero" = "%d УЧАСТНИКОВ";
+"PeerInfo.MembersHeader_one" = "%d УЧАСТНИК";
+"PeerInfo.MembersHeader_two" = "%d УЧАСТНИКА";
+"PeerInfo.MembersHeader_few" = "%d УЧАСТНИКА";
+"PeerInfo.MembersHeader_many" = "%d УЧАСТНИКОВ";
+"PeerInfo.MembersHeader_other" = "%d УЧАСТНИКОВ";
+
 "PeerInfo.InviteLink" = "Пригласительная ссылка";
-"PeerInfo.MembersHeader" = "УЧАСТНИКИ (%d)";
 "PeerInfo.Admins" = "Администраторы";
 "PeerInfo.BlackList" = "Чёрный список";
 "PeerInfo.SetAdmins" = "Назначить администраторов";
@@ -813,7 +829,7 @@
 "BlockedPeers.EmptyDescrpition" = "Заблокированные пользователи не могут посылать вам сообщения или добавляться в ваши группы. Они не видят фото вашего профиля и ваш статус.";
 
 "Sessions.CurrentSessionHeader" = "ТЕКУЩАЯ СЕССИЯ";
-"Sessions.TerminateOthers" = "Завершить все другие сеансы";
+"Sessions.TerminateOthers" = "Завершить все другие сессии";
 "Sessions.TerminateDescription" = "Выйти на всех устройствах, кроме этого.";
 "Sessions.ActiveSessionsHeader" = "АКТИВНЫЕ СЕССИИ";
 
@@ -844,10 +860,10 @@
 
 "GeneralSettings.EnableSidebar" = "Боковая панель";
 "GeneralSettings.SidebarDescription" = "Стикеры и эмодзи будут показываться справа от текущего чата.";
-"Telegram.RecentSessionsController" = "Активные сеансы";
-"RecentSessions.Confirm.TerminateOthers" = "Вы уверены, что хотите завершить все другие сеансы?";
+"Telegram.RecentSessionsController" = "Активные сессии";
+"RecentSessions.Confirm.TerminateOthers" = "Вы уверены, что хотите завершить все другие сессии?";
 "RecentSessions.Confirm.Revoke" = "Завершить этот сеанс?";
-"RecentSessions.Revoke" = "Отозвать";
+"RecentSessions.Revoke" = "Завершить";
 
 "Legacy.Intro.Description1" = "Добро пожаловать в новое супербыстрое и стабильное приложение Telegram для macOS, полностью переписанное на языке Swift 3.0.";
 "Legacy.Intro.Description2" = "Пожалуйста, учтите, что ваши существующие секретные чаты будут доступны в режиме «только чтение». Вы, конечно же, можете создать новые для продолжения общения.";
@@ -1024,7 +1040,7 @@
 "Call.ShortMinutes_other" = "%d мин.";
 
 
-"Telegram.LayoutPhoneCallsViewController" = "Недавние вызовы";
+"Telegram.LayoutPhoneCallsViewController" = "Звонки";
 "RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
 
 "Call.Confirm.DiscardCurrent.Header" = "Идёт разговор";
@@ -1054,7 +1070,6 @@
 "Chat.LoadingMessages" = "Загрузка сообщений";
 
 
-
 "1Xt-HY-uBw.title" = "Telegram";
 "1b7-l0-nxx.title" = "Найти";
 "2oI-Rn-ZJC.title" = "Преобразования";
@@ -1064,6 +1079,7 @@
 "4J7-dP-txa.title" = "В полный экран";
 "4sb-4s-VLi.title" = "Выйти из Telegram";
 "5QF-Oa-p0T.title" = "Правка";
+"_NS:88.title" = "Правка";
 "5kV-Vb-QxS.title" = "О Telegram";
 "6dh-zS-Vam.title" = "Повтор";
 "78Y-hA-62v.title" = "Автоматически исправлять ошибки";
@@ -1077,6 +1093,7 @@
 "FKE-Sm-Kum.title" = "Помощь по TelegramMac";
 "FeM-D8-WVr.title" = "Автозамена";
 "H8h-7b-M4v.title" = "Вид";
+"_NS:70.title" = "Вид";
 "HFQ-gK-NFA.title" = "Автозамена текста";
 "HFo-cy-zxI.title" = "Показать орфографию и грамматику";
 "HyV-fh-RgO.title" = "Вид";
@@ -1100,6 +1117,7 @@
 "YEy-JH-Tfz.title" = "Найти и заменить...";
 "Ynk-f8-cLZ.title" = "Начать произношение";
 "aUF-d1-5bR.title" = "Окно";
+"_NS:138.title" = "Окно";
 "buJ-ug-pKt.title" = "Искать выделенное";
 "c8a-y6-VQd.title" = "Преобразования";
 "cwL-P1-jid.title" = "Умные ссылки";
@@ -1125,10 +1143,201 @@
 "z6F-FW-3nz.title" = "Показать автозамены";
 "sZh-ct-GQS.title" = "Быстрый поиск";
 
-"Login.ContinueOnLanguage" = "Оставить английский";
+"Login.ContinueOnLanguage" = "Продолжить на русском";
 "Date.Today" = "Сегодня";
 
 /* This key for which language this file, for example: Italian -> Italiano, Russian -> Русский */
-"AccountSettings.CurrentLanguage" = "English";
+"AccountSettings.CurrentLanguage" = "Русский";
 "Suggest.Localization.Header" = "Выберите язык";
-"Suggest.Localization.Other" = "Другой...";
+"Suggest.Localization.Other" = "Другой";
+
+"PrivacySettings.PeerSelect.AddNew" = "Добавить";
+
+"Channel.EditAdmin.Permission.ChangeInfo" = "Изменять описание канала";
+"Group.EditAdmin.Permission.ChangeInfo" = "Изменять описание группы";
+"Channel.EditAdmin.Permission.DeleteMessages" = "Удалять сообщения";
+"Channel.EditAdmin.Permission.BanUsers" = "Блокировать пользователей";
+"Channel.EditAdmin.Permission.InviteViaLink" = "Приглашать по ссылке";
+"Channel.EditAdmin.Permission.PinMessages" = "Закреплять сообщения";
+"Channel.EditAdmin.Permission.AddNewAdmins" = "Добавлять администраторов";
+"Channel.EditAdmin.Permission.PostMessages" = "Отправлять сообщения";
+"Channel.EditAdmin.Permission.EditMessages" = "Редактировать сообщения";
+"Channel.EditAdmin.Permission.InviteUsers" = "Приглашать пользователей";
+
+"Channel.Persmission.Denied.SendMessages.Until" = "Администраторы этой группы запретили вам отправлять сообщения до %@";
+"Channel.Persmission.Denied.SendMessages.Forever" = "Администраторы этой группы запретили вам отправлять сообщения";
+
+"Channel.Persmission.Denied.SendMedia.Until" = "Администраторы этой группы запретили вам отправлять медиафайлы до %@";
+"Channel.Persmission.Denied.SendMedia.Forever" = "Администраторы этой группы запретили вам отправлять медиафайлы";
+
+"Channel.Persmission.Denied.SendStickers.Until" = "Администраторы этой группы запретили вам отправлять стикеры до %@";
+"Channel.Persmission.Denied.SendStickers.Forever" = "Администраторы этой группы запретили вам отправлять стикеры";
+
+"Channel.Persmission.Denied.SendInline.Until" = "Администраторы этой группы запретили вам отправлять сообщения с помощью ботов до %@";
+"Channel.Persmission.Denied.SendInline.Forever" = "Администраторы этой группы запретили вам отправлять сообщения с помощью ботов";
+
+"Channel.Admin.Dismiss" = "Разжаловать администратора";
+"Channel.Admin.AdminAccess" = "Этот администратор сможет добавлять новых администраторов с тем же или более ограниченным уровнем прав, как он сам.";
+"Channel.Admin.AdminRestricted" = "Этот администратор не сможет добавлять новых администраторов.";
+
+"Channel.Admin.WhatCanAdminDo" = "ЧТО МОЖЕТ ДЕЛАТЬ ЭТОТ АДМИНИСТРАТОР?";
+"PeerInfo.EventLog" = "Журнал событий";
+
+"Channel.EventLog.What" = "Что это?";
+"Channel.EventLog.Alert.Header" = "Что такое журнал событий?";
+"Channel.EventLog.Alert.Info" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
+
+
+"Group.EventLog.Service.TitleUpdated" = "%@ изменил(а) название группы на:";
+"Group.EventLog.Service.LinkUpdated" = "%@ изменил(а) ссылку группы на:";
+"Group.EventLog.Service.AboutUpdated" = "%@ изменил(а) описание группы на:";
+
+"Channel.EventLog.Service.TitleUpdated" = "%@ изменил(а) название канала на:";
+"Channel.EventLog.Service.LinkUpdated" = "%@ изменил(а) ссылку канала на:";
+"Channel.EventLog.Service.AboutUpdated" = "%@ изменил(а) описание канала на:";
+
+"Group.EventLog.Service.LinkRemoved" = "%@ удалил(а) ссылку группы:";
+"Group.EventLog.Service.AboutRemoved" = "%@ удалил(а) описание группы:";
+"Channel.EventLog.Service.LinkRemoved" = "%@ удалил(а) ссылку канала:";
+"Channel.EventLog.Service.AboutRemoved" = "%@ удалил(а) описание канала:";
+
+"EventLog.Service.PreviousTitle" = "Предыдущее название";
+"EventLog.Service.PreviousLink" = "Предыдущая ссылка";
+"EventLog.Service.PreviousDesc" = "Предыдущее описание";
+
+
+"EventLog.Service.Demote.SendMessages" = "Отправлять сообщения";
+"EventLog.Service.Demote.SendMedia" = "Отправлять медиафайлы";
+"EventLog.Service.Demote.SendStickers" = "Отправлять стикеры";
+"EventLog.Service.Demote.EmbedLinks" = "Встраивать ссылки";
+"EventLog.Service.Demote.SendInline" = "Отправлять через инлайн-ботов";
+
+"EventLog.Service.Promote.ChangeInfo" = "Редактировать описание";
+"EventLog.Service.Promote.DeleteMessages" = "Удалять сообщения";
+"EventLog.Service.Promote.PostMessages" = "Отправлять сообщения";
+"EventLog.Service.Promote.AddUsers" = "Добавлять пользователей";
+"EventLog.Service.Promote.InviteViaLink" = "Приглашать по ссылке";
+"EventLog.Service.Promote.PinMessages" = "Закреплять сообщения";
+"EventLog.Service.Promote.AddNewAdmins" = "Добавлять администраторов";
+"EventLog.Service.Promote.BanUsers" = "Блокировать пользователей";
+"EventLog.Service.Promote.EditMessages" = "Редактировать сообщения";
+
+"EventLog.Service.Promoted.Changed" = "сменил(а) привилегии для %@ %@:";
+"EventLog.Service.Promoted" = "назначил(а) %@ %@:";
+
+"EventLog.Service.Demoted" = "ограничил(а) %@ %@ навсегда";
+"EventLog.Service.Demoted.Until" = "ограничил(а) %@ %@ до %@";
+"EventLog.Service.Demoted.Changed" = "сменил(а) ограничения для %@ %@ навсегда";
+"EventLog.Service.Demoted.Changed.Until" = "сменил(а) ограничения для %@ %@ до %@";
+"EventLog.Service.Banned" = "Заблокировал(а) %@ %@";
+
+"EventLog.Service.Removed" = "%@ исключил(а) %@";
+"EventLog.Service.DeletedMessage" = "%@ удалил(а) сообщение:";
+"EventLog.Service.EditedMessage" = "%@ отредактировал(а) сообщение:";
+"EventLog.Service.UpdatePinned" = "%@ закрепил(а) сообщение:";
+"EventLog.Service.RemovePinned" = "%@ открепил(а) сообщение";
+
+
+"Group.EventLog.Service.EnableInvites" = "%@ разрешил(а) приглашения в группу";
+"Group.EventLog.Service.DisableInvites" = "%@ запретил(а) приглашения в группу";
+"Channel.EventLog.Service.EnableSignatures" = "%@ включил(а) подписи к сообщениям ";
+"Channel.EventLog.Service.DisableSignatures" = "%@ отключил(а) подписи к сообщениям";
+
+
+"Group.EventLog.Service.PhotoUpdated" = "%@ изменил(а) фото группы";
+"Group.EventLog.Service.PhotoRemoved" = "%@ удалил(а) фото группы";
+"Channel.EventLog.Service.PhotoUpdated" = "%@ обновил(а) фото канала";
+"Channel.EventLog.Service.PhotoRemoved" = "%@ удалил(а) фото канала";
+
+"Group.EventLog.Service.UpdateLeft" = "%@ покинул(а) группу";
+"Channel.EventLog.Service.UpdateLeft" = "%@ покинул(а) канал";
+
+"Group.EventLog.Service.UpdateJoin" = "%@ вступил(а) в группу";
+"Channel.EventLog.Service.UpdateJoin" = "%@ присоединился(-лась) к каналу";
+
+
+"Telegram.ChannelEventLogController" = "Все действия";
+
+"ChannelEventFilter.NewRestrictions" = "Новые ограничения";
+"ChannelEventFilter.NewAdmins" = "Новые администраторы";
+"ChannelEventFilter.NewMembers" = "Новые участники";
+"ChannelEventFilter.GroupInfo" = "Информация о группе";
+"ChannelEventFilter.ChannelInfo" = "Информация о канале";
+"ChannelEventFilter.DeletedMessages" = "Удалённые сообщения";
+"ChannelEventFilter.EditedMessages" = "Отредактированные сообщения";
+"ChannelEventFilter.PinnedMessages" = "Закреплённые сообщения";
+"ChannelEventFilter.LeavingMembers" = "Удалённые участники";
+
+"Group.EventLog.EmptyText" = "**Событий пока не было**\n\nЗа последние 48 часов не было никаких служебных действий, совершённых участниками и администраторами группы.";
+"Channel.EventLog.EmptyText" = "**Событий пока не было**\n\nЗа последние 48 часов не было никаких служебных действий, совершённых участниками и администраторами канала.";
+"Channel.EventLog.EmptySearch" = "**События не найдены**\n\nНе удалось найти подходящих событий по вашему запросу.";
+
+"ChannelBlacklist.Restricted" = "ОГРАНИЧЕННЫЕ";
+"ChannelBlacklist.Blocked" = "ЗАБЛОКИРОВАННЫЕ";
+"ChannelBlacklist.AddMember" = "Добавить участника";
+
+"Channel.UserRestriction" = "ОГРАНИЧЕНИЯ ПОЛЬЗОВАТЕЛЕЙ";
+"Channel.BlockUser.CanReadMessages" = "Может читать сообщения";
+"Channel.BlockUser.CanSendMessages" = "Может отправлять сообщения";
+"Channel.BlockUser.CanSendMedia" = "Может отправлять медиафайлы";
+"Channel.BlockUser.CanSendStickers" = "Может отправлять стикеры и GIF";
+"Channel.BlockUser.CanEmbedLinks" = "Может отправлять ссылки";
+"Channel.BlockUser.BlockFor" = "Срок блокировки";
+"Channel.Blacklist.SelectNewUserTitle" = "Участники";
+"Channel.BlockUser.Forever" = "Навсегда";
+
+"Channel.Admins.PromotedBy" = "назначил(а): %@";
+"Channel.Admins.AddAdminError" = "Извините, вы не можете назначить этого пользователя администратором";
+"Channel.Blacklist.RestrictedBy" = "ограничил(а): %@";
+"Channel.Blacklist.BlockedBy" = "заблокировал(а): %@";
+"Channel.Blacklist.DemoteAdminError" = "Извините, но вы не можете заблокировать этого пользователя, поскольку он является администратором в этой группе, а у вас нет прав, чтобы его разжаловать.";
+
+"Channel.Admins.Promote.BannedAdminError" = "Извините, но вы не можете добавить этого пользователя в администраторы, поскольку он находится в чёрном списке, а вы не имеете прав, чтобы убирать людей из чёрного списка.";
+"Channel.Admins.Promote.UnmemberAdminError" = "Извините, но вы не можете добавить этого пользователя в администраторы, поскольку он не состоит в этой группе, а вы не имеете права приглашать новых пользователей.";
+"Channel.BanForever" = "Навсегда";
+
+"Channel.EventFilter.EventsHeader" = "СОБЫТИЯ";
+"Channel.EventFilter.AdminsHeader" = "АДМИНИСТРАТОРЫ";
+
+"Channel.SelectPeers.Members" = "участники";
+"Channel.SelectPeers.Contacts" = "контакты";
+"Channel.SelectPeers.Global" = "глобальный";
+"Channel.SelectPeers.Header" = "Участники";
+
+"Supergroup.DeleteRestriction.DeleteMessage" = "Удалить сообщение";
+"Supergroup.DeleteRestriction.BanUser" = "Заблокировать пользователя";
+"Supergroup.DeleteRestriction.ReportSpam" = "Сообщить о спаме";
+"Supergroup.DeleteRestriction.DeleteAllMessages" = "Удалять все сообщения";
+"ChannelAdmins.RecentActions" = "Недавние действия";
+
+
+"Telegram.ProxySettingsViewController" = "Прокси";
+"ProxySettings.ConnectionHeader" = "Соединение";
+"ProxySettings.CredentialsHeader" = "АУТЕНТИФИКАЦИЯ (НЕОБЯЗАТЕЛЬНО)";
+"ProxySettings.Disabled" = "Отключено";
+"ProxySettings.Socks5" = "SOCKS5";
+"ProxySettings.Server" = "Сервер";
+"ProxySettings.Port" = "Порт";
+"ProxySettings.Username" = "Имя пользователя";
+"ProxySettings.Password" = "Пароль";
+"ProxySettings.Save" = "Сохр.";
+
+"Channel.EventLog.OriginalMessage" = "Исходное сообщение";
+"Channel.EventLog.Empty" = "Пусто";
+"Channel.Admin.CantEditRights" = "Вы не можете редактировать права этого администратора.";
+"Channel.Blacklist.Unban" = "Разблокировать";
+
+"ConnectingStatus.DisableProxy" = "нажмите для отключения прокси";
+"Proxy.ForceDisable" = "Вы уверены, что хотите отключить прокси-сервер %@?";
+"Proxy.ForceEnable.Header" = "Вы уверены, что хотите включить этот прокси?";
+"Proxy.ForceEnable.Text.IP" = "Сервер: %@";
+"Proxy.ForceEnable.Text.Port" = "Порт: %d";
+"Proxy.ForceEnable.Text.Username" = "Логин: %@";
+"Proxy.ForceEnable.Text.Password" = "Пароль: %@";
+"Proxy.ForceEnable.Text" = "Вы можете изменить настройки прокси-сервера позднее в Настройках (Приватность и безопасность).";
+"ProxySettings.Share" = "Поделитесь этой ссылкой с друзьями для обхода цензуры в вашей стране";
+"ProxySettings.ExportLink" = "Вставить ссылку из буфера обмена";
+"ProxySettings.ProxyNotFound" = "В буфере обмена нет настроек прокси.";
+"ProxySettings.ExportDescription" = "Если в буфере обмена есть ссылка на socks5 (**t.me/socks?server=127.0.0.1&port=80**), то прокси будет применён автоматически";
+"AddBotToGroup.ChooseGroup" = "Выберите группу";
+"Confirm.AddBotToGroup" = "Добавить бота в группу \"%@\"?";
