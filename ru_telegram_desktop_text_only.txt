@@ -1345,6 +1345,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_about_text" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
 "lng_admin_log_no_results_title" = "Действий не найдено";
 "lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних действий.";
+"lng_admin_log_no_results_search_text" = "Не найдено недавних действий, содержащих '{query}'.";
 "lng_admin_log_no_events_title" = "Действий пока не было";
 "lng_admin_log_no_events_text" = "Администраторы и участники группы\nне выполняли никаких служебных действий\nза последние 48 часов.";
 
