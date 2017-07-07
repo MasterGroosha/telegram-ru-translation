@@ -325,6 +325,7 @@
   <string name="EditAdminRemoveAdmin">Удалить из администраторов</string>
   <string name="EditAdminBanUsers">Блокировать пользователей</string>
   <string name="EditAdminAddUsers">Добавлять пользователей</string>
+  <string name="EditAdminAddUsersViaLink">Приглашать пользователей по ссылке</string>
   <string name="EditAdminPinMessages">Закреплять сообщения</string>
   <string name="EditAdminPromotedBy">Добавил(а): %1$s</string>
   <string name="EditAdminCantEdit">Вы не можете изменять права этого администратора.</string>
@@ -792,6 +793,8 @@
   <string name="ArchivedMasksAlertInfo">Некоторые из ваших старых наборов масок были архивированы. Вы можете снова активировать их в настройках масок.</string>
   <!--theme view-->
   <string name="Theme">Тема</string>
+  <string name="ThemeDark">Тёмная</string>
+  <string name="ThemeBlue">Синяя</string>
   <string name="DeleteThemeAlert">Уверены, что хотите удалить эту тему?</string>
   <string name="IncorrectTheme">Некорректный файл темы</string>
   <string name="EnterThemeName">Введите название темы</string>
@@ -957,6 +960,8 @@
   <string name="UseProxyPort">Порт</string>
   <string name="UseProxyUsername">Имя пользователя</string>
   <string name="UseProxyInfo">Настройки SOCKS5-прокси</string>
+  <string name="UseProxyForCalls">Использовать прокси для звонков</string>
+  <string name="UseProxyForCallsInfo">Использование прокси может ухудшить качество звонков.</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
