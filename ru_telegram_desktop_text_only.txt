@@ -143,6 +143,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_public_groups_denied" = "К сожалению, вам запрещено вступать в публичные группы.\n{more_info}";
 "lng_error_cant_edit_admin" = "Вы не можете редактировать права этого администратора.";
 "lng_error_cant_add_member" = "Вы не можете добавить бота в эту группу. Попросите об этом администратора группы.";
+"lng_error_cant_add_bot" = "К сожалению, этого бота нельзя добавлять в группы.";
 "lng_error_cant_add_admin_invite" = "К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он не является участником этой группы и вы не можете его пригласить.";
 "lng_error_cant_add_admin_unban" = "К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он в чёрном списке и вы не можете его разблокировать.";
 "lng_error_cant_ban_admin" = "К сожалению, вы не можете заблокировать этого пользователя, потому что он является администратором этой группы и вы не можете его понизить.";
@@ -1294,6 +1295,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_edit_admin_header" = "Что может этот администратор?";
 "lng_rights_about_add_admins_yes" = "Этот администратор сможет добавлять новых администраторов c тем же (или меньшим) уровнем прав.";
 "lng_rights_about_add_admins_no" = "Этот администратор не сможет добавлять новых администраторов.";
+"lng_rights_about_admin_cant_edit" = "Вы не можете редактировать права этого администратора.";
 "lng_rights_user_restrictions" = "Права пользователя";
 "lng_rights_user_restrictions_header" = "Что может этот пользователь?";
 
@@ -1313,8 +1315,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_chat_send_media" = "Отправлять медиафайлы";
 "lng_rights_chat_send_stickers" = "Отправлять стикеры и GIF";
 "lng_rights_chat_send_links" = "Предпросмотр ссылок";
-"lng_rights_chat_banned_until" = "Заблокирован(а) до: {when}";
+"lng_rights_chat_banned_until_header" = "Заблокирован(а) до";
 "lng_rights_chat_banned_forever" = "навсегда";
+"lng_rights_chat_banned_day#one" = "На {count} день";
+"lng_rights_chat_banned_day#other" = "На {count} дн.";
+"lng_rights_chat_banned_week#one" = "На {count} неделю";
+"lng_rights_chat_banned_week#other" = "На {count} нед.";
+"lng_rights_chat_banned_custom" = "Другое";
+"lng_rights_chat_banned_custom_date" = "До {date}";
 "lng_rights_chat_banned_block" = "Заблокировать и удалить из группы";
 
 "lng_restricted_send_message" = "Администраторы этой группы запретили вам отправлять сообщения.";
