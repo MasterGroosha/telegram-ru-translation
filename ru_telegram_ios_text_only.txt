@@ -2851,11 +2851,11 @@
 "SocksProxySetup.Username" = "Имя пользователя";
 "SocksProxySetup.Password" = "Пароль";
 
-"Channel.AdminLog.EmptyTitle" = "Здесь пока что не зафиксировано никаких событий.";
+"Channel.AdminLog.EmptyTitle" = "Действий пока не было";
 "Channel.AdminLog.EmptyText" = "За последние 48 часов не было никаких служебных действий, предпринятых администраторами и участниками группы.";
-"Channel.AdminLog.EmptyFilterTitle" = "Подходящих событий не обнаружено";
-"Channel.AdminLog.EmptyFilterQueryText" = "Не удалось найти событий, содержащих «%@».";
-"Channel.AdminLog.EmptyFilterText" = "Не удалось найти подходящих событий за недавнее время.";
+"Channel.AdminLog.EmptyFilterTitle" = "Действий не найдено";
+"Channel.AdminLog.EmptyFilterQueryText" = "Не удалось найти недавних действий, содержащих '%@'.";
+"Channel.AdminLog.EmptyFilterText" = "По вашему запросу не найдено никаких недавних действий.";
 
 "Channel.AdminLog.EmptyMessageText" = "Пусто";
 
@@ -2888,3 +2888,32 @@
 "Settings.ApplyProxyAlert" = "Вы уверены, что хотите включить этот прокси?\nСервер: %1$@\nПорт: %2$@\n\nВы можете изменить прокси-сервер позднее в настройках (Данные и хранилище).";
 "Settings.ApplyProxyAlertCredentials" = "Вы уверены, что хотите включить этот прокси?\nСервер: %1$@\nПорт: %2$@\nЛогин: %3$@\nПароль: %4$@\n\nВы можете изменить прокси-сервер позднее в настройках (Данные и хранилище).";
 "Settings.ApplyProxyAlertEnable" = "Включить";
+
+"Channel.Management.RestrictedBy" = "Ограничил(а): %@";
+
+"Stickers.FrequentlyUsed" = "Недавно использованные";
+
+"Contacts.ImportersCount_1" = "1 контакт в Telegram";
+"Contacts.ImportersCount_2" = "2 контакта в Telegram";
+"Contacts.ImportersCount_3_10" = "Контактов в Telegram: %@";
+"Contacts.ImportersCount_any" = "Контактов в Telegram: %@";
+"Contacts.ImportersCount_many" = "Контактов в Telegram: %@";
+"Contacts.ImportersCount_0" = "%@ контактов в Telegram";
+
+"Conversation.ContextMenuBan" = "Заблокировать";
+
+"SocksProxySetup.UseForCalls" = "Использовать для звонков";
+"SocksProxySetup.UseForCallsHelp" = "Использование прокси может ухудшить качество звонков.";
+
+"InviteText.URL" = "https://telegram.org/dl";
+"InviteText.SingleContact" = "Привет, я использую Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_1" = "Привет, я использую Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_2" = "Привет, я и ещё два наших контакта используем Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_3_10" = "Привет, я и ещё %@ наших контактов используем Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_any" = "Привет, я и ещё %@ наших контактов используем Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_many" = "Привет, я и ещё %@ наших контактов используем Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+"InviteText.ContactsCount_0" = "Привет, я использую Telegram для общения. Присоединяйся! Можешь скачать его здесь: %@";
+
+"Invite.LargeRecipientsCountWarning" = "Имейте в виду, что вашему устройству может потребоваться некоторое время для отправки всех приглашений.";
+
+"Contacts.InviteSearchLabel" = "Поиск по контактам";
