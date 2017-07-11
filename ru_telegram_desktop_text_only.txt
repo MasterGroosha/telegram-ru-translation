@@ -556,6 +556,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_invite_link_section" = "Пригласительная ссылка";
 "lng_profile_create_public_link" = "Сменить тип";
 "lng_profile_edit_public_link" = "Редактировать ссылку на профиль";
+"lng_profile_search_members" = "Поиск по участникам";
 "lng_profile_manage_admins" = "Администраторы";
 "lng_profile_manage_blocklist" = "Заблокированные пользователи";
 "lng_profile_manage_restrictedlist" = "Ограниченные пользователи";
@@ -1316,12 +1317,12 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_chat_send_stickers" = "Отправлять стикеры и GIF";
 "lng_rights_chat_send_links" = "Предпросмотр ссылок";
 "lng_rights_chat_banned_until_header" = "Заблокирован(а) до";
-"lng_rights_chat_banned_forever" = "навсегда";
+"lng_rights_chat_banned_forever" = "Навсегда";
 "lng_rights_chat_banned_day#one" = "На {count} день";
 "lng_rights_chat_banned_day#other" = "На {count} дн.";
 "lng_rights_chat_banned_week#one" = "На {count} неделю";
 "lng_rights_chat_banned_week#other" = "На {count} нед.";
-"lng_rights_chat_banned_custom" = "Другое";
+"lng_rights_chat_banned_custom" = "Другое...";
 "lng_rights_chat_banned_custom_date" = "До {date}";
 "lng_rights_chat_banned_block" = "Заблокировать и удалить из группы";
 
