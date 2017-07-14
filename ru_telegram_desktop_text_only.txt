@@ -935,6 +935,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cant_invite_banned" = "К сожалению, только администратор может добавить этого пользователя.";
 "lng_cant_invite_privacy" = "К сожалению, вы не можете добавлять этого пользователя в группы из-за его настроек приватности.";
 "lng_cant_invite_privacy_channel" = "К сожалению, вы не можете добавлять этого пользователя в каналы из-за его настроек приватности.";
+"lng_cant_delete_group#one" = "К сожалению, вручную удалить группу с более чем {count} участником невозможно. Пожалуйста, свяжитесь с техподдержкой Telegram, чтобы удалить эту группу.";
+"lng_cant_delete_group#other" = "К сожалению, вручную удалить канал с более чем {count} участниками невозможно. Пожалуйста, свяжитесь с техподдержкой Telegram, чтобы удалить эту группу.";
+"lng_cant_delete_channel#one" = "К сожалению, вручную удалить канал с более чем {count} участником невозможно. Пожалуйста, свяжитесь с техподдержкой Telegram, чтобы удалить этот канал.";
+"lng_cant_delete_channel#other" = "К сожалению, вручную удалить канал с более чем {count} участниками невозможно. Пожалуйста, свяжитесь с техподдержкой Telegram, чтобы удалить этот канал.";
 "lng_cant_do_this" = "К сожалению, это действие недоступно.";
 
 "lng_send_button" = "Отправить";
@@ -1388,7 +1392,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_previous_message" = "Исходное сообщение";
 "lng_admin_log_deleted_message" = "{from} удалил(а) сообщение:";
 "lng_admin_log_participant_joined" = "{from} вступил(а) в группу";
+"lng_admin_log_participant_joined_channel" = "{from} присоединился(-лась) к каналу";
 "lng_admin_log_participant_left" = "{from} покинул(а) группу";
+"lng_admin_log_participant_left_channel" = "{from} покинул(а) канал";
 "lng_admin_log_invited" = "пригласил(а) пользователя {user}";
 "lng_admin_log_banned" = "заблокировал(а) пользователя {user}";
 "lng_admin_log_restricted" = "изменил(а) ограничения пользователя {user} {until}";
