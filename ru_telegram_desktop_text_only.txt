@@ -27,7 +27,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_menu_update" = "Обновить";
 "lng_menu_restart" = "Перезапустить";
 "lng_menu_back" = "Назад";
-"lng_menu_night_mode" = "Ночн. режим";
+"lng_menu_night_mode" = "Ночной режим";
 
 "lng_disable_notifications_from_tray" = "Отключить уведомления";
 "lng_enable_notifications_from_tray" = "Включить уведомления";
@@ -571,6 +571,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_link" = "Ссылка:";
 "lng_profile_group_info" = "Информация о группе";
 "lng_profile_channel_info" = "О канале";
+"lng_channel_add_admins" = "Добавить администраторов";
 "lng_profile_add_contact" = "Добавить контакт";
 "lng_profile_edit_contact" = "Редактировать";
 "lng_profile_enable_notifications" = "Показывать уведомления";
@@ -641,7 +642,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_report_button" = "Пожаловаться";
 "lng_report_thanks" = "Спасибо! Ваша жалоба будет рассмотрена нашей командой.";
 
-"lng_channel_add_admins" = "Добавить администратора";
 "lng_channel_add_members" = "Добавить участников";
 "lng_channel_add_banned" = "Заблокировать";
 "lng_channel_add_restricted" = "Ограничить";
@@ -654,6 +654,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admins_too_much" = "К сожалению, вы добавили слишком много администраторов. Удалите хотя бы одного, чтобы продолжить.";
 "lng_channel_admin_status_creator" = "Создатель";
 "lng_channel_admin_status_promoted_by" = "Назначил(а): {user}";
+"lng_channel_admin_status_not_admin" = "Не администратор";
 
 "lng_group_blocked_list_about" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора.\nПригласительные ссылки для них не работают.";
 
