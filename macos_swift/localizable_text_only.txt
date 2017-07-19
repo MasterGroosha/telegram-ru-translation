@@ -77,6 +77,7 @@
 "PeerInfo.UnblockUser" = "Разблокировать пользователя";
 "PeerInfo.username" = "Имя пользователя";
 "PeerInfo.about" = "Описание";
+"PeerInfo.bio" = "О себе";
 "PeerInfo.info" = "Информация";
 "PeerInfo.SetGroupPhoto" = "Изменить фото группы";
 "PeerInfo.AddMember" = "Добавить участника";
@@ -888,7 +889,7 @@
 "PeerInfo.EncryptionKey" = "Ключ шифрования";
 
 "Telegram.SecretChatKeyViewController" = "Ключ шифрования";
-"EncryptionKey.Description" = "Изображение и текст получены из ключа шифрования секретного чата с пользователем  **%@**.\n\nЕсли они выглядят так же, как на устройстве пользователя %2$@, оконечное шифрование гарантировано.";
+"EncryptionKey.Description" = "Изображение и текст получены из ключа шифрования для секретного чата с пользователем **%@**.\n\nЕсли **%@** видит их такими же, как и вы, оконечное шифрование гарантировано.";
 
 
 "GeneralSettings.InAppSounds" = "Звуки в приложении";
@@ -1040,7 +1041,7 @@
 "Call.ShortMinutes_other" = "%d мин.";
 
 
-"Telegram.LayoutPhoneCallsViewController" = "Звонки";
+"Telegram.LayoutRecentCallsViewController" = "Недавние вызовы";
 "RecentCalls.Empty" = "Здесь будут показаны ваши недавние звонки";
 
 "Call.Confirm.DiscardCurrent.Header" = "Идёт разговор";
@@ -1341,3 +1342,48 @@
 "ProxySettings.ExportDescription" = "Если в буфере обмена есть ссылка на socks5 (**t.me/socks?server=127.0.0.1&port=80**), то прокси будет применён автоматически";
 "AddBotToGroup.ChooseGroup" = "Выберите группу";
 "Confirm.AddBotToGroup" = "Добавить бота в группу \"%@\"?";
+
+"AccountSettings.Appearance" = "Внешний вид";
+"Telegram.AppearanceViewController" = "Внешний вид";
+"Telegram.SelectPeersController" = "Выберите пользователей";
+"GeneralSettings.DarkMode" = "Тёмное оформление";
+"GeneralSettings.DarkMode.Description" = "Цветовая схема в тёмных тонах";
+"GeneralSettings.Font.Description" = "Использовать увеличенный шрифт для сообщений";
+"Telegram.MainViewController" = "";
+
+"MessageContext.CopyMessageLink" = "Копировать ссылку";
+"Context.ViewStickerSet" = "Просмотреть набор стикеров";
+
+"Storage.Clear.Photos" = "Фото";
+"Storage.Clear.Videos" = "Видео";
+"Storage.Clear.Audio" = "Аудио";
+"Storage.Clear.Documents" = "Документы";
+"Storage.Clear" = "Очистить %@";
+"AccountSettings.Bio" = "О себе";
+
+"Telegram.BioViewController" = "О себе";
+
+"Bio.Placeholder" = "Несколько слов о вас";
+"Bio.Description" = "Любые подробности, например, возраст, род занятий или город.\nПример: 23 года, дизайнер из Санкт-Петербурга.";
+"Bio.Save" = "Сохранить";
+
+"ServiceMessage.ExpiredPhoto" = "срок жизни фотографии истёк";
+"ServiceMessage.ExpiredFile" = "срок жизни файла истёк";
+"ServiceMessage.ExpiredVideo" = "срок жизни видео истёк";
+
+"ServiceMessage.DesturctingPhoto" = "%@ отправил(а) вам самоуничтожающееся фото. Пожалуйста, посмотрите его на своём смартфоне.";
+"ServiceMessage.DesturctingPhoto.You" = "%@ отправил(а) вам самоуничтожающееся фото.";
+
+"ServiceMessage.DesturctingVideo" = "%@ отправил(а) вам самоуничтожающееся видео. Пожалуйста, посмотрите его на своём смартфоне.";
+"ServiceMessage.DesturctingVideo.You" = "%@ отправил(а) вам самоуничтожающееся видео.";
+"ChatList.Service.DestructingPhoto" = "самоуничтожающееся фото";
+"ChatList.Service.DestructingVideo" = "самоуничтожающееся видео";
+
+
+"ShareExtension.Share" = "Поделиться";
+"ShareExtension.Cancel" = "Отмена";
+"ShareExtension.Search" = "Поиск";
+"ShareExtension.Passcode.Placeholder" = "пароль";
+"ShareExtension.Passcode.Next" = "Далее";
+"ShareExtension.Unauthorized.OK" = "ОК";
+"ShareExtension.Unauthorized.Description" = "Чтобы поделиться через Telegram, откройте мессенджер и выполните вход.";
