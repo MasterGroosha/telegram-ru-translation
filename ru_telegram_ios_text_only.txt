@@ -2,7 +2,9 @@
 "MESSAGE_TEXT" = "%1$@: %2$@";
 "MESSAGE_NOTEXT" = "Сообщение от %1$@";
 "MESSAGE_PHOTO" = "Фото от %1$@";
+"MESSAGE_PHOTO_SECRET" = "%1$@ отправил(а) вам самоуничтожающееся фото";
 "MESSAGE_VIDEO" = "Видео от %1$@";
+"MESSAGE_VIDEO_SECRET" = "%1$@ отправил(а) вам самоуничтожающееся видео";
 "MESSAGE_ROUND" = "Видеосообщение от %1$@ ";
 "MESSAGE_CONTACT" = "Контакт от %1$@";
 "MESSAGE_GEO" = "Карта от %1$@";
@@ -11,6 +13,7 @@
 "MESSAGE_GIF" = "GIF от %1$@";
 "ENCRYPTED_MESSAGE" = "Вам пришло сообщение%1$@";
 "LOCKED_MESSAGE" = "Вам пришло сообщение%1$@";
+"MESSAGE_SCREENSHOT" = "%1$@ сделал(а) скриншот";
 "ENCRYPTION_REQUEST" = "Новый секретный чат %1$@";
 "ENCRYPTION_ACCEPT" = "Ваш секретный чат принят%1$@";
 "DC_UPDATE" = "Нажмите на это уведомление, чтобы обновить настройки приложения";
@@ -828,7 +831,7 @@
 "Contacts.GlobalSearch" = "Глобальный поиск";
 "Profile.Username" = "имя пользователя";
 "Settings.Username" = "Имя пользователя";
-"Settings.UsernameEmpty" = "Нет";
+"Settings.UsernameEmpty" = "Добавить";
 
 "Username.Title" = "Имя пользователя";
 "Username.Placeholder" = "Ваше имя";
@@ -918,7 +921,7 @@
 "PhotoEditor.CropAspectRatioSquare" = "Квадрат";
 
 "PhotoEditor.EnhanceTool" = "Автоулучшение";
-"PhotoEditor.ExposureTool" = "Экспозиция";
+"PhotoEditor.ExposureTool" = "Яркость";
 "PhotoEditor.ContrastTool" = "Контрастность";
 "PhotoEditor.WarmthTool" = "Теплота";
 "PhotoEditor.SaturationTool" = "Насыщенность";
@@ -2076,7 +2079,7 @@
 "Conversation.UnpinMessageAlert" = "Хотите открепить это сообщение?";
 
 "Settings.About.Title" = "Био";
-"Settings.About.Help" = "Добавьте пару строк о себе. Любой кто откроет профиль, увидит этот текст.";
+"Settings.About.Help" = "Любые подробности, например, возраст, род занятий или город.\nПример: 23 года, дизайнер из Санкт-Петербурга.";
 
 "Profile.About" = "био";
 
@@ -2917,3 +2920,24 @@
 "Invite.LargeRecipientsCountWarning" = "Имейте в виду, что вашему устройству может потребоваться некоторое время для отправки всех приглашений.";
 
 "Contacts.InviteSearchLabel" = "Поиск по контактам";
+
+"Message.ImageExpired" = "Срок жизни фотографии истёк";
+"Message.VideoExpired" = "Срок жизни видео истёк";
+
+"SecretImage.Title" = "Исчезающее фото";
+"SecretVideo.Title" = "Исчезающее фото";
+"SecretTimer.ImageDescription" = "Если вы поставите таймер, фотография самоуничтожится после просмотра.";
+"SecretTimer.VideoDescription" = "Если вы поставите таймер, видео самоуничтожится после просмотра.";
+
+"PhotoEditor.TiltShift" = "Наклон";
+
+"Notification.SecretChatMessageScreenshotSelf" = "Вы сделали скриншот!";
+
+"Settings.AboutEmpty" = "Добавить";
+
+"SecretImage.NotViewedYet" = "%@ ещё не посмотрел(а) это фото";
+"SecretVideo.NotViewedYet" = "%@ ещё не воспроизвел(а) это видео";
+
+"UserInfo.About.Placeholder" = "О себе";
+
+"Call.StatusNoAnswer" = "Нет ответа";
