@@ -1310,7 +1310,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_rights_channel_edit" = "Редактировать чужие сообщения";
 "lng_rights_channel_delete" = "Удалять чужие сообщения";
 "lng_rights_group_info" = "Изменять описание группы";
-"lng_rights_group_ban" = "Блокировать пользователй";
+"lng_rights_group_ban" = "Блокировать пользователей";
 "lng_rights_group_invite_link" = "Приглашать по ссылке";
 "lng_rights_group_invite" = "Добавлять пользователей";
 "lng_rights_group_pin" = "Закреплять сообщения";
@@ -1361,7 +1361,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_no_results_text" = "По вашему запросу не найдено недавних действий.";
 "lng_admin_log_no_results_search_text" = "Не найдено недавних действий, содержащих '{query}'.";
 "lng_admin_log_no_events_title" = "Действий пока не было";
-"lng_admin_log_no_events_text" = "Администраторы и участники группы\nне выполняли никаких служебных действий\nза последние 48 часов.";
+"lng_admin_log_no_events_text" = "Администраторы и участники группы\nне выполняли никаких служебных действий за последние 48 часов.";
 
 "lng_admin_log_empty_text" = "Пусто";
 "lng_admin_log_changed_title_group" = "{from} переименовал(а) группу в «{title}»";
