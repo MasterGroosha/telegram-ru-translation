@@ -125,8 +125,8 @@
   <string name="HiddenName">Удалённый аккаунт</string>
   <string name="SelectChat">Выберите чат</string>
   <string name="PhotoTip">Нажмите и удерживайте для просмотра</string>
-  <string name="DisappearingPhoto">Исчезающее фото</string>
-  <string name="DisappearingVideo">Исчезающее видео</string>
+  <string name="DisappearingPhoto">Секретное фото</string>
+  <string name="DisappearingVideo">Секретное видео</string>
   <string name="CompatibilityChat">%1$s использует устаревшую версию Telegram, поэтому секретные фотографии будут отображаться в режиме совместимости.\n\nПосле того, как %2$s обновит Telegram, фотографии с минутным или менее таймером начнут работать в режиме \'Нажмите и удерживайте для просмотра\', также вы будете уведомлены всякий раз, когда ваш собеседник делает снимок экрана.</string>
   <string name="SearchMessages">СООБЩЕНИЯ</string>
   <string name="Search">Поиск</string>
@@ -935,7 +935,7 @@
   <string name="VibrationDisabled">Откл.</string>
   <string name="PopupEnabled">Включены</string>
   <string name="PopupDisabled">Отключены</string>
-  <string name="LedDisabled">Отключить</string>
+  <string name="LedDisabled">Откл.</string>
   <string name="RepeatDisabled">Откл.</string>
   <string name="InChatSound">Звук в чате</string>
   <string name="SoundDefault">По умолчанию</string>
