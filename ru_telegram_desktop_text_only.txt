@@ -269,10 +269,15 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_username_link" = "Эта ссылка открывает диалог с вами:";
 "lng_username_copied" = "Ссылка скопирована в буфер обмена.";
 
+"lng_bio_title" = "Изменить информацию о себе";
+"lng_bio_placeholder" = "О себе";
+"lng_bio_about" = "Расскажите пару слов о себе. Любой, кто откроет ваш профиль, увидит этот текст.";
+
 "lng_settings_section_info" = "Информация";
 "lng_settings_phone_number" = "Номер:";
 "lng_settings_username" = "Имя пользователя:";
 "lng_settings_choose_username" = "выберите имя пользователя";
+"lng_settings_empty_bio" = "Пусто";
 
 "lng_settings_section_notify" = "Уведомления";
 "lng_settings_desktop_notify" = "Уведомления на рабочем столе";
@@ -566,9 +571,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_common_groups_section" = "Общие группы";
 "lng_profile_participants_section" = "Участники";
 "lng_profile_info_section" = "Информация";
-"lng_profile_mobile_number" = "Моб. номер:";
+"lng_profile_mobile_number" = "Телефон:";
 "lng_profile_username" = "Юзернейм:";
 "lng_profile_link" = "Ссылка:";
+"lng_profile_bio" = "О себе:";
 "lng_profile_group_info" = "Информация о группе";
 "lng_profile_channel_info" = "О канале";
 "lng_channel_add_admins" = "Добавить администраторов";
@@ -769,7 +775,15 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_call_incoming_declined" = "Сброшенный вызов в {time}";
 "lng_action_payment_done" = "Вы успешно перевели {amount} пользователю {user}";
 "lng_action_payment_done_for" = "Вы успешно перевели {amount} пользователю {user} за {invoice}";
+"lng_action_took_screenshot" = "{from} сделал(а) скриншот!";
+"lng_action_you_took_screenshot" = "Вы сделали скриншот!!";
 
+"lng_ttl_photo_received" = "{from} отправил(а) вам самоуничтожающееся фото. Вы можете посмотреть его со своего смартфона.";
+"lng_ttl_photo_sent" = "Вы отправили самоуничтожающееся фото.";
+"lng_ttl_photo_expired" = "Срок фото истёк";
+"lng_ttl_video_received" = "{from} отправил(а) вам самоуничтожающееся видео. Вы можете посмотреть его со своего смартфона.";
+"lng_ttl_video_sent" = "Вы отправили самоуничтожающееся видео.";
+"lng_ttl_video_expired" = "Срок видео истёк";
 
 "lng_profile_migrate_reached#one" = "Достигнут лимит в {count} участника";
 "lng_profile_migrate_reached#other" = "Достигнут лимит в {count} участников";
