@@ -661,6 +661,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_channel_admin_status_creator" = "Создатель";
 "lng_channel_admin_status_promoted_by" = "Назначил(а): {user}";
 "lng_channel_admin_status_not_admin" = "Не администратор";
+"lng_channel_banned_status_restricted_by" = "Ограничил(а): {user}";
 
 "lng_group_blocked_list_about" = "Заблокированные пользователи исключены из группы и могут вернуться обратно только по приглашению администратора.\nПригласительные ссылки для них не работают.";
 
@@ -1203,6 +1204,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_search_found_results#one" = "Найдено {count} сообщение";
 "lng_search_found_results#other" = "Найдено сообщений: {count}";
 "lng_search_global_results" = "Результаты глобального поиска";
+"lng_search_messages_from" = "Показать сообщения от";
 
 "lng_media_save_progress" = "{ready} из {total} {mb}";
 "lng_mediaview_save_as" = "Сохранить как...";
