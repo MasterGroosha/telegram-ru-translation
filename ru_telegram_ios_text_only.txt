@@ -2941,3 +2941,6 @@
 "UserInfo.About.Placeholder" = "О себе";
 
 "Call.StatusNoAnswer" = "Нет ответа";
+
+"Conversation.SearchByName.Prefix" = "от:";
+"Conversation.SearchByName.Placeholder" = "Поиск участников";
