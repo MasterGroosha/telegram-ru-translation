@@ -507,9 +507,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
 "lng_edit_privacy_groups_description" = "Вы можете выбрать, кто может добавлять вас в группы и каналы.";
-"lng_edit_privacy_groups_always_empty" = "Всегда разрещать";
-"lng_edit_privacy_groups_always#one" = "Всегда разрещать {count} чел.";
-"lng_edit_privacy_groups_always#other" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_groups_always_empty" = "Всегда разрешать";
+"lng_edit_privacy_groups_always#one" = "Всегда разрешать {count} чел.";
+"lng_edit_privacy_groups_always#other" = "Всегда разрешать {count} чел.";
 "lng_edit_privacy_groups_never_empty" = "Всегда запрещать";
 "lng_edit_privacy_groups_never#one" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_groups_never#other" = "Всегда запрещать {count} чел.";
@@ -519,9 +519,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_edit_privacy_calls_title" = "Звонки";
 "lng_edit_privacy_calls_description" = "Вы можете ограничить круг лиц, которые могут вам звонить:";
-"lng_edit_privacy_calls_always_empty" = "Всегда разрещать";
-"lng_edit_privacy_calls_always#one" = "Всегда разрещать {count} чел.";
-"lng_edit_privacy_calls_always#other" = "Всегда разрещать {count} чел.";
+"lng_edit_privacy_calls_always_empty" = "Всегда разрешать";
+"lng_edit_privacy_calls_always#one" = "Всегда разрешать {count} чел.";
+"lng_edit_privacy_calls_always#other" = "Всегда разрешать {count} чел.";
 "lng_edit_privacy_calls_never_empty" = "Всегда запрещать";
 "lng_edit_privacy_calls_never#one" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_calls_never#other" = "Всегда запрещать {count} чел.";
