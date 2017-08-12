@@ -478,6 +478,7 @@
   <string name="NoMessages">Здесь пока ничего нет…</string>
   <string name="ForwardedMessage">Пересланное сообщение</string>
   <string name="From">От:</string>
+  <string name="SearchFrom">от:</string>
   <string name="NoRecent">Нет недавних</string>
   <string name="Message">Сообщение</string>
   <string name="TypeMessage">Сообщение</string>
