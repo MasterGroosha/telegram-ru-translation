@@ -124,6 +124,7 @@
   <string name="DeleteChatUser">Удалить чат</string>
   <string name="HiddenName">Удалённый аккаунт</string>
   <string name="SelectChat">Выберите чат</string>
+  <string name="ForwardTo">Переслать...</string>
   <string name="PhotoTip">Нажмите и удерживайте для просмотра</string>
   <string name="DisappearingPhoto">Секретное фото</string>
   <string name="DisappearingVideo">Секретное видео</string>
@@ -380,6 +381,8 @@
   <string name="EventLogPinnedMessages">un1 закрепил(а) сообщение:</string>
   <string name="EventLogUnpinnedMessages">un1 открепил(а) сообщение</string>
   <string name="EventLogDeletedMessages">un1 удалил(а) сообщение:</string>
+  <string name="EventLogChangedStickersSet">un1 изменил(а) групповой набор стикеров</string>
+  <string name="EventLogRemovedStickersSet">un1 удалил(а) групповой набор стикеров</string>
   <string name="EventLogChangedGroupLink">un1 изменил(а) ссылку на группу:</string>
   <string name="EventLogChangedChannelLink">un1 изменил(а) ссылку на канал:</string>
   <string name="EventLogRemovedGroupLink">un1 удалил(а) ссылку на группу</string>
@@ -445,6 +448,15 @@
   <string name="SdCard">Карта памяти</string>
   <string name="Folder">Папка</string>
   <string name="GalleryInfo">Для отправки изображений без сжатия</string>
+  <!--group stickers-->
+  <string name="GroupStickers">Групповые стикеры</string>
+  <string name="ChooseFromYourStickers">Выберите из своих стикеров</string>
+  <string name="GroupStickersInfo">Вы можете выбрать набор стикеров, который будет доступен всем участникам группы при общении в ней.</string>
+  <string name="ChooseStickerSet">ВЫБЕРИТЕ НАБОР СТИКЕРОВ</string>
+  <string name="ChooseStickerSetPlaceholder">набор стикеров</string>
+  <string name="ChooseStickerSetMy">Вы можете создать свои собственные наборы стикеров, используя бота @stickers.</string>
+  <string name="ChooseStickerSetNotFound">Набор стикеров не найден</string>
+  <string name="ChooseStickerSetNotFoundInfo">Попробуйте ещё раз или выберите из списка ниже</string>
   <!--chat view-->
   <string name="Invisible">невидимый</string>
   <string name="Typing">печатает…</string>
@@ -664,6 +676,7 @@
   <string name="SelectContact">Выберите контакт</string>
   <string name="NoContacts">Контактов пока нет</string>
   <string name="InviteText">Эй, давай переключимся на Telegram: https://telegram.org/dl</string>
+  <string name="InviteText2">Привет, я использую Telegram для общения. Присоединяйся! Скачай его отсюда: %1$s</string>
   <string name="TodayAt">в</string>
   <string name="YesterdayAt">вчера в</string>
   <string name="Online">в сети</string>
@@ -671,12 +684,18 @@
   <string name="LastSeenDate">заходил(а)</string>
   <string name="LastSeenNow">заходил(а) только что</string>
   <string name="InviteFriends">Пригласить друзей</string>
+  <string name="SearchFriends">Поиск друзей</string>
   <string name="GlobalSearch">ГЛОБАЛЬНЫЙ ПОИСК</string>
   <string name="Lately">заходил(а) недавно</string>
   <string name="WithinAWeek">заходил(а) в течение недели</string>
   <string name="WithinAMonth">заходил(а) в течение месяца</string>
   <string name="ALongTimeAgo">заходил(а) давно</string>
   <string name="NewMessageTitle">Новое сообщение</string>
+  <string name="InviteFriendsHelp">Выберите людей, которых вы хотите пригласить в Telegram</string>
+  <string name="InviteToTelegram">ПРИГЛАСИТЬ В TELEGRAM</string>
+  <string name="ShareTelegram">Отправить Telegram...</string>
+  <string name="UpdateContactsTitle">Обновить контакты?</string>
+  <string name="UpdateContactsMessage">Telegram обнаружил много несинхронизированных контактов, хотите синхронизировать их сейчас? Нажмите «ОК», если используете своё устройство, SIM-карту и аккаунт Google.</string>
   <!--group create view-->
   <string name="SendMessageTo">Добавить людей...</string>
   <string name="SoftUserLimitAlert">Вы сможете добавить больше участников после завершения создания группы и преобразования её в супергруппу.</string>
@@ -705,6 +724,7 @@
   <string name="SetAdminsAllInfo">Все участники могут добавлять новых участников, изменять имя и фото группы.</string>
   <string name="SetAdminsNotAllInfo">Только администраторы могут добавлять и удалять участников, изменять имя и фото группы.</string>
   <!--group info view-->
+  <string name="GroupMembers">Участники</string>
   <string name="SharedMedia">Общие медиа</string>
   <string name="SETTINGS">Настройки</string>
   <string name="AddMember">Добавить участника</string>
@@ -774,6 +794,13 @@
   <string name="AddStickers">Добавить стикеры</string>
   <string name="AddMasks">Добавить маски</string>
   <string name="AddToStickers">Добавить в стикеры</string>
+  <string name="AddToFavorites">Добавить в избранные</string>
+  <string name="AddedToFavorites">Стикер добавлен в избранные</string>
+  <string name="RemovedFromFavorites">Стикер удалён из избранных</string>
+  <string name="RecentStickers">Недавно использованные</string>
+  <string name="FavoriteStickers">Избранные</string>
+  <string name="CurrentGroupStickers">Групповые стикеры</string>
+  <string name="DeleteFromFavorites">Удалить из избранных</string>
   <string name="AddToMasks">Добавить в маски</string>
   <string name="AddStickersNotFound">Стикеры не найдены</string>
   <string name="StickersRemoved">Стикеры удалены</string>
@@ -959,6 +986,7 @@
   <string name="DebugMenu">Меню отладки</string>
   <string name="DebugMenuImportContacts">Импорт контактов</string>
   <string name="DebugMenuReloadContacts">Перезагрузить контакты</string>
+  <string name="DebugMenuResetContacts">Сбросить импортированные контакты</string>
   <string name="ChangeLanguageLater">Вы всегда можете изменить язык в настройках.</string>
   <string name="ChooseYourLanguage">Выберите язык</string>
   <string name="ChooseYourLanguageOther">Другой</string>
@@ -972,6 +1000,10 @@
   <string name="UseProxyInfo">Настройки SOCKS5-прокси</string>
   <string name="UseProxyForCalls">Использовать прокси для звонков</string>
   <string name="UseProxyForCallsInfo">Использование прокси может ухудшить качество звонков.</string>
+  <string name="LowDiskSpaceTitle">Внимание</string>
+  <string name="LowDiskSpaceMessage">На вашем устройстве почти закончилось свободное дисковое пространство. Чтобы освободить немного места, настройте кеш Telegram на сохранение только недавних медиа или совсем удалите их.</string>
+  <string name="LowDiskSpaceTitle2">Удалять медиа старше</string>
+  <string name="LowDiskSpaceNeverRemove">Никогда не удалять</string>
   <!--cache view-->
   <string name="LocalDatabase">Локальная база данных</string>
   <string name="LocalDatabaseClear">Очистить кэшированные текстовые сообщения?</string>
@@ -1052,6 +1084,7 @@
   <string name="NearbyPlaces">ИЛИ ВЫБЕРИТЕ МЕСТО</string>
   <!--photo gallery view-->
   <string name="ShowAllMedia">Показать все медиа</string>
+  <string name="ShowInChat">Показать в чате</string>
   <string name="SaveToGallery">Сохранить в галерею</string>
   <string name="Of">%1$d из %2$d</string>
   <string name="Gallery">Галерея</string>
@@ -1480,12 +1513,30 @@
   <string name="CallReportLogsExplain">Это не раскроет содержание вашего разговора, но поможет нам быстрее решить проблему. </string>
   <string name="CallReportSent">Спасибо, что помогаете делать звонки Telegram лучше.</string>
   <!--plural-->
+  <string name="Recipient_zero">%1$d получателей</string>
+  <string name="Recipient_one">%1$d получатель</string>
+  <string name="Recipient_two">%1$d получателя</string>
+  <string name="Recipient_few">%1$d получателя</string>
+  <string name="Recipient_many">%1$d получателей</string>
+  <string name="Recipient_other">%1$d получателей</string>
   <string name="OnlineCount_zero">%1$d в сети</string>
   <string name="OnlineCount_one">%1$d в сети</string>
   <string name="OnlineCount_two">%1$d в сети</string>
   <string name="OnlineCount_few">%1$d в сети</string>
   <string name="OnlineCount_many">%1$d в сети</string>
   <string name="OnlineCount_other">%1$d в сети</string>
+  <string name="TelegramContacts_zero">%1$d контактов в Telegram</string>
+  <string name="TelegramContacts_one">%1$d контакт в Telegram</string>
+  <string name="TelegramContacts_two">%1$d контакта в Telegram</string>
+  <string name="TelegramContacts_few">%1$d контакта в Telegram</string>
+  <string name="TelegramContacts_many">%1$d контактов в Telegram</string>
+  <string name="TelegramContacts_other">%1$d контактов в Telegram</string>
+  <string name="InviteTextNum_zero">Привет, я и ещё %1$d человек из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
+  <string name="InviteTextNum_one">Привет, я и ещё %1$d человек из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
+  <string name="InviteTextNum_two">Привет, я и ещё %1$d человека из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
+  <string name="InviteTextNum_few">Привет, я и ещё %1$d человека из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
+  <string name="InviteTextNum_many">Привет, я и ещё %1$d человек из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
+  <string name="InviteTextNum_other">Привет, я и ещё %1$d человек из наших контактов используем Telegram для общения. Присоединяйся к нам! Скачай его отсюда: %2$s</string>
   <string name="Members_zero">%1$d участников</string>
   <string name="Members_one">%1$d участник</string>
   <string name="Members_two">%1$d участника</string>
