@@ -300,7 +300,6 @@
 "Compose.NewGroup" = "Создать группу";
 "Compose.NewEncryptedChat" = "Создать секретный чат";
 "Compose.NewBroadcast" = "Список рассылки";
-"Compose.NewBroadcastButton" = "Новая рассылка";
 "Compose.Recipients" = "Получатели";
 "Compose.Create" = "Создать";
 
@@ -334,8 +333,6 @@
 "Conversation.LinkDialogCopy" = "Скопировать";
 "Conversation.EditDelete" = "Удалить";
 "Conversation.EditForward" = "Переслать";
-"Conversation.ForwardToPersonFormat" = "Переслать пользователю %@?";
-"Conversation.ForwardToGroupFormat" = "Переслать в «%@»?";
 "Conversation.ForwardTitle" = "Переслать";
 "Conversation.ForwardChats" = "Чаты";
 "Conversation.ForwardContacts" = "Контакты";
@@ -360,7 +357,6 @@
 "Conversation.DeleteGroup" = "Удалить эту группу";
 "Conversation.DeleteChat" = "Удалить этот чат";
 "Conversation.ClearAllConfirmation" = "Удалить все сообщения?";
-"Conversation.SearchImages" = "Поиск картинок";
 "Conversation.UnsupportedMedia" = "Это сообщение не поддерживается вашей версией Telegram. Пожалуйста, обновите приложение, чтобы его увидеть:\nhttp://telegram.org/update";
 "Conversation.EncryptionWaiting" = "Ожидаем появления %@ в сети…";
 "Conversation.EncryptionProcessing" = "Обмен ключами шифрования…";
@@ -474,7 +470,6 @@
 "Conversation.DownloadProgressMegabytes" = "%1$.1f Мб / %2$.1f Мб";
 "Conversation.DownloadProgressKilobytes" = "%1$d Кб / %2$d Кб";
 "Conversation.ViewLocation" = "Посмотреть карту";
-"Conversation.SearchWebImages" = "Найти изображения";
 "Conversation.ShareMyContactInfo" = "Отправить мой контакт";
 "Conversation.AddContact" = "Добавить контакт";
 "Conversation.SendMessage" = "Отправить сообщение";
@@ -605,8 +600,6 @@
 "Map.Map" = "Карта";
 "Map.Satellite" = "Спутник";
 "Map.Hybrid" = "Гибрид";
-"Map.AccessDeniedError" = "Чтобы эта функция работала, включите для Telegram доступ к cлужбам геолокации в настройках конфиденциальности вашего iPhone.";
-"Map.ForwardViaTelegram" = "Отправить через Телеграм";
 "Map.GetDirections" = "Схема проезда";
 "Map.OpenInGoogleMaps" = "Открыть в картах Google";
 
@@ -675,10 +668,8 @@
 "ChatSettings.AutomaticAudioDownload" = "АВТОМАТИЧЕСКАЯ ЗАГРУЗКА АУДИО";
 "ChatSettings.PrivateChats" = "В личных чатах";
 "ChatSettings.Groups" = "В групповых чатах";
-"ChatSettings.Security" = "БЕЗОПАСНОСТЬ";
 "ChatSettings.Language" = "ЯЗЫК";
 "ChatSettings.RevertLanguage" = "Сбросить язык";
-"ChatSettings.Cache" = "КЭШ";
 
 // Usage
 "Cache.Title" = "Использование хранилища";
@@ -929,7 +920,6 @@
 "PhotoEditor.ShadowsTool" = "Тени";
 "PhotoEditor.VignetteTool" = "Виньетка";
 "PhotoEditor.GrainTool" = "Зернистость";
-"PhotoEditor.BlurTool" = "Размытие";
 "PhotoEditor.SharpenTool" = "Усиление резкости";
 
 "PhotoEditor.BlurToolOff" = "Выключено";
@@ -1366,12 +1356,10 @@
 "Map.LocationTitle" = "Местоположение";
 "Map.OpenInMaps" = "Открыть в картах Apple";
 "Map.OpenInGooglePlus" = "Открыть в Google Plus";
-"Map.OpenInFoursquare" = "Открыть в Foursquare";
 "Map.OpenInHereMaps" = "Открыть в картах HERE";
 "Map.OpenInYandexMaps" = "Открыть в «Яндекс.Картах»";
 "Map.OpenInYandexNavigator" = "Открыть в «Яндекс.Навигаторе»";
 "Map.OpenIn" = "Открыть в";
-"Map.More" = "Ещё…";
 
 "Map.SendThisLocation" = "Отправить это место";
 "Map.SendMyCurrentLocation" = "Отправить моё местоположение";
@@ -1528,7 +1516,7 @@
 
 "Login.PhoneNumberHelp" = "Помощь";
 "Login.EmailPhoneSubject" = "Неверный номер %@";
-"Login.EmailPhoneBody" = "Я пытаюсь использовать мой номер мобильного телефона: %@\nНо Telegram говорит, что он не походит. Пожалуйста помогите.";
+"Login.EmailPhoneBody" = "Я пытаюсь использовать свой мобильный номер: %@\nНо Telegram говорит, что он некорректный. Пожалуйста, помогите.\nДополнительная информация: %@, %@.";
 
 "SharedMedia.TitleLink" = "Общие ссылки";
 "SharedMedia.EmptyLinksText" = "Все ссылки, которые отправлялись в этот чат, будут показаны здесь.";
@@ -1595,10 +1583,6 @@
 
 "Channel.ErrorAccessDenied" = "Извините, это частный канал.";
 "Conversation.InputTextBroadcastPlaceholder" = "Рассылка";
-
-"Channel.NotificationCommentsEnabled" = "Комментарии включены";
-"Channel.NotificationCommentsDisabled" = "Комментарии выключены";
-"Channel.Edit.EnableComments" = "Комментарии";
 
 "Channel.TitleShowDiscussion" = "показать комментарии";
 "Channel.ShareChannel" = "Поделиться";
@@ -1938,9 +1922,6 @@
 "Conversation.MessageViaUser" = "с помощью %@";
 
 "CreateGroup.SoftUserLimitAlert" = "Вы сможете добавить больше участников, если сделаете из неё супергруппу после создания.";
-"ChannelMembers.AllMembersMayInvite" = "Приглашать могут все";
-"ChannelMembers.AllMembersMayInviteOnHelp" = "Все участники могут добавлять новых людей.";
-"ChannelMembers.AllMembersMayInviteOffHelp" = "Только администраторы могут добавлять участников.";
 
 "Privacy.GroupsAndChannels" = "Группы";
 "Privacy.GroupsAndChannels.WhoCanAddMe" = "КТО МОЖЕТ ДОБАВЛЯТЬ МЕНЯ В ГРУППЫ";
@@ -2073,7 +2054,6 @@
 "Group.Username.CreatePrivateLinkHelp" = "Люди смогут вступить в Вашу группу, пройдя по этой ссылке. Вы можете аннулировать ссылку в любое время.";
 
 "Conversation.PinMessageAlertGroup" = "Закрепить это сообщение и оповестить всех участников группы?";
-"Conversation.PinMessageAlertChannel" = "Закрепить это сообщение и оповестить всех участников канала?";
 "Conversation.PinMessageAlert.OnlyPin" = "Только Закрепить";
 
 "Conversation.UnpinMessageAlert" = "Хотите открепить это сообщение?";
@@ -2624,8 +2604,6 @@
 "Call.AudioRouteHeadphones" = "Наушники";
 "Call.AudioRouteHide" = "Скрыть";
 
-"EncryptionKey.TapToEmojify" = "Показать в виде эмодзи";
-
 "Call.PhoneCallInProgressMessage" = "Вы не можете осуществить звонок Telegram, пока не завершен другой телефонный разговор.";
 "Call.RecordingDisabledMessage" = "Для отправки голосового сообщения необходимо прежде завершить разговор.";
 
@@ -2944,3 +2922,36 @@
 
 "Conversation.SearchByName.Prefix" = "от:";
 "Conversation.SearchByName.Placeholder" = "Поиск участников";
+
+"Login.PhoneBannedError" = "Ваш номер телефона заблокирован в Telegram.";
+
+"Clipboard.SendPhoto" = "Отправить фото";
+
+"HashtagSearch.ThisChat" = "В этом чате";
+"HashtagSearch.AllChats" = "Во всех чатах";
+
+"Stickers.AddToFavorites" = "Добавить в Избранное";
+"Stickers.RemoveFromFavorites" = "Удалить из Избранного";
+
+"Channel.Info.Stickers" = "Групповой набор стикеров";
+"Channel.Stickers.Placeholder" = "набор стикеров";
+"Channel.Stickers.YourStickers" = "ВЫБЕРИТЕ ИЗ СВОИХ НАБОРОВ";
+
+"Stickers.FavoriteStickers" = "Избранные стикеры";
+"Stickers.GroupStickers" = "Стикеры группы";
+"Stickers.GroupChooseStickerPack" = "ВЫБЕРИТЕ НАБОР СТИКЕРОВ";
+"Stickers.GroupStickersHelp" = "Вы можете выбрать набор стикеров, который будет доступен всем участникам группы при общении в ней.";
+
+"Channel.AdminLog.MessageChangedGroupStickerPack" = "%@ изменил(а) групповой набор стикеров";
+"Channel.AdminLog.MessageRemovedGroupStickerPack" = "%@ удалил(а) групповой набор стикеров";
+
+"Conversation.ContextMenuCopyLink" = "Копировать ссылку";
+
+"Channel.Stickers.Searching" = "Поиск...";
+"Channel.Stickers.NotFound" = "Набор стикеров не найден";
+"Channel.Stickers.NotFoundHelp" = "Попробуйте ещё раз или выберите из списка ниже";
+"Channel.Stickers.CreateYourOwn" = "Вы можете создать свои собственные наборы стикеров, используя бота @stickers.";
+
+"MediaPicker.TimerTooltip" = "Теперь вы можете установить таймер самоуничтожения";
+
+"UserInfo.BlockConfirmation" = "Заблокировать/разблокировать %@?";
