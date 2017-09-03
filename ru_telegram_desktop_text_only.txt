@@ -244,10 +244,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_no_chats" = "Ваши чаты будут здесь";
 "lng_contacts_loading" = "Загрузка...";
 "lng_contacts_not_found" = "Контакты не найдены";
-"lng_dlg_search_chat" = "Поиск в этом чате";
-"lng_dlg_search_channel" = "Поиск по каналу";
 "lng_dlg_search_for_messages" = "Поиск сообщений";
 "lng_update_telegram" = "Обновить Telegram";
+"lng_dlg_search_in" = "Поиск сообщений в";
+"lng_dlg_search_from" = "От: {user}";
 
 "lng_settings_save" = "Сохранить";
 "lng_settings_upload" = "Обновить фото";
@@ -548,6 +548,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_change_phone_code_description" = "Мы отправим SMS с кодом подтверждения на номер {phone}.";
 "lng_change_phone_success" = "Ваш номер телефона был изменён.";
 
+"lng_mute_duration_hours#one" = "На {count} час";
+"lng_mute_duration_hours#other" = "На {count} часов";
+"lng_mute_box_tip" = "Выберите, на какой период времени необходимо отключить уведомления от этого чата";
+
 "lng_preview_loading" = "Получаю информацию о ссылке...";
 
 "lng_profile_chat_unaccessible" = "Группа недоступна";
@@ -578,6 +582,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_group_info" = "Информация о группе";
 "lng_profile_channel_info" = "О канале";
 "lng_channel_add_admins" = "Добавить администраторов";
+"lng_dlg_search_chat" = "Поиск в этом чате";
+"lng_dlg_search_channel" = "Поиск по каналу";
 "lng_profile_add_contact" = "Добавить контакт";
 "lng_profile_edit_contact" = "Редактировать";
 "lng_profile_enable_notifications" = "Показывать уведомления";
@@ -892,6 +898,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_emoji_hide_panel" = "Нажмите сюда для скрытия панели эмодзи";
 
 "lng_recent_stickers" = "Часто используемые";
+"lng_faved_stickers" = "Избранные стикеры";
+"lng_faved_stickers_add" = "Добавить в избранные";
+"lng_faved_stickers_remove" = "Удалить из избранных";
+"lng_group_stickers" = "Групповые стикеры";
+"lng_group_stickers_description" = "Вы можете выбрать набор стикеров, который будет доступен всем участникам группы при общении в ней.";
+"lng_group_stickers_add" = "Выберите набор стикеров";
+
 "lng_switch_stickers" = "Стикеры";
 "lng_switch_emoji" = "Эмодзи";
 "lng_switch_gifs" = "GIF";
@@ -921,7 +934,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_count#one" = "{count} шт.";
 "lng_stickers_count#other" = "{count} шт.";
 "lng_stickers_masks_pack" = "Это набор масок. Вы можете его использовать в фоторедакторе в мобильном приложении.";
-
+"lng_stickers_group_set" = "Групповой набор стикеров";
+"lng_stickers_remove_group_set" = "Удалить групповой набор стикеров?";
+"lng_stickers_group_from_your" = "Выберите из ваших наборов";
 
 "lng_in_dlg_photo" = "Фото";
 "lng_in_dlg_video" = "Видео";
@@ -1002,13 +1017,13 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_typing" = "печатает";
 "lng_user_typing" = "{user} печатает";
 "lng_users_typing" = "{user} и {second_user} печатают";
-"lng_many_typing#one" = "{count} печатает";
-"lng_many_typing#other" = "{count} печатают";
+"lng_many_typing#one" = "{count} человек печатает";
+"lng_many_typing#other" = "{count} чел. печатают";
 "lng_playing_game" = "сейчас в игре";
 "lng_user_playing_game" = "{user} сейчас в игре";
 "lng_users_playing_game" = "{user} и {second_user} сейчас в игре";
-"lng_many_playing_game#one" = "{count} играет";
-"lng_many_playing_game#other" = "{count} играют";
+"lng_many_playing_game#one" = "{count} человек играет";
+"lng_many_playing_game#other" = "{count} чел. играют";
 "lng_send_action_record_video" = "записывает видео";
 "lng_user_action_record_video" = "{user} записывает видео";
 "lng_send_action_upload_video" = "отправляет видео";
@@ -1416,6 +1431,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_banned" = "заблокировал(а) пользователя {user}";
 "lng_admin_log_restricted" = "изменил(а) ограничения пользователя {user} {until}";
 "lng_admin_log_promoted" = "изменил(а) привилегия пользователя {user}";
+"lng_admin_log_changed_stickers_group" = "{from} изменил(а) групповой {sticker_set}";
+"lng_admin_log_changed_stickers_set" = "набор стикеров";
+"lng_admin_log_removed_stickers_group" = "{from} удалил(а) групповой набор стикеров";
 "lng_admin_log_user_with_username" = "{name} ({mention})";
 "lng_admin_log_restricted_forever" = "навсегда";
 "lng_admin_log_restricted_until" = "до {date}";
