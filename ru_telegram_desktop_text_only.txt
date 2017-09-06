@@ -548,8 +548,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_change_phone_code_description" = "Мы отправим SMS с кодом подтверждения на номер {phone}.";
 "lng_change_phone_success" = "Ваш номер телефона был изменён.";
 
-"lng_mute_duration_hours#one" = "На {count} час";
-"lng_mute_duration_hours#other" = "На {count} часов";
+"lng_mute_duration_hours#one" = "На {count} ч.";
+"lng_mute_duration_hours#other" = "На {count} ч.";
 "lng_mute_box_tip" = "Выберите, на какой период времени необходимо отключить уведомления от этого чата";
 
 "lng_preview_loading" = "Получаю информацию о ссылке...";
