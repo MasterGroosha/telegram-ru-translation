@@ -2,23 +2,21 @@
 "MESSAGE_TEXT" = "%1$@: %2$@";
 "MESSAGE_NOTEXT" = "Сообщение от %1$@";
 "MESSAGE_PHOTO" = "Фото от %1$@";
-"MESSAGE_PHOTO_SECRET" = "%1$@ отправил(а) вам самоуничтожающееся фото";
+"MESSAGE_PHOTO_SECRET" = "Самоуничтожающееся фото от %1$@";
 "MESSAGE_VIDEO" = "Видео от %1$@";
-"MESSAGE_VIDEO_SECRET" = "%1$@ отправил(а) вам самоуничтожающееся видео";
+"MESSAGE_VIDEO_SECRET" = "Самоуничтожающееся видео от %1$@";
 "MESSAGE_ROUND" = "Видеосообщение от %1$@ ";
 "MESSAGE_CONTACT" = "Контакт от %1$@";
 "MESSAGE_GEO" = "Карта от %1$@";
+"MESSAGE_GEOLIVE" = "%1$@ начал(а) показывать своё местоположение";
 "MESSAGE_DOC" = "Файл от %1$@";
 "MESSAGE_AUDIO" = "Голосовое сообщение от %1$@ ";
 "MESSAGE_GIF" = "GIF от %1$@";
-"ENCRYPTED_MESSAGE" = "Вам пришло сообщение%1$@";
-"LOCKED_MESSAGE" = "Вам пришло сообщение%1$@";
+"ENCRYPTED_MESSAGE" = "Вам пришло сообщение %1$@";
+"LOCKED_MESSAGE" = "Вам пришло сообщение %1$@";
 "MESSAGE_SCREENSHOT" = "%1$@ сделал(а) скриншот";
 "ENCRYPTION_REQUEST" = "Новый секретный чат %1$@";
 "ENCRYPTION_ACCEPT" = "Ваш секретный чат принят%1$@";
-"DC_UPDATE" = "Нажмите на это уведомление, чтобы обновить настройки приложения";
-
-"CHAT_JOINED" = "%1$@ теперь в группе %2$@";
 
 "CHAT_MESSAGE_TEXT" = "%1$@@%2$@: %3$@";
 "CHAT_MESSAGE_NOTEXT" = "Сообщение от %1$@ в «%2$@»";
@@ -27,6 +25,7 @@
 "CHAT_MESSAGE_ROUND" = "Видеосообщение от %1$@ в «%2$@»";
 "CHAT_MESSAGE_CONTACT" = "Контакт от %1$@ в «%2$@»";
 "CHAT_MESSAGE_GEO" = "Карта от %1$@ в «%2$@»";
+"CHAT_MESSAGE_GEOLIVE" = "%1$@ начал(а) делиться своим местоположением с %2$@";
 "CHAT_MESSAGE_DOC" = "Файл от %1$@ в «%2$@»";
 "CHAT_MESSAGE_AUDIO" = "Голосовое сообщение от %1$@ в «%2$@»";
 "CHAT_MESSAGE_GIF" = "GIF от %1$@ в группе «%2$@»";
@@ -36,17 +35,15 @@
 "CHAT_ADD_MEMBER" = "%1$@ пригласил(а) пользователя %3$@ в «%2$@»";
 "CHAT_ADD_YOU" = "%1$@ пригласил(а) вас в «%2$@»";
 "CHAT_DELETE_YOU" = "%1$@ исключил(а) вас из «%2$@»";
-"CHAT_DELETE_MEMBER" = "%1$@ исключил(а) пользователя %3$@ из «%2$@»";
+"CHAT_DELETE_MEMBER" = "%1$@ исключил(а) участника %3$@ из «%2$@»";
 "CHAT_LEFT" = "%1$@ больше не состоит в «%2$@»";
 "CHAT_RETURNED" = "%1$@ снова в «%2$@»";
 
 "MESSAGE_STICKER" = " Стикер %2$@ от %1$@";
 "CHAT_MESSAGE_STICKER" = " Cтикер %3$@ от %1$@ в группе «%2$@»";
 
-"CONTACT_JOINED" = "%1$@ теперь в Телеграме!";
-"CONTACT_ACTIVATED" = "%1$@ помог(ла) активировать ваш аккаунт!";
+"CONTACT_JOINED" = "%1$@ теперь в Telegram!";
 
-"AUTH_UNKNOWN" = "Вход с нового устройства: %1$@";
 "AUTH_REGION" = "Вход с нового устройства: %1$@; местоположение: %2$@";
 
 "MESSAGE_FWDS" = " %2$@ пересланных сообщения от %1$@";
@@ -62,10 +59,10 @@
 "CHANNEL_MESSAGE_AUDIO" = "В канале %1$@ новое голосовое сообщение";
 "CHANNEL_MESSAGE_CONTACT" = "В канал %1$@ отправили контакт";
 "CHANNEL_MESSAGE_GEO" = "В канал %1$@ отправили карту";
-"CHANNEL_MESSAGE_FWDS" = "В канал %1$@ переслали %2$@ сообщения ";
+"CHANNEL_MESSAGE_GEOLIVE" = "%1$@ опубликовал(а) своё текущее местоположение";
 "CHANNEL_MESSAGE_GIF" = " В канале %1$@ новый GIF";
 
-"PINNED_TEXT" = "%1$@ закрепил(а) \"%2$@\"";
+"PINNED_TEXT" = "%1$@ закрепил(а) «%2$@»";
 "PINNED_NOTEXT" = "%1$@ закрепил(а) сообщение";
 "PINNED_PHOTO" = "%1$@ закрепил(а) фото";
 "PINNED_VIDEO" = "%1$@ закрепил(а) видео";
@@ -75,15 +72,16 @@
 "PINNED_AUDIO" = "%1$@ закрепил(а) голосовое сообщение";
 "PINNED_CONTACT" = "%1$@ закрепил(а) контакт";
 "PINNED_GEO" = "%1$@ закрепил(а) карту";
+"PINNED_GEOLIVE" = "%1$@ закрепил(а) текущее местоположение";
 "PINNED_GIF" = "%1$@ закрепил(а) GIF";
 
 "MESSAGE_GAME" = "%1$@ приглашает вас сыграть в %2$@";
 "CHANNEL_MESSAGE_GAME" = "%1$@ приглашает вас сыграть в %2$@";
-"CHAT_MESSAGE_GAME" = "%1$@ приглашает группу %2$@ сыграть в %3$@";
+"CHAT_MESSAGE_GAME" = "%1$@ приглашает «%2$@» сыграть в %3$@";
 "PINNED_GAME" = "%1$@ закрепил(а) игру";
 
 "PHONE_CALL_REQUEST" = "%1$@ звонит вам";
-"PHONE_CALL_MISSED" = "Вы пропустили звонок от %1$@";
+"PHONE_CALL_MISSED" = "Вы пропустили звонок пользователя %1$@";
 
 // Common
 "Common.OK" = "ОК";
@@ -101,15 +99,12 @@
 "Common.TakePhotoOrVideo" = "Снять фото или видео";
 "Common.TakePhoto" = "Сделать снимок";
 "Common.ChoosePhoto" = "Выбрать фото";
-"Common.ChooseVideo" = "Выбрать видео";
 "Common.of" = "из";
 "Common.Search" = "Поиск";
 "Common.More" = "Ещё";
 "Common.Select" = "Выбрать";
 
 // State
-"State.connecting" = "соединение";
-"State.updating" = "обновление";
 "State.Connecting" = "Соединение...";
 "State.ConnectingToProxy" = "Соединение с прокси...";
 "State.ConnectingToProxyInfo" = "нажмите для настроек";
@@ -118,8 +113,6 @@
 
 // Presence
 "Presence.online" = "онлайн";
-"Presence.offline" = "оффлайн";
-"Presence.invisible" = "невидимый";
 
 // Date
 "Month.GenJanuary" = "января";
@@ -153,15 +146,6 @@
 "Weekday.ShortFriday" = "пт";
 "Weekday.ShortSaturday" = "сб";
 "Weekday.ShortSunday" = "вс";
-"Weekday.Monday" = "понедельник";
-"Weekday.Tuesday" = "вторник";
-"Weekday.Wednesday" = "среда";
-"Weekday.Thursday" = "четверг";
-"Weekday.Friday" = "пятница";
-"Weekday.Saturday" = "суббота";
-"Weekday.Sunday" = "воскресенье";
-"Weekday.Today" = "Сегодня";
-"Weekday.Yesterday" = "Вчера";
 
 "Time.TodayAt" = "сегодня в %@";
 "Time.YesterdayAt" = "вчера в %@";
@@ -180,9 +164,7 @@
 "LastSeen.HoursAgo_any" = "заходил(а) %@ часа назад";
 "LastSeen.HoursAgo_many" = "заходил(а) %@ часов назад";
 "LastSeen.HoursAgo_0" = "заходил(а) %@ часов назад";
-"LastSeen.TodayAt" = "заходил(а) сегодня в %@";
 "LastSeen.YesterdayAt" = "заходил(а) вчера в %@";
-"LastSeen.AtWeekday" = "заходил(а) %@";
 "LastSeen.AtDate" = "заходил(а) %@";
 "LastSeen.Lately" = "заходил(а) недавно";
 "LastSeen.WithinAWeek" = "заходил(а) неделю назад";
@@ -192,42 +174,38 @@
 "Date.DialogDateFormat" = "{day} {month} ";
 
 // Tour
-"Tour.Title1" = "Телеграм";
+"Tour.Title1" = "Telegram";
 "Tour.Text1" = "Самый **быстрый** мессенджер в мире.\nА ещё **бесплатный** и **безопасный**.";
 
 "Tour.Title2" = "Быстрый";
-"Tour.Text2" = "**Телеграм** доставляет сообщения\nбыстрее любого другого мессенджера.";
+"Tour.Text2" = "**Telegram** доставляет сообщения\nбыстрее любого другого мессенджера.";
 
 "Tour.Title3" = "Мощный";
-"Tour.Text3" = "В **Телеграме** нет никаких \nограничений по размерам.";
+"Tour.Text3" = "В **Telegram** нет никаких \nограничений по размерам.";
 
 "Tour.Title4" = "Безопасный";
-"Tour.Text4" = "**Телеграм** защитит Вашу\nпереписку от злоумышленников.";
+"Tour.Text4" = "**Telegram** защитит Вашу\nпереписку от злоумышленников.";
 
 "Tour.Title5" = "Облачный";
-"Tour.Text5" = "Переписываться в  **Телеграме** можно\nс любого количества разных устройств.";
+"Tour.Text5" = "Переписываться в  **Telegram** можно\nс любого количества разных устройств.";
 
 "Tour.Title6" = "Бесплатный";
-"Tour.Text6" = "**Телеграм** всегда будет бесплатным!\nНикакой рекламы. Никаких подписок.";
-
-"Tour.Title7" = "Конфиденциальный";
-"Tour.Text7" = "**Все** сообщения надёжно зашифрованы и могут самоуничтожаться.";
+"Tour.Text6" = "**Telegram** всегда будет бесплатным!\nНикакой рекламы. Никаких подписок.";
 
 "Tour.StartButton" = "Начать общение";
 
 // Login
 "Login.PhoneAndCountryHelp" = "Проверьте код страны и введите номер Вашего телефона.";
-"Login.CodeHelp" = "Мы отправили SMS с кодом для проверки на номер:\n%@";
 "Login.CodeSentInternal" = "Мы отправили код через **Telegram** на Ваши другие устройства";
 "Login.HaveNotReceivedCodeInternal" = "Не получили код?";
 "Login.CodeSentSms" = "Мы отправили вам SMS\nс проверочным кодом";
 "Login.Code" = "Код проверки";
 "Login.CallRequestState1" = "Tелеграм позвонит Вам через %d:%.2d";
 "Login.CallRequestState2" = "Запрашиваем звонок для диктовки кода…";
-"Login.CallRequestState3" = "Телеграм набирает ваш номер\n[Не получили код?]";
+"Login.CallRequestState3" = "Telegram набирает ваш номер\n[Не получили код?]";
 "Login.EmailNotConfiguredError" = "Пожалуйста, настройте электронную почту.";
 "Login.EmailCodeSubject" = "%@: проблема с кодом проверки";
-"Login.EmailCodeBody" = "Номер моего телефона:\n%@\n\nНе удаётся получить код проверки для Телеграма.";
+"Login.EmailCodeBody" = "Номер моего телефона:\n%@\n\nНе удаётся получить код проверки для Telegram.";
 "Login.UnknownError" = "Произошла ошибка. Пожалуйста, попробуйте позже.";
 "Login.InvalidCodeError" = "Вы ввели неправильный код. Попробуйте ещё раз.";
 "Login.NetworkError" = "Пожалуйста, проверьте соединение с интернетом и повторите попытку.";
@@ -236,44 +214,27 @@
 "Login.InvalidPhoneError" = "Некорректный номер телефона. Попробуйте ещё раз.";
 "Login.InvalidFirstNameError" = "Некорректное имя. Попробуйте ещё раз.";
 "Login.InvalidLastNameError" = "Некорректная фамилия. Попробуйте ещё раз.";
-"Login.InactiveHelp" = "Ваши контакты пока что\nне пользуются Телеграмом.\nМы сообщим, если здесь кто-нибудь появится.\nВы также можете пригласить друзей сами.";
-"Login.InviteButton" = "Пригласить друга";
 
 "Login.PhoneTitle" = "Телефон";
 "Login.PhonePlaceholder" = "Номер телефона";
 "Login.CountryCode" = "Код страны";
 "Login.InvalidCountryCode" = "Неправильный код страны";
 
-"Login.CodeTitle" = "Ваш код";
-
 "Login.InfoTitle" = "Информация о вас";
 "Login.InfoAvatarAdd" = "добавить";
 "Login.InfoAvatarPhoto" = "фото";
 "Login.InfoFirstNamePlaceholder" = "Имя";
 "Login.InfoLastNamePlaceholder" = "Фамилия";
-"Login.InfoUpdatePhoto" = "Обновить фото";
 "Login.InfoDeletePhoto" = "Удалить фото";
 "Login.InfoHelp" = "Пожалуйста, добавьте имя и фотографию.";
 
 // Login.SelectCountry
 "Login.SelectCountry.Title" = "Страна";
 
-// Welcome Screen
-"WelcomeScreen.Title" = "Приступить";
-"WelcomeScreen.Logout" = "Выйти";
-"WelcomeScreen.Greeting" = "Добро пожаловать, %@!";
-"WelcomeScreen.ContactsAccessDisabled" = "Извините, Ваши контакты не удалось синхронизировать.";
-"WelcomeScreen.ContactsAccessHelp" = "Общение в Telegram основано на списке ваших контактов. Пожалуйста, зайдите в настройки вашего %@ – Конфиденциальность – Контакты и переведите переключатель «Telegram» в положение ВКЛ.";
-"WelcomeScreen.ContactsAccessSettings" = "Настройки";
-"WelcomeScreen.UpdatingTitle" = "Обновление";
-
 // Dialog List
 "DialogList.TabTitle" = "Чаты";
 "DialogList.Title" = "Чаты";
 "DialogList.SearchLabel" = "Поиск по сообщениям и людям";
-"DialogList.SelectContact" = "Выбрать контакт";
-"DialogList.SelectContacts" = "Выбрать контакты";
-"DialogList.Create" = "Создать";
 "DialogList.NoMessagesTitle" = "У вас пока нет сообщений.";
 "DialogList.NoMessagesText" = "Чтобы написать кому-нибудь сообщение,  нажмите на иконку карандаша в правом верхнем углу или зайдите в «Контакты».";
 "DialogList.SingleTypingSuffix" = "%@ набирает текст";
@@ -291,26 +252,17 @@
 "DialogList.EncryptionProcessing" = "Обмен ключами шифрования…";
 "DialogList.EncryptedChatStartedOutgoing" = " Вы создали секретный чат с %@.";
 "DialogList.EncryptedChatStartedIncoming" = "Вы в секретном чате с %@.";
-"DialogList.Conversations" = "Чаты";
-"DialogList.Messages" = "Сообщения";
 
 // Compose
 "Compose.TokenListPlaceholder" = "Кому бы вы хотели написать?";
 "Compose.NewMessage" = "Написать сообщение";
 "Compose.NewGroup" = "Создать группу";
 "Compose.NewEncryptedChat" = "Создать секретный чат";
-"Compose.NewBroadcast" = "Список рассылки";
-"Compose.Recipients" = "Получатели";
 "Compose.Create" = "Создать";
 
 // Contacts
 "Contacts.TabTitle" = "Контакты";
 "Contacts.Title" = "Контакты";
-"Contacts.Invite" = "Пригласить";
-"Contacts.contact" = "контакт";
-"Contacts.contacts" = "контакты";
-"Contacts.contactsvar" = "контакты";
-"Contacts.InvitationText" = "Предлагаю попробовать Telegram: https://telegram.org/dl";
 "Contacts.FailedToSendInvitesMessage" = "Произошла ошибка.";
 "Contacts.AccessDeniedError" = "Отсутствует доступ к контактам";
 "Contacts.AccessDeniedHelpLandscape" = "Зайдите в настройки вашего %@ > Конфиденциальность > Контакты и переведите переключатель «Telegram» в состояние ВКЛ.";
@@ -322,7 +274,6 @@
 
 // Conversation
 "Conversation.InputTextPlaceholder" = "Сообщение…";
-"Conversation.Send" = "Отпр.";
 "Conversation.typing" = "набирает сообщение";
 "Conversation.MessageDeliveryFailed" = "Ваше сообщение не было отправлено. Нажмите «Повторить», чтобы попробовать снова.";
 "Conversation.MessageDialogEdit" = "Изменить";
@@ -331,45 +282,35 @@
 "Conversation.MessageDialogDelete" = "Удалить";
 "Conversation.LinkDialogOpen" = "Открыть";
 "Conversation.LinkDialogCopy" = "Скопировать";
-"Conversation.EditDelete" = "Удалить";
-"Conversation.EditForward" = "Переслать";
 "Conversation.ForwardTitle" = "Переслать";
 "Conversation.ForwardChats" = "Чаты";
 "Conversation.ForwardContacts" = "Контакты";
 "Conversation.StatusKickedFromGroup" = "вас исключили из группы";
 "Conversation.StatusLeftGroup" = "вы покинули группу";
 "Conversation.StatusTyping" = "набирает сообщение";
-"Conversation.BroadcastTitle" = "Рассылка";
 "Conversation.Call" = "Позвонить";
 "Conversation.Mute" = "Убрать звук";
 "Conversation.Unmute" = "Вкл. звук";
 "Conversation.Edit" = "Изменить";
 "Conversation.Info" = "Подробнее";
 "Conversation.Search" = "Поиск";
-"Conversation.Block" = "Заблок.";
 "Conversation.Unblock" = "Разблок.";
 "Conversation.ClearAll" = "Очистить";
 "Conversation.Location" = "Отправить место";
-"Conversation.Document" = "Отправить файл";
 "Conversation.Contact" = "Отправить контакт";
 "Conversation.BlockUser" = "Заблокировать пользователя";
 "Conversation.UnblockUser" = "Разблокировать пользователя";
-"Conversation.DeleteGroup" = "Удалить эту группу";
-"Conversation.DeleteChat" = "Удалить этот чат";
-"Conversation.ClearAllConfirmation" = "Удалить все сообщения?";
 "Conversation.UnsupportedMedia" = "Это сообщение не поддерживается вашей версией Telegram. Пожалуйста, обновите приложение, чтобы его увидеть:\nhttp://telegram.org/update";
 "Conversation.EncryptionWaiting" = "Ожидаем появления %@ в сети…";
 "Conversation.EncryptionProcessing" = "Обмен ключами шифрования…";
-"Conversation.SupportPlaceholder" = "Есть вопросы о Telegram?";
 "Conversation.EmptyPlaceholder" = "Здесь пока что пусто…";
 "Conversation.EncryptedPlaceholderTitleIncoming" = "Вы присоединились к секретному чату с %@.";
 "Conversation.EncryptedPlaceholderTitleOutgoing" = "Вы создали секретный чат с %@.";
 "Conversation.EncryptedDescriptionTitle" = "Секретные чаты — это:";
-"Conversation.EncryptedDescription1" = "Сквозное шифрование ";
+"Conversation.EncryptedDescription1" = "Оконечное шифрование";
 "Conversation.EncryptedDescription2" = "Никаких следов на серверах";
 "Conversation.EncryptedDescription3" = "Таймер самоуничтожения";
 "Conversation.EncryptedDescription4" = "Запрет на пересылку";
-"Conversation.EncryptedForwardingAlert" = "Извините, но вы не можете пересылать сообщения из секретных чатов.";
 "Conversation.ContextMenuCopy" = "Скопировать";
 "Conversation.ContextMenuDelete" = "Удалить";
 "Conversation.ContextMenuForward" = "Переслать";
@@ -382,13 +323,6 @@
 "Conversation.StatusMembers_many" = "%@ участников";
 "Conversation.StatusMembers_any" = "%@ участника";
 
-"Conversation.StatusRecipients_0" = "%@ получателей";
-"Conversation.StatusRecipients_1" = "1 получатель";
-"Conversation.StatusRecipients_2" = "2 получателя";
-"Conversation.StatusRecipients_3_10" = "%@ получателя";
-"Conversation.StatusRecipients_many" = "%@ получателей";
-"Conversation.StatusRecipients_any" = "%@ получателя";
-
 "Conversation.StatusOnline_1" = "1 онлайн";
 "Conversation.StatusOnline_2" = "2 онлайн";
 "Conversation.StatusOnline_3_10" = "%@ онлайн";
@@ -397,17 +331,12 @@
 "Conversation.StatusOnline_0" = "%@ онлайн";
 
 "Conversation.UnreadMessages" = "Непрочитанные сообщения";
-"Conversation.InfoGroup" = "Группа";
-"Conversation.InfoPrivate" = "Контакт";
-"Conversation.InfoBroadcastList" = "Список";
 
 // Notification
 "Notification.RenamedChat" = "%@ изменил(а) название группы";
 "Notification.RenamedChannel" = "Канал был переименован";
 "Notification.ChangedGroupPhoto" = "%@ изменил(а) фото группы";
 "Notification.RemovedGroupPhoto" = "%@ удалил(а) фото группы";
-"Notification.ChangedUserPhoto" = "%@ добавил(а) новое фото профиля";
-"Notification.RemovedUserPhoto" = "%@ удалил(а) фото профиля";
 "Notification.JoinedChat" = "%@ вступил(а) в группу";
 "Notification.JoinedChannel" = "%@ присоединился(-лась) к каналу";
 "Notification.Invited" = "%@ пригласил(а) пользователя %@";
@@ -416,14 +345,10 @@
 "Notification.Kicked" = "%@ исключил(а) %@";
 "Notification.CreatedChat" = "%@ создал(а) группу";
 "Notification.CreatedChannel" = "Канал создан";
-"Notification.CreatedGroup" = "Группа создана";
-"Notification.CreatedBroadcastList" = "Вы создали список рассылки";
 "Notification.CreatedChatWithTitle" = "%@ создал(а) группу «%@»";
-"Notification.Joined" = "%@ теперь в Телеграме!";
+"Notification.Joined" = "%@ теперь в Telegram!";
 "Notification.ChangedGroupName" = "%@ изменил(а) название группы на «%@»";
 "Notification.NewAuthDetected" = "%1$@, мы зафиксировали вход в ваш аккаунта с  нового устройства. \n\nДата: %2$@, %3$@\nВремя: %4$@\nУстройство: %5$@\nМестоположение: %6$@\n\nЕсли это были не Вы, пожалуйста зайдите в Настройки > Конфиденциальность >  Активные сеансы и выберите «Завершить все другие сеансы».\n\nЕсли вам кажется, что кто-то может пользоваться Вашим аккаунтом без Вашего ведома, мы советуем включить двухэтапную аутентификацию в настройках безопасности.\n\nИскренне ваша,\nКоманда Telegram";
-"Notification.EncryptedChatRequested" = "Секретный чат запрошен";
-"Notification.EncryptedChatAccepted" = "Секретный чат создан";
 "Notification.MessageLifetimeChanged" = "%1$@ ставит таймер самоуничтожения на %2$@";
 "Notification.MessageLifetimeChangedOutgoing" = "Вы поставили таймер уничтожения на %1$@";
 "Notification.MessageLifetimeRemoved" = "%1$@ отключает таймер самоуничтожения";
@@ -444,71 +369,39 @@
 "Message.Sticker" = "Стикер";
 "Message.Audio" = "Голосовая заметка";
 "Message.ForwardedMessage" = "Пересланное сообщение\nАвтор: %@";
-"Message.SharedContact" = "Контакт";
 "Message.Animation" = "GIF";
 
 // Conversation Profile
 "ConversationProfile.ErrorCreatingConversation" = "Произошла ошибка";
-"ConversationProfile.UserLeftChatError" = "К сожалению, %@ решил(а) покинуть эту группу, поэтому вы не можете вернуть его (её) обратно.";
 "ConversationProfile.UnknownAddMemberError" = "Произошла непредвиденная ошибка. Наши специалисты уже уведомлены и решат её как можно скорее. Приносим свои извинения.";
 "ConversationProfile.UsersTooMuchError" = "К сожалению, группа переполнена. Вы больше не можете приглашать в неё новых участников.";
 
 "ConversationProfile.LeaveDeleteAndExit" = "Удалить и выйти";
 
-"Conversation.DownloadPhoto" = "Загрузить фотографию";
-"Conversation.ViewPhoto" = "Показать фотографию";
-"Conversation.PlayVideo" = "Воспроизвести";
-"Conversation.Play" = "Воспроизвести";
-"Conversation.Stop" = "Стоп";
-"Conversation.ViewFile" = "Посмотреть файл";
-"Conversation.Download" = "Загрузить";
-"Conversation.DownloadMegabytes" = "Загрузить %.1f Мб";
-"Conversation.DownloadKilobytes" = "Загрузить %d Кб";
 "Conversation.Megabytes" = "%.1f Мб";
 "Conversation.Kilobytes" = "%d Кб";
 "Conversation.Bytes" = "%d Б";
-"Conversation.DownloadProgressMegabytes" = "%1$.1f Мб / %2$.1f Мб";
-"Conversation.DownloadProgressKilobytes" = "%1$d Кб / %2$d Кб";
-"Conversation.ViewLocation" = "Посмотреть карту";
 "Conversation.ShareMyContactInfo" = "Отправить мой контакт";
 "Conversation.AddContact" = "Добавить контакт";
 "Conversation.SendMessage" = "Отправить сообщение";
 "Conversation.EncryptionCanceled" = "Секретный чат отменен";
-"Conversation.DeleteOneMessage" = "Удалить сообщение";
 "Conversation.DeleteManyMessages" = "Удалить собщения";
-"Conversation.View" = "Посмотреть";
-"Conversation.Download" = "Загрузить";
 "Conversation.SlideToCancel" = "Проведите для отмены";
 "Conversation.ApplyLocalization" = "Применить локализацию";
 "Conversation.OpenFile" = "Открыть файл";
-"Conversation.MicrophoneAccessDisabled" = "Для отправки голосовых сообщений Телеграму нужен доступ к микрофону. Зайдите в Настройки > Конфиденциальность > Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
 
 // Media Picker
 "MediaPicker.Send" = "Отпр.";
-"MediaPicker.Choose" = "Выбрать";
-"SearchImages.SearchImages" = "Поиск по картинкам";
 "SearchImages.Title" = "Альбомы";
 "MediaPicker.CameraRoll" = "Фотопоток";
 "SearchImages.NoImagesFound" = "Изображения не найдены";
-"MediaPicker.AccessDeniedError" = "У Телеграма нет доступа к Вашим фотографиям";
-"MediaPicker.AccessDeniedHelp" = "Зайдите в настройки вашего %@ > Конфиденциальность > Фотографии и переведите переключатель «Telegram» в рабочее состояние.";
-"SearchImages.Downloading#Kb" = "Загрузка — %d КБ";
-"SearchImages.Downloading#Mb" = "Загрузка — %d МБ";
-"SearchImages.ImageNofM" = "Изображение %1$@ из %2$@";
-"SearchImages.DownloadCancelled" = "Загрузка отменена";
-"SearchImages.ErrorDownloadingImage" = "Ошибка загрузки изображения";
-"SearchImages.SkipImage" = "Пропустить изображение";
-"SearchImages.RetryDownload" = "Повторить загрузку";
 
 // User Profile
-"Profile.ImageUploadError" = "Произошла ошибка. Попробуйте ещё раз чуть позже.";
-"Profile.PhonebookAccessDisabled" = "Чтобы эта функция работала, зайдите в настройки вашего iPhone > Конфиденциальность > Контакты и переведите переключатель «Telegram» в состояние ВКЛ.";
 "Profile.CreateEncryptedChatError" = "Произошла ошибка.";
-"Profile.CreateEncryptedChatOutdatedError" = "Не удаётся создать секретный чат c пользователем %@.\n%@ использует устаревшую версию Телеграма.";
+"Profile.CreateEncryptedChatOutdatedError" = "Не удаётся создать секретный чат c пользователем %@.\n%@ использует устаревшую версию Telegram.";
 "Profile.CreateNewContact" = "Создать новый контакт";
 "Profile.AddToExisting" = "Добавить в имеющийся";
 "Profile.EncryptionKey" = "Ключ шифрования";
-"Profile.MessageLifetime" = "Таймер самоуничтожения";
 "Profile.MessageLifetimeForever" = "Выкл.";
 "Profile.MessageLifetime2s" = "2 сек.";
 "Profile.MessageLifetime5s" = "5 сек.";
@@ -517,8 +410,6 @@
 "Profile.MessageLifetime1d" = "1 дн.";
 "Profile.MessageLifetime1w" = "1 нед.";
 "Profile.ShareContactButton" = "Отправить контакт";
-"Profile.ShareContactPersonFormat" = "Отправить контакт пользователю %@?";
-"Profile.ShareContactGroupFormat" = "Отправить контакт в группу «%@»?";
 
 // User Info
 "UserInfo.Title" = "Информация";
@@ -537,7 +428,7 @@
 "UserInfo.NotificationsDisabled" = "Выкл.";
 "UserInfo.NotificationsEnable" = "Включить";
 "UserInfo.NotificationsDisable" = "Выключить";
-"UserInfo.Invite" = "Пригласить в Телеграм";
+"UserInfo.Invite" = "Пригласить в Telegram";
 
 // New Contact
 "NewContact.Title" = "Новый контакт";
@@ -570,7 +461,6 @@
 "GroupInfo.AddParticipant" = "Добавить Участника";
 "GroupInfo.AddParticipantTitle" = "Контакты";
 "GroupInfo.AddParticipantConfirmation" = "Добавить пользователя %@ в группу?";
-"GroupInfo.KickedStatus" = "Вас исключили из группы";
 "GroupInfo.LeftStatus" = "Вы покинули группу";
 
 // Encryption Key
@@ -579,24 +469,13 @@
 
 // Conversation media
 "ConversationMedia.Title" = "Материалы";
-"ConversationMedia.EmptyTitle" = "Фото или видео отсутствуют";
 
 // Preview
-"Preview.VideoNotYetDownloaded" = "Сначала загрузите видео.";
-"Preview.GroupPhotoTitle" = "Фото группы";
-"Preview.ProfilePhotoTitle" = "Фото профиля";
-"Preview.LoadingVideo" = "видео загружается…";
-"Preview.LoadingImage" = "полное изображение загружается…";
-"Preview.LoadingImages" = "полное изображение загружается…";
 "Preview.DeletePhoto" = "Удалить фотографию";
-"Preview.DeleteVideo" = "Удалить видео";
-"Preview.ForwardViaTelegram" = "Отправить через Телеграм";
 "Preview.SaveToCameraRoll" = "Сохранить в фотопоток";
 
 // Map
 "Map.ChooseLocationTitle" = "Карта";
-"Map.MapTitle" = "Карта";
-"Map.Send" = "Отправить";
 "Map.Map" = "Карта";
 "Map.Satellite" = "Спутник";
 "Map.Hybrid" = "Гибрид";
@@ -606,7 +485,6 @@
 // Web
 "Web.Error" = "Невозможно загрузить страницу";
 "Web.OpenExternal" = "Открыть в Safari";
-"Web.CopyLink" = "Скопировать ссылку";
 
 // Document
 "Document.TargetConfirmationFormat" = "Отправить файл ({size}) пользователю {target}?";
@@ -624,13 +502,11 @@
 "Settings.BlockedUsers" = "Чёрный список";
 "Settings.ChatBackground" = "Фон для чатов";
 "Settings.Support" = "Помощь";
-"Settings.FAQ" = "Ответы на вопросы о Телеграме";
+"Settings.FAQ" = "Ответы на вопросы о Telegram";
 "Settings.FAQ_URL" = "http://telegram.org/faq#general";
 "Settings.FAQ_Intro" = "Обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но на это может потребоваться некоторое время.\nПожалуйста, ознакомьтесь с часто задаваемыми вопросами о Telegram: там Вы найдёте ответы на большинство вопросов и важные советы по устранению неполадок.";
 "Settings.FAQ_Button" = "Ответы";
 "Settings.SaveIncomingPhotos" = "Загружать входящие фото";
-"Settings.SaveIncomingPhotosHelp" = "Автоматически сохранять входящие фото в фотопоток.";
-"Settings.LogoutError" = "Произошла ошибка. Пожалуйста, попробуйте позже.";
 
 // Notifications and Sounds
 "Notifications.Title" = "Уведомления";
@@ -668,22 +544,17 @@
 "ChatSettings.AutomaticAudioDownload" = "АВТОМАТИЧЕСКАЯ ЗАГРУЗКА АУДИО";
 "ChatSettings.PrivateChats" = "В личных чатах";
 "ChatSettings.Groups" = "В групповых чатах";
-"ChatSettings.Language" = "ЯЗЫК";
-"ChatSettings.RevertLanguage" = "Сбросить язык";
 
 // Usage
 "Cache.Title" = "Использование хранилища";
 "Cache.ClearCache" = "Очистить кэш";
-"Cache.ClearCacheAlert" = "Фото, видео и другие файлы из чатов могут быть удалены с этого устройства при установке ограничения на хранение в целях экономии свободного места.\n\nВсе файлы останутся в облаке Телеграма и могут быть повторно загружены в случае необходимости.";
 "Cache.KeepMedia" = "Хранить файлы";
 "Cache.Help" = "Фото, видео и другие файлы из чатов могут быть удалены с этого устройства при установке ограничения на хранение в целях экономии свободного места.\n\nВсе файлы останутся в облаке Телеграма и могут быть повторно загружены в случае необходимости.";
 
 // Blocked Users
 "BlockedUsers.Title" = "Чёрный список";
 "BlockedUsers.SelectUserTitle" = "Заблокировать пользователя";
-"BlockedUsers.AlreadyBlocked" = "Этот пользователь уже заблокирован";
 "BlockedUsers.BlockUser" = "Заблокировать пользователя";
-"BlockedUsers.BlockFormat" = "Заблокировать пользователя %@?";
 "BlockedUsers.BlockTitle" = "Заблокировать";
 "BlockedUsers.LeavePrefix" = "Покинуть";
 "BlockedUsers.Info" = "Заблокированные пользователи не могут посылать вам сообщения или добавляться в ваши группы. Они не видят фото вашего профиля и ваш статус.";
@@ -696,41 +567,18 @@
 "Wallpaper.Set" = "Установить";
 "Wallpaper.Wallpaper" = "Обои";
 
-// Update
-"Update.Update" = "Обновить";
-
-// Service
-"Service.LocalizationDownloadError" = "Не удаётся загрузить файл локализации. Пожалуйста, проверьте ваше интернет соединение и повторите попытку снова.";
-"Service.ApplyLocalization" = "Применить локализацию?";
-"Service.ApplyLocalizationWithWarnings" = "%@\n\nПрименить локализацию?";
-
 "Notification.SecretChatMessageScreenshot" = "%@ сделал(а) снимок экрана!";
 "Notification.SecretChatScreenshot" = "Снимок экрана сделан";
 
-// Broadcast Lists
-"DialogList.Broadcast" = "Рассылка";
-"BroadcastLists.Title" = "Рассылки";
-"BroadcastLists.NoListsYet" = "Ещё нет списков";
-"BroadcastLists.NoListsText" = "При помощи списков рассылки можно за раз отправлять одинаковые сообщения многим людям.";
-
-// Broadcast List
-"BroadcastListInfo.Title" = "Список рассылки";
 "BroadcastListInfo.AddRecipient" = "Добавить получателя";
 
-// Video
-"VideoPreview.OptionSD" = "Обычный размер (%@)";
-"VideoPreview.OptionHD" = "Высокое разрешение (%@)";
-
-"ChatSettings.AutoPlayAudio" = "Автозапуск аудио";
-
 "Settings.LogoutConfirmationTitle" = "Выйти?";
-"Settings.LogoutConfirmationText" = "\nВы можете беспрепятственно пользоваться Телеграмом на всех своих устройствах одновременно.\n\nИмейте в виду, что завершение сессии уничтожит все ваши секретные чаты.";
+"Settings.LogoutConfirmationText" = "\nВы можете пользоваться Telegram на всех устройствах одновременно.\n\nУчтите, что выход из аккаунта уничтожит все секретные чаты.";
 
 "Login.PadPhoneHelp" = "\nДля входа в Телеграм на любом своём устройстве вы можете использовать ваш основной номер телефона. Номер SIM-карты iPad не подойдёт, поскольку нам необходимо отправить вам SMS-сообщение. \n\nЭтот номер указан верно?\n{number}";
 "Login.PadPhoneHelpTitle" = "Ваш номер";
 
 "MessageTimer.Custom" = "Выбор";
-"MessageTimer.Title" = "Установка таймера";
 
 "MessageTimer.Forever" = "Постоянно";
 
@@ -774,8 +622,7 @@
 "MessageTimer.Years_2" = "%@ года";
 "MessageTimer.Years_3_10" = "%@ года";
 "MessageTimer.Years_any" = "%@ лет";
-"MessageTimer.Years_many" = "%@ лет";
-"MessageTimer.Years_0" = "%@ лет";
+"MessageTimer.Months_many" = "%@ месяцев";
 
 "MessageTimer.ShortSeconds_1" = "%@с";
 "MessageTimer.ShortSeconds_2" = "%@с";
@@ -813,9 +660,6 @@
 "Activity.UploadingDocument" = "отправляет файл";
 "Activity.RecordingAudio" = "записывает аудио";
 "Activity.RecordingVideoMessage" = "записывает видео";
-"Activity.Location" = "определяет местоположение";
-
-"Service.NetworkConfigurationUpdatedMessage" = "Настройки соединения успешно обновлены.";
 
 "Compatibility.SecretMediaVersionTooLow" = "%@ использует старую версию Telegram, из-за чего секретные фото будут отображаться в режиме совместимости.\n\nПосле того, как %@ обновит Telegram, фото с таймером на 1 минуту и менее будут отображаться в режиме «Для просмотра нажать и удерживать». Мы постараемся уведомить Вас, если Ваш собеседник сделает снимок экрана.";
 
@@ -868,8 +712,6 @@
 "PrivacySettings.DeleteAccountTitle" = "УДАЛИТЬ МОЙ АККАУНТ";
 "PrivacySettings.DeleteAccountIfAwayFor" = "Если я не буду появляться";
 "PrivacySettings.DeleteAccountHelp" = "Если вы не заглянете в Телеграм хотя бы раз в течение этого периода, Ваш аккаунт будет удалён со всеми группами, сообщениями и контактами.";
-"PrivacySettings.DeleteAccountNowConfirmation" = "Удалить аккаунт?";
-"PrivacySettings.DeleteAccountNever" = "Никогда";
 
 "PrivacyLastSeenSettings.Title" = "Активность";
 "PrivacyLastSeenSettings.CustomHelp" = "Важно: вы не сможете увидеть время последней активности людей, от которых прячете свою. Вместо этого будет отображаться приблизительное время (недавно, в течение недели, в течение месяца).";
@@ -890,18 +732,8 @@
 "PrivacyLastSeenSettings.AddUsers_many" = "Добавить %@ пользователей в этот список?";
 "PrivacyLastSeenSettings.AddUsers_0" = "Добавить %@ пользователей в этот список?";
 
-"PrivacySettings.FloodControlError" = "Извините, слишком много запросов. Мы не можем изменить настройки конфиденциальности прямо сейчас, пожалуйста подождите.";
-
-
-"ImagePicker.NoPhotos" = "Фотографии отсутствуют";
-"ImagePicker.NoVideos" = "Видео отсутствуют";
-
-"Settings.OpenSystemPrivacySettings" = "Открыть настройки %@";
-
 // Photo Editor
 "PhotoEditor.DiscardChanges" = "Отменить изменения";
-"PhotoEditor.RevertToOriginal" = "Вернуть к оригиналу";
-"PhotoEditor.RevertMessage" = "Возвращение к оригиналу удалит все изменения, внесенные в фотографию. Это действие не может быть отменено.";
 
 "PhotoEditor.Original" = "Оригинал";
 "PhotoEditor.Current" = "Текущая";
@@ -979,23 +811,12 @@
 "Forward.ConfirmMultipleFiles_many" = "Отправить %@ файлов {target}?";
 "Forward.ConfirmMultipleFiles_0" = "Отправить %@ файлов {target}?";
 
-"PrivacySettings.TouchIdTitle" = "TouchID";
-"PrivacySettings.TouchIdEnable" = "Включить";
-
 "Notification.Reply" = "Ответить";
 "Notification.Mute1h" = "Не беспокоить час";
 "Notification.Mute1hMin" = "Не беспокоить час";
 "Conversation.ContextMenuShare" = "Поделиться";
 
 "SharedMedia.TitleAll" = "Медиа";
-"SharedMedia.TitlePhoto" = "Общие фото";
-"SharedMedia.TitleVideo" = "Общие видео";
-"SharedMedia.TitleFile" = "Общие файлы";
-"SharedMedia.TitleAudio" = "Общая музыка";
-
-"SharedMedia.All" = "Все";
-"SharedMedia.Incoming" = "Доставлено";
-"SharedMedia.Outgoing" = "Отправлено";
 
 "SharedMedia.Photo_1" = "1 фотография";
 "SharedMedia.Photo_2" = "2 фотографии";
@@ -1058,13 +879,6 @@
 "Time.PreciseDate_m11" = "%1$@ ноя. %2$@ в %3$@";
 "Time.PreciseDate_m12" = "%1$@ дек. %2$@ в %3$@";
 
-"MuteFor.Minutes_1" = "Не беспокоить одну минуту";
-"MuteFor.Minutes_2" = "Не беспокоить 2 минуты";
-"MuteFor.Minutes_3_10" = "Не беспокоить %@ минуты";
-"MuteFor.Minutes_any" = "Не беспокоить %@ минуты";
-"MuteFor.Minutes_many" = "Не беспокоить %@ минут";
-"MuteFor.Minutes_0" = "Не беспокоить %@ минут";
-
 "MuteFor.Hours_1" = "Не беспокоить 1 час";
 "MuteFor.Hours_2" = "Не беспокоить 2 часа";
 "MuteFor.Hours_3_10" = "Не беспокоить %@ часа";
@@ -1078,13 +892,6 @@
 "MuteFor.Days_any" = "Не беспокоить %@ дня";
 "MuteFor.Days_many" = "Не беспокоить %@ дней";
 "MuteFor.Days_0" = "Не беспокоить %@ дней";
-
-"MuteFor.Weeks_1" = "Не беспокоить 1 неделю";
-"MuteFor.Weeks_2" = "Не беспокоить 2 недели";
-"MuteFor.Weeks_3_10" = "Не беспокоить %@ недели";
-"MuteFor.Weeks_any" = "Не беспокоить %@ недели";
-"MuteFor.Weeks_many" = "Не беспокоить %@ недель";
-"MuteFor.Weeks_0" = "Не беспокоить %@ недель";
 
 "MuteExpires.Minutes_1" = "через минуту";
 "MuteExpires.Minutes_2" = "через 2 минуты";
@@ -1122,13 +929,6 @@
 "Username.LinkHint" = "Эта ссылка откроет чат с вами в Telegram:[\nhttps://t.me/%@]";
 "Username.LinkCopied" = "Скопировано";
 
-"SharedMedia.ItemsSelected_1" = "Выбрано: 1";
-"SharedMedia.ItemsSelected_2" = "Выбрано: 2";
-"SharedMedia.ItemsSelected_3_10" = "Выбрано: %@";
-"SharedMedia.ItemsSelected_any" = "Выбрано: %@";
-"SharedMedia.ItemsSelected_many" = "Выбрано: %@";
-"SharedMedia.ItemsSelected_0" = "Выбрано: %@";
-
 "SharedMedia.DeleteItemsConfirmation_1" = "Удалить файл?";
 "SharedMedia.DeleteItemsConfirmation_2" = "Удалить 2 файла?";
 "SharedMedia.DeleteItemsConfirmation_3_10" = "Удалить %@ файла?";
@@ -1149,7 +949,6 @@
 "PasscodeSettings.EncryptDataHelp" = "Осторожно, экспериментальная функция! Ваши данные, хранящиеся на устройстве, будут зашифрованы, используя производную от вашего кода доступа в качестве ключа.";
 
 "EnterPasscode.EnterTitle" = "Введить код-пароль от Телеграма";
-"EnterPasscode.SetupTitle" = "Новый код-пароль";
 "EnterPasscode.ChangeTitle" = "Смена кода-пароля";
 "EnterPasscode.EnterPasscode" = "Введите код-пароль от Телеграма";
 "EnterPasscode.EnterNewPasscodeNew" = "Введите код-пароль";
@@ -1301,7 +1100,6 @@
 
 "TwoStepAuth.ConfirmationTitle" = "Двухфакторная аутентификация";
 "TwoStepAuth.ConfirmationText" = "Пожалуйста, проверьте электронную почту (не забудьте про папку «Спам») и пройдите по ссылке в письме, чтобы включить двухфакторную аутентификацию.";
-"TwoStepAuth.ConfirmationChangeEmail" = "Изменить email";
 "TwoStepAuth.ConfirmationAbort" = "Отменить двухфакторную аутентификацию";
 
 "TwoStepAuth.SetupPasswordEnterPasswordNew" = "Придумайте пароль:";
@@ -1329,12 +1127,10 @@
 
 "TwoStepAuth.RecoveryUnavailable" = "Поскольку Вы не указали резервный адрес электронной почты, вам остаётся либо вспомнить пароль, либо сбросить аккаунт и начать с чистого листа.";
 "TwoStepAuth.RecoveryFailed" = "В этом случае остаётся либо вспомнить пароль, либо сбросить аккаунт и начать с чистого листа.";
-"TwoStepAuth.ResetAccount" = "Сбросить аккаунт";
 "TwoStepAuth.ResetAccountHelp" = "Если Вы сбросите аккаунт, все чаты, сообщения и файлы будут утеряны.";
 "TwoStepAuth.ResetAccountConfirmation" = "Если Вы сбросите аккаунт, все чаты, сообщения и файлы будут утеряны.";
 
 "TwoStepAuth.RecoveryTitle" = "Код из письма";
-"TwoStepAuth.RecoverySent" = "Мы отправили код восстановления на указанную почту:\n\n%@";
 "TwoStepAuth.RecoveryCode" = "Код";
 "TwoStepAuth.RecoveryCodeHelp" = "Проверьте электронную почту и введите шестизначный код, который мы отправили для отключения Вашего пароля двухфакторной аутентификации.";
 "TwoStepAuth.RecoveryCodeInvalid" = "Неверный код. Попробуйте ещё раз.";
@@ -1342,27 +1138,23 @@
 "TwoStepAuth.RecoveryEmailUnavailable" = "Проблема с доступом к %@?";
 
 "TwoStepAuth.FloodError" = "Лимит попыток исчерпан. Попробуйте чуть позже.";
-"TwoStepAuth.GenericError" = "Произошла ошибка. Попробуйте чуть позже.";
 
 "Conversation.FilePhotoOrVideo" = "Фото или видео";
 "Conversation.FileICloudDrive" = "iCloud";
 "Conversation.FileDropbox" = "Dropbox";
-"Conversation.FileGoogleDrive" = "Google Диск";
 
-"Conversation.FileHowTo" = "Как отправлять файлы?";
 "Conversation.FileOpenIn" = "Открыть в…";
 "Conversation.FileHowToText" = "Чтобы отправить файл любого типа, откройте его на своём %@ (например, в браузере), нажмите **«Открыть в…»** либо иконку действий и выберите Телеграм.";
 
 "Map.LocationTitle" = "Местоположение";
 "Map.OpenInMaps" = "Открыть в картах Apple";
-"Map.OpenInGooglePlus" = "Открыть в Google Plus";
 "Map.OpenInHereMaps" = "Открыть в картах HERE";
 "Map.OpenInYandexMaps" = "Открыть в «Яндекс.Картах»";
 "Map.OpenInYandexNavigator" = "Открыть в «Яндекс.Навигаторе»";
 "Map.OpenIn" = "Открыть в";
 
-"Map.SendThisLocation" = "Отправить это место";
-"Map.SendMyCurrentLocation" = "Отправить моё местоположение";
+"Map.SendThisLocation" = "Отправить это местоположение";
+"Map.SendMyCurrentLocation" = "Отправить моё текущее местоположение";
 "Map.Locating" = "Поиск местоположения…";
 "Map.ChooseAPlace" = "Или выберите место";
 "Map.AccurateTo" = "С точностью до %@";
@@ -1386,16 +1178,6 @@
 "Map.ETAHours_any" = "%@ часа";
 "Map.ETAHours_many" = "%@ часов";
 
-"GoogleDrive.Title" = "Google Диск";
-"GoogleDrive.Logout" = "Выйти";
-"GoogleDrive.LogoutTitle" = "Выход";
-"GoogleDrive.LogoutMessage" = "Вы точно хотите выйти из Google Диска?";
-"GoogleDrive.LogoutLogout" = "Выйти";
-"GoogleDrive.FolderIsEmpty" = "Папка пуста.";
-"GoogleDrive.FolderLoadError" = "Не удалось загрузить папку.";
-"GoogleDrive.LoadErrorTitle" = "Не удалось подключиться";
-"GoogleDrive.LoadErrorMessage" = "Проверьте соединение с интернетом и повторите попытку.";
-
 "ChangePhone.ErrorOccupied" = "Номер %@ уже привязан к другому аккаунту в Телеграме. Пожалуйста, удалите этот аккаунт перед тем как перейти на новый номер.";
 
 "AccessDenied.LocationTracking" = "Для отобрадения вашего местоположения Телеграму нужен доступ к геолокации.\n\nЗайдите в Настройки > Конфиденциальность > Службы геолокации и переведите переключатель «Telegram» в рабочее состояние.";
@@ -1412,7 +1194,6 @@
 "AuthSessions.AppUnofficial" = "(ID: %@)";
 
 "WebPreview.GettingLinkInfo" = "Получение информации…";
-"WebPreview.LinkPreview" = "Предпросмотр ссылки";
 
 "Preview.OpenInInstagram" = "Открыть в Инстаграме";
 
@@ -1433,9 +1214,7 @@
 
 "UserInfo.ShareMyContactInfo" = "Отправить мой номер телефона";
 
-"GroupInfo.InvitationLinkAccept" = "Хотите присоединиться к группе «%@s»?";
 "GroupInfo.InvitationLinkAcceptChannel" = "Подписаться на канал «%@s»?";
-"GroupInfo.InvitationLinkAlreadyAccepted" = "Вы уже являетесь участником этой группы.";
 "GroupInfo.InvitationLinkDoesNotExist" = "Извините, такой группы не существует.";
 "GroupInfo.InvitationLinkGroupFull" = "Извините, эта группа переполнена.";
 
@@ -1453,7 +1232,6 @@
 "StickerPacksSettings.StickerPacksSection" = "Наборы стикеров";
 "StickerPacksSettings.ManagingHelp" = "Любой художник может добавить собственные наборы стикеров с помощью бота @stickers.\n\nНажмите на стикер, чтобы просмотреть и добавить весь набор.";
 
-"StickerPack.RemovePrompt" = "Удалить «%@»?";
 "StickerPack.BuiltinPackName" = "Великие люди";
 "StickerPack.StickerCount_1" = "Один стикер";
 "StickerPack.StickerCount_2" = "Два стикера";
@@ -1469,19 +1247,14 @@
 "StickerPack.AddStickerCount_many" = "Добавить %@ стикеров";
 "StickerPack.AddStickerCount_0" = "Добавить %@ стикеров";
 
-"StickerPack.ShareStickers" = "Поделиться стикерами";
-
 "Conversation.ContextMenuStickerPackAdd" = "Добавить стикеры";
 "Conversation.ContextMenuStickerPackInfo" = "Подробнее";
 
-"MediaPicker.Processing" = "Обработка %@";
 "MediaPicker.Nof" = "%@ из";
 
 "UserInfo.ShareBot" = "Отправить";
 "UserInfo.InviteBotToGroup" = "Добавить в группу";
 "Profile.BotInfo" = "описание";
-"Profile.ShareBotPersonFormat" = "Отправить ссылку на бота пользователю %@?";
-"Profile.ShareBotGroupFormat" = "Отправить ссылку на бота пользователю %@?";
 
 "Target.SelectGroup" = "Выбрать группу";
 "Target.InviteToGroupConfirmation" = "Добавить бота в группу «%@»?";
@@ -1511,8 +1284,8 @@
 
 "DialogList.DeleteBotConfirmation" = "Удалить";
 "DialogList.DeleteBotConversationConfirmation" = "Удалить и остановить";
-"Bot.Stop" = "Остановить Бота";
-"Bot.Unblock" = "Перезапустить Бота";
+"Bot.Stop" = "Остановить бота";
+"Bot.Unblock" = "Перезапустить бота";
 
 "Login.PhoneNumberHelp" = "Помощь";
 "Login.EmailPhoneSubject" = "Неверный номер %@";
@@ -1529,7 +1302,6 @@
 "SharedMedia.Link_0" = "%@ ссылок";
 
 "Compose.NewChannelButton" = "Новый канал";
-"Channels.Title" = "Каналы";
 
 "Compose.NewChannel" = "Новый канал";
 "GroupInfo.ChannelListNamePlaceholder" = "Название канала";
@@ -1556,7 +1328,6 @@
 "Channel.Username.CheckingUsername" = "Проверка имени…";
 "Channel.Username.UsernameIsAvailable" = "Короткое имя %@ свободно.";
 
-"Channel.Share" = "Поделиться";
 "Channel.LeaveChannel" = "Покинуть канал";
 
 "Channel.About.Title" = "Описание";
@@ -1564,38 +1335,21 @@
 "Channel.About.Placeholder" = "Описание";
 "Channel.About.Help" = "Можете указать дополнительное описание для Вашего канала.";
 "Group.About.Help" = "Можете указать дополнительное описание для Вашей группы.";
-"Channel.About.Error" = "Произошла ошибка.";
-"Channel.ShareNoLink" = "Пожалуйста, придумайте короткое имя для канала, чтобы люди могли найти его в поиске.";
 
 "Channel.Status" = "канал";
 "Group.Status" = "группа";
 
 "Compose.NewChannel.Members" = "УЧАСТНИКИ";
-"Compose.NewChannel.AddMember" = "Добавить участников";
-"Compose.NewChannel.AddMemberHelp" = "Вы можете пригласить своих контактов присоединится к каналу прямо сейчас или добавить их позже.";
-"Channel.NotificationSelfAdded" = "%@ добавил вас в этот канал";
 
 "ChannelInfo.ConfirmLeave" = "Покинуть канал";
 "Channel.JoinChannel" = "Войти";
 "Forward.ChannelReadOnly" = "Простите, но вы не можете отправлять сообщения в этот канал.";
 
-"Conversation.InfoChannel" = "Канал";
-
 "Channel.ErrorAccessDenied" = "Извините, это частный канал.";
 "Conversation.InputTextBroadcastPlaceholder" = "Рассылка";
 
-"Channel.TitleShowDiscussion" = "показать комментарии";
-"Channel.ShareChannel" = "Поделиться";
-
-"Channel.NotificationComments_1" = "1 комментарий";
-"Channel.NotificationComments_2" = "2 комментария";
-"Channel.NotificationComments_3_10" = "%@ комментариев";
-"Channel.NotificationComments_any" = "%@ комментариев";
-"Channel.NotificationComments_many" = "%@ комментариев";
-"Channel.NotificationComments_0" = "%@ комментариев";
 "Channel.NotificationLoading" = "Загрузка...";
 
-"Conversation.InputTextDisabledPlaceholder" = "Комментарии выключены";
 "Compose.ChannelTokenListPlaceholder" = "Поиск контактов или пользователей";
 "Compose.GroupTokenListPlaceholder" = "Поиск контактов или пользователей";
 
@@ -1611,9 +1365,6 @@
 
 "Channel.Username.CreatePublicLinkHelp" = "Люди смогут делиться этой ссылкой с другими и находить ваш канал через поиск в Telegram.";
 "Channel.Username.CreatePrivateLinkHelp" = "Люди смогут присоединяться к вашему каналу, следуя по этой ссылке. Вы можете отозвать эту ссылку в любое время.";
-
-"Channel.Username.CreateCommentsEnabled" = "Комментарии";
-"Channel.Username.CreateCommentsHelp" = "Если вы включите комментарии, люди смогут обсуждать ваши записи на канале.";
 
 "Channel.Setup.PublicNoLink" = "Выберите ссылку для вашего публичного канала, чтобы люди могли найти его через поиск и поделиться с другими.\n\nЕсли Вы в этом не заинтересованы, предлагаем создать частный канал.";
 
@@ -1631,27 +1382,15 @@
 "Channel.BlackList.Title" = "Чёрный список";
 "Channel.Management.Title" = "Администраторы";
 "Channel.Management.LabelCreator" = "Создатель";
-"Channel.Management.LabelModerator" = "Администратор";
 "Channel.Management.LabelEditor" = "Администратор";
 
 "Channel.Management.AddModerator" = "Добавить Администратора";
 "Channel.Management.AddModeratorHelp" = "Вы можете добавлять администраторов для помощи в управлении каналом. ";
 
-"Channel.Members.Kick" = "Исключить";
-"Channel.Management.Remove" = "Убрать";
-
-"Conversation.InputTextCommentPlaceholder" = "Комментировать";
-
 "Channel.Members.InviteLink" = "Пригласить по ссылке";
 
 "Channel.Management.ErrorNotMember" = "%@ еще не подписан(а) на канал. Пригласить этого пользователя?";
 
-"Channel.Moderator.AccessLevelHeader" = "УРОВЕНЬ ДОПУСКА";
-"Channel.Moderator.AccessLevelEditor" = "Редактор";
-"Channel.Moderator.AccessLevelModerator" = "Администратор";
-
-"Channel.Moderator.AccessLevelModeratorHelp" = "Модераторы могут убирать комментарии пользователей и заведуют чёрным списком.\n\nМодераторы не могут менять имя канала, ссылку, фото, и описание.";
-"Channel.Moderator.AccessLevelEditorHelp" = "Редакторы могут оставлять или удалять записи на канале, и заведуют чёрным списком.";
 "Channel.Moderator.AccessLevelRevoke" = "Убрать из администраторов";
 
 "Channel.Moderator.Title" = "Администратор";
@@ -1665,13 +1404,10 @@
 "ChannelInfo.DeleteChannel" = "Удалить канал";
 "ChannelInfo.DeleteChannelConfirmation" = "Внимание! Удаление этого канала также исключит всех участников и все сообщения будут утрачены. Вы точно хотите его удалить?";
 
-"Channel.Username.InvalidTooManyUsernames" = "Извините, вы создали слишком много публичных каналов. Вы можете либо удалить один из существующих, либо создать частный канал.";
-
 "ChannelInfo.ChannelForbidden" = "Извините, канал \"%@\" больше недоступен.";
 
 "PhotoEditor.FadeTool" = "Затемнение";
 "PhotoEditor.TintTool" = "Оттенок";
-"PhotoEditor.TintIntensity" = "Интенсивность";
 "PhotoEditor.ShadowsTint" = "Тени";
 "PhotoEditor.HighlightsTint" = "Выделение";
 "PhotoEditor.CurvesTool" = "Кривые";
@@ -1705,7 +1441,6 @@
 
 "Group.MessagePhotoUpdated" = "Фото группы обновлено";
 "Group.MessagePhotoRemoved" = "Фото группы удалено";
-"Group.MessageTitleUpdated" = "Имя группы изменено на \"%@\"";
 
 "Group.UpgradeNoticeHeader" = "ДОСТИГНУТ ЛИМИТ УЧАСТНИКОВ";
 
@@ -1714,17 +1449,13 @@
 "GroupInfo.UpgradeButton" = "Преобразовать в супергруппу";
 "Group.UpgradeConfirmation" = "Внимание: это действие необратимо. Супергруппу невозможно преобразовать в обычную группу.";
 
-"Notification.GroupMigratedToChannel" = "Эта группа была преобразована в супергруппу.";
-"Notification.GroupDeactivated" = "Группа отключена";
-"Notification.GroupDeactivated" = "Группа отключена";
+"Notification.GroupActivated" = "Группа отключена";
 "Notification.ChannelMigratedFrom" = "Эта группа была преобразована в супергруппу.";
 
-"Conversation.StatusGroupDeactivated" = "группа отключена";
 "GroupInfo.DeactivatedStatus" = "Группа Отключена";
 
 "Notification.RenamedGroup" = "Группа переименована";
 
-"Group.ErrorAddTooMuch" = "Извините, эта группа переполнена.";
 "Group.ErrorAddTooMuchBots" = "Извините, вы достигли максимального количества ботов в этой группе.";
 "Group.ErrorAddTooMuchAdmins" = "Извините, вы достигли максимального количества администраторов в этой группе.";
 "Group.ErrorAddBlocked" = "Извините, вы не можете добавлять этого пользователя в группы.";
@@ -1732,10 +1463,6 @@
 
 "Conversation.SendMessageErrorFlood" = "Извините, в данный момент вы можете отправлять сообщения только взаимным контактам.";
 "Generic.ErrorMoreInfo" = "Больше информации";
-
-"Notification.InvitedMany" = "%@ пригласил(а) %@";
-
-"ChannelMembers.Blacklist.EmptyText" = "Заблокированные пользователи исключаются из группы и могут вернуться только по приглашению администратора. Пригласительные ссылки для них не работают.";
 
 "ChannelInfo.DeleteGroup" = "Удалить группу";
 "ChannelInfo.DeleteGroupConfirmation" = "Внимание! Удаление этой группы также исключит всех участников и все сообщения будут утрачены. Всё равно удалить?";
@@ -1810,14 +1537,9 @@
 "Watch.Location.Access" = "Предоставьте Телеграму доступ к геолокации в настройках телефона";
 
 "Watch.AuthRequired" = "Войдите в Телеграм на телефоне, чтобы начать";
-"Watch.UnlockRequired" = "Разблокируйте Телеграм на своём телефоне";
 
 "Watch.NoConnection" = "Нет связи";
 "Watch.ConnectionDescription" = "Ваши часы должны быть подключены к телефону, чтобы приложением работало корректно";
-
-"Watch.State.Connecting" = "Соединение...";
-"Watch.State.Updating" = "Обновление...";
-"Watch.State.WaitingForNetwork" = "Нет сети";
 
 "Watch.Time.ShortTodayAt" = "Сегодня %@";
 "Watch.Time.ShortYesterdayAt" = "Вчера %@";
@@ -1837,9 +1559,7 @@
 "Watch.LastSeen.HoursAgo_any" = "%@ часа назад";
 "Watch.LastSeen.HoursAgo_many" = "%@ часов назад";
 "Watch.LastSeen.HoursAgo_0" = "%@ часов назад";
-"Watch.LastSeen.TodayAt" = "сегодня в %@";
 "Watch.LastSeen.YesterdayAt" = "вчера в %@";
-"Watch.LastSeen.AtWeekday" = "%@";
 "Watch.LastSeen.AtDate" = "%@";
 "Watch.LastSeen.Lately" = "недавно";
 "Watch.LastSeen.WithinAWeek" = "на этой неделе";
@@ -1847,18 +1567,11 @@
 "Watch.LastSeen.ALongTimeAgo" = "очень давно";
 
 "Watch.Suggestion.OK" = "ОК";
-"Watch.Suggestion.ThankYou" = "Спасибо.";
 "Watch.Suggestion.Thanks" = "Спасибо!";
 "Watch.Suggestion.WhatsUp" = "Как дела?";
-"Watch.Suggestion.Yes" = "Да";
-"Watch.Suggestion.No" = "Нет";
-"Watch.Suggestion.Absolutely" = "Точно";
-"Watch.Suggestion.Nope" = "Не-а";
 "Watch.Suggestion.TalkLater" = "Поговорим позже?";
 "Watch.Suggestion.CantTalk" = "Не могу сейчас говорить…";
 "Watch.Suggestion.HoldOn" = "Подожди секундочку…";
-"Watch.Suggestion.CallSoon" = "Скоро перезвоню";
-"Watch.Suggestion.TextInABit" = "Напишу чуть попозже.";
 "Watch.Suggestion.BRB" = "Скоро вернусь.";
 "Watch.Suggestion.OnMyWay" = "Я в пути.";
 "Cache.Photos" = "Фото";
@@ -1874,16 +1587,13 @@
 
 "ExplicitContent.AlertTitle" = "Извините";
 "ExplicitContent.AlertChannel" = "Вы не можете получить доступ к этому каналу, потому что он нарушает правила App Store.";
-"ExplicitContent.AlertUser" = "Вы не можете получить доступ к этому боту, потому что он нарушает правила App Store.";
 
 "StickerSettings.ContextHide" = "Архивировать";
-"StickerSettings.ContextShow" = "Показать";
 
 "Conversation.LinkDialogSave" = "Сохранить";
 "Conversation.GifTooltip" = "Нажмите для доступа к сохранённым GIF";
 
 "AttachmentMenu.PhotoOrVideo" = "Фото или видео";
-"AttachmentMenu.ImageSearch" = "Поиск изображения";
 "AttachmentMenu.File" = "Файл";
 
 "AttachmentMenu.SendPhoto_1" = "Отправить 1 фото";
@@ -1985,8 +1695,6 @@
 
 "Channel.EditMessageErrorGeneric" = "Извините, вы не можете изменить это сообщение.";
 
-"ChannelInfo.InvitationLinkDoesNotExist" = "Извините, похоже, что такого канала не существует.";
-
 "Conversation.InputTextSilentBroadcastPlaceholder" = "Опубликовать без уведомлений";
 "Conversation.SilentBroadcastTooltipOn" = "Участники будут уведомлены о новых записях";
 "Conversation.SilentBroadcastTooltipOff" = "Участники не будут уведомлены о новых записях";
@@ -2004,12 +1712,8 @@
 "Conversation.Moderate.Report" = "Это спам";
 "Conversation.Moderate.DeleteAllMessages" = "Удалить всё от %@";
 
-"Group.Username.Help" = "Вы можете выбрать короткое имя для Вашей группы. Если сделать это, другие люди смогут найти вашу группу в поиске.\n\nКороткое имя может содержать только латинские буквы **a-z**, цифры **0-9** и символы подчёркивания. Минимальная допустимая длина имени — **5** символов.";
-
 "Group.Username.InvalidTooShort" = "Короткие имена должны содержать не меньше 5 символов.";
 "Group.Username.InvalidStartsWithNumber" = "Короткие имена не могут начинаться с цифры.";
-
-"Group.Username.LinkHint" = "Эта ссылка откроет Вашу группу в Telegram:[\nhttps://t.me/%@]";
 
 "Notification.PinnedTextMessage" = "%@ закрепил(а) \"%@\"";
 "Notification.PinnedPhotoMessage" = "%@ закрепил(а) фото";
@@ -2032,7 +1736,6 @@
 "Message.PinnedStickerMessage" = "закреплённый стикер";
 "Message.PinnedLocationMessage" = "закреплённое местоположение";
 "Message.PinnedContactMessage" = "закреплённый контакт";
-"Message.PinnedDeletedMessage" = "закреплённоге удалённое сообщение";
 
 "Notification.PinnedMessage" = "закреплённое сообщение";
 
@@ -2063,17 +1766,12 @@
 
 "Profile.About" = "био";
 
-"Group.Management.ErrorNotMember" = "%@ еще не присоединился к группе. Хотите пригласить пользователя?";
-
-"Conversation.ReportSpamAndLeave" = "Сообщить о спаме и Выйти";
-
 "Conversation.StatusKickedFromChannel" = "вы были исключены из канала";
 
 "Generic.OpenHiddenLinkAlert" = "Открыть %@?";
 
 "Resolve.ErrorNotFound" = "Извините, похоже, что такого пользователя не существует.";
 
-"StickerPack.AddStickers" = "Добавить стикеры";
 "StickerPack.Share" = "Поделиться";
 "StickerPack.Send" = "Отправить стикер";
 
@@ -2086,7 +1784,6 @@
 "StickerPack.RemoveStickerCount_0" = "Удалить %@ стикеров";
 
 "StickerPack.HideStickers" = "Спрятать Стикеры";
-"StickerPack.ShowStickers" = "Показать Стикеры";
 
 "ShareMenu.ShareTo" = "Отправить";
 "ShareMenu.SelectChats" = "Выберите чаты";
@@ -2099,7 +1796,6 @@
 "Preview.SaveGif" = "Сохранить GIF";
 "Preview.DeleteGif" = "Удалить GIF";
 "Preview.CopyAddress" = "Скопировать Адрес";
-"Preview.ViewStickerPack" = "Просмотреть набор стикеров";
 
 "Conversation.ShareBotLocationConfirmationTitle" = "Поделиться вашим расположением?";
 "Conversation.ShareBotLocationConfirmation" = "Это отправит боту ваше текущее расположение.";
@@ -2109,34 +1805,17 @@
 
 "Conversation.ShareInlineBotLocationConfirmation" = "Этот бот хотел бы знать ваше расположение каждый раз, когда вы отправляете ему запрос. Это может использоваться для выдачи результатов, связанных с расположением.";
 
-"Activity.UploadingAudio" = "отправляю аудио";
-
-"Preview.Tooltip" = "Нажмите и удерживайте для предпросмотра";
-
 "StickerPack.ErrorNotFound" = "Извините, похоже, что таких стикеров не существует.";
 
 "Camera.TapAndHoldForVideo" = "Нажмите и удерживайте для записи видео";
 
-"Conversation.TapAndHoldToRecord" = "Нажмите и удерживайте для записи";
-
 "DialogList.RecentTitlePeople" = "Люди";
-"DialogList.RecentTitleGroups" = "Группы";
-"DialogList.RecentTitleBots" = "Боты";
 
 "Conversation.MessageEditedLabel" = "изменено";
 "Conversation.EditingMessagePanelTitle" = "Редактировать сообщение";
 
 "DialogList.Draft" = "Черновик";
 "Embed.PlayingInPIP" = "Видео воспроизводится в режиме «картинка в картинке»";
-
-"MediaPicker.Moments" = "Моменты";
-"MediaPicker.MomentsDateFormat" = "{day} {month}"; // 1 - day, 2 - month
-"MediaPicker.MomentsDateYearFormat" = "{day} {month} {year}"; // 1 - day, 2 - month, 3 - year
-
-"MediaPicker.MomentsDateRangeFormat" = "{date1} – {date2}";
-"MediaPicker.MomentsDateRangeYearFormat" = "{date1} – {date2} {year}";
-"MediaPicker.MomentsDateRangeSameMonthFormat" = "{day1} – {day2} {month}";
-"MediaPicker.MomentsDateRangeSameMonthYearFormat" = "{day1} – {day2} {month} {year}";
 
 "StickerPacksSettings.FeaturedPacks" = "Популярные стикеры";
 "FeaturedStickerPacks.Title" = "Популярные стикеры";
@@ -2262,13 +1941,6 @@
 "MaskStickerSettings.Title" = "Маски";
 "MaskStickerSettings.Info" = "Вы можете добавлять маски на отправляемые фото и видео. Для этого перед отправкой откройте визуальный редактор.";
 
-"StickerPack.MaskCount_1" = "1 маска";
-"StickerPack.MaskCount_2" = "2 маски";
-"StickerPack.MaskCount_3_10" = "%@ маски";
-"StickerPack.MaskCount_any" = "%@ маски";
-"StickerPack.MaskCount_many" = "%@ масок";
-"StickerPack.MaskCount_0" = "%@ масок";
-
 "StickerPack.Add" = "Добавить";
 "StickerPack.AddMaskCount_1" = "Добавить 1 маску";
 "StickerPack.AddMaskCount_2" = "Добавить 2 маски";
@@ -2277,7 +1949,6 @@
 "StickerPack.AddMaskCount_many" = "Добавить %@ масок";
 "StickerPack.AddMaskCount_0" = "Добавить %@ масок";
 
-"StickerPack.Remove" = "Удалить";
 "StickerPack.RemoveMaskCount_1" = "Удалить 1 маску";
 "StickerPack.RemoveMaskCount_2" = "Удалить 2 маски";
 "StickerPack.RemoveMaskCount_3_10" = "Удалить %@ маски";
@@ -2295,8 +1966,6 @@
 "Widget.AuthRequired" = "Войти в Телеграм";
 "Widget.NoUsers" = "Начните общение, чтобы увидеть здесь друзей";
 
-"Message.GamePreviewLabel" = "ИГРА";
-
 "ShareMenu.CopyShareLinkGame" = "Копировать ссылку на игру";
 
 "Message.PinnedGame" = "закрепил(а) игру";
@@ -2305,6 +1974,7 @@
 "Target.ShareGameConfirmationGroup" = "Поделиться игрой с \"%@\"?";
 
 "Activity.PlayingGame" = "играет";
+"Activity.UploadingVideoMessage" = "отправляет видео";
 
 "DialogList.SinglePlayingGameSuffix" = "%@ сейчас играет";
 
@@ -2320,7 +1990,6 @@
 "AccessDenied.CallMicrophone" = "Telegram нужен доступ к микрофону для осуществления звонков.\n\nПожалуйста, зайдите в Настройки > Конфиденциальность > Микрофон и переведите переключатель «Telegram» в положение ВКЛ.";
 
 "Call.EncryptionKey.Title" = "Ключ шифрования";
-"Call.EncryptionKey.Description" = "Изображение и текст получены из ключа шифрования для звонка пользователю %1$@.\n\nЕсли они выглядят так же, как на устройстве пользователя %2$@, оконечное шифрование гарантировано.";
 
 "Application.Name" = "Telegram";
 "DialogList.Pin" = "Закрепить";
@@ -2354,7 +2023,6 @@
 "Calls.TabTitle" = "Звонки";
 "Calls.All" = "Все";
 "Calls.Missed" = "Пропущенные";
-"Calls.Clear" = "Очистить";
 
 "CallSettings.Title" = "Звонки";
 "CallSettings.RecentCalls" = "Недавние вызовы";
@@ -2370,7 +2038,6 @@
 "Calls.CallTabDescription" = "Вы можете добавить вкладку «Звонки» на главную страницу.";
 "Calls.NotNow" = "Не сейчас";
 "Calls.AddTab" = "Добавить вкладку";
-"Calls.Search" = "Поиск вызовов";
 "Calls.NewCall" = "Новый звонок";
 
 "Calls.RatingTitle" = "Пожалуйста, оцените качество \nзвонка через Telegram";
@@ -2449,7 +2116,6 @@
 "Checkout.NewCard.PostcodePlaceholder" = "Почтовый индекс";
 
 "Checkout.ShippingOption.Title" = "Способ доставки";
-"Checkout.ShippingOption.Header" = "ВЫБЕРИТЕ СПОСОБ ДОСТАВКИ";
 
 "Checkout.ErrorProviderAccountInvalid" = "Этот бот сейчас не может принимать платежи. Пожалуйста, попробуйте позднее.";
 "Checkout.ErrorProviderAccountTimeout" = "Этот бот сейчас не может проводить платежи. Пожалуйста, попробуйте позднее.";
@@ -2486,7 +2152,6 @@
 "Checkout.Receipt.Title" = "Квитанция";
 
 "Message.ReplyActionButtonShowReceipt" = "Показать квитанцию";
-"Message.InvoiceShipmentLabel" = "ДОСТАВКА";
 "Message.InvoiceLabel" = "СЧЁТ";
 
 "CheckoutInfo.ErrorShippingNotAvailable" = "Доставка в выбранную страну невозможна.";
@@ -2555,8 +2220,6 @@
 
 "Call.StatusBar" = "Нажмите, чтобы вернуться к разговору с %@";
 
-"UserInfo.Call" = "Голосовой вызов";
-
 "Call.ParticipantVersionOutdatedError" = "Приложение пользователя %@ не поддерживает звонки. Он должен обновить приложение, чтобы вы могли ему звонить.";
 
 "Privacy.Calls" = "Голосовые вызовы";
@@ -2597,8 +2260,6 @@
 "Call.PrivacyErrorMessage" = "Извините, %@ не принимает звонки.";
 
 "Notification.CallBack" = "Перезвонить";
-
-"CallSettings.PrivacyDescription" = "Выберите, кто может Вам звонить, в [настройках приватности]";
 
 "Call.AudioRouteSpeaker" = "Динамик";
 "Call.AudioRouteHeadphones" = "Наушники";
@@ -2653,13 +2314,6 @@
 "Privacy.PaymentsClear.PaymentInfo" = "Платёжная информация";
 "Privacy.PaymentsClear.ShippingInfo" = "Информация о доставке";
 
-"Channel.Management.LabelRights_1" = "1 право";
-"Channel.Management.LabelRights_2" = "2 права";
-"Channel.Management.LabelRights_3_10" = "%@ права";
-"Channel.Management.LabelRights_any" = "%@ права";
-"Channel.Management.LabelRights_many" = "%@ прав";
-"Channel.Management.LabelRights_0" = "%@ прав";
-
 "Channel.EditAdmin.PermissionsHeader" = "ЧТО МОЖЕТ ДЕЛАТЬ ЭТОТ АДМИНИСТРАТОР?";
 "Channel.EditAdmin.PermissionChangeInfo" = "Изменять описание канала";
 "Group.EditAdmin.PermissionChangeInfo" = "Изменять описание группы";
@@ -2668,7 +2322,6 @@
 "Channel.EditAdmin.PermissionDeleteMessages" = "Удалять сообщения";
 "Channel.EditAdmin.PermissionBanUsers" = "Блокировать пользователей";
 "Channel.EditAdmin.PermissionInviteUsers" = "Добавлять пользователей";
-"Channel.EditAdmin.PermissionChangeInviteLink" = "Приглашать по ссылке";
 "Channel.EditAdmin.PermissionPinMessages" = "Закреплять сообщения";
 "Channel.EditAdmin.PermissionAddAdmins" = "Добавлять администраторов";
 
@@ -2700,7 +2353,6 @@
 "Channel.AdminLog.InfoPanelTitle" = "Что это?";
 "Channel.AdminLog.InfoPanelAlertTitle" = "Что такое журнал действий?";
 "Channel.AdminLog.InfoPanelAlertText" = "Это список всех служебных действий, совершённых участниками и администраторами группы за последние 48 часов.";
-"Channel.AdminLog.Status" = "журнал событий";
 
 "Channel.AdminLog.BanReadMessages" = "Читать сообщения";
 "Channel.AdminLog.BanSendMessages" = "Отправлять сообщения";
@@ -2718,7 +2370,6 @@
 "Channel.AdminLog.CanInviteUsers" = "Добавлять пользователей";
 "Channel.AdminLog.CanChangeInviteLink" = "Приглашать пользователей по ссылке";
 "Channel.AdminLog.CanPinMessages" = "Закреплять сообщения";
-"Channel.AdminLog.CanStartCalls" = "Совершать вызовы";
 "Channel.AdminLog.CanAddAdmins" = "Добавлять новых администраторов";
 "Channel.AdminLog.CanEditMessages" = "Редактировать сообщения";
 
@@ -2760,7 +2411,6 @@
 "Channel.AdminLog.MessagePreviousLink" = "Прошлая ссылка";
 "Channel.AdminLog.MessagePreviousDescription" = "Прошлое описание";
 
-"Contacts.MemberSearchSectionTitleChannel" = "Участники канала";
 "Contacts.MemberSearchSectionTitleGroup" = "Участники группы";
 
 "Channel.AdminLog.TitleAllEvents" = "Все действия";
@@ -2783,8 +2433,6 @@
 "Group.ErrorSendRestrictedStickers" = "Извините, администраторы этой группы запретили Вам отправлять стикеры.";
 "Group.ErrorSendRestrictedMedia" = "Извините, администраторы этой группы запретили Вам отправлять фото и видео.";
 
-"ChannelMembers.BanList.EmptyText" = "Заблокированных пользователей пока нет.";
-
 "SharedMedia.ViewInChat" = "Просмотреть в чате";
 
 "Channel.Info.BlackList" = "Черный список";
@@ -2796,11 +2444,10 @@
 "Contacts.AddPhoneNumber" = "Добавить %@";
 "Contacts.ShareTelegram" = "Пригласить в Телеграм";
 
-"Conversation.ViewChannel" = "ПЕРЕЙТИ В КАНАЛ";
-"Conversation.ViewGroup" = "ПЕРЕЙТИ В ГРУППУ";
+"Conversation.ViewChannel" = "ПЕРЕЙТИ К КАНАЛУ";
+"Conversation.ViewGroup" = "ПЕРЕЙТИ К ГРУППЕ";
 
 "GroupInfo.ActionPromote" = "Повысить";
-"GroupInfo.ActionBan" = "Блокировать";
 "GroupInfo.ActionRestrict" = "Ограничить";
 
 "Conversation.RestrictedTextTimed" = "Администраторы этой группы запретили Вам писать здесь до %@.";
@@ -2848,7 +2495,6 @@
 
 "Channel.Members.AddBannedErrorAdmin" = "Извините, но Вы не можете заблокировать этого пользователя, поскольку он является администратором в этой группе, а у Вас нет прав, чтобы его разжаловать.";
 
-"Group.Members.AddMemberErrorNotAllowed" = "Извините, у вас не хватает прав на добавление пользователей в эту группу.";
 "Group.Members.AddMemberBotErrorNotAllowed" = "Извините, у вас нет прав на добавление ботов в эту группу.";
 
 "Privacy.Calls.P2P" = "Peer-to-Peer";
@@ -2927,7 +2573,6 @@
 
 "Clipboard.SendPhoto" = "Отправить фото";
 
-"HashtagSearch.ThisChat" = "В этом чате";
 "HashtagSearch.AllChats" = "Во всех чатах";
 
 "Stickers.AddToFavorites" = "Добавить в Избранное";
@@ -2955,3 +2600,96 @@
 "MediaPicker.TimerTooltip" = "Теперь вы можете установить таймер самоуничтожения";
 
 "UserInfo.BlockConfirmation" = "Заблокировать/разблокировать %@?";
+
+"FastTwoStepSetup.Title" = "Пароль и E-mail";
+"FastTwoStepSetup.PasswordSection" = "ПАРОЛЬ";
+"FastTwoStepSetup.PasswordPlaceholder" = "Введите пароль";
+"FastTwoStepSetup.PasswordConfirmationPlaceholder" = "Ещё раз введите пароль";
+"FastTwoStepSetup.PasswordHelp" = "Пожалуйста, создайте пароль для защиты своей платёжной информации. При каждом входе его будут у вас спрашивать.";
+"FastTwoStepSetup.EmailSection" = "E-MAIL ДЛЯ ВОССТАНОВЛЕНИЯ";
+"FastTwoStepSetup.EmailPlaceholder" = "Ваш E-Mail";
+"FastTwoStepSetup.EmailHelp" = "Пожалуйста, введите существующий e-mail. Это единственный способ восстановить забытый пароль.";
+
+"Conversation.ViewMessage" = "ПЕРЕЙТИ К СООБЩЕНИЮ";
+
+"GroupInfo.GroupHistory" = "История чата для новых участников";
+"GroupInfo.GroupHistoryVisible" = "Видна";
+"GroupInfo.GroupHistoryHidden" = "Скрыта";
+
+"Group.Setup.HistoryTitle" = "Настройки истории чата";
+"Group.Setup.HistoryHeader" = "ИСТОРИЯ ЧАТА ДЛЯ НОВЫХ УЧАСТНИКОВ";
+"Group.Setup.HistoryVisible" = "Видна";
+"Group.Setup.HistoryHidden" = "Скрыта";
+
+"Group.Setup.HistoryVisibleHelp" = "Новые участники увидят сообщения, которые были отправлены до их вступления.";
+"Group.Setup.HistoryHiddenHelp" = "Новые участники не увидят прошлые сообщения.";
+
+"Channel.AdminLog.MessageGroupPreHistoryVisible" = "%@ сделал(а) историю чата видимой для новых участников";
+"Channel.AdminLog.MessageGroupPreHistoryHidden" = "%@ скрыл(а) историю чата для новых участников";
+
+"Map.PullUpForPlaces" = "ПОТЯНИТЕ ВВЕРХ, ЧТОБЫ УВИДЕТЬ МЕСТА ПОБЛИЗОСТИ";
+"Map.ShareLiveLocation" = "Поделиться моим текущим местоположением с...";
+"Map.ShareLiveLocationHelp" = "Обновляется в реальном времени при перемещении";
+"Map.StopLiveLocation" = "Прекратить показывать местоположение";
+"Map.Directions" = "Направления";
+"Map.DirectionsDriveEta" = "%@ на транспорте";
+"Map.Location" = "Местоположение";
+"Map.YouAreHere" = "вы здесь";
+"Map.LiveLocationShowAll" = "Показать все";
+
+"Map.LiveLocationTitle" = "Местоположение в реал. времени";
+"Map.LiveLocationPrivateDescription" = "Выберите, как долго делиться точным местоположением с %@.";
+"Map.LiveLocationGroupDescription" = "Выберите, как долго люди из этого чата будут видеть ваше точное местоположение.";
+"Map.LiveLocationFor15Minutes" = "15 минут";
+"Map.LiveLocationFor1Hour" = "1 час";
+"Map.LiveLocationFor8Hours" = "8 часов";
+"Map.LiveLocationShortHour" = "%@ ч.";
+
+"Message.LiveLocation" = "Текущее местоположение";
+"Conversation.LiveLocation" = "Текущее местоположение";
+"Conversation.LiveLocationEnded" = "Показ местоположения завершён";
+
+"Conversation.LiveLocationYou" = "Вы";
+"Conversation.LiveLocationYouAnd" = "*Вы* и %@";
+"Conversation.LiveLocationMembersCount_1" = "1 участник";
+"Conversation.LiveLocationMembersCount_2" = "2 участника";
+"Conversation.LiveLocationMembersCount_3_10" = "%@ участн.";
+"Conversation.LiveLocationMembersCount_any" = "%@ участн.";
+"Conversation.LiveLocationMembersCount_many" = "%@ участн.";
+"Conversation.LiveLocationMembersCount_0" = "%@ участников";
+
+"Conversation.Admin" = "админ.";
+
+"LiveLocationUpdated.JustNow" = "обновлено только что";
+"LiveLocationUpdated.MinutesAgo_0" = "обновлено %@ минут назад"; //three to ten
+"LiveLocationUpdated.MinutesAgo_1" = "обновлено 1 минуту назад"; //one
+"LiveLocationUpdated.MinutesAgo_2" = "обновлено 2 минуты назад"; //two
+"LiveLocationUpdated.MinutesAgo_3_10" = "обновлено %@ мин. назад"; //three to ten
+"LiveLocationUpdated.MinutesAgo_many" = "обновлено %@ мин. назад"; // more than ten
+"LiveLocationUpdated.MinutesAgo_any" = "обновлено %@ мин. назад"; // more than ten
+"LiveLocationUpdated.TodayAt" = "обновлено в %@";
+"LiveLocationUpdated.YesterdayAt" = "обновлено вчера в %@";
+"LiveLocationUpdated.AtDate" = "обновлено %@";
+
+"LiveLocation.MenuChatsCount_1" = "Вы делитесь текущим местоположением с 1 чатом.";
+"LiveLocation.MenuChatsCount_2" = "Вы делитесь текущим местоположением с 2 чатами.";
+"LiveLocation.MenuChatsCount_3_10" = "Вы делитесь текущим местоположением с %@ чатами.";
+"LiveLocation.MenuChatsCount_any" = "Вы делитесь текущим местоположением с %@ чатами.";
+"LiveLocation.MenuChatsCount_many" = "Вы делитесь текущим местоположением с %@ чатами.";
+"LiveLocation.MenuChatsCount_0" = "Вы делитесь текущим местоположением с %@ чатами.";
+"LiveLocation.MenuStopAll" = "Прекратить";
+
+"DialogList.LiveLocationSharingTo" = "делитесь с %@";
+"DialogList.LiveLocationChatsCount_1" = "делитесь с 1 чатом";
+"DialogList.LiveLocationChatsCount_2" = "делитесь с 2 чатами";
+"DialogList.LiveLocationChatsCount_3_10" = "делитесь с %@ чатами";
+"DialogList.LiveLocationChatsCount_any" = "делитесь с %@ чатами";
+"DialogList.LiveLocationChatsCount_many" = "делитесь с %@ чатами";
+"DialogList.LiveLocationChatsCount_0" = "делитесь с %@ чатами";
+
+"Notification.PinnedLiveLocationMessage" = "%@ закрепил(а) текущее местоположение";
+"Message.PinnedLiveLocationMessage" = "закрепил(а) текущее местоположение";
+
+"NotificationSettings.ContactJoined" = "Новые контакты";
+
+"AccessDenied.LocationAlwaysDenied" = "Если вы хотите делиться с друзьями своим местоположением в реальном времени, Telegram нужен доступ к геолокации, когда приложение находится в фоне.\n\nПожалуйста, перейдите в Настройки > Конфиденциальность > Службы геолокации и выберите «всегда» напротив Telegram.";
