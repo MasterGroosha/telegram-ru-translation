@@ -95,7 +95,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_status_last_week" = "заходил(а) в течение недели";
 "lng_status_last_month" = "заходил(а) в этом месяце";
 "lng_status_lastseen_now" = "был(а) в сети только что";
-"lng_status_lastseen_minutes#one" = "был(а) в сети {count} минуту назад";	 "lng_status_lastseen_minutes#other" = "был(а) в сети {count} минут(-ы) назад";
+"lng_status_lastseen_minutes#one" = "был(а) в сети {count} минуту назад";	 
+"lng_status_lastseen_minutes#other" = "был(а) в сети {count} минут(-ы) назад";
 "lng_status_lastseen_hours#one" = "был(а) в сети {count} час назад";
 "lng_status_lastseen_hours#other" = "был(а) в сети {count} часа(-ов) назад";
 "lng_status_lastseen_today" = "был(а) в сети сегодня в {time}";
@@ -684,7 +685,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_sure_delete_group" = "Уверены, что хотите удалить эту группу? Все участники и сообщения будут безвозвратно удалены.";
 
 "lng_message_empty" = "Пустое сообщение";
-"lng_message_unsupported"= "Это сообщение не поддерживается вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}"; 
+"lng_message_unsupported" = "Это сообщение не поддерживается вашей версией Telegram Desktop. Пожалуйста, обновите его в Настройках или установите из {link}";
 
 "lng_duration_seconds#one" = "{count} сек.";
 "lng_duration_seconds#other" = "{count} сек.";
