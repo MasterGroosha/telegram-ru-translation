@@ -5,7 +5,7 @@
   <string name="LanguageName">Русский</string>
   <string name="English">Английский</string>
   <string name="LanguageNameInEnglish">Russian</string>
-  <string name="LanguageCode">ru</string>
+  <string name="LanguageCode">ru_custom_tgrusbot</string>
   <string name="ContinueOnThisLanguage">Продолжить на русском</string>
   <!--signin view-->
   <string name="YourPhone">Ваш телефон</string>
@@ -1729,4 +1729,13 @@
   <string name="formatterDay24H">HH:mm</string>
   <string name="formatterDay12H">h:mm a</string>
   <string name="formatDateAtTime">%1$s в %2$s</string>
+  <!--NEW Strings after "Translations" update -->
+  <string name="Shuffle">Случайный порядок</string>
+  <string name="ReverseOrder">Обратный порядок</string>
+  <string name="AndMoreTypingGroup_one">%1$s и ещё %2$d печатает</string>
+  <string name="AndMoreTypingGroup_few">%1$s и ещё %2$d печатают</string>
+  <string name="AndMoreTypingGroup_many">%1$s и ещё %2$d печатают</string>
+  <string name="AndMoreTypingGroup_other">%1$s и ещё %2$d печатают</string>
+  <string name="AreTypingGroup">%1$s печатают...</string>
+  <string name="IsTypingGroup">%1$s печатаeт...</string>
 </resources>
