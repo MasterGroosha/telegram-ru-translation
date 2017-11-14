@@ -1738,4 +1738,31 @@
   <string name="AndMoreTypingGroup_other">%1$s и ещё %2$d печатают</string>
   <string name="AreTypingGroup">%1$s печатают...</string>
   <string name="IsTypingGroup">%1$s печатаeт...</string>
+  <!-- Added on 14.11.2017 -->
+  <string name="NotificationActionPinnedGeoChannel">%1$s закрепил(а) местоположение</string>
+  <string name="NotificationActionPinnedGeoLiveChannel">%1$@ закрепил(а) трансляцию геопозиции</string>
+  <string name="NotificationActionPinnedGifChannel">%1$s закрепил(а) GIF</string>
+  <string name="NotificationActionPinnedFileChannel">%1$s закрепил(а) файл</string>
+  <string name="NotificationActionPinnedGameChannel">%1$s закрепил(а) игру</string>
+  <string name="NotificationActionPinnedTextChannel">%1$s закрепил(а) «%2$s»</string>
+  <string name="NotificationActionPinnedMusicChannel">%1$s закрепил(а) трек</string>
+  <string name="NotificationActionPinnedPhotoChannel">%1$s закрепил(а) фото</string>
+  <string name="NotificationActionPinnedRoundChannel">%1$s закрепил(а) видеосообщение</string>
+  <string name="NotificationActionPinnedContactChannel">%1$s закрепил(а) контакт</string>
+  <string name="NotificationActionPinnedNoTextChannel">%1$s закрепил(а) сообщение</string>
+  <string name="NotificationActionPinnedVideoChannel">%1$s закрепил(а) видео</string>
+  <string name="NotificationActionPinnedStickerChannel">%1$s закрепил(а) стикер</string>
+  <string name="NotificationActionPinnedStickerEmojiChannel">%1$s закрепил(а) стикер %2$s</string>
+  <string name="NotificationActionPinnedVoiceChannel">%1$s закрепил(а) голосовое сообщение</string>
+  <string name="PinMessageAlertChannel">Хотите закрепить это сообщение в канале?</string>
+  <string name="SinglePhotosHelp">Отдельное сообщение на каждое фото</string>
+  <string name="GroupPhotosHelp">Все фотографии в одном сообщении</string>
+  <string name="SavedMessages">Сохранённые сообщения</string>
+  <string name="SavedMessagesInfo">Перешлите сюда, чтобы сохранить</string>
+  <string name="AreYouSureClearHistoryGroup">Удалить из кэша все сообщения и материалы этой группы?</string>
+  <string name="Subscribers_one">%1$d подписчик</string>
+  <string name="Subscribers_few">%1$d подписчика</string>
+  <string name="Subscribers_many">%1$d подписчиков</string>
+  <string name="Subscribers_other">%1$d подписчиков</string>
+  
 </resources>
