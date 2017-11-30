@@ -610,7 +610,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_info_username_label" = "Юзернейм";
 "lng_info_bio_label" = "О себе";
 "lng_info_link_label" = "Ссылка";
-"lng_info_about_label" = "О программе";
+"lng_info_about_label" = "Описание";
 "lng_info_user_title" = "Информация о пользователе";
 "lng_info_bot_title" = "Информация о боте";
 "lng_info_group_title" = "Информация о группе";
