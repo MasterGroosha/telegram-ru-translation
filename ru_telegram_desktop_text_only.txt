@@ -611,10 +611,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_info_bio_label" = "О себе";
 "lng_info_link_label" = "Ссылка";
 "lng_info_about_label" = "Описание";
-"lng_info_user_title" = "Информация о пользователе";
-"lng_info_bot_title" = "Информация о боте";
-"lng_info_group_title" = "Информация о группе";
-"lng_info_channel_title" = "Информация о канале";
+"lng_info_user_title" = "О пользователе";
+"lng_info_bot_title" = "О боте";
+"lng_info_group_title" = "О группе";
+"lng_info_channel_title" = "О канале";
 "lng_profile_enable_notifications" = "Уведомления";
 "lng_profile_send_message" = "Написать";
 "lng_profile_edit_group_name" = "Переименовать группу";
@@ -662,8 +662,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_manage_group_title" = "Управление группой";
 "lng_manage_channel_title" = "Управление каналом";
-"lng_manage_group_info" = "Информация о группе";
-"lng_manage_channel_info" = "Информация о канале";
+"lng_manage_group_info" = "О группе";
+"lng_manage_channel_info" = "О канале";
 "lng_manage_peer_recent_actions" = "Недавние действия";
 "lng_manage_peer_members" = "Участники";
 "lng_manage_peer_administrators" = "Администраторы";
