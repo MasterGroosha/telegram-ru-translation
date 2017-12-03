@@ -617,7 +617,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_info_channel_title" = "О канале";
 "lng_profile_enable_notifications" = "Уведомления";
 "lng_profile_send_message" = "Написать";
-"lng_profile_edit_group_name" = "Переименовать группу";
 "lng_info_add_as_contact" = "Добавить как контакт";
 "lng_profile_shared_media" = "Общие медиа";
 "lng_media_type_photos" = "Фотографии";
@@ -868,6 +867,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_in_reply_to" = "В ответ на";
 "lng_edited" = "изм.";
 "lng_edited_date" = "Изменено: {date}";
+"lng_admin_badge" = "админ.";
 "lng_cancel_edit_post_sure" = "Отменить редактирование?";
 "lng_cancel_edit_post_yes" = "Да";
 "lng_cancel_edit_post_no" = "Нет";
@@ -1141,7 +1141,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_contact_phone" = "Телефон";
 "lng_enter_contact_data" = "Новый контакт";
-"lng_edit_group_title" = "Изменить имя группы";
 "lng_edit_contact_title" = "Редактирование имени контакта";
 "lng_edit_channel_title" = "Редактировать";
 "lng_edit_sign_messages" = "Подписывать сообщения";
