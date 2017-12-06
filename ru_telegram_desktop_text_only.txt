@@ -19,7 +19,7 @@ Full license: https://github.com/telegramdesktop/tdesktop/blob/master/LICENSE
 Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 */
 "lng_language_name" = "Русский";
-"lng_switch_to_this" = "Переключиться на русский";
+"lng_switch_to_this" = "Продолжить на русском";
 
 "lng_menu_contacts" = "Контакты";
 "lng_menu_settings" = "Настройки";
@@ -566,7 +566,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_block_bot" = "Остановить и заблокировать";
 "lng_profile_unblock_bot" = "Разблокировать бота";
 "lng_profile_invite_to_group" = "Добавить в группу";
-"lng_profile_delete_contact" = "Удалить контакт";
+"lng_profile_delete_contact" = "Удалить";
 "lng_profile_set_group_photo" = "Выбрать фото";
 "lng_profile_add_participant" = "Добавить участников";
 "lng_profile_view_channel" = "Просмотр канала";
@@ -738,6 +738,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_sure_delete_contact" = "Вы уверены, что хотите удалить из контактов {contact}?";
 "lng_sure_delete_history" = "Вы уверены, что хотите удалить историю сообщений с пользователем {contact}?\n\nВосстановить сообщения будет невозможно.";
 "lng_sure_delete_group_history" = "Вы уверены, что хотите удалить историю сообщений в «{group}»?\n\nЭто действие нельзя будет отменить.";
+"lng_sure_delete_saved_messages" = "Вы уверены, что хотите удалить все свои сохранённые сообщения?\n\nЭто действие нельзя будет отменить.";
 "lng_sure_delete_and_exit" = "Вы уверены, что хотите удалить историю сообщений и покинуть «{group}»?\n\nЭто действие нельзя будет отменить";
 "lng_sure_leave_channel" = "Уверены, что хотите покинуть\nэтот канал?";
 "lng_sure_delete_channel" = "Уверены, что хотите удалить этот канал? Все участники и сообщения будут безвозвратно удалены.";
@@ -986,6 +987,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_unblock_button" = "Разблокировать";
 "lng_channel_mute" = "Выкл. звук";
 "lng_channel_unmute" = "Вкл. звук";
+"lng_saved_messages" = "Сохранённые cообщения";
+"lng_saved_short" = "Себе";
+"lng_saved_forward_here" = "Перешлите сюда для быстрого доступа";
 
 "lng_dialogs_text_with_from" = "{from_part} {message}";
 "lng_dialogs_text_from_wrapped" = "{from}:";
