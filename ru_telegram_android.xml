@@ -1764,5 +1764,18 @@
   <string name="Subscribers_few">%1$d подписчика</string>
   <string name="Subscribers_many">%1$d подписчиков</string>
   <string name="Subscribers_other">%1$d подписчиков</string>
+  <!-- Added on 14.12.2017 -->
+  <string name="PaymentPhoneToProvider">В качестве платежной информации %1$s получит ваш номер телефона.</string>
+  <string name="ResetAutomaticMediaDownload">Сбросить настройки автозагрузки</string>
+  <string name="ResetAutomaticMediaDownloadAlert">Вы точно хотите сбросить настройки автозагрузки?</string>
+  <string name="AutodownloadPrivateChats">Диалоги</string>
+  <string name="AutodownloadGroupChats">Группы</string>
+  <string name="AutodownloadContacts">Контакты</string>
+  <string name="AutodownloadChannels">Каналы</string>
+  <string name="PaymentPhoneEmailToProvider">В качестве платежной информации %1$s получит ваш номер телефона и электронную почту.</string>
+  <string name="AddSubscriber">Добавить подписчика</string>
+  <string name="AutoDownloadMedia">Загружать автоматически</string>
+  <string name="AutodownloadSizeLimitUpTo">до %1$s</string>
+  <string name="ChannelSubscribers">Подписчики</string>
   
 </resources>
