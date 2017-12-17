@@ -1776,6 +1776,7 @@
   <string name="AddSubscriber">Добавить подписчика</string>
   <string name="AutoDownloadMedia">Загружать автоматически</string>
   <string name="AutodownloadSizeLimitUpTo">до %1$s</string>
+  <string name="AutodownloadSizeLimit">Ограничение по размеру</string>
   <string name="ChannelSubscribers">Подписчики</string>
   
 </resources>
