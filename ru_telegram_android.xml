@@ -886,7 +886,7 @@
   <string name="LanguageCustom">пользовательский</string>
   <string name="AskAQuestionInfo">Пожалуйста, обратите внимание, что поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно быстрее, но это может занять некоторое время.\n\nПожалуйста, ознакомьтесь с <![CDATA[<a href="https://telegram.org/faq#general">вопросами и ответами о Telegram</a>]]>: там есть ответы на большинство вопросов и важные советы по <![CDATA[<a href="https://telegram.org/faq#troubleshooting">устранению неполадок</a>]]>.</string>
   <string name="AskButton">Спросить добровольца</string>
-  <string name="TelegramFaq">Вопросы и ответы о Telegram</string>
+  <string name="TelegramFAQ">Вопросы о Telegram</string>
   <string name="TelegramFaqUrl">https://telegram.org/faq</string>
   <string name="PrivacyPolicy">Политика конфиденциальности</string>
   <string name="PrivacyPolicyUrl">https://telegram.org/privacy</string>
@@ -1778,5 +1778,19 @@
   <string name="AutodownloadSizeLimitUpTo">до %1$s</string>
   <string name="AutodownloadSizeLimit">Ограничение по размеру</string>
   <string name="ChannelSubscribers">Подписчики</string>
-  
+  <!-- Added on 30.12.2017 -->
+  <string name="SyncContacts">Синхронизировать контакты</string>
+  <string name="SyncContactsOn">Контакты с этого устройства будут импортироваться для этого аккаунта.</string>
+  <string name="SyncContactsOff">Контакты с этого устройства не будут импортироваться для этого аккаунта.</string>
+  <string name="SyncContactsInfoOff">Включите, чтобы импортировать контакты с этого устройства.</string>
+  <string name="SyncContactsInfoOn">Контакты с этого устройства будут импортированы в ваш аккаунт.</string>
+  <string name="SyncContactsAdded">Контакты с этого устройства импортированы в ваш аккаунт.</string>
+  <string name="AccountAlreadyLoggedIn">Вы уже вошли в этот аккаунт.</string>
+  <string name="AddAccount">Добавить аккаунт</string>
+  <string name="AccountSwitch">Переключиться</string>
+  <string name="VoipAnsweringAsAccount">Ответить как %s</string>
+  <string name="NotificationMessageGroupLiveLocation">%1$s опубликовал(а) трансляцию геопозиции в «%2$s»</string>
+  <string name="NotificationMessageLiveLocation">%1$s отправил(а) трансляцию геопозиции</string>
+  <string name="ChannelMessageLiveLocation">%1$s опубликовал(а) трансляцию геопозиции</string>
+  <string name="OpenMessage">ОТКРЫТЬ СООБЩЕНИЕ</string>
 </resources>
