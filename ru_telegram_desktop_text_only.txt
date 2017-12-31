@@ -136,8 +136,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_error_cant_add_admin_unban" = "К сожалению, вы не можете добавить этого пользователя в качестве администратора, потому что он в чёрном списке и вы не можете его разблокировать.";
 "lng_error_cant_ban_admin" = "К сожалению, вы не можете заблокировать этого пользователя, потому что он является администратором этой группы и вы не можете его понизить.";
 "lng_sure_add_admin_invite" = "Этот пользователь не является участником группы. Добавить его в группу и повысить до администратора?";
-"lng_sure_add_admin_unban" = "Этот пользователь сейчас ограничен или заблокирован в этой группе. Вы уверены, что хотите его разблокировать и повысить?";
-"lng_sure_ban_admin" = "Этот пользователь сейчас администратор в этой группе. Вы уверены, что хотите ограничить его?";
+"lng_sure_add_admin_invite_channel" = "Этот пользователь не является подписчиком канала. Добавить его в канал и повысить до администратора?";
+"lng_sure_add_admin_unban" = "Этот пользователь сейчас ограничен или заблокирован. Вы уверены, что хотите его разблокировать и повысить?";
+"lng_sure_ban_admin" = "Этот пользователь – администратор. Вы уверены, что хотите ограничить его?";
 "lng_sure_ban_user_group" = "Удалить пользователя {user} из группы?";
 "lng_sure_enable_socks" = "Включить этот прокси?\n\nСервер: {server}\nПорт: {port}\n\nВы можете сменить прокси-сервер позднее в настройках (Тип соединения).";
 "lng_sure_enable" = "Включить";
@@ -576,8 +577,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_kick" = "Удалить";
 "lng_profile_sure_kick" = "Исключить пользователя {user} из группы?";
 "lng_profile_sure_kick_channel" = "Исключить пользователя {user} из канала?";
-"lng_profile_sure_remove_admin" = "Исключить пользователя {user} из администраторов группы?";
-"lng_profile_sure_remove_admin_channel" = "Исключить пользователя {user} из администраторов канала?";
+"lng_profile_sure_remove_admin" = "Исключить пользователя {user} из администраторов?";
 "lng_profile_loading" = "Загрузка..";
 "lng_profile_photos#one" = "{count} фотография";
 "lng_profile_photos#other" = "Фотографий: {count}";
@@ -872,6 +872,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edited" = "изм.";
 "lng_edited_date" = "Изменено: {date}";
 "lng_admin_badge" = "админ.";
+"lng_fast_reply" = "ответить";
 "lng_cancel_edit_post_sure" = "Отменить редактирование?";
 "lng_cancel_edit_post_yes" = "Да";
 "lng_cancel_edit_post_no" = "Нет";
