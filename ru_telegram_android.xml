@@ -1793,4 +1793,17 @@
   <string name="NotificationMessageLiveLocation">%1$s отправил(а) трансляцию геопозиции</string>
   <string name="ChannelMessageLiveLocation">%1$s опубликовал(а) трансляцию геопозиции</string>
   <string name="OpenMessage">ОТКРЫТЬ СООБЩЕНИЕ</string>
+  <!-- Added on 09.01.2018 -->
+  <string name="LastSeenDateFormatted">заходил(а) %1$s</string>
+  <string name="TodayAtFormatted">в %1$s</string>
+  <string name="FromFormatted">от %1$s</string>
+  <string name="LastSeenFormatted">заходил(а) %1$s</string>
+  <string name="YesterdayAtFormatted">вчера в %1$s</string>
+  <string name="LocationUpdatedFormatted">обновлено %1$s</string>
+  <string name="DebugClearLogs">Очистить логи</string>
+  <string name="DebugMenuEnableLogs">Включить логирование</string>
+  <string name="DebugMenuDisableLogs">Отключить логирование</string>
+  <string name="DebugSendLogs">Отправить логи</string>
+  <string name="ApkRestricted">Этому приложению запрещена установка APK-файлов. Вы можете это изменить в настройках системы.</string>
+  <string name="BackgroundRestricted">Фоновая передача данных ограничена.</string>
 </resources>
