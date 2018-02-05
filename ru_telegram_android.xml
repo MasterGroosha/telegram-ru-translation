@@ -1806,4 +1806,30 @@
   <string name="DebugSendLogs">Отправить логи</string>
   <string name="ApkRestricted">Этому приложению запрещена установка APK-файлов. Вы можете это изменить в настройках системы.</string>
   <string name="BackgroundRestricted">Фоновая передача данных ограничена.</string>
+  <!-- Added on 06.02.2018 -->
+  <string name="Streaming">Потоковое воспроизведение</string>
+  <string name="EnableStreaming">Потоковая музыка и видео</string>
+  <string name="EnableAllStreamingInfo">Потоковая загрузка недоступна для некоторых видеозаписей – например, отправленных с устройств Android с помощью Telegram версии 4.7 и ниже.</string>
+  <string name="CantPlayVideo">Не удалось воспроизвести видео в приложении. Попробовать сторонний видеоплеер?</string>
+  <string name="VideoDoesNotSupportStreaming">Это видео не рассчитано на потоковую загрузку. Возможно, для просмотра потребуется скачать его.</string>
+  <string name="DebugMenuClearMediaCache">Очистить кеш отправленных файлов</string>
+  <string name="StopDownload">Остановить загрузку</string>
+  <string name="AutoNightTheme">Автосмена темы</string>
+  <string name="AutoNightUpdateLocation">Местоположение</string>
+  <string name="AutoNightUpdateLocationInfo">Чтобы определить время захода и восхода солнца, необходимо разово получить данные о вашем примерном местоположении. Эта информация хранится только на данном устройстве.\n\nРассвет: %1$s\nЗакат: %2$s</string>
+  <string name="AutoNightBrightness">Порог яркости</string>
+  <string name="AutoNightBrightnessInfo">Переключать на ночную тему, если яркость внешнего освещения меньше %1$d%%.</string>
+  <string name="AutoNightLocation">Местное время рассвета и заката</string>
+  <string name="AutoNightPreferred">Выбранная тема</string>
+  <string name="AutoNightSchedule">Время использования</string>
+  <string name="AutoNightScheduled">По расписанию</string>
+  <string name="AutoNightAutomatic">Автоматически</string>
+  <string name="AutoNightDisabled">Не использовать</string>
+  <string name="AutoNightTo">Конец</string>
+  <string name="AutoNightFrom">Начало</string>
+  <string name="NotificationsImportance">Приоритет</string>
+  <string name="NotificationsPriorityUrgent">Срочный</string>
+  <string name="NotificationsPriorityMedium">Средний</string>
+  <string name="SecretChatName">Секретный чат</string>
+  <string name="PleaseStreamDownload">Пожалуйста, дождитесь полной загрузки видео.</string>
 </resources>
