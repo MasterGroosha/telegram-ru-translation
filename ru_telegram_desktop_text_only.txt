@@ -445,8 +445,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_reset_button" = "Завершить";
 "lng_settings_manage_local_storage" = "Локальное хранилище";
 "lng_settings_ask_question" = "Задать вопрос";
-"lng_settings_ask_sure" = "Поддержка Телеграма осуществляется добровольцами. Мы постараемся ответить как можно скорее, но на это может потребоваться некоторое время.\n\nВы также можете ознакомиться с ответами на популярные вопросы о Телеграме, где есть советы по решению многих проблем.";
-"lng_settings_faq_button" = "Перейти в FAQ";
+"lng_settings_ask_sure" = "Поддержка Telegram осуществляется добровольцами. Мы постараемся ответить как можно скорее, но на это может потребоваться некоторое время.\n\nВы также можете ознакомиться с ответами на популярные вопросы о Telegram (FAQ), где есть советы по решению многих проблем.";
+"lng_settings_faq_button" = "FAQ";
 "lng_settings_ask_ok" = "Спросить добровольца";
 "lng_settings_faq" = "Часто задаваемые вопросы";
 "lng_settings_logout" = "Выйти";
@@ -947,6 +947,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_remove_group_set" = "Удалить групповой набор стикеров?";
 "lng_stickers_group_from_your" = "Выберите из ваших наборов";
 "lng_stickers_group_from_featured" = "Выберите из популярных наборов стикеров";
+"lng_stickers_search_sets" = "Поиск наборов стикеров";
+"lng_stickers_nothing_found" = "Стикеры не найдены";
+"lng_stickers_remove_pack_confirm" = "Удалить";
 
 "lng_in_dlg_photo" = "Фото";
 "lng_in_dlg_album" = "Альбом";
