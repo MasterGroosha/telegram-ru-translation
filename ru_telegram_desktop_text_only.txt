@@ -308,6 +308,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_settings_section_chat_settings" = "Настройки чатов";
 "lng_settings_replace_emojis" = "Заменять эмодзи";
+"lng_settings_suggest_by_emoji" = "Предлагать популярные стикеры при вводе эмодзи";
 "lng_settings_view_emojis" = "Просмотреть список";
 "lng_settings_send_enter" = "Отправлять по Enter";
 "lng_settings_send_ctrlenter" = "Отправлять по Ctrl+Enter";
@@ -839,6 +840,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_channel_not_accessible" = "К сожалению, этот канал больше недоступен.";
 "lng_group_not_accessible" = "К сожалению, эта группа больше не доступна.";
+"lng_group_full" = "К сожалению, в группе уже максимальное число участников.";
 
 "lng_channels_too_much_public_about" = "К сожалению, вы заняли слишком много публичных юзернеймов. Вы можете сделать свою группу или канал приватными, отозвав публичную ссылку.";
 "lng_channels_too_much_public_revoke_confirm_group" = "Вы уверены, что хотите отозвать ссылку {link}?\n\nГруппа «{group}» станет приватной.";
