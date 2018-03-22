@@ -677,7 +677,7 @@
   <string name="UpdateContactsMessage">Telegram обнаружил много несинхронизированных контактов, хотите синхронизировать их сейчас? Нажмите «ОК», если используете своё устройство, SIM-карту и аккаунт Google.</string>
   <!--group create view-->
   <string name="SendMessageTo">Добавить людей...</string>
-  <string name="SoftUserLimitAlert">Вы сможете добавить больше участников после завершения создания группы и преобразования её в супергруппу.</string>
+  <string name="SoftUserLimitAlert">Вы сможете добавить в группу больше участников, если сделаете её супергруппой после создания.</string>
   <string name="EnterGroupNamePlaceholder">Введите имя группы</string>
   <string name="GroupName">Имя группы</string>
   <string name="MembersCount">Выбрано %1$d из %2$d</string>
@@ -1847,4 +1847,42 @@
   <string name="TerminateWebSessionInfo">Нажмите, чтобы выйти из аккаунта на этом сайте.</string>
   <string name="TerminateWebSessionQuestion">Отключить %1$s?</string>
   <string name="TerminateAllWebSessions">Отключить все сайты</string>
+  <!-- Added on 23.03.2018 - version 4.8.5 -->
+  <string name="SuggestStickersInstalled">Стикеры из своих наборов</string>
+  <string name="SuggestStickersAll">Любые стикеры</string>
+  <string name="SuggestStickersNone">Нет</string>
+  <string name="SuggestStickers">Подсказка при вводе эмодзи</string>
+  <string name="VoipQuickRepliesExplain">Напишите здесь подходящий текст, чтобы быстро отправлять его в ответ на звонок через Telegram.</string>
+  <string name="VoipQuickReplies">Ответить сообщением</string>
+  <string name="NotificationMessageFew">%1$s отправил(а) вам %2$s</string>
+  <string name="NotificationMessageGroupInvoice">%1$s отправил(а) счёт на %3$s в «%2$s»</string>
+  <string name="NotificationMessageInvoice">%1$s отправил(а) вам счёт на %2$s</string>
+  <string name="VoipErrorUnknown">Не удалось позвонить через Telegram.</string>
+  <string name="DisappearingGif">Секретный GIF</string>
+  <string name="Photos_one">%1$d фото</string>
+  <string name="Photos_few">%1$d фото</string>
+  <string name="Photos_many">%1$d фото</string>
+  <string name="Photos_other">%1$d фото</string>
+  <string name="VoipInCallBrandingWithName">Звонок %s через Telegram</string>
+  <string name="UnreadMessages">Непрочитанные сообщения</string>
+  <string name="NotificationMessageForwardFew">%1$s переслал(а) вам %2$s</string>
+  <string name="NotificationGroupForwardedFew">%1$s переслал(а) %3$s в «%2$s»</string>
+  <string name="NotificationGroupFew">%1$s отправил(а) %3$s в «%2$s»</string>
+  <string name="NotificationActionPinnedInvoiceChannel">%1$s закрепил(а) счёт</string>
+  <string name="NotificationActionPinnedInvoice">%1$s закрепил(а) счёт в «%2$s»</string>
+  <string name="ChannelMessageFew">%1$s опубликовал(а) %2$s</string>
+  <string name="QuickReplyCustom">Ваше сообщение...</string>
+  <string name="AllowCustomQuickReply">Задать свой текст</string>
+  <string name="QuickReplyDefault1">Извини, сейчас не могу ответить.</string>
+  <string name="QuickReplyDefault2">Перезвоню, как только смогу.</string>
+  <string name="QuickReplyDefault3">Перезвоню позже.</string>
+  <string name="QuickReplyDefault4">Не могу ответить. Перезвони, пожалуйста.</string>
+  <string name="SearchStickersHint">Поиск стикеров</string>
+  <string name="Media_one">%1$d медиафайл</string>
+  <string name="Media_few">%1$d медиафайла</string>
+  <string name="Media_many">%1$d медиафайлов</string>
+  <string name="Media_other">%1$d медиафайлов</string>
+  <string name="NoStickersFound">Стикеры не найдены</string>
+  <string name="ReportChatSent">Жалоба отправлена</string>
+  <string name="ActionBotAllowed">Вы разрешили этому боту писать вам, когда авторизовались на %1$s.</string>
 </resources>
