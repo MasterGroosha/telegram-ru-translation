@@ -430,7 +430,27 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_connection_port_ph" = "Порт";
 "lng_connection_user_ph" = "Логин";
 "lng_connection_password_ph" = "Пароль";
+"lng_connection_proxy_secret_ph" = "Секрет";
 "lng_connection_save" = "Сохранить";
+
+"lng_proxy_settings" = "Настройки прокси";
+"lng_proxy_use" = "Использовать прокси";
+"lng_proxy_add" = "Добавить прокси";
+"lng_proxy_share" = "Отправить";
+"lng_proxy_online" = "в сети";
+"lng_proxy_checking" = "проверка";
+"lng_proxy_connecting" = "соединение";
+"lng_proxy_available" = "доступен (пинг: {ping}мс)";
+"lng_proxy_unavailable" = "недоступен";
+"lng_proxy_edit" = "Редактировать прокси";
+"lng_proxy_menu_edit" = "Изменить";
+"lng_proxy_menu_delete" = "Удалить";
+"lng_proxy_menu_restore" = "Восстановить";
+"lng_proxy_edit_share" = "Поделиться";
+"lng_proxy_address_label" = "Адрес подключения";
+"lng_proxy_credentials_optional" = "Авторизация (необязательно)";
+"lng_proxy_credentials" = "Авторизация";
+"lng_proxy_description" = "Здесь будет ваш список сохранённых прокси.";
 
 "lng_settings_blocked_users" = "Заблокированные пользователи";
 "lng_settings_last_seen_privacy" = "Последняя активность";
