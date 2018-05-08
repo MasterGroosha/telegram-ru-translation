@@ -435,6 +435,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_proxy_settings" = "Настройки прокси";
 "lng_proxy_use" = "Использовать прокси";
+"lng_proxy_use_for_calls" = "Использовать прокси для звонков";
+"lng_proxy_about" = "Прокси-серверы могут помочь с доступом к Telegram, если прямое соединение недоступно.";
 "lng_proxy_add" = "Добавить прокси";
 "lng_proxy_share" = "Отправить";
 "lng_proxy_online" = "в сети";
