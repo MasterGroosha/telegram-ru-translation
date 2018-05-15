@@ -308,6 +308,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 
 "lng_settings_section_chat_settings" = "Настройки чатов";
 "lng_settings_replace_emojis" = "Заменять эмодзи";
+"lng_settings_suggest_emoji" = "Предлагать эмодзи при вводе текста";
 "lng_settings_suggest_by_emoji" = "Предлагать популярные стикеры при вводе эмодзи";
 "lng_settings_view_emojis" = "Просмотреть список";
 "lng_settings_send_enter" = "Отправлять по Enter";
@@ -702,6 +703,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_report_title" = "Пожаловаться на канал";
 "lng_report_group_title" = "Пожаловаться на группу";
 "lng_report_bot_title" = "Пожаловаться на бота";
+"lng_report_message_title" = "Пожаловаться на сообщение";
 "lng_report_reason_spam" = "Спам";
 "lng_report_reason_violence" = "Насилие/жестокость";
 "lng_report_reason_pornography" = "Порнография";
@@ -1127,6 +1129,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_forward_msg" = "Переслать сообщение";
 "lng_context_delete_msg" = "Удалить сообщение";
 "lng_context_select_msg" = "Выделить сообщение";
+"lng_context_report_msg" = "Пожаловаться";
 "lng_context_pin_msg" = "Закрепить сообщение";
 "lng_context_unpin_msg" = "Открепить сообщение";
 "lng_context_cancel_upload" = "Отменить отправку";
