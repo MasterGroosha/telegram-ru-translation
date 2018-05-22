@@ -38,7 +38,7 @@
   <string name="RegisterText">Укажите ваше имя и фамилию</string>
   <!--<string name="RegisterText">Set up your name and picture</string>-->
   <string name="FirstName">Имя (обязательно)</string>
-  <string name="LastName">Фамилия (не обязательно)</string>
+  <string name="LastName">Фамилия (необязательно)</string>
   <string name="CancelRegistration">Отмена регистрации</string>
   <!--payments view-->
   <string name="PaymentSuccessfullyPaid">Вы успешно перевели %1$s %2$s за %3$s</string>
@@ -261,8 +261,8 @@
   <string name="ActionChannelChangedTitle">Имя канала изменено на un2</string>
   <string name="ChangePublicLimitReached">Извините, вы заняли слишком много публичных юзернеймов. Вы можете либо аннулировать ссылку на одну из ваших устаревших групп или каналов, либо создать приватно.</string>
   <string name="ChannelCreator">Создатель</string>
-  <string name="ChannelMute">ОТКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
-  <string name="ChannelUnmute">ВКЛЮЧИТЬ УВЕДОМЛЕНИЯ</string>
+  <string name="ChannelMute">Отключить уведомления</string>
+  <string name="ChannelUnmute">Включить уведомления</string>
   <string name="ChannelAddAdmin">Добавить администратора</string>
   <string name="ChannelBlockUser">Заблокировать пользователя</string>
   <string name="Unban">Разблокировать</string>
@@ -970,7 +970,7 @@
   <string name="ChooseYourLanguageOther">Другой</string>
   <string name="ProxySettings">Настройки прокси</string>
   <string name="Proxy">Прокси</string>
-  <string name="UseProxySettings">Использовать настройки прокси</string>
+  <string name="UseProxySettings">Использовать прокси</string>
   <string name="UseProxyAddress">Сервер</string>
   <string name="UseProxyPassword">Пароль</string>
   <string name="UseProxyPort">Порт</string>
@@ -1885,4 +1885,22 @@
   <string name="NoStickersFound">Стикеры не найдены</string>
   <string name="ReportChatSent">Жалоба отправлена</string>
   <string name="ActionBotAllowed">Вы разрешили этому боту писать вам, когда авторизовались на %1$s.</string>
+  <!-- Added on 22.05.2018 - version 4.8.8 -->
+  <string name="Ping">пинг: %1$d мс</string>
+  <string name="UseProxySponsorInfo">Этот канал показан прокси-сервером. Чтобы убрать канал из списка чатов, отключите прокси в настройках Telegram.</string>
+  <string name="UseProxyTelegramInfo">Настройки прокси MTProto.</string>
+  <string name="UseProxyTelegramInfo2">Этот прокси-сервер может показывать канал спонсора в списке ваших чатов. Это не раскрывает ваш трафик.</string>
+  <string name="ProxyDetails">Прокси-сервер</string>
+  <string name="UseProxySecret">Ключ</string>
+  <string name="ProxyConnections">Подключения</string>
+  <string name="UseProxyTelegram">Прокси MTProto</string>
+  <string name="ConnectingConnectProxy">Подключить прокси</string>
+  <string name="Checking">Проверка...</string>
+  <string name="Available">Доступен</string>
+  <string name="Unavailable">Недоступен</string>
+  <string name="Connected">Подключен</string>
+  <string name="UseProxySocks5">SOCKS5</string>
+  <string name="DeleteProxy">Удалить прокси?</string>
+  <string name="AddProxy">Добавить прокси</string>
+  <string name="UseProxyTelegramError">Используемый Вами прокси-сервер сконфигурирован неправильно и будет отключен. Пожалуйста, выберите какой-нибудь другой.</string>
 </resources>
