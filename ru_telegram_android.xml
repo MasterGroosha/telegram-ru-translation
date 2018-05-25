@@ -59,7 +59,7 @@
   <string name="PaymentShippingPhoneNumber">Номер телефона</string>
   <string name="PaymentShippingEmailPlaceholder">Электронная почта</string>
   <string name="PaymentShippingSave">Сохранить информацию о доставке</string>
-  <string name="PaymentShippingSaveInfo">Вы можете сохранить вашу информацию о доставки для использования в будущем.</string>
+  <string name="PaymentShippingSaveInfo">Вы можете сохранить вашу информацию о доставке для использования в будущем.</string>
   <string name="PaymentCardInfo">Платёжная информация</string>
   <string name="PaymentCardTitle">Платёжная карта</string>
   <string name="PaymentCardNumber">Номер карты</string>
@@ -111,7 +111,7 @@
   <string name="NoChatsHelp">Нажмите кнопку создания нового чата\nв нижнем правом углу или кнопку меню\nдля дополнительных опций.</string>
   <string name="WaitingForNetwork">Ожидание сети...</string>
   <string name="Connecting">Соединение...</string>
-  <string name="ConnectingToProxy">Соединение с прокси...</string>
+  <string name="ConnectingToProxy">Подключение к прокси...</string>
   <string name="ConnectingToProxyTapToDisable">Нажмите для отключения прокси...</string>
   <string name="ConnectingToProxyDisable">Отключить</string>
   <string name="ConnectingToProxyEnable">Включить</string>
@@ -164,7 +164,7 @@
   <string name="Bold">Жирный</string>
   <string name="Italic">Курсив</string>
   <string name="Regular">Обычный</string>
-  <string name="ContactsPermissionAlert">Чтобы с лёгкостью связаться со всеми, кого вы знаете, **Telegram** нужен доступ к вашим контактам.</string>
+  <string name="ContactsPermissionAlert">Telegram требуется доступ к вашим контактам, чтобы вы могли оставаться на связи с друзьями с любого устройства. Актуальная информация о ваших контактах будет храниться зашифрованной в облаке Telegram.</string>
   <string name="ContactsPermissionAlertNotNow">НЕ СЕЙЧАС</string>
   <string name="ContactsPermissionAlertContinue">ПРОДОЛЖИТЬ</string>
   <!--channels-->
@@ -1229,8 +1229,8 @@
   <string name="LastSeenNobodyPlus">Никто (+%1$d)</string>
   <string name="SecurityTitle">Безопасность</string>
   <string name="DeleteAccountTitle">Самоуничтожение аккаунта</string>
-  <string name="DeleteAccountIfAwayFor">Если вас не было</string>
-  <string name="DeleteAccountHelp">Если вы не появитесь в сети хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми группами, сообщениями и контактами.</string>
+  <string name="DeleteAccountIfAwayFor">Если Вас не было</string>
+  <string name="DeleteAccountHelp">Если Вы не появитесь в сети хотя бы раз в течение этого периода, ваш аккаунт будет удалён вместе со всеми сообщениями и контактами.</string>
   <string name="LastSeenTitle">Кто видит время моей последней активности?</string>
   <string name="AddExceptions">Добавить исключения</string>
   <string name="CustomHelp">Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).</string>
@@ -1402,7 +1402,7 @@
   <string name="ErrorSendRestrictedStickers">Извините, администраторы этой группы запретили вам отправлять стикеры.</string>
   <string name="ErrorSendRestrictedMedia">Извините, администраторы этой группы запретили вам отправлять медиа.</string>
   <!--permissions-->
-  <string name="PermissionContacts">Telegram необходим доступ к вашим контактам, чтобы вы могли оставаться на связи с вашими друзьями с любого устройства.</string>
+  <string name="PermissionContacts">Актуальная информация о ваших контактах будет храниться зашифрованной в облаке Telegram, чтобы вы могли связаться с друзьями с любого устройства.</string>
   <string name="PermissionStorage">Telegram необходим доступ к вашему накопителю, чтобы вы могли отправлять и сохранять фото, видео, музыку и прочее медиа.</string>
   <string name="PermissionNoAudio">Telegram необходим доступ к вашему микрофону, чтобы вы могли отправлять голосовые сообщения.</string>
   <string name="PermissionNoAudioVideo">Telegram необходим доступ к вашему микрофону, чтобы вы могли снимать видео.</string>
@@ -1782,7 +1782,7 @@
   <string name="SyncContacts">Синхронизировать контакты</string>
   <string name="SyncContactsOn">Контакты с этого устройства будут импортироваться для этого аккаунта.</string>
   <string name="SyncContactsOff">Контакты с этого устройства не будут импортироваться для этого аккаунта.</string>
-  <string name="SyncContactsInfoOff">Включите, чтобы импортировать контакты с этого устройства.</string>
+  <string name="SyncContactsInfoOff">Включите, чтобы добавлять контакты с этого устройства к Вашему аккаунту.</string>
   <string name="SyncContactsInfoOn">Контакты с этого устройства будут импортированы в ваш аккаунт.</string>
   <string name="SyncContactsAdded">Контакты с этого устройства импортированы в ваш аккаунт.</string>
   <string name="AccountAlreadyLoggedIn">Вы уже вошли в этот аккаунт.</string>
@@ -1902,5 +1902,11 @@
   <string name="UseProxySocks5">SOCKS5</string>
   <string name="DeleteProxy">Удалить прокси?</string>
   <string name="AddProxy">Добавить прокси</string>
-  <string name="UseProxyTelegramError">Используемый Вами прокси-сервер сконфигурирован неправильно и будет отключен. Пожалуйста, выберите какой-нибудь другой.</string>
+  <string name="UseProxyTelegramError">Подключенный вами прокси-сервер использует некорректные настройки и будет выключен. Пожалуйста, выберите другой.</string>
+  <!-- Added on 26.05.2018 - version 4.8.9 -->
+  <string name="SecretWebPageInfo">Предпросмотр для ссылок создается на серверах Telegram. Мы не храним данные об отправленных Вами ссылках.</string>
+  <string name="TermsOfServiceLogin">Регистрируясь,\nВы принимаете *Пользовательское соглашение*.</string>
+  <string name="TermsOfService">Пользовательское соглашение</string>
+  <string name="SyncContactsDeleteInfo">В этом случае ваши контакты будут удалены с серверов Telegram. Если включена опция «Синхронизировать контакты», контакты синхронизируются заново.</string>
+  <string name="SyncContactsDelete">Удалить импортированные контакты</string>
 </resources>
