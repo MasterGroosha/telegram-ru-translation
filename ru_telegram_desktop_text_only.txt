@@ -442,10 +442,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_proxy_about" = "Прокси-серверы могут помочь с доступом к Telegram, если прямое соединение недоступно.";
 "lng_proxy_add" = "Добавить прокси";
 "lng_proxy_share" = "Отправить";
-"lng_proxy_online" = "в сети";
+"lng_proxy_online" = "подключен";
 "lng_proxy_checking" = "проверка";
 "lng_proxy_connecting" = "соединение";
-"lng_proxy_available" = "доступен (пинг: {ping}мс)";
+"lng_proxy_available" = "доступен, пинг {ping}мс";
 "lng_proxy_unavailable" = "недоступен";
 "lng_proxy_edit" = "Редактировать прокси";
 "lng_proxy_menu_edit" = "Изменить";
@@ -826,8 +826,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_action_pinned_media_game" = "игру «{game}»";
 "lng_action_game_score#one" = "{from} набрал(а) {count} в игре {game}";
 "lng_action_game_score#other" = "{from} набрал(а) {count} в игре {game}";
-"lng_action_game_you_scored#one" = "Вы набрали{count} в игре {game}";
-"lng_action_game_you_scored#other" = "Вы набрали{count} в игре {game}";
+"lng_action_game_you_scored#one" = "Вы набрали {count} в игре {game}";
+"lng_action_game_you_scored#other" = "Вы набрали {count} в игре {game}";
 "lng_action_game_score_no_game#one" = "{from} набрал(а) {count}";
 "lng_action_game_score_no_game#other" = "{from} набрал(а) {count}";
 "lng_action_game_you_scored_no_game#one" = "Вы набрали {count}";
@@ -1279,6 +1279,12 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_new_version_minor" = "— Исправления багов и незначительные улучшения";
 
 "lng_menu_insert_unicode" = "Вставьте управляющий символ Unicode";
+"lng_menu_formatting" = "Форматирование";
+"lng_menu_formatting_bold" = "Жирный";
+"lng_menu_formatting_italic" = "Курсив";
+"lng_menu_formatting_monospace" = "Моноширинный";
+//"lng_menu_formatting_link" = "Ссылка";
+"lng_menu_formatting_clear" = "Без форматирования";
 
 "lng_full_name" = "{first_name} {last_name}";
 
