@@ -1283,8 +1283,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_menu_formatting_bold" = "Жирный";
 "lng_menu_formatting_italic" = "Курсив";
 "lng_menu_formatting_monospace" = "Моноширинный";
-//"lng_menu_formatting_link" = "Ссылка";
+"lng_menu_formatting_link_create" = "Ссылка";
+"lng_menu_formatting_link_edit" = "Изменить ссылку";
 "lng_menu_formatting_clear" = "Без форматирования";
+"lng_formatting_link_create_title" = "Создание ссылки";
+"lng_formatting_link_edit_title" = "Создание ссылки";
+"lng_formatting_link_text" = "Текст";
+"lng_formatting_link_url" = "URL";
+"lng_formatting_link_create" = "Создать";
 
 "lng_full_name" = "{first_name} {last_name}";
 
