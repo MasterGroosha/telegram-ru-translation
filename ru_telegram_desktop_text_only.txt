@@ -569,6 +569,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_profile_actions_section" = "Действия";
 "lng_profile_bot_settings" = "Настройки бота";
 "lng_profile_bot_help" = "Помощь по боту";
+"lng_profile_bot_privacy" = "Политика конфиденциальности бота";
 "lng_profile_invite_link_section" = "Пригласительная ссылка";
 "lng_profile_create_public_link" = "Сменить тип";
 "lng_profile_edit_public_link" = "Редактировать ссылку на профиль";
@@ -1489,6 +1490,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_admin_log_admin_invite_link" = "Приглашать пользователей по ссылке";
 "lng_admin_log_admin_pin_messages" = "Закреплять сообщения";
 "lng_admin_log_admin_add_admins" = "Добавлять администраторов";
+
+"lng_terms_signup" = "Регистрируясь,\nВы соглашаетесь с {link}.";
+"lng_terms_signup_link" = "Условиями использования Сервиса";
+"lng_terms_header" = "Условия использования Сервиса";
+"lng_terms_agree" = "Согласиться и продолжить";
 
 // Wnd specific
 
