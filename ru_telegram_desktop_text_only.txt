@@ -35,18 +35,33 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_quit_from_tray" = "Выйти из Telegram";
 "lng_tray_icon_text" = "Telegram до сих пор запущен, \nвы можете настроить это на странице настроек. \nЕсли эта иконка пропадёт из трея, вы можете \nперетащить её сюда снова из скрытых иконок.";
 
-"lng_month1" = "Января";
-"lng_month2" = "Февраля";
-"lng_month3" = "Марта";
-"lng_month4" = "Апреля";
-"lng_month5" = "Мая";
-"lng_month6" = "Июня";
-"lng_month7" = "Июля";
-"lng_month8" = "Августа";
-"lng_month9" = "Сентября";
-"lng_month10" = "Октября";
-"lng_month11" = "Ноября";
-"lng_month12" = "Декабря";
+// Для Месяц_Год или Месяц отдельно.
+"lng_month1" = "Январь";
+"lng_month2" = "Февраль";
+"lng_month3" = "Март";
+"lng_month4" = "Апрель";
+"lng_month5" = "Май";
+"lng_month6" = "Июнь";
+"lng_month7" = "Июль";
+"lng_month8" = "Август";
+"lng_month9" = "Сентябрь";
+"lng_month10" = "Октябрь";
+"lng_month11" = "Ноябрь";
+"lng_month12" = "Декабрь";
+
+// Для Месяц_День или Месяц_День_Год.
+"lng_month_day1" = "января";
+"lng_month_day2" = "февраля";
+"lng_month_day3" = "марта";
+"lng_month_day4" = "апреля";
+"lng_month_day5" = "мая";
+"lng_month_day6" = "июня";
+"lng_month_day7" = "июля";
+"lng_month_day8" = "августа";
+"lng_month_day9" = "сентября";
+"lng_month_day10" = "октября";
+"lng_month_day11" = "ноября";
+"lng_month_day12" = "декабря";
 
 "lng_month1_small" = "Янв";
 "lng_month2_small" = "Фев";
@@ -1494,7 +1509,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_terms_signup" = "Регистрируясь,\nВы соглашаетесь с {link}.";
 "lng_terms_signup_link" = "Условиями использования Сервиса";
 "lng_terms_header" = "Условия использования Сервиса";
+"lng_terms_age#one" = "Я подтверждлаю, что мне {count} или больше";
+"lng_terms_age#other" = "Я подтверждлаю, что мне {count} или больше";
 "lng_terms_agree" = "Согласиться и продолжить";
+"lng_terms_decline" = "Отказаться";
+"lng_terms_signup_sorry" = "К сожалению, это означает, что Вы не можете зарегистрироваться в Telegram.\n\nВ отличие от других, мы не используем ваши данные для целенаправленной рекламы или других коммерческих целей. Telegram хранит только ту информацию, которая нужна для функционирования в качестве облачного сервиса. Вы можете настроить, как мы используем Ваши данные, в настройках приватности.\n\nНо если Вы в целом не согласны со скромными нуждами Telegram, мы не можем предоставлять для Вас наш сервис.";
 
 // Wnd specific
 
