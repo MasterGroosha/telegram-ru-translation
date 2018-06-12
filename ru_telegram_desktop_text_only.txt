@@ -1766,7 +1766,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_passport_postcode" = "Почтовый индекс";
 "lng_passport_use_existing" = "ИСПОЛЬЗОВАТЬ {existing}";
 "lng_passport_use_existing_phone" = "Используйте тот же номер телефона, что и в Telegram.";
-"lng_passport_new_phone" = Или введите новый номер телефона";
+"lng_passport_new_phone" = "Или введите новый номер телефона";
 "lng_passport_new_phone_code" = "Важно: вы получите код подтвеждения на введённый номер телефона.";
 "lng_passport_use_existing_email" = "Использовать тот же email, что и в Telegram.";
 "lng_passport_new_email" = "Или введите новый email";
