@@ -511,13 +511,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_last_seen_privacy" = "Последняя активность";
 "lng_settings_calls_privacy" = "Звонки";
 "lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
-"lng_settings_show_sessions" = "Показать все сессии";
+"lng_settings_show_sessions" = "Активные сеансы";
+"lng_settings_export_data" = "Экспорт данных из Telegram";
 "lng_settings_self_destruct" = "Настройки самоуничтожения аккаунта";
 "lng_settings_change_phone" = "Сменить номер телефона";
 
-"lng_settings_reset" = "Завершить все сессии";
-"lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сессии?";
-"lng_settings_reset_one_sure" = "Завершить эту сессию?";
+"lng_settings_reset" = "Завершить все сеансы";
+"lng_settings_reset_sure" = "Уверены, что хотите завершить все другие сеансы?";
+"lng_settings_reset_one_sure" = "Завершить этот сеанс?";
 "lng_settings_reset_button" = "Завершить";
 "lng_settings_manage_local_storage" = "Локальное хранилище";
 "lng_settings_ask_question" = "Задать вопрос";
@@ -531,8 +532,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_need_restart" = "Необходимо перезапустить Telegram для применения некоторых настроек. Сделать это сейчас?";
 "lng_settings_restart_now" = "ПЕРЕЗАПУСТИТЬ";
 
-"lng_sessions_header" = "Текущая сессия";
-"lng_sessions_other_header" = "Активные сесии";
+"lng_sessions_header" = "Текущий сеанс";
+"lng_sessions_other_header" = "Активные сеансы";
 "lng_sessions_other_desc" = "Вы можете войти в Telegram с любого устройства: телефона, планшета или компьютер, используя ваш номер телефона. Все контакты и история сообщений будут мгновенно синхронизироваться.";
 "lng_sessions_terminate_all" = "Завершить все сеансы";
 
@@ -1794,6 +1795,77 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_passport_error_bad_size" = "К сожалению, у этого изображения неправильные размеры.";
 "lng_passport_error_cant_read" = "Невозможно прочесть этот файл. Пожалуйста, загрузите изображение.";
 "lng_passport_bad_name" = "Пожалуйста, используйте только латинские символы.";
+
+"lng_export_title" = "Экспорт данных";
+"lng_export_progress_title" = "Экспорт данных";
+"lng_export_option_info" = "Персональные данные";
+"lng_export_option_info_about" = "Указанные вами имя и изображения профиля публичны и доступные всем. Необязательно указывать своё настоящее имя.";
+"lng_export_option_contacts" = "Список контактов";
+"lng_export_option_contacts_about" = "Чтобы вы могли общаться с друзьями с любого устройства, ваши контакты постоянно синхронизируются в Telegram. Вы можете отключить синхронизацию или удалить сохранённые контакты в Настройках > Приватность и безопасность.";
+"lng_export_option_sessions" = "Активные сеансы";
+"lng_export_option_sessions_about" = "Мы храним список сессий, чтобы отображать его в Настройках > Приватность и безопасность > Активные сеансы.";
+"lng_export_header_other" = "Прочее";
+"lng_export_option_other" = "Прочие данные";
+"lng_export_option_other_about" = "Другие типы данных, не указанные выше. (бета-версия)";
+"lng_export_header_chats" = "Настройки экспорта чатов";
+"lng_export_option_personal_chats" = "Диалоги";
+"lng_export_option_bot_chats" = "Чаты с ботами";
+"lng_export_option_private_groups" = "Приватные группы";
+"lng_export_option_private_channels" = "Приватные каналы";
+"lng_export_option_public_groups" = "Публичные группы";
+"lng_export_option_public_channels" = "Публичные каналы";
+"lng_export_option_only_my" = "Только мои сообщения";
+"lng_export_header_media" = "Настройки экспорта медиа";
+"lng_export_option_photos" = "Фото";
+"lng_export_option_video_files" = "Видео";
+"lng_export_option_voice_messages" = "Голос. сообщения";
+"lng_export_option_video_messages" = "Видеосообщения";
+"lng_export_option_stickers" = "Стикеры";
+"lng_export_option_gifs" = "GIF";
+"lng_export_option_files" = "Файлы";
+"lng_export_option_size_limit" = "Ограничение: {size}";
+"lng_export_header_format" = "Расположение и формат";
+"lng_export_option_location" = "Путь загрузки: {path}";
+"lng_export_option_html" = "Человекочитаемый HTML";
+"lng_export_option_json" = "Машиночитаемый JSON";
+"lng_export_start" = "Экспорт";
+"lng_export_state_initializing" = "Инициализация...";
+"lng_export_state_userpics" = "Личные фотографии";
+"lng_export_state_chats_list" = "Обработка чатов...";
+"lng_export_state_chats" = "Чаты";
+"lng_export_state_progress" = "{count} / {total}";
+"lng_export_state_photo" = "Фото";
+"lng_export_state_video_file" = "Видео";
+"lng_export_state_voice_message" = "Голос. сообщение";
+"lng_export_state_video_message" = "Видеосообщение";
+"lng_export_state_sticker" = "Стикер";
+"lng_export_state_gif" = "GIF";
+"lng_export_progress" = "Внимание: вы можете закрыть окно, но, пожалуйста, не завершайте работу Telegram во время экспорта файлов и персональных данных.";
+"lng_export_stop" = "Стоп";
+"lng_export_sure_stop" = "Вы уверены, что хотите остановить экспорт Ваших данных?\n\nВам придётся начать заново в следующий раз.";
+"lng_export_about_done" = "Ваши данные успешно эскпортированы.";
+"lng_export_done" = "Показать мои данные";
+"lng_export_finished" = "Экспорт завершён.";
+"lng_export_total_files" = "Всего файлов: {count}.";
+"lng_export_total_size" = "Общий размер: {size}.";
+"lng_export_folder" = "Выберите каталог для экспорта";
+"lng_export_invalid" = "К сожалению, Вы начали новый экспорт данных, поэтому текущий экспорт будет отменён.";
+"lng_export_delay" = "К сожалению, в целях безопасности Вы сможете начать загрузку данных через {hours}. Мы уведомим все устройства о запросе данных, чтобы убедиться, что запрос легитимный и дадим время среагировать, если запрос отправил кто-то другой.\n\nПожалуйста, возвращайтесь {date} и попробуйте запросить данные снова с того же устройства.";
+"lng_export_delay_less_than_hour" = "менее часа";
+"lng_export_delay_hours#one" = "{count} час";
+"lng_export_delay_hours#few" = "{count} часа";
+"lng_export_delay_hours#many" = "{count} часов";
+"lng_export_delay_hours#other" = "{count} часов";
+"lng_export_suggest_title" = "Экспорт данных готов";
+"lng_export_suggest_text" = "Вы теперь можете загрузить запрошенные данные. Начать экспорт?";
+"lng_export_suggest_cancel" = "Не сейчас";
+"lng_export_about_telegram" = "Перед вами все запрошенные данные. Напомним: мы не используем ваши данные для целенаправленной рекламы, мы не продаём ваши данные третьим лицам и мы не являемся частью “семейства компаний”.\n\nTelegram хранит только ту информацию, которая необходима для функционирования в качестве облачного сервиса, например, вы можете получить доступ к своим облачным чатам с любого устройства, не используя сторонние резервные копии, а доступ к контактам позволяет сохранять свой социальный граф при общении в Telegram.\n\nОткройте Настройки > Приватность и безопасность в мобильных приложениях Telegram для доступа к соответствующим настройкам.";
+"lng_export_about_contacts" = "Если вы предоставляете доступ, ваши контакты постоянно синхронизируются с Telegram. Благодаря этому вы можете легко перейти на Telegram, не теряя своих социальных связей, и общаться с друзьями с любого вашего устройства. Мы используем данные о ваших контактах, чтобы дать вам знать, когда они присоединятся к Telegram. Мы также используем эти данные, чтобы отображать их имена так же, как в телефонной книге, а не так, как они сами себя назвали.\n\nВы можете отключить синхронизацию контактов или удалить сохранённые контакты в Настройках > Приватность и безопасность в мобильных приложениях Telegram.";
+"lng_export_about_frequent" = "Этот рейтинг показывает, с какими людьми вы общаетесь чаще всего. Telegram использует эти данные, чтобы показывать их в списке людей на экране поиска. Рейтинг также отслеживает инлайн-ботов, чтобы точнее угадывать, каких ботов вы будете использовать через меню вложений или при вводе символа \"@\".\n\nЧтобы удалить эти данные, перейдите в Настройки > Приватность и безопасность и отключите 'Предлагать частоиспользуемые контакты' (необходим Telegram для iOS 4.8.3 или Telegram для Android 4.8.10 и выше). Перейдите по ссылке, чтобы прочитать подробнее: https://telegram.org/faq_export";
+"lng_export_about_sessions" = "Мы храним список сеансов, чтобы показывать вам все подключенные устройства в Настройках > Приватность и безопасность > Активные сеансы.";
+"lng_export_about_web_sessions" = "Мы храним список авторизаций на сайтах, чтобы показывать вам, на каких веб-сайтах вы использовали Telegram для входа, в Настройках > Приватность и безопасность > Активные сеансы. Отключение веб-сайта приводит к удалению данных о нём с серверов Telegram.";
+"lng_export_about_chats" = "На этой странице расположены все чаты из экспортированных данных с информацией о том, где их найти.";
+"lng_export_about_left_chats" = "На этой странице расположены все супергруппы и каналы из экспортированных данных, которые вы покинули с информацией о том, где их найти.\n\nУчтите, что когда вы покидаете созданный канал или супергруппу, вы можете удалить их или просто покинуть (чтобы потом вернуться или просто оставить сообщество общаться без вас).";
 
 // Wnd specific
 
