@@ -1912,7 +1912,7 @@
   <!-- Added on 27.06.2018 - version 4.8.10 -->
   <string name="MarkAsRead">Отметить прочитанным</string>
   <string name="MarkAsUnread">Отметить непрочитанным</string>
-  <string name="EditMessageMedia">Изменить медиа</string>
+  <string name="EditMessageMedia">Нажмите для замены медиа</string>
   <string name="CreateLink">Ссылка</string>
   <string name="EditMessage">Редактировать сообщение</string>
   <string name="EditCaption">Изменить подпись</string>
@@ -2084,6 +2084,7 @@
   <string name="NoChatsContactsHelp">Чтобы начать общаться,\nнажмите на значок нового чата в правом нижнем углу или на кнопку меню.</string>
   <string name="ViewContact">ПРОСМОТР КОНТАКТА</string>
   <string name="AddToExistingContact">Добавить в имеющийся</string>
+  <string name="CreateNewContact">Создать новый контакт</string>
   <string name="ContactJob">Работа</string>
   <string name="ContactJobTitle">Должность</string>
 </resources>
