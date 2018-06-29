@@ -1217,6 +1217,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_context_view_channel" = "Информация о канале";
 "lng_context_pin_to_top" = "Закрепить сверху";
 "lng_context_unpin_from_top" = "Открепить";
+"lng_context_mark_unread" = "Пометить непрочитанным";
+"lng_context_mark_read" = "Пометить прочитанным";
 
 "lng_context_promote_admin" = "Назначить администратором";
 "lng_context_edit_permissions" = "Изменить права";
