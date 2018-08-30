@@ -2127,7 +2127,7 @@
   <string name="ContactBirthday">День рождения</string>
   <!-- Added on 27.08.2018 - version 4.9.1 -->
   <string name="PassportIdentityDriverLicence">Загрузите скан своих водительских прав</string>
-  <string name="MPassportAddTranslationTemporaryRegistrationInfoono">Загрузите сканы заверенного перевода для документа о временной прописке.</string>
+  <string name="PassportAddTranslationTemporaryRegistrationInfo">Загрузите сканы заверенного перевода для документа о временной прописке.</string>
   <string name="PassportAddTranslationUploadInfo">Пожалуйста, загрузите сканы заверенного перевода для выбранного документа.</string>
   <string name="PassportAddTranslationPassportRegistrationInfo">Загрузите сканы заверенного перевода для страницы паспорта с пропиской.</string>
   <string name="PassportAddTranslationAgreementInfo">Загрузите сканы заверенного перевода для своего договора об аренде.</string>
