@@ -720,7 +720,7 @@
   <string name="ApplyToAll">Применить для всех</string>
   <string name="ArchivePack">Архивировать набор</string>
   <string name="ArchiveStickerSetAction">Архивировать</string>
-  <string name="Archived">Архивные</string>
+  <string name="Archived">Архив</string>
   <string name="AreYouSureClearDrafts">Вы действительно хотите удалить все черновики из облака?</string>
   <string name="AreYouSureDeleteThisChat">Вы действительно хотите удалить этот чат?</string>
   <string name="AreYouSureNotifyReset">Вы действительно хотите сбросить все особые настройки уведомлений для всех ваших контактов и групп?</string>
@@ -1125,7 +1125,7 @@
   <string name="IncomingCall">Входящий вызов</string>
   <string name="InlineBot">Инлайн-бот</string>
   <string name="Install">Установить</string>
-  <string name="Installed">Установленные</string>
+  <string name="Installed">Установлено</string>
   <string name="InstantView">Мгновенный просмотр</string>
   <string name="InternalStorage">Внутреннее хранилище</string>
   <string name="InvalidCode">Неверный код, повторите попытку</string>
@@ -1763,7 +1763,7 @@
   <string name="TranslationMoreText">Список доступных языков управляется [платформой переводов](https://translations.telegram.org).\n\nTelegram предложит переключиться на ваш язык, когда соответствующий перевод будет официально готов.\n\nДо тех пор вы можете установить сторонние локализации, присоединится к [процессу перевода](https://translations.telegram.org/en/android_x/), или создать [свой собственный](https://t.me/tgx_android_translate/) файл локализации.</string>
   <string name="TranslationMoreTitle">Не можете найти свой язык?</string>
   <string name="TravelAndPlaces">Путешествия и места</string>
-  <string name="Trending">Популярные</string>
+  <string name="Trending">В тренде</string>
   <string name="TurnOnAutomatically">Включать автоматически</string>
   <string name="TurnPasswordOffQuestion">Вы действительно хотите отключить пароль?</string>
   <string name="TweakSettings">Интерфейс</string>
