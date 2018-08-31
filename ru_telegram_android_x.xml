@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <resources>
-  <string name="language_code">ru-RU</string>
+  <string name="language_code">ru-RUXtgrusbot</string>
   <string name="language_dateFormatLocale">ru-RU</string>
   <string name="language_disable_lowercase">0</string>
   <string name="language_name">Русский (@tgrusbot)</string>
-  <string name="language_nameInEnglish">Russian</string>
+  <string name="language_nameInEnglish">Russian (@tgrusbot)</string>
   <string name="language_rtl">0</string>
   <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
   <string name="format_PasscodeTooManyAttempts">Слишком много попыток. %1$s</string>
