@@ -973,6 +973,7 @@
   <string name="ProxySettings">Настройки прокси</string>
   <string name="Proxy">Прокси</string>
   <string name="UseProxySettings">Использовать прокси</string>
+  <string name="UseProxySponsor">Спонсор прокси</string>
   <string name="UseProxyAddress">Сервер</string>
   <string name="UseProxyPassword">Пароль</string>
   <string name="UseProxyPort">Порт</string>
