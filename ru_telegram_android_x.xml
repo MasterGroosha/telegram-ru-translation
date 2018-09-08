@@ -6,6 +6,8 @@
   <string name="language_name">Русский (@tgrusbot)</string>
   <string name="language_nameInEnglish">Russian (@tgrusbot)</string>
   <string name="language_rtl">0</string>
+  <string name="url_faq">https://telegram.org/faq#general-questions</string>
+  <string name="url_translationsPrefix">https://translations.telegram.org/en/android_x/unsorted/</string>
   <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
   <string name="format_PasscodeTooManyAttempts">Слишком много попыток. %1$s</string>
   <string name="format_TooManyRequests">Слишком много запросов. %1$s</string>
@@ -15,6 +17,7 @@
   <string name="format_contentAndModifyDate">%1$s, изменено %2$s</string>
   <string name="format_dateViaBot">%1$s via %2$s</string>
   <string name="format_decimalSeparator">.</string>
+  <string name="format_fileSizeAndDescription">%2$s, %1$s</string>
   <string name="format_fileSizeAndExtension">%1$s %2$s</string>
   <string name="format_fileSizeAndModifiedDate">%1$s, %2$s</string>
   <string name="format_ivAuthorDateSeparator">" • "</string>
@@ -1943,6 +1946,7 @@
   <string name="prompt_network">Нет соединения с Интернетом. Повторите позднее</string>
   <string name="returnToChannel">Вернуться в канал</string>
   <string name="returnToGroup">Вернуться в группу</string>
+  <string name="service_Notifications">Этот сервис используется для отображения уведомлений о сообщениях.</string>
   <string name="slideToCancel">Проведите для отмены</string>
   <string name="status_LastSeenRecently">был(а) недавно</string>
   <string name="status_LastSeenUnknown">давно не заходил(а)</string>
