@@ -1,6 +1,9 @@
 <?xml version='1.0' encoding='utf-8' standalone='yes' ?>
 <resources>
+  <string name="language_appliedLanguage">Выбран русский язык для приложения.</string>
   <string name="language_code">ru-RUXtgrusbot</string>
+  <string name="language_continueInLanguage">Продолжить на русском</string>
+  <string name="language_continueInLanguagePopupText">**Telegram X** теперь доступен на **русском** языке.\n\nХотите сменить язык приложения?\n\nВы всегда можете изменить его снова в Настройках &gt; Язык.</string>
   <string name="language_dateFormatLocale">ru-RU</string>
   <string name="language_disable_lowercase">0</string>
   <string name="language_name">Русский (@tgrusbot)</string>
@@ -8,6 +11,7 @@
   <string name="language_rtl">0</string>
   <string name="url_faq">https://telegram.org/faq#general-questions</string>
   <string name="url_translationsPrefix">https://translations.telegram.org/en/android_x/unsorted/</string>
+  <string name="json_ChatDemo">0</string>
   <string name="format_EncryptedDescription">• %1$s\n• %2$s\n• %3$s\n• %4$s</string>
   <string name="format_PasscodeTooManyAttempts">Слишком много попыток. %1$s</string>
   <string name="format_TooManyRequests">Слишком много запросов. %1$s</string>
@@ -679,6 +683,7 @@
   <string name="SuggestInvitingUser">%1$s ещё не в Telegram. Хотите пригласить его/её по SMS?</string>
   <string name="SuggestInvitingUserWithImporters">%1$s ещё не в Telegram. Хотите пригласить его/её по SMS? У вас есть общие контакты (%2$s).</string>
   <string name="SyncHint">Чтобы помочь вам общаться с друзьями и родственниками, разрешите %1$s доступ к вашим контактам.</string>
+  <string name="TdlibLogClearOk">Готово. Освобождено %1$s.</string>
   <string name="TerminateWebSessionQuestion">Отключить %1$s?</string>
   <string name="ToolsExportText">%1$s / %2$s\n\nЭкспортировано из %3$s</string>
   <string name="UnmutesInX">Снятие глушения через %1$s</string>
@@ -1344,6 +1349,7 @@
   <string name="Missed">Пропущенный</string>
   <string name="MissedCall">Пропущенный вызов</string>
   <string name="MobileUsage">Использование мобильного интернета</string>
+  <string name="MoreLanguages">Другие языки</string>
   <string name="MoreMessageOptions">Ещё</string>
   <string name="MtprotoProxy">MTProto прокси</string>
   <string name="Music">Музыка</string>
@@ -1371,7 +1377,7 @@
   <string name="NoCalls">Вы пока не совершили ни одного звонка.</string>
   <string name="NoCameraAccess">Эта возможность требует доступа к камере.</string>
   <string name="NoChats">У вас нет чатов</string>
-  <string name="NoChatsText">**Нет чатов для отображения**\nПригласите друзей и родственников в Telegram</string>
+  <string name="NoChatsText">**Нет чатов для отображения**\n\nПригласите друзей и родственников в Telegram</string>
   <string name="NoContacts">Нет контактов для отображения</string>
   <string name="NoDocumentsToShow">Нет документов для отображения</string>
   <string name="NoDocumentsToShowInChannel">Здесь будут показаны\nопубликованные документы и файлы</string>
@@ -1612,6 +1618,7 @@
   <string name="RecoveryCodeInvalid">Неверный код восстановления. Попробуйте ещё раз</string>
   <string name="RecoveryCodeSentEmailUnknown">Мы отправили вам 6-значный код. Проверьте e-mail и введите код здесь.</string>
   <string name="ReduceMotion">Уменьшить анимации</string>
+  <string name="RememberAlbumSetting">Запомнить способ группировки медиа</string>
   <string name="Remove">Удалить</string>
   <string name="RemoveCaptions">Удалить подписи у копий</string>
   <string name="RemoveFromFavorites">Убрать из избранного</string>
@@ -1661,6 +1668,7 @@
   <string name="Saturation">Насыщенность</string>
   <string name="Save">Сохранить</string>
   <string name="SaveGif">Сохранить GIF</string>
+  <string name="SaveOutgoingPhotos">Сохранять отред. изображения</string>
   <string name="SaveToDownloads">Сохранить в Загрузки</string>
   <string name="SaveToGallery">Сохранить в галерею</string>
   <string name="SaveToMusic">Сохранить в музыку</string>
@@ -1794,6 +1802,8 @@
   <string name="TabVideoMessages">Видео</string>
   <string name="TabVoiceMessages">Голос</string>
   <string name="TapToSetup">Нажмите для настройки</string>
+  <string name="TdlibLogClearEmpty">Нечего очищать.</string>
+  <string name="TdlibLogClearFail">Ошибка.</string>
   <string name="TelegramFAQ">Telegram FAQ</string>
   <string name="TerminateAllSessions">Удалить все остальные сессии</string>
   <string name="TerminateAllWebSessions">Отключить все сайты</string>
@@ -1834,6 +1844,14 @@
   <string name="ToolsLocalePlaceholder">Локализация. Пример: **ru-RU**, **zh-CN**, **ja-JP**</string>
   <string name="ToolsOpenOnPlatform">Платформа переводов</string>
   <string name="ToolsShowToast">Всплывающее уведомление</string>
+  <string name="ToolsStringSectionFormat">Форматы</string>
+  <string name="ToolsStringSectionJson">Данные JSON</string>
+  <string name="ToolsStringSectionMain">Основное</string>
+  <string name="ToolsStringSectionPlural">Числительные</string>
+  <string name="ToolsStringSectionRelativeDate">Относительные даты</string>
+  <string name="ToolsStringSectionSimple">Простые строки</string>
+  <string name="ToolsStringSectionSimpleFormatted">Форматированные строки</string>
+  <string name="ToolsStringSectionUrl">Ссылки</string>
   <string name="ToolsUntranslatedTitle">Не переведено</string>
   <string name="TotalDataUsage">Всего</string>
   <string name="TouchYourSensor">Коснитесь сенсора</string>
