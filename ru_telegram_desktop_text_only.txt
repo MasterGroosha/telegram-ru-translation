@@ -301,7 +301,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_bio_placeholder" = "О себе";
 "lng_bio_about" = "Расскажите пару слов о себе. Любой, кто откроет ваш профиль, увидит этот текст.";
 
-"lng_settings_section_info" = "Информация";
+"lng_settings_section_info" = "Обо мне";
 "lng_settings_username" = "Имя пользователя:";
 "lng_settings_choose_username" = "выберите имя пользователя";
 "lng_settings_empty_bio" = "Пусто";
@@ -328,6 +328,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_languages" = "Языки";
 "lng_sure_save_language" = "Telegram перезапустится, чтобы сменить язык";
 "lng_settings_update_automatically" = "Автообновление";
+"lng_settings_install_beta" = "Устанавливать бета-версии";
 "lng_settings_current_version_label" = "Версия {version}:";
 "lng_settings_current_version" = "Версия {version}";
 "lng_settings_check_now" = "Проверка обновлений";
@@ -348,7 +349,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_section_chat_settings" = "Настройки чатов";
 "lng_settings_replace_emojis" = "Заменять эмодзи";
 "lng_settings_suggest_emoji" = "Предлагать эмодзи при вводе текста";
-"lng_settings_suggest_by_emoji" = "Предлагать популярные стикеры при вводе эмодзи";
+"lng_settings_suggest_by_emoji" = "Предлагать стикеры при вводе эмодзи";
 "lng_settings_view_emojis" = "Просмотреть список";
 "lng_settings_send_enter" = "Отправлять по Enter";
 "lng_settings_send_ctrlenter" = "Отправлять по Ctrl+Enter";
@@ -358,9 +359,49 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_settings_bg_use_default" = "Использовать тему по умолчанию";
 "lng_settings_bg_from_gallery" = "Выбрать из галереи";
 "lng_settings_bg_from_file" = "Выбрать из файла";
-"lng_settings_bg_edit_theme" = "Редактор темы";
+"lng_settings_bg_edit_theme" = "Открыть редактор тем";
 "lng_settings_bg_tile" = "Замостить";
-"lng_settings_adaptive_wide" = "Альтернативный вид чатов на широком экране";
+"lng_settings_adaptive_wide" = "Сообщения с одной стороны";
+
+"lng_settings_language" = "Язык";
+"lng_settings_default_scale" = "Масштаб интерфейса по умолч.";
+"lng_settings_edit_info" = "Редактировать профиль";
+"lng_settings_connection_type" = "Тип соединения";
+"lng_settings_downloading_update" = "Загрузка обновления {progress}...";
+"lng_settings_use_night_mode" = "Ночной режим";
+"lng_settings_privacy_title" = "Приватность";
+"lng_settings_last_seen" = "Последняя активность";
+"lng_settings_calls" = "Звонки";
+"lng_settings_groups_invite" = "Группы и каналы";
+"lng_settings_group_privacy_about" = "Выберите, кто может добавлять вас в группы и каналы.";
+"lng_settings_security_title" = "Безопасность";
+"lng_settings_sessions_about" = "Управляйте вашими сессиями на других устройствах.";
+"lng_settings_passcode_disable" = "Отключить код доступа";
+"lng_settings_password_disable" = "Отключить двухэтапную авторизацию";
+"lng_settings_about_bio" = "Любая информация, например, возраст, род занятий или город.\nПример: 23 года, художник из Санкт-Петербурга";
+"lng_settings_name_label" = "Имя";
+"lng_settings_username_label" = "Юзернейм";
+"lng_settings_phone_label" = "Номер телефона";
+"lng_settings_username_add" = "Добавить юзернейм";
+"lng_settings_close_sure" = "Вы действительно хотите закрыть это окно? У вас есть несохранённые изменения.";
+"lng_settings_peer_to_peer" = "Peer-to-Peer";
+"lng_settings_peer_to_peer_about" = "Отключение peer-to-peer перенаправит звонки через серверы Telegram во избежание раскрытия вашего IP-адреса. Это может немного ухудшить качество звука.";
+"lng_settings_advanced" = "Дополнительно";
+"lng_settings_stickers_emoji" = "Стикеры и эмодзи";
+"lng_settings_messages" = "Сообщения";
+"lng_settings_themes" = "Темы";
+"lng_settings_data_storage" = "Данные и хранилище";
+"lng_settings_information" = "Редактировать профиль";
+"lng_settings_passcode_title" = "Код доступа";
+"lng_settings_password_title" = "Двухэтапная авторизация";
+"lng_settings_sessions_title" = "Активные сеансы";
+"lng_settings_destroy_title" = "Удалить мой аккаунт";
+"lng_settings_network_proxy" = "Сеть и прокси";
+"lng_settings_version_info" = "Версия и обновления";
+"lng_settings_system_integration" = "Интеграция с системой";
+"lng_settings_performance" = "Производительность";
+"lng_settings_enable_animations" = "Использовать анимации";
+"lng_settings_autoplay_gifs" = "Автовоспроизведение GIF";
 
 "lng_backgrounds_header" = "Выберите новый фон для чата";
 "lng_theme_sure_keep" = "Использовать эту цветовую схему?";
@@ -371,18 +412,18 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_theme_keep_changes" = "Сохранить";
 "lng_theme_revert" = "Отменить";
 
-"lng_download_path_dont_ask" = "Не спрашивать путь для сохранения";
-"lng_download_path_label" = "Путь для сохранения:";
-"lng_download_path_temp" = "временная папка";
-"lng_download_path_default" = "папка по умолчанию";
+"lng_download_path_ask" = "Всегда спрашивать путь сохранения";
+"lng_download_path" = "Путь для сохранения";
+"lng_download_path_temp" = "Временный каталог";
+"lng_download_path_default" = "Каталог по умолчанию";
 "lng_download_path_clear" = "Очистить всё";
 "lng_download_path_header" = "Выбрать путь для скачивания";
-"lng_download_path_default_radio" = "Папка «Загрузки»";
-"lng_download_path_temp_radio" = "Временная папка (очищается при выходе)";
-"lng_download_path_dir_radio" = "Другая папка (очищается вручную)";
+"lng_download_path_default_radio" = "Каталог «Загрузки»";
+"lng_download_path_temp_radio" = "Временный каталог (очищ. при выходе)";
+"lng_download_path_dir_radio" = "Другой каталог (очищается вручную)";
 "lng_download_path_choose" = "Выберите путь для скачивания";
-"lng_sure_clear_downloads" = "Очистить временную папку с загрузками? Это происходит автоматически при выходе из аккаунта или удалении программы.";
-"lng_download_path_failed" = "Загрузку файла невозможно запустить. Это могло произойти из-за некорректно указанного пути сохранения.\n\nПопробуйте изменить расположение папки по умолчанию в Настройках.";
+"lng_sure_clear_downloads" = "Очистить временный каталог с загрузками? Это происходит автоматически при выходе из аккаунта или удалении программы.";
+"lng_download_path_failed" = "Загрузку файла невозможно запустить. Это могло произойти из-за некорректно указанного пути сохранения.\n\nПопробуйте изменить расположение каталога по умолчанию в Настройках.";
 "lng_download_path_settings" = "Настройки";
 "lng_download_finish_failed" = "Загрузка файла не может быть завершена.\n\nПопробовать еще раз?";
 "lng_download_path_clearing" = "Очистка...";
@@ -402,6 +443,10 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_local_storage_voice#few" = "{count} голосовых сообщения";
 "lng_local_storage_voice#many" = "{count} голосовых сообщений";
 "lng_local_storage_voice#other" = "{count} голосовых сообщений";
+"lng_local_storage_round#one" = "{count} видеосообщение";
+"lng_local_storage_round#few" = "{count} видеосообщения";
+"lng_local_storage_round#many" = "{count} видеосообщений";
+"lng_local_storage_round#other" = "{count} видеосообщений";
 "lng_local_storage_animation#one" = "{count} GIF";
 "lng_local_storage_animation#few" = "{count} GIF";
 "lng_local_storage_animation#many" = "{count} GIF";
@@ -435,8 +480,8 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_passcode_remove" = "Удалить код доступа";
 "lng_passcode_turn_off" = "Выключить";
 "lng_passcode_autolock" = "Автоблокировка";
-"lng_passcode_autolock_away" = "Блокировать при отсутствии в течение: ";
-"lng_passcode_autolock_inactive" = "Блокировать при отсутствии активности в течение:";
+"lng_passcode_autolock_away" = "Блокировать при отсутствии в течение...";
+"lng_passcode_autolock_inactive" = "Блокировать при отсутствии активности в течение...";
 "lng_passcode_autolock_minutes#one" = "{count} минуты";
 "lng_passcode_autolock_minutes#few" = "{count} минут";
 "lng_passcode_autolock_minutes#many" = "{count} минут";
@@ -485,7 +530,6 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_cloud_password_wrong" = "Неверный пароль";
 "lng_cloud_password_is_same" = "Пароль не был изменён";
 
-"lng_connection_type" = "Тип соединения:";
 "lng_connection_auto_connecting" = "По умолчанию (подключение...)";
 "lng_connection_auto" = "По умолчанию (сейчас: {transport})";
 "lng_connection_proxy_connecting" = "Подключение через прокси...";
@@ -527,12 +571,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_proxy_sponsor_warning" = "Этот прокси может показывать канал спонсора в Вашем чат-листе. Ваш трафик Telegram не будет раскрыт.";
 
 "lng_settings_blocked_users" = "Заблокированные пользователи";
-"lng_settings_last_seen_privacy" = "Последняя активность";
-"lng_settings_calls_privacy" = "Звонки";
-"lng_settings_groups_invite_privacy" = "Добавление в группы и каналы";
 "lng_settings_show_sessions" = "Активные сеансы";
 "lng_settings_export_data" = "Экспорт данных из Telegram";
-"lng_settings_self_destruct" = "Настройки самоуничтожения аккаунта";
+"lng_settings_destroy_if" = "При отсутствии в течение...";
 "lng_settings_change_phone" = "Сменить номер телефона";
 
 "lng_settings_reset" = "Завершить все сеансы";
@@ -568,49 +609,35 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_edit_privacy_everyone" = "Все";
 "lng_edit_privacy_contacts" = "Мои контакты";
 "lng_edit_privacy_nobody" = "Никто";
-"lng_edit_privacy_exceptions" = "Добавить исключения";
+"lng_edit_privacy_exceptions" = "Исключения";
 
 "lng_edit_privacy_lastseen_title" = "Последняя активность";
-"lng_edit_privacy_lastseen_description" = "Вы можете выбрать, кто видит время вашей последней активности";
+"lng_edit_privacy_lastseen_header" = "Кто видит время вашей последней активности";
 "lng_edit_privacy_lastseen_warning" = "Важно: вы не сможете увидеть время последней активности людей, с которыми вы не поделились своим временем последней активности. Вместо этого будет отображаться приблизительное время последней активности (недавно, в течение недели, в течение месяца).";
 "lng_edit_privacy_lastseen_always_empty" = "Всегда делиться с";
-"lng_edit_privacy_lastseen_always#one" = "Всегда делиться с {count} чел.";
-"lng_edit_privacy_lastseen_always#few" = "Всегда делиться с {count} чел.";
-"lng_edit_privacy_lastseen_always#many" = "Всегда делиться с {count} чел.";
-"lng_edit_privacy_lastseen_always#other" = "Всегда делиться с {count} чел.";
 "lng_edit_privacy_lastseen_never_empty" = "Всегда скрывать от";
-"lng_edit_privacy_lastseen_never#one" = "Всегда скрывать от {count} чел.";
-"lng_edit_privacy_lastseen_never#few" = "Всегда скрывать от {count} чел.";
-"lng_edit_privacy_lastseen_never#many" = "Всегда скрывать от {count} чел.";
-"lng_edit_privacy_lastseen_never#other" = "Всегда скрывать от {count} чел.";
+"lng_edit_privacy_exceptions_count#one" = "{count} пользователю";
+"lng_edit_privacy_exceptions_count#few" = "{count} пользователям";
+"lng_edit_privacy_exceptions_count#many" = "{count} пользователям";
+"lng_edit_privacy_exceptions_count#other" = "{count} пользователям";
+"lng_edit_privacy_exceptions_add" = "Добавить";
 "lng_edit_privacy_lastseen_exceptions" = "Эти настройки переопределят значения выше.";
 "lng_edit_privacy_lastseen_always_title" = "Всегда делиться с...";
 "lng_edit_privacy_lastseen_never_title" = "Всегда скрывать от...";
 
 "lng_edit_privacy_groups_title" = "Добавление в группы и каналы";
-"lng_edit_privacy_groups_description" = "Вы можете выбрать, кто может добавлять вас в группы и каналы.";
+"lng_edit_privacy_groups_header" = "Кто может добавлять вас в группы и каналы.";
 "lng_edit_privacy_groups_always_empty" = "Всегда разрешать";
-"lng_edit_privacy_groups_always#one" = "Всегда разрешать {count} чел.";
-"lng_edit_privacy_groups_always#other" = "Всегда разрешать {count} чел.";
 "lng_edit_privacy_groups_never_empty" = "Всегда запрещать";
 "lng_edit_privacy_groups_never#one" = "Всегда запрещать {count} чел.";
-"lng_edit_privacy_groups_never#other" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_groups_exceptions" = "Этим пользователям будет разрешено или запрещено добавлять вас в группы и на каналы вне зависимости от настроек выше.";
 "lng_edit_privacy_groups_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_groups_never_title" = "Всегда запрещать...";
 
 "lng_edit_privacy_calls_title" = "Звонки";
-"lng_edit_privacy_calls_description" = "Вы можете ограничить круг лиц, которые могут вам звонить:";
+"lng_edit_privacy_calls_header" = "Кто может вам звонить:";
 "lng_edit_privacy_calls_always_empty" = "Всегда разрешать";
-"lng_edit_privacy_calls_always#one" = "Всегда разрешать {count} чел.";
-"lng_edit_privacy_calls_always#few" = "Всегда разрешать {count} чел.";
-"lng_edit_privacy_calls_always#many" = "Всегда разрешать {count} чел.";
-"lng_edit_privacy_calls_always#other" = "Всегда разрешать {count} чел.";
 "lng_edit_privacy_calls_never_empty" = "Всегда запрещать";
-"lng_edit_privacy_calls_never#one" = "Всегда запрещать {count} чел.";
-"lng_edit_privacy_calls_never#few" = "Всегда запрещать {count} чел.";
-"lng_edit_privacy_calls_never#many" = "Всегда запрещать {count} чел.";
-"lng_edit_privacy_calls_never#other" = "Всегда запрещать {count} чел.";
 "lng_edit_privacy_calls_exceptions" = "Этим пользователям будет разрешено или запрещено звонить вам вне зависимости от настроек выше.";
 "lng_edit_privacy_calls_always_title" = "Всегда разрешать...";
 "lng_edit_privacy_calls_never_title" = "Всегда запрещать...";
@@ -1050,14 +1077,14 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_media_audio" = "Аудиозапись";
 
 "lng_media_auto_settings" = "Настройки автозагрузки медиа";
-"lng_media_auto_photo" = "Автозагрузка изображений";
-"lng_media_auto_audio" = "Автозагрузка голос. сообщений";
-"lng_media_auto_gif" = "Автозагрузка GIF";
+"lng_media_auto_title" = "Автозагрузка";
+"lng_media_photo_title" = "Изображения";
+"lng_media_audio_title" = "Голос. сообщения";
+"lng_media_gif_title" = "GIF";
 "lng_media_auto_private_chats" = "Диалоги";
 "lng_media_auto_groups" = "Группы и каналы";
 "lng_media_auto_play" = "Автом. воспроизведение";
 
-"lng_emoji_category0" = "Часто используемые";
 "lng_emoji_category1" = "Люди";
 "lng_emoji_category2" = "Природа";
 "lng_emoji_category3" = "Еда и напитки";
@@ -1096,7 +1123,7 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_stickers_packs_archived" = "Некоторые неиспользуемые наборы стикеров были архивированы, чтобы оставить больше места для новых.";
 "lng_stickers_copied" = "Ссылка на набор стикеров скопирована в буфер обмена.";
 "lng_stickers_default_set" = "Великие умы";
-"lng_stickers_you_have" = "Удаляйте и сортируйте стикерпаки";
+"lng_stickers_you_have" = "Управление стикерами";
 "lng_stickers_return" = "Отмена";
 "lng_stickers_count#one" = "{count} стикер";
 "lng_stickers_count#few" = "{count} стикера";
