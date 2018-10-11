@@ -782,9 +782,13 @@
   <string name="group_title_changed_you">Вы сменили название группы на «%1$s»</string>
   <string name="group_user_add">%1$s вступил(а) в группу</string>
   <string name="group_user_added">%1$s добавил(а) %2$s</string>
+  <string name="group_user_added_self">%1$s добавил(а) вас</string>
   <string name="group_user_join_by_link">%1$s вступил(а) в группу по пригласительной ссылке</string>
   <string name="group_user_remove">%1$s покинул(а) группу</string>
   <string name="group_user_removed">%1$s исключил(а) %2$s</string>
+  <string name="group_user_removed_self">%1$s исключил(а) вас</string>
+  <string name="group_user_self_added">Вы добавили %1$s</string>
+  <string name="group_user_self_removed">Вы исключили %1$s</string>
   <string name="location_AwayKilometers">%1$s км отсюда</string>
   <string name="location_AwayMeters">%1$sм отсюда</string>
   <string name="location_personAwayKilometers">в %1$s км отсюда</string>
@@ -1461,6 +1465,9 @@
   <string name="NoOtherSessions">Нет других активных сессий</string>
   <string name="NoOtherSessionsInfo">Вы можете заходить в Telegram с любого другого смартфона, планшета или компьютера, используя тот же номер телефона. Все ваши данные будут автоматически синхронизированы.</string>
   <string name="NoPhotos">Без изображений</string>
+  <string name="NoPhotosToShow">Изображения отсутствуют</string>
+  <string name="NoPhotosToShowInChannel">Здесь будут показаны\nопубликованные изображения</string>
+  <string name="NoPhotosToShowInChat">Поделитесь изображениями в этом чате, и они будут доступны вам с любого устройства.</string>
   <string name="NoPlacesFound">Места не найдены</string>
   <string name="NoRestrictions">Нет ограничений</string>
   <string name="NoRestrictionsHint">Укажите не менее одного ограничения</string>
@@ -1472,6 +1479,9 @@
   <string name="NoVideoToShowInChannel">Здесь будут показаны опубликованные\nвидеосообщения</string>
   <string name="NoVideoToShowInChat">Поделитесь видеосообщениями в этом чате,\nи они будут доступны вам с любого устройства.</string>
   <string name="NoVideos">Без видео</string>
+  <string name="NoVideosToShow">Нет видео для отображения</string>
+  <string name="NoVideosToShowInChannel">Здесь будут показаны\nопубликованные видеофайлы</string>
+  <string name="NoVideosToShowInChat">Поделитесь видеофайлами в этом чате, и они будут доступны вам с любого устройства.</string>
   <string name="NoVoiceMessages">Без голосовых сообщений</string>
   <string name="NoVoiceToShow">Нет голосовых сообщений для отображения</string>
   <string name="NoVoiceToShowInChannel">Здесь будут показаны опубликованные\nголосовые сообщения.</string>
@@ -1777,6 +1787,7 @@
   <string name="SendingVoice">отправляет голосовое сообщение</string>
   <string name="Sent">Отправлено</string>
   <string name="SentAppCode">Мы отправили код в приложение **Telegram** на вашем другом устройстве.</string>
+  <string name="SeparateMediaTab">Разделить вкладки Фото и Видео</string>
   <string name="ServiceNetworkReceiver">Этот сервис позволяет определять текущее состояние соединения для приёма уведомлений о сообщениях.</string>
   <string name="ServiceNotifications">служебные уведомления</string>
   <string name="Sessions">Сессии</string>
@@ -1858,9 +1869,12 @@
   <string name="TabMedia">Медиа</string>
   <string name="TabMembers">Участники</string>
   <string name="TabMessages">Сообщения</string>
+  <string name="TabPhoto">Фото</string>
   <string name="TabRestricted">Ограниченные</string>
   <string name="TabSharedGroups">Группы</string>
+  <string name="TabVideo">Видео</string>
   <string name="TabVideoMessages">Видео</string>
+  <string name="TabVideoMessagesLong">Видеосообщения</string>
   <string name="TabVoiceMessages">Голос</string>
   <string name="TapToSetup">Нажмите для настройки</string>
   <string name="TdlibLogClearEmpty">Нечего очищать.</string>
@@ -2053,6 +2067,7 @@
   <string name="YouCreatedGroup">Вы создали группу</string>
   <string name="YouDisabledTimer">Вы отключили таймер самоуничтожения</string>
   <string name="YouHaveNewMessage">У вас новое сообщение</string>
+  <string name="YouJoinedByLink">Вы вступили по пригласительной ссылке</string>
   <string name="YouTookAScreenshot">Вы сделали снимок экрана</string>
   <string name="YouWereKicked">вас исключили</string>
   <string name="YourEmail">Ваш e-mail</string>
@@ -2062,6 +2077,8 @@
   <string name="YourPhone">Ваш номер телефона</string>
   <string name="YoutubeRotateHint">PS: поверните экран, чтобы свернуть плеер</string>
   <string name="cam_hint">Пожалуйста, разрешите Telegram X использовать камеру в настройках системы &gt; Приложения &gt; Telegram X &gt; Разрешения</string>
+  <string name="channel_user_add_self">Вы подписались на канал</string>
+  <string name="channel_user_remove_self">Вы покинули канал</string>
   <string name="copied_phone">Номер телефона скопирован в буфер обмена</string>
   <string name="deletedUser">пользователь удалён</string>
   <string name="edit">Изменить</string>
@@ -2071,6 +2088,9 @@
   <string name="general_Messages">Сообщения</string>
   <string name="group_photo_changed_you">Вы изменили изображение группы</string>
   <string name="group_photo_deleted_you">Вы удалили изображение группы</string>
+  <string name="group_user_add_self">Вы вступили в группу</string>
+  <string name="group_user_join_by_link_self">Вы вступили в группу по пригласительной ссылке</string>
+  <string name="group_user_remove_self">Вы покинули группу</string>
   <string name="inactiveGroup">группа неактивна</string>
   <string name="justAdd">Просто добавить в группу</string>
   <string name="location_Nearby">Рядом</string>
