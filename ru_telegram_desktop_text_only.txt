@@ -1878,6 +1878,11 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_export_option_location" = "Путь загрузки: {path}";
 "lng_export_option_html" = "Человекочитаемый HTML";
 "lng_export_option_json" = "Машиночитаемый JSON";
+"lng_export_limits" = "От: {from}, до: {till}";
+"lng_export_beginning" = "самого старого";
+"lng_export_end" = "самого нового";
+"lng_export_from_beginning" = "Сброс";
+"lng_export_till_end" = "Сброс";
 "lng_export_start" = "Экспорт";
 "lng_export_state_initializing" = "Инициализация...";
 "lng_export_state_userpics" = "Личные фотографии";
