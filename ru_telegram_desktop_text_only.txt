@@ -547,6 +547,9 @@ Copyright (c) 2014-2017 John Preston, https://desktop.telegram.org
 "lng_connection_save" = "Сохранить";
 
 "lng_proxy_settings" = "Настройки прокси";
+"lng_proxy_disable" = "Отключить прокси";
+"lng_proxy_use_system_settings" = "Использовать системный прокси";
+"lng_proxy_use_custom" = "Использовать другой прокси";
 "lng_proxy_use" = "Использовать прокси";
 "lng_proxy_use_for_calls" = "Использовать прокси для звонков";
 "lng_proxy_about" = "Прокси-серверы могут помочь с доступом к Telegram, если прямое соединение недоступно.";
