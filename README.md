@@ -1,5 +1,8 @@
 # Telegram Russian translation
 
+⚠️ **Внимание**: в связи с появлением [платформы переводов](https://translations.telegram.org), репозиторий более не используется. Установить локализацию можно по ссылке: https://t.me/setlanguage/tgrusbot  
+Если Вы хотите принять участие в переводе или сообщить об ошибке, заходите: https://t.me/translation_tgrusbot
+
 ### Что это?
 Это моя версия локализации Telegram для Android и Desktop.
 
